@@ -39,6 +39,14 @@
 
 Logos διοργανώσεων: `logos/comp/<flashscore tour id>.png`. Υπάρχουν ήδη τα επίσημα για EuroLeague, Stoiximan GBL, Stoiximan Super League, Superbet Κύπελλο Ελλάδας, Conference League, Novibet Volley League, CEV Champions League, CEV Challenge Cup, Allwyn WBL1, EuroCup Women, EuroLeague Women. Για τις υπόλοιπες μπαίνει το logo του Flashscore μέχρι να προστεθεί αρχείο (τα ids γράφονται στο log όταν τρέχει).
 
+## Συχνότητα (cron-job.org)
+
+Το GitHub τρέχει το πρόγραμμα του workflow μόνο περίπου κάθε 30 λεπτά. Για έλεγχο κάθε 5 λεπτά, το cron-job.org (job «Trifillakia autopost») στέλνει POST στο
+`https://api.github.com/repos/matthaios13/trifillakia-autopost/actions/workflows/autopost.yml/dispatches`
+με body `{"ref":"main","inputs":{"mode":"run"}}` και header `Authorization: Bearer <GitHub token>`.
+
+Ο GitHub token (fine-grained, μόνο αυτό το repository, Actions: Read and write) **λήγει 29/9/2027**. Ανανέωση: νέος token στο github.com/settings/personal-access-tokens/new → cron-job.org → Edit → Advanced → Headers → Authorization.
+
 ## Τοπικά
 
 ```bash
