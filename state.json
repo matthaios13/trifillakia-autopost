@@ -2262,12 +2262,12 @@
   }
  },
  "seeded": [
-  "football",
   "basketball",
+  "basketball_w",
+  "football",
+  "football_w",
   "volley_m",
   "volley_w",
-  "basketball_w",
-  "football_w",
   "waterpolo"
  ]
 }
