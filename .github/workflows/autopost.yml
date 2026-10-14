@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "run = κανονικά, preview = μόνο κάρτες δείγματα, dry = έλεγχος χωρίς ανάρτηση"
+        description: "run = κανονικά, preview = κάρτες δείγματα, dry = δοκιμή χωρίς ανάρτηση, check = έλεγχος σύνδεσης Meta"
         default: run
         type: choice
-        options: [run, preview, dry]
+        options: [run, preview, dry, check]
 
 concurrency:
   group: autopost
@@ -41,12 +41,14 @@ jobs:
         run: |
           if [ "${{ inputs.mode }}" = "preview" ]; then
             python -m bot preview
+          elif [ "${{ inputs.mode }}" = "check" ]; then
+            python -m bot check
           else
             python -m bot run
           fi
 
       - name: Save state
-        if: inputs.mode != 'preview'
+        if: inputs.mode != 'preview' && inputs.mode != 'check'
         run: |
           if ! git diff --quiet -- state.json || [ -n "$(git ls-files --others -- state.json)" ]; then
             git config user.name "trifillakia-bot"

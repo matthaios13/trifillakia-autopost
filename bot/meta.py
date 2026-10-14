@@ -1,7 +1,7 @@
 """Αναρτήσεις μέσω Meta Graph API: Facebook σελίδα (post + story) και Instagram (post + story).
 
 Οι εικόνες ανεβαίνουν πρώτα στη σελίδα Facebook· το Instagram τις παίρνει από εκεί (θέλει δημόσιο URL).
-Μεταβλητές περιβάλλοντος: META_TOKEN, FB_PAGE_ID, IG_USER_ID.
+Μεταβλητές περιβάλλοντος: META_TOKEN, FB_PAGE_ID και προαιρετικά IG_USER_ID (αλλιώς βρίσκεται από τη σελίδα).
 """
 import os
 import time
@@ -16,7 +16,42 @@ class MetaError(Exception):
 
 
 def configured():
-    return all(os.environ.get(k) for k in ("META_TOKEN", "FB_PAGE_ID", "IG_USER_ID"))
+    return all(os.environ.get(k) for k in ("META_TOKEN", "FB_PAGE_ID"))
+
+
+_ig = {}
+
+
+def ig_id():
+    """Το Instagram Business ID: από το IG_USER_ID ή από τη συνδεδεμένη σελίδα."""
+    if os.environ.get("IG_USER_ID"):
+        return os.environ["IG_USER_ID"]
+    if "id" not in _ig:
+        r = requests.get(
+            f"{GRAPH}/{os.environ['FB_PAGE_ID']}",
+            params={"fields": "instagram_business_account", "access_token": _token()},
+            timeout=30,
+        )
+        _ig["id"] = (_check(r).get("instagram_business_account") or {}).get("id")
+        if not _ig["id"]:
+            raise MetaError("Η σελίδα δεν έχει συνδεδεμένο Instagram Business λογαριασμό")
+    return _ig["id"]
+
+
+def check():
+    """Έλεγχος σύνδεσης χωρίς ανάρτηση: σελίδα, Instagram, δικαιώματα token."""
+    page = _check(requests.get(f"{GRAPH}/{os.environ['FB_PAGE_ID']}", params={"fields": "name,instagram_business_account", "access_token": _token()}, timeout=30))
+    print("Σελίδα Facebook:", page.get("name"), page.get("id"))
+    ig = ig_id()
+    acc = _check(requests.get(f"{GRAPH}/{ig}", params={"fields": "username,followers_count", "access_token": _token()}, timeout=30))
+    print("Instagram:", "@" + str(acc.get("username")), ig, "followers:", acc.get("followers_count"))
+    perms = _check(requests.get(f"{GRAPH}/me/permissions", params={"access_token": _token()}, timeout=30)).get("data", [])
+    print("Δικαιώματα:", ", ".join(p["permission"] for p in perms if p.get("status") == "granted"))
+    need = {"pages_manage_posts", "pages_read_engagement", "instagram_basic", "instagram_content_publish"}
+    missing = need - {p["permission"] for p in perms if p.get("status") == "granted"}
+    print("Λείπουν:", ", ".join(sorted(missing)) if missing else "τίποτα — όλα εντάξει")
+    lim = _check(requests.get(f"{GRAPH}/{ig}/content_publishing_limit", params={"fields": "quota_usage,config", "access_token": _token()}, timeout=30))
+    print("Όριο αναρτήσεων IG (24ω):", lim.get("data"))
 
 
 def _token():
@@ -54,7 +89,7 @@ def _photo_url(photo_id):
 
 
 def _ig_publish(params):
-    ig = os.environ["IG_USER_ID"]
+    ig = ig_id()
     params["access_token"] = _token()
     c = _check(requests.post(f"{GRAPH}/{ig}/media", data=params, timeout=60))
     cid = c["id"]

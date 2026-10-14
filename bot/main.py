@@ -2,6 +2,7 @@
 
   python -m bot run        έλεγχος και αναρτήσεις (χωρίς κλειδιά Meta: μόνο κάρτες στο out/)
   python -m bot preview    κάρτες δείγματα για όλα τα τμήματα στο out/preview/, χωρίς ανάρτηση
+  python -m bot check      έλεγχος της σύνδεσης Meta (σελίδα, Instagram, δικαιώματα), χωρίς ανάρτηση
 """
 import json
 import os
@@ -306,6 +307,8 @@ def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else "run"
     if cmd == "preview":
         preview()
+    elif cmd == "check":
+        meta.check()
     else:
         run(dry=os.environ.get("DRY_RUN") == "1")
 

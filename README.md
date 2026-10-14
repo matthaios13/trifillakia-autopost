@@ -21,10 +21,10 @@
 3. Στο repository: **Settings → Secrets and variables → Actions → New repository secret**:
    - `META_TOKEN`: το token
    - `FB_PAGE_ID`: το ID της σελίδας Facebook
-   - `IG_USER_ID`: το Instagram Business ID (17841…)
-4. **Actions → Trifillakia autopost → Run workflow → mode: dry**. Κατέβασε το artifact `cards-…` για να δεις τις κάρτες. Μετά δουλεύει μόνο του κάθε 5 λεπτά.
+   - `IG_USER_ID` (προαιρετικό): το Instagram Business ID· αν λείπει, βρίσκεται από τη σελίδα
+4. **Actions → Trifillakia autopost → Run workflow → mode: check** για να ελέγξεις τη σύνδεση, και **mode: dry** για κάρτες χωρίς ανάρτηση. Κατέβασε το artifact `cards-…` για να δεις τις κάρτες. Μετά δουλεύει μόνο του κάθε 5 λεπτά.
 
-Χωρίς τα 3 secrets δεν αναρτάται τίποτα· οι κάρτες φτιάχνονται μόνο ως artifact.
+Χωρίς τα `META_TOKEN` και `FB_PAGE_ID` δεν αναρτάται τίποτα· οι κάρτες φτιάχνονται μόνο ως artifact.
 
 Την πρώτη φορά που τρέχει, ό,τι έχει ήδη παιχτεί σημειώνεται ως «έγινε», ώστε να μην αναρτηθούν παλιοί αγώνες.
 
