@@ -108,14 +108,28 @@ def _ig_publish(params):
     params["access_token"] = _token()
     c = _check(requests.post(f"{GRAPH}/{ig}/media", data=params, timeout=60))
     cid = c["id"]
-    for _ in range(20):
+    for _ in range(30):
         st = _check(requests.get(f"{GRAPH}/{cid}", params={"fields": "status_code", "access_token": _token()}, timeout=30))
         if st.get("status_code") == "FINISHED":
             break
         if st.get("status_code") == "ERROR":
             raise MetaError("Το Instagram απέρριψε την εικόνα")
-        time.sleep(3)
-    return _check(requests.post(f"{GRAPH}/{ig}/media_publish", data={"creation_id": cid, "access_token": _token()}, timeout=60))["id"]
+        time.sleep(4)
+    # Ακόμα και μετά το FINISHED, το Instagram καμιά φορά απαντά «media not ready»: ξαναδοκιμάζουμε.
+    last = None
+    for attempt in range(6):
+        r = requests.post(f"{GRAPH}/{ig}/media_publish", data={"creation_id": cid, "access_token": _token()}, timeout=60)
+        try:
+            data = r.json()
+        except ValueError:
+            data = {}
+        if r.status_code == 200 and "id" in data:
+            return data["id"]
+        last = data.get("error", data)
+        if (last or {}).get("code") != 9007:
+            break
+        time.sleep(8 + attempt * 4)
+    raise MetaError(str(last)[:500])
 
 
 def publish(feed_path, story_path, caption, done=None):
