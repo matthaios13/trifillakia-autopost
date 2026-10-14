@@ -1,0 +1,65 @@
+name: Trifillakia autopost
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "run = κανονικά, preview = μόνο κάρτες δείγματα, dry = έλεγχος χωρίς ανάρτηση"
+        default: run
+        type: choice
+        options: [run, preview, dry]
+
+concurrency:
+  group: autopost
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  autopost:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          DRY_RUN: ${{ inputs.mode == 'dry' && '1' || '0' }}
+        run: |
+          if [ "${{ inputs.mode }}" = "preview" ]; then
+            python -m bot preview
+          else
+            python -m bot run
+          fi
+
+      - name: Save state
+        if: inputs.mode != 'preview'
+        run: |
+          if ! git diff --quiet -- state.json || [ -n "$(git ls-files --others -- state.json)" ]; then
+            git config user.name "trifillakia-bot"
+            git config user.email "trifillakia-bot@users.noreply.github.com"
+            git add state.json
+            git commit -m "state: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Cards
+        uses: actions/upload-artifact@v4
+        with:
+          name: cards-${{ github.run_number }}
+          path: out/
+          if-no-files-found: ignore
+          retention-days: 14
