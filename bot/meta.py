@@ -45,7 +45,8 @@ def check():
     ig = ig_id()
     acc = _check(requests.get(f"{GRAPH}/{ig}", params={"fields": "username,followers_count", "access_token": _token()}, timeout=30))
     print("Instagram:", "@" + str(acc.get("username")), ig, "followers:", acc.get("followers_count"))
-    perms = _check(requests.get(f"{GRAPH}/me/permissions", params={"access_token": _token()}, timeout=30)).get("data", [])
+    print("Token σελίδας:", "ναι" if _token() != os.environ["META_TOKEN"] else "ΟΧΙ (θα αποτύχουν οι αναρτήσεις)")
+    perms = _check(requests.get(f"{GRAPH}/me/permissions", params={"access_token": os.environ["META_TOKEN"]}, timeout=30)).get("data", [])
     print("Δικαιώματα:", ", ".join(p["permission"] for p in perms if p.get("status") == "granted"))
     need = {"pages_manage_posts", "pages_read_engagement", "instagram_basic", "instagram_content_publish"}
     missing = need - {p["permission"] for p in perms if p.get("status") == "granted"}
@@ -54,8 +55,22 @@ def check():
     print("Όριο αναρτήσεων IG (24ω):", lim.get("data"))
 
 
+_page_token = {}
+
+
 def _token():
-    return os.environ["META_TOKEN"]
+    """Token σελίδας (οι αναρτήσεις γίνονται ως σελίδα)· βγαίνει από τον token του χρήστη συστήματος."""
+    if "t" not in _page_token:
+        r = requests.get(
+            f"{GRAPH}/{os.environ['FB_PAGE_ID']}",
+            params={"fields": "access_token", "access_token": os.environ["META_TOKEN"]},
+            timeout=30,
+        )
+        try:
+            _page_token["t"] = r.json().get("access_token") or os.environ["META_TOKEN"]
+        except ValueError:
+            _page_token["t"] = os.environ["META_TOKEN"]
+    return _page_token["t"]
 
 
 def _check(r):
