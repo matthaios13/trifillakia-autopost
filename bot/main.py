@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, captions, cards, flashscore as fs, meta
+from . import basket, captions, cards, flashscore as fs, meta, wpl
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -289,6 +289,12 @@ def run(dry=False):
         for ev in events:
             if ev["stage"] in fs.OFF_STATES:
                 continue
+            # Πόλο Α1: αν το Flashscore δεν έχει ακόμα αποτέλεσμα, το παίρνουμε από το live της ΚΟΕ.
+            if team_key == "waterpolo" and ev["status"] in ("1", "2") and ev["comp"].startswith("Α1") and ev["start"] < now:
+                res = wpl.result(ev, ev["home_id"] == pao_id(team_key))
+                if res:
+                    ev.update(res, status="3")
+                    log("Αποτέλεσμα από ΚΟΕ:", ev["home"], res["home_score"], "-", res["away_score"], ev["away"])
             # GAME DAY
             key = f"gd:{ev['id']}"
             if ev["status"] == "1" and not is_done(st, key):

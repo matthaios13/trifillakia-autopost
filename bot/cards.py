@@ -386,7 +386,10 @@ def fulltime(m):
         x0 = W / 2 - cell * len(per) / 2
         for i, (h, a) in enumerate(per):
             cx = x0 + cell * i + cell / 2
-            lbl = f"{i + 1}{names}" if i < 4 or m["sport"] == "volleyball" else "ΠΑΡ"
+            if i < 4 or m["sport"] == "volleyball":
+                lbl = f"{i + 1}{names}"
+            else:
+                lbl = "ΠΕΝ" if m["sport"] == "water-polo" else "ΠΑΡ"
             ctext(d, cx, by, lbl, font("semi", 28), fill=NEON_SOFT)
             ctext(d, cx, by + 38, f"{h}-{a}", font("xbold", 44), fill=WHITE)
         by += 110
