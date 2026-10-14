@@ -907,6 +907,16 @@
     "seed": "ok"
    }
   },
+  "gd:hvG3AYcm": {
+   "at": 1791989350.8109784,
+   "nets": {
+    "fb": "error: {'message': '(#200) The permission(s) publish_actions are not available. It has been deprecated. If you want to provide a way for your app users to share content to Facebook, we encourage you to use our Sharing products instead.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'Ab3ijy1Xzv6mOLe2adQLc58'}",
+    "fbs": "error: {'message': '(#200) Unpublished posts must be posted to a page as the page itself.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A5igtVICevd1tGzFIuJcIq1'}",
+    "ig": "error: {'message': '(#200) Unpublished posts must be posted to a page as the page itself.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AMhaYST2Qseioj4HtEoQ4-A'}",
+    "igs": "error: {'message': '(#200) Unpublished posts must be posted to a page as the page itself.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A5igtVICevd1tGzFIuJcIq1'}"
+   },
+   "tries": 1
+  },
   "gd:ju7zANyg": {
    "at": 1791985793.189812,
    "nets": {
@@ -1092,6 +1102,16 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "gd:zi7Ayfif": {
+   "at": 1791989355.534727,
+   "nets": {
+    "fb": "error: {'message': '(#200) The permission(s) publish_actions are not available. It has been deprecated. If you want to provide a way for your app users to share content to Facebook, we encourage you to use our Sharing products instead.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'Au9nHLToKyN2q9pmleD-TvR'}",
+    "fbs": "error: {'message': '(#200) Unpublished posts must be posted to a page as the page itself.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AsBAGm3GFdcqpAhGiQWx0qd'}",
+    "ig": "error: {'message': '(#200) Unpublished posts must be posted to a page as the page itself.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A-cK1bTIKaIDiyC53BDJ1bg'}",
+    "igs": "error: {'message': '(#200) Unpublished posts must be posted to a page as the page itself.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AsBAGm3GFdcqpAhGiQWx0qd'}"
+   },
+   "tries": 1
   },
   "mvp:0E6ima3c": {
    "at": 1791985793.189812,
