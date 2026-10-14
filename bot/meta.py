@@ -177,3 +177,14 @@ def publish(feed_path, story_path, caption, done=None):
             out.setdefault("igs", f"error: {e}")
             out.setdefault("fbs", f"error: {e}")
     return out
+
+
+def delete(object_ids):
+    """Οριστική διαγραφή αναρτήσεων της σελίδας Facebook (π.χ. διπλών) με τα IDs τους."""
+    for oid in object_ids:
+        r = requests.delete(f"{GRAPH}/{oid}", params={"access_token": _token()}, timeout=30)
+        try:
+            data = r.json()
+        except ValueError:
+            data = {"raw": r.text[:200]}
+        print("Διαγραφή", oid, "=>", "OK" if data.get("success") else data)

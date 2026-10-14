@@ -3,6 +3,7 @@
   python -m bot run        έλεγχος και αναρτήσεις (χωρίς κλειδιά Meta: μόνο κάρτες στο out/)
   python -m bot preview    κάρτες δείγματα για όλα τα τμήματα στο out/preview/, χωρίς ανάρτηση
   python -m bot check      έλεγχος της σύνδεσης Meta (σελίδα, Instagram, δικαιώματα), χωρίς ανάρτηση
+  python -m bot delete ID  οριστική διαγραφή αναρτήσεων Facebook (π.χ. διπλών)
 """
 import json
 import os
@@ -410,6 +411,8 @@ def main():
         preview()
     elif cmd == "check":
         meta.check()
+    elif cmd == "delete":
+        meta.delete([x for x in sys.argv[2:] for x in x.replace(",", " ").split()])
     else:
         run(dry=os.environ.get("DRY_RUN") == "1")
 

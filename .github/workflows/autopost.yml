@@ -9,7 +9,11 @@ on:
         description: "run = κανονικά, preview = κάρτες δείγματα, dry = δοκιμή χωρίς ανάρτηση, check = έλεγχος σύνδεσης Meta"
         default: run
         type: choice
-        options: [run, preview, dry, check]
+        options: [run, preview, dry, check, delete]
+      ids:
+        description: "Μόνο για delete: IDs αναρτήσεων Facebook, χωρισμένα με κόμμα"
+        default: ""
+        type: string
 
 concurrency:
   group: autopost
@@ -48,6 +52,8 @@ jobs:
             python -m bot preview
           elif [ "${{ inputs.mode }}" = "check" ]; then
             python -m bot check
+          elif [ "${{ inputs.mode }}" = "delete" ]; then
+            python -m bot delete "${{ inputs.ids }}"
           else
             python -m bot run
           fi
