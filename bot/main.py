@@ -7,6 +7,7 @@
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from datetime import datetime, timedelta
@@ -27,6 +28,9 @@ ROOT = cards.ROOT
 STATE = os.path.join(ROOT, "state.json")
 OUT = os.path.join(ROOT, "out")
 MAX_TRIES = 3
+RUN_ID = os.environ.get("GITHUB_RUN_ID", "local")
+CI = os.environ.get("GITHUB_ACTIONS") == "true"
+CLAIM_TTL = 15 * 60  # μια «κράτηση» ανάρτησης από άλλη εκτέλεση ισχύει 15 λεπτά
 
 
 def log(*a):
@@ -61,9 +65,103 @@ def is_done(st, key):
     p = st["posts"].get(key)
     if not p:
         return False
+    # Άλλη εκτέλεση την ανεβάζει αυτή τη στιγμή.
+    if p.get("claim") and p["claim"] != RUN_ID and time.time() - p.get("at", 0) < CLAIM_TTL:
+        return True
     nets = p.get("nets", {})
     failed = [n for n, v in nets.items() if str(v).startswith("error")]
+    if p.get("claim") and not nets:
+        return False
     return not failed or p.get("tries", 0) >= MAX_TRIES
+
+
+# --------------------------------------------------------------------------
+# Συγχρονισμός της κατάστασης με το GitHub (δύο εκτελέσεις δεν ανεβάζουν το ίδιο)
+# --------------------------------------------------------------------------
+
+
+def _git(*args):
+    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
+
+
+def _remote_state():
+    if _git("fetch", "-q", "origin", "main").returncode != 0:
+        return None
+    r = _git("show", "origin/main:state.json")
+    if r.returncode != 0:
+        return {}
+    try:
+        return json.loads(r.stdout)
+    except ValueError:
+        return {}
+
+
+def merge_state(st, remote):
+    """Ενώνει την κατάσταση του GitHub με την τοπική: για κάθε ανάρτηση κρατά την πιο πρόσφατη εγγραφή."""
+    if not remote:
+        return st
+    for k, v in (remote.get("posts") or {}).items():
+        mine = st["posts"].get(k)
+        if mine is None or v.get("at", 0) > mine.get("at", 0):
+            st["posts"][k] = v
+    for k, v in (remote.get("pending") or {}).items():
+        st["pending"].setdefault(k, v)
+    st["seeded"] = sorted(set(st["seeded"]) | set(remote.get("seeded") or []))
+    return st
+
+
+def sync_state(st, message="state"):
+    """Αποθήκευση και push στο GitHub· αν άλλη εκτέλεση πρόλαβε, συγχώνευση και ξανά. True αν ανέβηκε."""
+    if not CI:
+        save_state(st)
+        return True
+    for _ in range(6):
+        merge_state(st, _remote_state())
+        save_state(st)
+        _git("add", "state.json")
+        if _git("diff", "--cached", "--quiet").returncode == 0:
+            _git("reset", "-q", "--mixed", "origin/main")
+            return True
+        stamp = datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")
+        _git("commit", "-q", "-m", f"{message}: {stamp}")
+        if _git("push", "-q", "origin", "HEAD:main").returncode == 0:
+            return True
+        _git("reset", "-q", "--mixed", "origin/main")
+        time.sleep(2)
+    log("Δεν αποθηκεύτηκε η κατάσταση στο GitHub")
+    return False
+
+
+def claim(st, key):
+    """«Κλείνει» μια ανάρτηση στο GitHub πριν γίνει, ώστε να μην την ανεβάσει και άλλη εκτέλεση.
+
+    Το push είναι η κλειδαριά: αν άλλη εκτέλεση πρόλαβε να γράψει, το push απορρίπτεται,
+    ξαναδιαβάζουμε την κατάσταση και βλέπουμε τη δική της κράτηση.
+    """
+    if not CI:
+        return not is_done(st, key)
+    for _ in range(6):
+        remote = _remote_state()
+        if remote is None:
+            return False
+        merge_state(st, remote)
+        if is_done(st, key):
+            return False
+        prev = st["posts"].get(key, {})
+        st["posts"][key] = {"at": time.time(), "nets": prev.get("nets", {}), "tries": prev.get("tries", 0), "claim": RUN_ID}
+        save_state(st)
+        _git("add", "state.json")
+        _git("commit", "-q", "-m", f"claim {key}")
+        if _git("push", "-q", "origin", "HEAD:main").returncode == 0:
+            return True
+        # Άλλη εκτέλεση έγραψε στο μεταξύ: πετάμε τη δική μας κράτηση και ξαναελέγχουμε.
+        _git("reset", "-q", "--mixed", "origin/main")
+        if prev:
+            st["posts"][key] = prev
+        else:
+            st["posts"].pop(key, None)
+        time.sleep(2)
+    return False
 
 
 # --------------------------------------------------------------------------
@@ -129,16 +227,19 @@ def post(st, key, card, caption, dry):
     story = cards.save(cards.story(card), os.path.join(OUT, f"{stamp}_{safe}_story.jpg"))
     with open(os.path.join(OUT, f"{stamp}_{safe}.txt"), "w", encoding="utf-8") as fh:
         fh.write(caption)
-    prev = st["posts"].get(key, {})
     if dry:
         # Δοκιμή: δεν σημειώνεται ως αναρτημένο, ώστε να βγει κανονικά όταν μπουν τα κλειδιά Meta.
         log("ΔΟΚΙΜΗ (χωρίς ανάρτηση)", key)
         return
-    else:
-        nets = dict(prev.get("nets", {}))
-        nets.update(meta.publish(feed, story, caption, done=nets))
+    if not claim(st, key):
+        log("Ήδη αναρτημένο ή σε εξέλιξη από άλλη εκτέλεση:", key)
+        return
+    prev = st["posts"].get(key, {})
+    nets = dict(prev.get("nets", {}))
+    nets.update(meta.publish(feed, story, caption, done=nets))
     st["posts"][key] = {"at": time.time(), "nets": nets, "tries": prev.get("tries", 0) + 1}
     log("ΑΝΑΡΤΗΣΗ", key, nets)
+    sync_state(st, f"posted {key}")
 
 
 def standings_rows(ev):
@@ -267,7 +368,7 @@ def run(dry=False):
         except Exception as e:  # noqa: BLE001
             log("Σφάλμα", key, e)
 
-    save_state(st)
+    sync_state(st)
 
 
 def preview():

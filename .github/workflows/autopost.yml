@@ -32,6 +32,11 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Git identity
+        run: |
+          git config user.name "trifillakia-bot"
+          git config user.email "trifillakia-bot@users.noreply.github.com"
+
       - name: Run
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
@@ -45,17 +50,6 @@ jobs:
             python -m bot check
           else
             python -m bot run
-          fi
-
-      - name: Save state
-        if: inputs.mode != 'preview' && inputs.mode != 'check'
-        run: |
-          if ! git diff --quiet -- state.json || [ -n "$(git ls-files --others -- state.json)" ]; then
-            git config user.name "trifillakia-bot"
-            git config user.email "trifillakia-bot@users.noreply.github.com"
-            git add state.json
-            git commit -m "state: $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
           fi
 
       - name: Cards
