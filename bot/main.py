@@ -130,7 +130,9 @@ def post(st, key, card, caption, dry):
         fh.write(caption)
     prev = st["posts"].get(key, {})
     if dry:
-        nets = {"dry": "ok"}
+        # Δοκιμή: δεν σημειώνεται ως αναρτημένο, ώστε να βγει κανονικά όταν μπουν τα κλειδιά Meta.
+        log("ΔΟΚΙΜΗ (χωρίς ανάρτηση)", key)
+        return
     else:
         nets = dict(prev.get("nets", {}))
         nets.update(meta.publish(feed, story, caption, done=nets))
