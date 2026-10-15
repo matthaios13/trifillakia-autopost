@@ -1,5 +1,37 @@
 {
  "pending": {
+  "tb:SxM3CbwA": {
+   "ev": {
+    "away": "Μπόρατς Μπάνια Λούκα",
+    "away_id": "pWGUPhrD",
+    "away_score": 1,
+    "comp": "Conference League - League phase",
+    "comp_full": "ΕΥΡΩΠΗ: Conference League - League phase",
+    "comp_logo": "https://static.flashscore.com/res/image/data/pEK5ZhhD-jc2CheFa.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "SENMmweG",
+    "home_score": 2,
+    "id": "SxM3CbwA",
+    "info": "",
+    "periods": [
+     [
+      1,
+      1
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "8WHkz50k",
+    "start": 1792082700,
+    "status": "3",
+    "tour_id": "GfRbsVWM",
+    "tour_path": "/football/europe/conference-league/"
+   },
+   "raw_round": "League phase - Αγωνιστική ημέρα: 1",
+   "round": "1η Αγωνιστική",
+   "since": 1792090221.7583115,
+   "team": "football"
+  },
   "tb:hvG3AYcm": {
    "ev": {
     "away": "Άλμπα Βερολίνου",
@@ -2015,6 +2047,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "tb:SxM3CbwA": {
+   "at": 1792090257.932005,
+   "claim": "38788905800",
+   "nets": {},
+   "tries": 0
   },
   "tb:U1GRHNbc": {
    "at": 1791985793.189812,
