@@ -1,5 +1,91 @@
 {
  "pending": {
+  "mvp:KtOnzjt0": {
+   "ev": {
+    "away": "Χάποελ Τελ Αβίβ",
+    "away_id": "x0WjVzjP",
+    "away_score": 91,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-jJNg8HzP.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 81,
+    "id": "KtOnzjt0",
+    "info": "",
+    "periods": [
+     [
+      25,
+      29
+     ],
+     [
+      21,
+      19
+     ],
+     [
+      15,
+      20
+     ],
+     [
+      20,
+      23
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1792174500,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "since": 1792182922.6707032,
+   "team": "basketball"
+  },
+  "tb:KtOnzjt0": {
+   "ev": {
+    "away": "Χάποελ Τελ Αβίβ",
+    "away_id": "x0WjVzjP",
+    "away_score": 91,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-jJNg8HzP.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 81,
+    "id": "KtOnzjt0",
+    "info": "",
+    "periods": [
+     [
+      25,
+      29
+     ],
+     [
+      21,
+      19
+     ],
+     [
+      15,
+      20
+     ],
+     [
+      20,
+      23
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1792174500,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 6",
+   "round": "6η Αγωνιστική",
+   "since": 1792182922.6707032,
+   "team": "basketball"
+  },
   "tb:SxM3CbwA": {
    "ev": {
     "away": "Μπόρατς Μπάνια Λούκα",
@@ -1425,6 +1511,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "mvp:KtOnzjt0": {
+   "at": 1792182961.4211507,
+   "claim": "38963298522",
+   "nets": {},
+   "tries": 0
   },
   "mvp:M73OjCSp": {
    "at": 1791985793.189812,
