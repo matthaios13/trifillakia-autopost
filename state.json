@@ -1,12 +1,12 @@
 {
  "news": {
-  "last": 24292,
+  "last": 24294,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%B5%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24292,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%B5%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CE%B5%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1.jpg?itok=Hjhfr0SH",
     "title": "Καλές επιδόσεις στην Ελευσίνα",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24292/kales-epidoseis-stin-eleysina"
    },
@@ -2169,6 +2169,12 @@
     "igs": "18126999328894471"
    },
    "tries": 1
+  },
+  "news:24293": {
+   "at": 1792252237.8968396,
+   "claim": "39046789223",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
