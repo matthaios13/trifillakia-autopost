@@ -375,6 +375,50 @@
    "since": 1792090221.7583115,
    "team": "football"
   },
+  "tb:WKmbnB5C": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "8WFCnEH1",
+    "away_score": 23,
+    "comp": "Α1",
+    "comp_full": "ΕΛΛΑΔΑ: Α1",
+    "comp_logo": "https://static.flashscore.com/res/image/data/E18keuRp-QqCvGd8i.png",
+    "home": "ΓΣ Περιστερίου",
+    "home_id": "4Ekk3UCk",
+    "home_score": 11,
+    "id": "WKmbnB5C",
+    "info": "",
+    "periods": [
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      8
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      5,
+      6
+     ]
+    ],
+    "round": "",
+    "stage": "1",
+    "stage_id": "bTA0nNto",
+    "start": 1792251000,
+    "status": "3",
+    "tour_id": "hfdcqrn4",
+    "tour_path": "/water-polo/greece/a1/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 4",
+   "round": "4η Αγωνιστική",
+   "since": 1792255648.3469837,
+   "team": "waterpolo"
+  },
   "tb:hvG3AYcm": {
    "ev": {
     "away": "Άλμπα Βερολίνου",
