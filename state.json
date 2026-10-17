@@ -3,6 +3,14 @@
   "last": 24300,
   "recent": [
    {
+    "image": "",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24297,
+    "thumb": "",
+    "title": "ELABET: Η Μάντσεστερ Γιουνάιτεντ έχει διαβολική απάντηση με «Ενισχυμένα» ημίχρονα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24297/elabet-i-mantsester-gioynaitent-ehei-diavoliki-apantisi-me"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-k19.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24296,
@@ -2345,6 +2353,12 @@
     "igs": "17961772476234768"
    },
    "tries": 1
+  },
+  "news:24298": {
+   "at": 1792261582.1436975,
+   "claim": "39057995453",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
