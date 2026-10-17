@@ -31,10 +31,19 @@ _s = requests.Session()
 _s.headers.update({"User-Agent": UA})
 
 
-def _norm_words(title):
-    t = unicodedata.normalize("NFD", html.unescape(title).lower())
+# Λέξεις που υπάρχουν σχεδόν σε κάθε άρθρο και δεν ξεχωρίζουν μια είδηση.
+STOP = {
+    "παναθηναικος", "παναθηναικου", "παναθηναικο", "πρασινοι", "πρασινων", "τριφυλλι", "aktor",
+    "για", "στην", "στον", "στο", "στη", "των", "του", "της", "τον", "την", "και", "που", "από", "απο",
+    "με", "σε", "να", "θα", "ειναι", "μετα", "πριν", "οι", "τα", "το", "η", "ο", "ενα", "μια", "δεν",
+}
+
+
+def _norm_words(text):
+    """Οι «σημαντικές» λέξεις ενός κειμένου, χωρίς τόνους, κομμένες στα 5 γράμματα (για καταλήξεις)."""
+    t = unicodedata.normalize("NFD", html.unescape(re.sub(r"<[^>]+>", " ", text)).lower())
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
-    return {w for w in re.findall(r"[a-zα-ω0-9]+", t) if len(w) >= 4}
+    return {w[:5] for w in re.findall(r"[a-zα-ω0-9]+", t) if len(w) >= 3 and w not in STOP}
 
 
 def similar(a, b):
@@ -46,15 +55,33 @@ def similar(a, b):
     return common / min(len(wa), len(wb)) >= 0.6 or common / len(wa | wb) >= 0.45
 
 
-def trifillakia_titles(extra=()):
-    titles = list(extra)
+def same_story(title, doc):
+    """doc = (τίτλος, κείμενο) άρθρου του trifillakia. Ίδια είδηση αν μοιάζουν οι τίτλοι
+    ή αν σχεδόν όλες οι σημαντικές λέξεις του τίτλου υπάρχουν στο κείμενο του άρθρου."""
+    if similar(title, doc[0]):
+        return True
+    words = _norm_words(title)
+    if len(words) < 3 or not doc[1]:
+        return False
+    # Μόνο ο τίτλος και η αρχή του κειμένου (το lead): τα μεγάλα κείμενα περιέχουν σχεδόν κάθε λέξη.
+    lead = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", doc[1]))).strip()[:350]
+    common = words & _norm_words(doc[0] + " " + lead)
+    return len(common) >= 3 and len(common) / len(words) >= 0.7
+
+
+def trifillakia_docs(extra=()):
+    """(τίτλος, κείμενο) των πρόσφατων άρθρων του trifillakia.gr (ροές κατηγοριών)."""
+    docs = [(t, "") for t in extra]
     for url in TRIFILLAKIA_FEEDS:
         try:
             r = _s.get(url, timeout=30)
-            titles += [html.unescape(t) for t in re.findall(r"<title>(.*?)</title>", r.text)[1:]]
         except requests.RequestException:
-            pass
-    return titles
+            continue
+        for item in re.findall(r"<item>(.*?)</item>", r.text, re.S):
+            t = re.search(r"<title>(.*?)</title>", item, re.S)
+            d = re.search(r"<description>(.*?)</description>", item, re.S)
+            docs.append((html.unescape(t.group(1)) if t else "", html.unescape(d.group(1)) if d else ""))
+    return docs
 
 
 def _media_url(posts_base, media_id):
@@ -170,18 +197,20 @@ def update(state, now, log=print):
         state["items"] = []
         write_feed([])
         return state
-    have = {i["guid"] for i in state["items"]}
+    state.setdefault("blocked", [])
+    state["items"] = [i for i in state["items"] if i["guid"] not in state["blocked"]]
+    have = {i["guid"] for i in state["items"]} | set(state["blocked"])
     candidates = []
     for src in SOURCES:
         candidates += [p for p in fetch(src, state["since"]) if p["guid"] not in have]
     if candidates:
-        existing = trifillakia_titles(extra=[i["title"] for i in state["items"]])
+        existing = trifillakia_docs(extra=[i["title"] for i in state["items"]])
         for p in sorted(candidates, key=lambda p: p["ts"]):
-            if any(similar(p["title"], t) for t in existing):
+            if any(same_story(p["title"], d) for d in existing):
                 log("Ροή trifillakia: υπάρχει ήδη →", p["title"])
                 continue
             state["items"].append(p)
-            existing.append(p["title"])
+            existing.append((p["title"], ""))
             log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"])
     state["items"] = sorted(state["items"], key=lambda i: -i["ts"])[:30]
     write_feed(state["items"])

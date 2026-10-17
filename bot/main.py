@@ -122,6 +122,7 @@ def merge_state(st, remote):
     rs = remote.get("synd") or {}
     if rs.get("since"):
         st["synd"]["since"] = min(x for x in (st["synd"].get("since"), rs["since"]) if x)
+        st["synd"]["blocked"] = sorted(set(st["synd"].get("blocked") or []) | set(rs.get("blocked") or []))
         items = {i["guid"]: i for i in (rs.get("items") or []) + (st["synd"].get("items") or [])}
         st["synd"]["items"] = sorted(items.values(), key=lambda i: -i["ts"])[:30]
     return st
