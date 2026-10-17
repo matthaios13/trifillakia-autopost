@@ -5,6 +5,14 @@
    {
     "image": "",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24298,
+    "thumb": "",
+    "title": "ELABET: Κυριακή με δυνατά Bet Builders για Ολυμπιακό, Παναθηναϊκό και ΠΑΟΚ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24298/elabet-kyriaki-me-dynata-bet-builders-gia-olympiako"
+   },
+   {
+    "image": "",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24297,
     "thumb": "",
     "title": "ELABET: Η Μάντσεστερ Γιουνάιτεντ έχει διαβολική απάντηση με «Ενισχυμένα» ημίχρονα",
@@ -2362,6 +2370,12 @@
     "igs": "18101188343542017"
    },
    "tries": 1
+  },
+  "news:24299": {
+   "at": 1792261617.4043622,
+   "claim": "39057995453",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
