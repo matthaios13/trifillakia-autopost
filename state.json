@@ -3,6 +3,14 @@
   "last": 24294,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%BE%CE%B9%CF%86%CE%B1%CF%83%CE%BA%CE%AF%CE%B1_1.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24293,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CE%BE%CE%B9%CF%86%CE%B1%CF%83%CE%BA%CE%AF%CE%B1_1.jpg?itok=zyNTP7Oi",
+    "title": "Διπλή εκπροσώπηση στο Παγκόσμιο Ξίφους Μονομαχίας",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24293/dipli-ekprosopisi-sto-pagkosmio-xifoys-monomahias"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%B5%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24292,
@@ -2178,6 +2186,12 @@
     "igs": "18134244415740221"
    },
    "tries": 1
+  },
+  "news:24294": {
+   "at": 1792252269.1590784,
+   "claim": "39046789223",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
