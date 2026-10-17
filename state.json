@@ -3,6 +3,14 @@
   "last": 24300,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arsenalfc-1097f5.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24299,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arsenalfc-1097f5.jpg",
+    "title": "ELABET: Η Άρσεναλ έχει «boost» για απόδραση από τη Νότιγχαμ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24299/elabet-i-arsenal-ehei-boost-gia-apodrasi-apo-ti-notigham"
+   },
+   {
     "image": "",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24298,
@@ -2379,6 +2387,12 @@
     "igs": "18217709725345719"
    },
    "tries": 1
+  },
+  "news:24300": {
+   "at": 1792261651.4203904,
+   "claim": "39057995453",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
