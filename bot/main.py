@@ -409,6 +409,11 @@ def run(dry=False):
 def run_news(st, now, dry):
     """Νέα άρθρα του trifillakia.gr: κάρτα + story στο Instagram, link στο Facebook."""
     ns = st["news"]
+    for item in ns["recent"]:
+        if "itok=" not in item.get("thumb", ""):
+            t = news.thumb_url(item.get("image", ""))
+            if "itok=" in t:
+                item["thumb"] = t
     home = news.latest_nid()
     if not ns["last"]:
         # Πρώτη φορά: ξεκινάμε από τώρα, χωρίς παλιά άρθρα.
@@ -467,7 +472,9 @@ def run_news(st, now, dry):
         )
         if not dry:
             ns["recent"] = [x for x in ns["recent"] if x["nid"] != nid]
-            ns["recent"].insert(0, {k: a[k] for k in ("nid", "url", "title", "image", "label")})
+            item = {k: a[k] for k in ("nid", "url", "title", "image", "label")}
+            item["thumb"] = news.thumb_url(a["image"])
+            ns["recent"].insert(0, item)
             ns["recent"] = ns["recent"][:40]
 
 

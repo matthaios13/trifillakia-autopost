@@ -89,3 +89,23 @@ def article(nid, url):
 
 def wanted(url):
     return section_of(url) in SECTIONS
+
+
+_home_html = {}
+
+
+def thumb_url(image):
+    """Μικρό αντίγραφο (320x320) της φωτογραφίας, με το κλειδί itok που θέλει το Drupal για νέες φωτογραφίες.
+
+    Το παίρνουμε από την αρχική σελίδα· αν δεν υπάρχει εκεί, η κανονική φωτογραφία.
+    """
+    if not image or "/field/image/" not in image:
+        return image
+    name = image.split("/field/image/", 1)[1]
+    if "page" not in _home_html:
+        try:
+            _home_html["page"] = _s.get(SITE + "/", timeout=30).text
+        except requests.RequestException:
+            _home_html["page"] = ""
+    m = re.search(r'/sites/default/files/styles/image_320x320/public/field/image/%s\?itok=[\w-]+' % re.escape(name), _home_html["page"])
+    return SITE + html.unescape(m.group(0)) if m else image

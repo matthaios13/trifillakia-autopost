@@ -72,7 +72,7 @@ def write(recent):
     e = html.escape
     links = "".join(f'<a href="{e(u)}">{e(t)}</a>' for t, u in LINKS)
     items = "".join(
-        f'<a href="{e(a["url"])}"><img src="{e(thumb(a["image"]))}" alt="" loading="lazy">'
+        f'<a href="{e(a["url"])}"><img src="{e(a.get("thumb") or thumb(a["image"]))}" alt="" loading="lazy" onerror="this.onerror=null;this.src=\'{e(a["image"])}\'">'
         f'<span>{"<em>" + e(a["label"]) + "</em>" if a.get("label") else ""}{e(a["title"])}</span></a>'
         for a in recent[:30]
     )
