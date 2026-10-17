@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24294,
+  "last": 24296,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/Gionis-1.jpg",
@@ -2319,6 +2319,12 @@
     "skip": "ίδια είδηση με 24291 (Ναν)"
    },
    "tries": 1
+  },
+  "news:24296": {
+   "at": 1792256484.3761346,
+   "claim": "39051868271",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
