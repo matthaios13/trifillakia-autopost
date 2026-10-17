@@ -39,6 +39,16 @@
 
 Logos διοργανώσεων: `logos/comp/<flashscore tour id>.png`. Υπάρχουν ήδη τα επίσημα για EuroLeague, Stoiximan GBL, Stoiximan Super League, Superbet Κύπελλο Ελλάδας, Conference League, Novibet Volley League, CEV Champions League, CEV Challenge Cup, Allwyn WBL1, EuroCup Women, EuroLeague Women. Για τις υπόλοιπες μπαίνει το logo του Flashscore μέχρι να προστεθεί αρχείο (τα ids γράφονται στο log όταν τρέχει).
 
+## Ειδήσεις του trifillakia.gr
+
+Κάθε νέο άρθρο (εντοπίζεται από τον αριθμό του, `/node/Ν`) ανεβαίνει αυτόματα:
+- **Instagram:** κάρτα (post) + story με τη φωτογραφία και τον τίτλο, λεζάντα με «link στο bio».
+- **Facebook:** post με link στο άρθρο (δείχνει τη φωτογραφία του άρθρου).
+
+Κατηγορίες που ανεβαίνουν: `SECTIONS` στο `bot/news.py`. Τα «Προγνωστικά στοιχήματος» δεν ανεβαίνουν.
+
+**Link στο bio:** https://matthaios13.github.io/trifillakia-autopost/ (GitHub Pages, φάκελος `docs/`, ενημερώνεται μόνο του με τα 30 τελευταία άρθρα).
+
 ## Συχνότητα (cron-job.org)
 
 Το GitHub τρέχει το πρόγραμμα του workflow μόνο περίπου κάθε 30 λεπτά. Για έλεγχο κάθε 5 λεπτά, το cron-job.org (job «Trifillakia autopost») στέλνει POST στο
