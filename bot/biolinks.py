@@ -56,6 +56,11 @@ PAGE = """<!doctype html>
 """
 
 
+def thumb(url):
+    """Μικρό αντίγραφο της φωτογραφίας από το Drupal (320x320), αντί για το πρωτότυπο που μπορεί να είναι τεράστιο."""
+    return url.replace("/sites/default/files/field/image/", "/sites/default/files/styles/image_320x320/public/field/image/")
+
+
 def write(recent):
     os.makedirs(DOCS, exist_ok=True)
     logo = os.path.join(DOCS, "logo.png")
@@ -67,7 +72,7 @@ def write(recent):
     e = html.escape
     links = "".join(f'<a href="{e(u)}">{e(t)}</a>' for t, u in LINKS)
     items = "".join(
-        f'<a href="{e(a["url"])}"><img src="{e(a["image"])}" alt="" loading="lazy">'
+        f'<a href="{e(a["url"])}"><img src="{e(thumb(a["image"]))}" alt="" loading="lazy">'
         f'<span>{"<em>" + e(a["label"]) + "</em>" if a.get("label") else ""}{e(a["title"])}</span></a>'
         for a in recent[:30]
     )
