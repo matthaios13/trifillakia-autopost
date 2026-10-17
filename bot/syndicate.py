@@ -67,10 +67,35 @@ def _media_url(posts_base, media_id):
         return ""
 
 
+PAO = "Παναθηναϊκ"
+
+
+def _plain(text):
+    t = unicodedata.normalize("NFD", text.lower())
+    return "".join(c for c in t if unicodedata.category(c) != "Mn")
+
+
+def pao_tag_ids(posts_base):
+    """Όλα τα tags με «Παναθηναϊκ» στο όνομα (Κ19, Κ17, Ακαδημίες, AKTOR...)."""
+    try:
+        r = _s.get(posts_base.replace("/posts", "/tags") + "?search=" + PAO + "&per_page=100&_fields=id,name", timeout=30)
+        tags = r.json() if r.status_code == 200 else []
+    except (requests.RequestException, ValueError):
+        tags = []
+    return [str(t["id"]) for t in tags if isinstance(t, dict) and _plain(PAO) in _plain(t.get("name", ""))]
+
+
 def fetch(source, since_ts):
     name, base, filters, category = source
     seen = {}
+    filters = list(filters)
+    ids = pao_tag_ids(base)
+    if ids:
+        filters.append("tags=" + ",".join(ids))
+    # Δίχτυ ασφαλείας: «Παναθηναϊκ» στον τίτλο, ακόμα κι αν δεν έχει σωστό tag.
+    filters.append("search=" + PAO)
     for f in filters:
+        title_only = f.startswith("search=")
         try:
             r = _s.get(f"{base}?{f}&per_page=20&_fields=id,date_gmt,title,link,content,featured_media", timeout=40)
             posts = r.json() if r.status_code == 200 else []
@@ -83,6 +108,8 @@ def fetch(source, since_ts):
             title = html.unescape(re.sub(r"<[^>]+>", "", p["title"]["rendered"])).strip()
             if title.upper().startswith("ELABET"):
                 continue  # τα προγνωστικά έχουν δικό τους importer
+            if title_only and _plain(PAO) not in _plain(title):
+                continue
             image = _media_url(base, p.get("featured_media"))
             seen[f"{name}:{p['id']}"] = {
                 "guid": f"{name}:{p['id']}",
