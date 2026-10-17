@@ -1,4 +1,5 @@
 """Λεζάντες (ύφος @trifillakiagr)."""
+import re
 from datetime import datetime
 
 from .config import TZ
@@ -81,25 +82,37 @@ def mvp(m, team):
     )
 
 
+FOOTBALL_TAGS = "#PAOFC #Panathinaikos #PanathinaikosFC #Παναθηναϊκός #Τριφύλλι #trifillakiagr"
+BASKET_TAGS = "#PAOBC #PAOBCAktor #Panathinaikos #PanathinaikosBC #Παναθηναϊκός #Τριφύλλι #trifillakiagr"
+
 NEWS_TAGS = {
-    "podosfairo": "#Panathinaikos #PAO #Παναθηναϊκός #Τριφύλλι #trifillakiagr",
-    "mpasket": "#Panathinaikos #PAOBC #Παναθηναϊκός #Τριφύλλι #trifillakiagr",
+    "podosfairo": FOOTBALL_TAGS,
+    "mpasket": BASKET_TAGS,
     "mpasket-gynaikon": "#Panathinaikos #WomensBasketball #Παναθηναϊκός #trifillakiagr",
     "erasitehnis": "#Panathinaikos #ΠαναθηναϊκόςΑΟ #Παναθηναϊκός #trifillakiagr",
+    "prognostika-stoihimatos": "#Elabet #Προγνωστικά #Στοίχημα #trifillakiagr",
 }
+DEFAULT_NEWS_TAGS = "#Panathinaikos #Παναθηναϊκός #Τριφύλλι #trifillakiagr"
+# Υποχρεωτική ένδειξη υπεύθυνου παιχνιδιού για περιεχόμενο στοιχήματος.
+BETTING_NOTE = "21+ | Παίξε νόμιμα και υπεύθυνα"
 
 
 def _short(text, n):
+    # Η σήμανση «ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ» στην αρχή των προγνωστικών μπαίνει χωριστά.
+    text = re.sub(r"^\s*ΠΑΙΞΕ ΝΟΜΙΜΑ\s*21\+\s*\|\s*ELABET ΣΤΟΙΧΗΜΑ\s*", "", text)
     text = " ".join(text.split())
     return text if len(text) <= n else text[: n].rsplit(" ", 1)[0].rstrip(".,;:") + "…"
 
 
 def news_ig(a):
-    tags = NEWS_TAGS.get(a["section"], "#Panathinaikos #Παναθηναϊκός #Τριφύλλι #trifillakiagr")
+    tags = NEWS_TAGS.get(a["section"], DEFAULT_NEWS_TAGS)
     lines = [f"📰 {a['title']} ☘️", ""]
     if a.get("description"):
         lines += [_short(a["description"], 400), ""]
-    lines += ["🔗 Ολόκληρο το άρθρο στο link του bio", "", tags]
+    lines += ["🔗 Ολόκληρο το άρθρο στο link του bio", ""]
+    if a["section"] == "prognostika-stoihimatos":
+        lines += [BETTING_NOTE, ""]
+    lines.append(tags)
     return "\n".join(lines)
 
 
@@ -107,4 +120,6 @@ def news_fb(a):
     text = f"☘️ {a['title']}"
     if a.get("description"):
         text += "\n\n" + _short(a["description"], 220)
-    return text
+    if a["section"] == "prognostika-stoihimatos":
+        text += "\n\n" + BETTING_NOTE
+    return text + "\n\n" + NEWS_TAGS.get(a["section"], DEFAULT_NEWS_TAGS)

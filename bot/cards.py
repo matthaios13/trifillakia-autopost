@@ -641,7 +641,8 @@ def news_card(a):
     c = _news_base(a, W, H, 860)
     d = ImageDraw.Draw(c, "RGBA")
     _news_text(c, a, H - 120, 4, 96, 700)
-    d.text((60, H - 62), "ΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ ΣΤΟ TRIFILLAKIA.GR", font=font("semi", 32), fill=NEON_SOFT, anchor="lm")
+    left = "21+ | ΠΑΙΞΕ ΝΟΜΙΜΑ ΚΑΙ ΥΠΕΥΘΥΝΑ" if a.get("section") == "prognostika-stoihimatos" else "ΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ ΣΤΟ TRIFILLAKIA.GR"
+    d.text((60, H - 62), left, font=font("semi", 32), fill=NEON_SOFT, anchor="lm")
     d.text((W - 60, H - 62), "LINK ΣΤΟ BIO", font=font("xbold", 32), fill=WHITE, anchor="rm")
     return c
 
@@ -654,5 +655,6 @@ def news_story(a):
     box = (60, SH - 250, W - 60, SH - 150)
     shape(c, "rounded_rectangle", box, radius=50, fill=NEON + (255,))
     ctext(d, W / 2, SH - 200, "ΤΟ ΑΡΘΡΟ ΣΤΟ LINK ΤΟΥ BIO", font("black", 46), fill=DARK, anchor="mm")
-    ctext(d, W / 2, SH - 90, "@trifillakiagr", font("semi", 38), fill=MUTED, anchor="mm")
+    bottom = "21+ | ΠΑΙΞΕ ΝΟΜΙΜΑ ΚΑΙ ΥΠΕΥΘΥΝΑ" if a.get("section") == "prognostika-stoihimatos" else "@trifillakiagr"
+    ctext(d, W / 2, SH - 90, bottom, font("semi", 38), fill=MUTED, anchor="mm")
     return c

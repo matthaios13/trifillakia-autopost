@@ -12,7 +12,7 @@ TEAMS = {
         "name": "Ποδόσφαιρο",
         "emoji": "⚽",
         "crest": "pao_fc.png",
-        "tags": "#Panathinaikos #PAO #Παναθηναϊκός #Τριφύλλι #trifillakiagr",
+        "tags": "#PAOFC #Panathinaikos #PanathinaikosFC #PAO #Παναθηναϊκός #Τριφύλλι #trifillakiagr",
         "mentions": "@fcpanathinaikos",
     },
     "basketball": {
@@ -22,7 +22,7 @@ TEAMS = {
         "name": "Μπάσκετ",
         "emoji": "🏀",
         "crest": "pao_bc.png",
-        "tags": "#Panathinaikos #PAOBC #Παναθηναϊκός #Τριφύλλι #trifillakiagr",
+        "tags": "#PAOBC #PAOBCAktor #Panathinaikos #PanathinaikosBC #Παναθηναϊκός #Τριφύλλι #trifillakiagr",
         "mentions": "@paobcgr",
     },
     "volley_m": {
