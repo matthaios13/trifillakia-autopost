@@ -188,3 +188,36 @@ def delete(object_ids):
         except ValueError:
             data = {"raw": r.text[:200]}
         print("Διαγραφή", oid, "=>", "OK" if data.get("success") else data)
+
+
+def publish_news(feed_path, story_path, caption, link, fb_message, done=None):
+    """Είδηση: Instagram post + story με την κάρτα, και Facebook post με link (δείχνει τη φωτογραφία του άρθρου)."""
+    done = dict(done or {})
+    out = {}
+
+    def ok(net):
+        return net in done and not str(done[net]).startswith("error")
+
+    if not ok("fb"):
+        try:
+            r = requests.post(
+                f"{GRAPH}/{os.environ['FB_PAGE_ID']}/feed",
+                data={"message": fb_message, "link": link, "access_token": _token()},
+                timeout=60,
+            )
+            out["fb"] = _check(r)["id"]
+        except Exception as e:  # noqa: BLE001
+            out["fb"] = f"error: {e}"
+    if not ok("ig"):
+        try:
+            url = _photo_url(_upload_photo(feed_path, published=False)["id"])
+            out["ig"] = _ig_publish({"image_url": url, "caption": caption})
+        except Exception as e:  # noqa: BLE001
+            out["ig"] = f"error: {e}"
+    if story_path and not ok("igs"):
+        try:
+            url = _photo_url(_upload_photo(story_path, published=False)["id"])
+            out["igs"] = _ig_publish({"image_url": url, "media_type": "STORIES"})
+        except Exception as e:  # noqa: BLE001
+            out["igs"] = f"error: {e}"
+    return out

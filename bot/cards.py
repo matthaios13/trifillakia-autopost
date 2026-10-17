@@ -552,3 +552,107 @@ def save(im, path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     im.convert("RGB").save(path, "JPEG", quality=93, optimize=True)
     return path
+
+
+# --------------------------------------------------------------------------
+# Κάρτες ειδήσεων (άρθρα του trifillakia.gr)
+# --------------------------------------------------------------------------
+
+
+def cover(im, w, h, focus_y=0.3):
+    """Η φωτογραφία να γεμίζει w x h (κόψιμο, με το κέντρο βάρους λίγο ψηλά, όπου συνήθως είναι τα πρόσωπα)."""
+    im = im.convert("RGBA")
+    scale = max(w / im.width, h / im.height)
+    im = im.resize((max(w, int(im.width * scale + 0.5)), max(h, int(im.height * scale + 0.5))), Image.LANCZOS)
+    x = (im.width - w) // 2
+    y = int((im.height - h) * focus_y)
+    return im.crop((x, y, x + w, y + h))
+
+
+def wrap(d, text, weight, size, maxw, max_lines, minsize=48):
+    """Σπάει τον τίτλο σε γραμμές· μικραίνει τη γραμματοσειρά μέχρι να χωρέσει σε max_lines."""
+    words = text.split()
+    while True:
+        f = font(weight, size)
+        lines, cur = [], ""
+        for w in words:
+            t = (cur + " " + w).strip()
+            if text_w(d, t, f) <= maxw:
+                cur = t
+            else:
+                if cur:
+                    lines.append(cur)
+                cur = w
+        if cur:
+            lines.append(cur)
+        if len(lines) <= max_lines or size <= minsize:
+            if len(lines) > max_lines:
+                lines = lines[:max_lines]
+                lines[-1] = lines[-1].rstrip(".,") + "…"
+            return f, lines
+        size -= 4
+
+
+def _news_base(a, w, h, photo_h):
+    """Φωτογραφία πάνω, σκούρο πράσινο κάτω με σβήσιμο, neon γραμμές, logo."""
+    c = background(h, seed=71) if h == SH else background(seed=71)
+    photo = fetch_image(a.get("image"))
+    if photo is not None:
+        ph = cover(photo, w, photo_h)
+        fade = Image.new("L", (w, photo_h), 255)
+        fd = ImageDraw.Draw(fade)
+        start = int(photo_h * 0.55)
+        for y in range(start, photo_h):
+            fd.line([(0, y), (w, y)], fill=int(255 * (1 - (y - start) / (photo_h - start)) ** 1.3))
+        ph.putalpha(fade)
+        c.alpha_composite(ph, (0, 0))
+    # logo πάνω δεξιά με σκιά
+    lg = fit(logo(), 250)
+    sh = Image.new("RGBA", (lg.width + 80, lg.height + 80), (0, 0, 0, 0))
+    sh.putalpha(Image.new("L", sh.size, 0))
+    a_ = Image.new("L", sh.size, 0)
+    a_.paste(lg.getchannel("A"), (40, 40))
+    sh.putalpha(a_.filter(ImageFilter.GaussianBlur(14)).point(lambda v: int(v * 0.7)))
+    c.alpha_composite(sh, (w - lg.width - 40 - 40, 36 - 40))
+    c.alpha_composite(lg, (w - lg.width - 40, 36))
+    return c
+
+
+def _news_text(c, a, bottom, maxlines, size, min_top):
+    """Κατηγορία + τίτλος, στοιχισμένα ώστε να τελειώνουν στο bottom."""
+    d = ImageDraw.Draw(c, "RGBA")
+    f, lines = wrap(d, upper(a["title"]), "black", size, W - 120, maxlines)
+    block = (70 if a.get("label") else 0) + int(f.size * 1.02) * len(lines) + 26
+    y = max(min_top, bottom - block)
+    if a.get("label"):
+        y = pill(c, 60 + text_w(d, a["label"], font("xbold", 34)) / 2 + 34, y, a["label"], font("xbold", 34)) + 22
+    title = upper(a["title"])
+    f, lines = wrap(d, title, "black", size, W - 120, maxlines)
+    lh = int(f.size * 1.02)
+    for i, line in enumerate(lines):
+        glow_text(c, (60, y + i * lh), line, f, anchor="lt", radius=10, strength=1, glow=(0, 0, 0))
+    y += lh * len(lines) + 18
+    shape(c, "rectangle", (60, y, 60 + 180, y + 8), fill=NEON + (255,))
+    return y + 8
+
+
+def news_card(a):
+    """Post 1080x1350."""
+    c = _news_base(a, W, H, 860)
+    d = ImageDraw.Draw(c, "RGBA")
+    _news_text(c, a, H - 120, 4, 96, 700)
+    d.text((60, H - 62), "ΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ ΣΤΟ TRIFILLAKIA.GR", font=font("semi", 32), fill=NEON_SOFT, anchor="lm")
+    d.text((W - 60, H - 62), "LINK ΣΤΟ BIO", font=font("xbold", 32), fill=WHITE, anchor="rm")
+    return c
+
+
+def news_story(a):
+    """Story 1080x1920."""
+    c = _news_base(a, W, SH, 1180)
+    d = ImageDraw.Draw(c, "RGBA")
+    _news_text(c, a, SH - 290, 5, 104, 1000)
+    box = (60, SH - 250, W - 60, SH - 150)
+    shape(c, "rounded_rectangle", box, radius=50, fill=NEON + (255,))
+    ctext(d, W / 2, SH - 200, "ΤΟ ΑΡΘΡΟ ΣΤΟ LINK ΤΟΥ BIO", font("black", 46), fill=DARK, anchor="mm")
+    ctext(d, W / 2, SH - 90, "@trifillakiagr", font("semi", 38), fill=MUTED, anchor="mm")
+    return c

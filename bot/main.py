@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, captions, cards, flashscore as fs, meta, wpl
+from . import basket, biolinks, captions, cards, flashscore as fs, meta, news, wpl
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -52,6 +52,10 @@ def load_state():
     st.setdefault("seeded", [])
     st.setdefault("posts", {})
     st.setdefault("pending", {})
+    st.setdefault("news", {})
+    st["news"].setdefault("last", 0)
+    st["news"].setdefault("wait", {})
+    st["news"].setdefault("recent", [])
     return st
 
 
@@ -108,6 +112,12 @@ def merge_state(st, remote):
     for k, v in (remote.get("pending") or {}).items():
         st["pending"].setdefault(k, v)
     st["seeded"] = sorted(set(st["seeded"]) | set(remote.get("seeded") or []))
+    rn = remote.get("news") or {}
+    st["news"]["last"] = max(st["news"]["last"], rn.get("last", 0))
+    for k, v in (rn.get("wait") or {}).items():
+        st["news"]["wait"].setdefault(k, v)
+    recent = {a["nid"]: a for a in (rn.get("recent") or []) + st["news"]["recent"]}
+    st["news"]["recent"] = sorted(recent.values(), key=lambda a: -a["nid"])[:40]
     return st
 
 
@@ -115,11 +125,13 @@ def sync_state(st, message="state"):
     """Αποθήκευση και push στο GitHub· αν άλλη εκτέλεση πρόλαβε, συγχώνευση και ξανά. True αν ανέβηκε."""
     if not CI:
         save_state(st)
+        biolinks.write(st["news"]["recent"])
         return True
     for _ in range(6):
         merge_state(st, _remote_state())
         save_state(st)
-        _git("add", "state.json")
+        biolinks.write(st["news"]["recent"])
+        _git("add", "state.json", "docs")
         if _git("diff", "--cached", "--quiet").returncode == 0:
             _git("reset", "-q", "--mixed", "origin/main")
             return True
@@ -221,11 +233,11 @@ def pao_id(team_key):
 # --------------------------------------------------------------------------
 
 
-def post(st, key, card, caption, dry):
+def post(st, key, card, caption, dry, story_card=None, publisher=None):
     stamp = datetime.now(TZ).strftime("%Y%m%d-%H%M")
     safe = key.replace(":", "_")
     feed = cards.save(card, os.path.join(OUT, f"{stamp}_{safe}.jpg"))
-    story = cards.save(cards.story(card), os.path.join(OUT, f"{stamp}_{safe}_story.jpg"))
+    story = cards.save(story_card or cards.story(card), os.path.join(OUT, f"{stamp}_{safe}_story.jpg"))
     with open(os.path.join(OUT, f"{stamp}_{safe}.txt"), "w", encoding="utf-8") as fh:
         fh.write(caption)
     if dry:
@@ -237,7 +249,7 @@ def post(st, key, card, caption, dry):
         return
     prev = st["posts"].get(key, {})
     nets = dict(prev.get("nets", {}))
-    nets.update(meta.publish(feed, story, caption, done=nets))
+    nets.update((publisher or meta.publish)(feed, story, caption, done=nets))
     st["posts"][key] = {"at": time.time(), "nets": nets, "tries": prev.get("tries", 0) + 1}
     log("ΑΝΑΡΤΗΣΗ", key, nets)
     sync_state(st, f"posted {key}")
@@ -316,6 +328,11 @@ def run(dry=False):
                 if ev["tour_id"] and ev["stage_id"]:
                     st["pending"][f"tb:{ev['id']}"] = {"team": team_key, "ev": ev, "since": now, "raw_round": m["raw_round"], "round": m["round"]}
 
+    try:
+        run_news(st, now, dry)
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα ειδήσεων", e)
+
     # MVP και βαθμολογίες που περιμένουν
     for key, p in list(st["pending"].items()):
         ev, team_key = p["ev"], p["team"]
@@ -376,6 +393,71 @@ def run(dry=False):
             log("Σφάλμα", key, e)
 
     sync_state(st)
+
+
+def run_news(st, now, dry):
+    """Νέα άρθρα του trifillakia.gr: κάρτα + story στο Instagram, link στο Facebook."""
+    ns = st["news"]
+    home = news.latest_nid()
+    if not ns["last"]:
+        # Πρώτη φορά: ξεκινάμε από τώρα, χωρίς παλιά άρθρα.
+        ns["last"] = home
+        log("Ειδήσεις: αρχή από το άρθρο", home)
+        # Η σελίδα του bio ξεκινά με τα πιο πρόσφατα άρθρα (χωρίς να αναρτηθούν).
+        for nid in range(home, home - 80, -1):
+            if len(ns["recent"]) >= 24:
+                break
+            status, url = news.probe(nid)
+            if status == "ok" and news.wanted(url):
+                a = news.article(nid, url)
+                if a and a["title"]:
+                    ns["recent"].append({k: a[k] for k in ("nid", "url", "title", "image", "label")})
+        return
+    # Άρθρα που ήταν κρυφά (403) ξαναελέγχονται για 2 ημέρες.
+    candidates = [int(n) for n in ns["wait"] if now - ns["wait"][n] < 2 * 86400]
+    ns["wait"] = {k: v for k, v in ns["wait"].items() if now - v < 2 * 86400}
+    misses, nid = 0, ns["last"]
+    while misses < news.LOOKAHEAD or nid < home:
+        nid += 1
+        status, url = news.probe(nid)
+        if status == "ok":
+            misses = 0
+            ns["last"] = nid
+            candidates.append(nid)
+        elif status == "hidden":
+            misses = 0
+            ns["wait"].setdefault(str(nid), now)
+        else:
+            misses += 1
+        if nid > home + 200:
+            break
+    for nid in sorted(set(candidates)):
+        key = f"news:{nid}"
+        if is_done(st, key):
+            ns["wait"].pop(str(nid), None)
+            continue
+        status, url = news.probe(nid)
+        if status != "ok":
+            continue
+        ns["wait"].pop(str(nid), None)
+        if not news.wanted(url):
+            continue
+        a = news.article(nid, url)
+        if not a or not a["title"]:
+            continue
+        post(
+            st,
+            key,
+            cards.news_card(a),
+            captions.news_ig(a),
+            dry,
+            story_card=cards.news_story(a),
+            publisher=lambda f, sp, c, done, a=a: meta.publish_news(f, sp, c, a["url"], captions.news_fb(a), done=done),
+        )
+        if not dry:
+            ns["recent"] = [x for x in ns["recent"] if x["nid"] != nid]
+            ns["recent"].insert(0, {k: a[k] for k in ("nid", "url", "title", "image", "label")})
+            ns["recent"] = ns["recent"][:40]
 
 
 def preview():

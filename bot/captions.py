@@ -79,3 +79,32 @@ def mvp(m, team):
         f"🏀 {m['home']} {m['score']} {m['away']} ({m['comp']})\n"
         f"📊 {stats}" + _foot(team)
     )
+
+
+NEWS_TAGS = {
+    "podosfairo": "#Panathinaikos #PAO #Παναθηναϊκός #Τριφύλλι #trifillakiagr",
+    "mpasket": "#Panathinaikos #PAOBC #Παναθηναϊκός #Τριφύλλι #trifillakiagr",
+    "mpasket-gynaikon": "#Panathinaikos #WomensBasketball #Παναθηναϊκός #trifillakiagr",
+    "erasitehnis": "#Panathinaikos #ΠαναθηναϊκόςΑΟ #Παναθηναϊκός #trifillakiagr",
+}
+
+
+def _short(text, n):
+    text = " ".join(text.split())
+    return text if len(text) <= n else text[: n].rsplit(" ", 1)[0].rstrip(".,;:") + "…"
+
+
+def news_ig(a):
+    tags = NEWS_TAGS.get(a["section"], "#Panathinaikos #Παναθηναϊκός #Τριφύλλι #trifillakiagr")
+    lines = [f"📰 {a['title']} ☘️", ""]
+    if a.get("description"):
+        lines += [_short(a["description"], 400), ""]
+    lines += ["🔗 Ολόκληρο το άρθρο στο link του bio", "", tags]
+    return "\n".join(lines)
+
+
+def news_fb(a):
+    text = f"☘️ {a['title']}"
+    if a.get("description"):
+        text += "\n\n" + _short(a["description"], 220)
+    return text
