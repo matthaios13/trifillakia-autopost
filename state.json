@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24290,
+  "last": 24291,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/silvain.JPG",
@@ -2129,6 +2129,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "news:24291": {
+   "at": 1792247137.5503392,
+   "claim": "39040660571",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
