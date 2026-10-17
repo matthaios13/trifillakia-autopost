@@ -6,7 +6,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/Gionis-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24294,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/Gionis-1.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/Gionis-1.jpg?itok=_YNajIY2",
     "title": "Σταμάτησε στους 9-16 ο Γκιώνης",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24294/stamatise-stoys-9-16-o-gkionis"
    },
@@ -142,6 +142,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%9A%CE%AD%CE%B9%CE%B2%20%CE%9A%CE%B1%CE%B2%CE%AC%CE%BB%CE%B1.jpg",
     "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
     "nid": 24254,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CE%9A%CE%AD%CE%B9%CE%B2%20%CE%9A%CE%B1%CE%B2%CE%AC%CE%BB%CE%B1.jpg?itok=bU8VVJKx",
     "title": "Πολυτιμότερη της 2ης αγωνιστικής η Κέιβ",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/24254/polytimoteri-tis-2is-agonistikis-i-keiv"
    },
@@ -2872,6 +2873,9 @@
   "waterpolo"
  ],
  "synd": {
+  "blocked": [
+   "totalbasket.gr:64980"
+  ],
   "items": [
    {
     "body": "\n<p class=\"wp-block-paragraph\">Για την 6η αγωνιστική της Super League K19, ο Παναθηναϊκός νίκησε 2-1 τον Αστέρα Τρίπολης, έκανε το 6/6 και παρέμεινε στην κορυφή της βαθμολογίας.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Το «τριφύλλι» μπήκε πολύ δυνατά στον αγωνιστικό χώρο και στο 26ο λεπτό άνοιξε το σκορ με όμορφη ατομική προσπάθεια και τελείωμα του Τερζή.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Στο 65ο λεπτό, ο Τσίγκας διπλασίασε τα τέρματα για την ομάδα του με προβολή από κοντά, ύστερα από ωραία ενέργεια του Τερζή.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Στο 77&#8242; ο Αστέρας κατάφερε να μειώσει σε 2-1, που ήταν και το τελικό σκορ της αναμέτρησης.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Με αυτόν τον τρόπο, ο Παναθηναϊκός πέτυχε την έκτη νίκη του σε ισάριθμα παιχνίδια και παρέμεινε στην κορυφή της Super League Κ19.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Παναθηναϊκός:</strong> Γείτονας, Καλμπουρτζής (75΄ Μπαζούκης), Δημακόπουλος, Λάβδας, Τσίγκας, Θεοχάρης, Τερζής (87΄ Κρητικός), Μπινιάρης, Νεμπής, Ιωάννου, Αργυρόπουλος (75΄ Καραγκούνης).</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Αστέρας Τρίπολης:</strong> Κριαράς, Μπάσδας, Φράγκος, Φωτιάδης, Οκόγιε, Δέμος, Αδάμος, Ζώης, Ντομπρέσκου, Μανταζέλης, Παπαδόπουλος.</p>\n",
