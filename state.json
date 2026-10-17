@@ -298,6 +298,50 @@
    "since": 1792182922.6707032,
    "team": "basketball"
   },
+  "tb:QLcX7Az0": {
+   "ev": {
+    "away": "ΑΕΚ",
+    "away_id": "pj7qXPo3",
+    "away_score": 1,
+    "comp": "Βόλεϊ Λιγκ Γυναίκες",
+    "comp_full": "ΕΛΛΑΔΑ: Βόλεϊ Λιγκ Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/EZDtu9kD-MNoY9xia.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "QN7ZELZa",
+    "home_score": 3,
+    "id": "QLcX7Az0",
+    "info": "",
+    "periods": [
+     [
+      25,
+      16
+     ],
+     [
+      20,
+      25
+     ],
+     [
+      26,
+      24
+     ],
+     [
+      25,
+      18
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "jTxgo5Qi",
+    "start": 1792245600,
+    "status": "3",
+    "tour_id": "29oD32v5",
+    "tour_path": "/volleyball/greece/volley-league-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 1",
+   "round": "1η Αγωνιστική",
+   "since": 1792253935.0748196,
+   "team": "volley_w"
+  },
   "tb:SxM3CbwA": {
    "ev": {
     "away": "Μπόρατς Μπάνια Λούκα",
@@ -2415,6 +2459,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "tb:QLcX7Az0": {
+   "at": 1792253988.6680086,
+   "claim": "39048850625",
+   "nets": {},
+   "tries": 0
   },
   "tb:QXwNeZFl": {
    "at": 1791985793.189812,
