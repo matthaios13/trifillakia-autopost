@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, biolinks, captions, cards, flashscore as fs, meta, news, wpl
+from . import basket, biolinks, captions, cards, flashscore as fs, meta, news, syndicate, wpl
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -56,6 +56,7 @@ def load_state():
     st["news"].setdefault("last", 0)
     st["news"].setdefault("wait", {})
     st["news"].setdefault("recent", [])
+    st.setdefault("synd", {})
     return st
 
 
@@ -118,6 +119,11 @@ def merge_state(st, remote):
         st["news"]["wait"].setdefault(k, v)
     recent = {a["nid"]: a for a in (rn.get("recent") or []) + st["news"]["recent"]}
     st["news"]["recent"] = sorted(recent.values(), key=lambda a: -a["nid"])[:40]
+    rs = remote.get("synd") or {}
+    if rs.get("since"):
+        st["synd"]["since"] = min(x for x in (st["synd"].get("since"), rs["since"]) if x)
+        items = {i["guid"]: i for i in (rs.get("items") or []) + (st["synd"].get("items") or [])}
+        st["synd"]["items"] = sorted(items.values(), key=lambda i: -i["ts"])[:30]
     return st
 
 
@@ -327,6 +333,11 @@ def run(dry=False):
                     st["pending"][f"mvp:{ev['id']}"] = {"team": team_key, "ev": ev, "since": now}
                 if ev["tour_id"] and ev["stage_id"]:
                     st["pending"][f"tb:{ev['id']}"] = {"team": team_key, "ev": ev, "since": now, "raw_round": m["raw_round"], "round": m["round"]}
+
+    try:
+        syndicate.update(st["synd"], now, log=log)
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα ροής bala24/totalbasket", e)
 
     try:
         run_news(st, now, dry)
