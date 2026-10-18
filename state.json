@@ -3,6 +3,14 @@
   "last": 24346,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-183427_0.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24341,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-183427_0.png",
+    "title": "Παναθηναϊκός: 26 τελικές και 5,72 xGoals στο 5-1",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24341/panathinaikos-26-telikes-kai-572-xgoals-sto-5-1"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/de-frai.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24336,
@@ -310,14 +318,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/dpg_2.jpg?itok=8hFbH4oW",
     "title": "Γιαννακόπουλος: «Έρχονται εξελίξεις στο μπάσκετ – Θέλουμε πίσω τα κλεμμένα!»",
     "url": "https://www.trifillakia.gr/mpasket/article/24275/giannakopoylos-erhontai-exelixeis-sto-mpasket-theloyme-piso-ta-klemmena"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%BC%CF%80%CE%BF%CF%81%CE%B1%CF%84%CF%82.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24274,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CE%BC%CF%80%CE%BF%CF%81%CE%B1%CF%84%CF%82.jpg?itok=QQwkK3RY",
-    "title": "Μπήκε νικηφόρα στο Conference",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24274/mpike-nikifora-sto-conference"
    }
   ],
   "wait": {}
@@ -3031,6 +3031,12 @@
     "igs": "18142769794721168"
    },
    "tries": 1
+  },
+  "news:24346": {
+   "at": 1792359169.0708647,
+   "claim": "39168133137",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
