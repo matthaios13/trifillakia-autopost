@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24304,
+  "last": 24306,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-borac.png",
@@ -2529,6 +2529,12 @@
     "skip": "Πουλακίδας: όχι Παναθηναϊκός"
    },
    "tries": 1
+  },
+  "news:24306": {
+   "at": 1792315877.7013624,
+   "claim": "39115594685",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
