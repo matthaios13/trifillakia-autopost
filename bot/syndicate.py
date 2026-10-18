@@ -113,7 +113,9 @@ def same_story(title, doc):
        αλλά όχι οι δηλώσεις ενός προσώπου σκέτες (Ομπράντοβιτς για Ναν ≠ «Επιστρέφει ο Ναν»)."""
     if similar(title, doc["title"]):
         return True
-    score = _score(title)
+    # Ο κανόνας του σκορ μόνο για τίτλους ρεπορτάζ (σκορ πριν από την «:»), όχι για άρθρα που απλώς
+    # αναφέρουν το αποτέλεσμα (π.χ. «Παναθηναϊκός: 26 τελικές και 5,72 xGoals στο 5-1» = στατιστικά).
+    score = _score(re.split(r":", html.unescape(title))[0])
     if score:
         opp = _opponent(title)
         text = _plain(doc["title"] + " " + doc.get("body", "")[:1500])
