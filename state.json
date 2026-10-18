@@ -352,6 +352,48 @@
    "since": 1792182922.6707032,
    "team": "basketball"
   },
+  "mvp:OtixFb2s": {
+   "ev": {
+    "away": "Περιστέρι",
+    "away_id": "Q96Izpwc",
+    "away_score": 75,
+    "comp": "Stoiximan GBL",
+    "comp_full": "ΕΛΛΑΔΑ: Stoiximan GBL",
+    "comp_logo": "https://static.flashscore.com/res/image/data/tzy2M4jD-z3ir92KD.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 93,
+    "id": "OtixFb2s",
+    "info": "",
+    "periods": [
+     [
+      26,
+      13
+     ],
+     [
+      26,
+      16
+     ],
+     [
+      23,
+      17
+     ],
+     [
+      18,
+      29
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "fkqdIc7M",
+    "start": 1792317600,
+    "status": "3",
+    "tour_id": "xn32I3T4",
+    "tour_path": "/basketball/greece/basket-league/"
+   },
+   "since": 1792324220.9558408,
+   "team": "basketball"
+  },
   "tb:KtOnzjt0": {
    "ev": {
     "away": "Χάποελ Τελ Αβίβ",
@@ -394,6 +436,50 @@
    "raw_round": "Αγωνιστική ημέρα: 6",
    "round": "6η Αγωνιστική",
    "since": 1792182922.6707032,
+   "team": "basketball"
+  },
+  "tb:OtixFb2s": {
+   "ev": {
+    "away": "Περιστέρι",
+    "away_id": "Q96Izpwc",
+    "away_score": 75,
+    "comp": "Stoiximan GBL",
+    "comp_full": "ΕΛΛΑΔΑ: Stoiximan GBL",
+    "comp_logo": "https://static.flashscore.com/res/image/data/tzy2M4jD-z3ir92KD.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 93,
+    "id": "OtixFb2s",
+    "info": "",
+    "periods": [
+     [
+      26,
+      13
+     ],
+     [
+      26,
+      16
+     ],
+     [
+      23,
+      17
+     ],
+     [
+      18,
+      29
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "fkqdIc7M",
+    "start": 1792317600,
+    "status": "3",
+    "tour_id": "xn32I3T4",
+    "tour_path": "/basketball/greece/basket-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 3",
+   "round": "3η Αγωνιστική",
+   "since": 1792324220.9558408,
    "team": "basketball"
   },
   "tb:QLcX7Az0": {
@@ -2844,6 +2930,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "tb:OtixFb2s": {
+   "at": 1792324801.8041089,
+   "claim": "39124833097",
+   "nets": {},
+   "tries": 0
   },
   "tb:QLcX7Az0": {
    "at": 1792254021.5340302,
