@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24303,
+  "last": 24304,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/peristeri%20polo.jpg",
@@ -2505,6 +2505,12 @@
     "igs": "18148563196567672"
    },
    "tries": 1
+  },
+  "news:24304": {
+   "at": 1792312260.6774964,
+   "claim": "39111698199",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
