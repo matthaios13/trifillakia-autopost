@@ -181,10 +181,32 @@ PAO_WORDS = ("παναθηναικ", "πρασιν", "τριφυλλ")
 PAO_PEOPLE = ("ομπραντοβιτς", "νιστρουπ")
 
 
+# totalbasket: κατηγορίες γυναικείου μπάσκετ και βόλεϊ → κατηγορίες του trifillakia (ονόματα όπως στο Drupal).
+TB_WOMEN = {162, 229, 230, 306, 656, 1569, 1659}
+TB_VOLLEY = {624}
+
+
+def sport_category(source, post, title, default):
+    cats = set(post.get("categories") or [])
+    if source != "totalbasket.gr":
+        return default
+    text = _plain(title + " " + re.sub(r"<[^>]+>", " ", post["content"]["rendered"])[:600])
+    if cats & TB_VOLLEY or "βολει" in text:
+        return "Βόλεϊ Γυναικών" if cats & TB_WOMEN or re.search(r"γυναικ|πρασινες|αθλητρι", text) else "Βολεϊ Ανδρών"
+    if cats & TB_WOMEN or re.search(r"μπασκετ γυναικ|πρασινες|wbl", text):
+        return "Μπάσκετ Γυναικών"
+    return default
+
+
+def _is_pao_abbr(text):
+    """«ΠΑΟ» ως λέξη (όχι ΠΑΟΚ)."""
+    return re.search(r"(?<![a-zα-ω])παο(?![a-zα-ωκ])", _plain(text)) is not None
+
+
 def about_pao(title, body, title_only=False):
     """Είδηση του Παναθηναϊκού; Ο τίτλος ή η αρχή του κειμένου (lead) πρέπει να τον αναφέρει.
     Το tag μόνο του δεν αρκεί (π.χ. «Πουλακίδας» με λάθος tag Παναθηναϊκός)."""
-    if any(w in _plain(title) for w in PAO_WORDS + PAO_PEOPLE):
+    if any(w in _plain(title) for w in PAO_WORDS + PAO_PEOPLE) or _is_pao_abbr(title):
         return True
     if title_only:
         return False
@@ -204,7 +226,7 @@ def fetch(source, since_ts):
     for f in filters:
         title_only = f.startswith("search=")
         try:
-            r = _s.get(f"{base}?{f}&per_page=20&_fields=id,date_gmt,title,link,content,featured_media", timeout=40)
+            r = _s.get(f"{base}?{f}&per_page=20&_fields=id,date_gmt,title,link,content,featured_media,categories", timeout=40)
             posts = r.json() if r.status_code == 200 else []
         except (requests.RequestException, ValueError):
             posts = []
@@ -221,7 +243,7 @@ def fetch(source, since_ts):
             seen[f"{name}:{p['id']}"] = {
                 "guid": f"{name}:{p['id']}",
                 "source": name,
-                "category": category,
+                "category": sport_category(name, p, title, category),
                 "title": title,
                 "link": p["link"],
                 "body": p["content"]["rendered"],
