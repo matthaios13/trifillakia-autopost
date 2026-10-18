@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24326,
+  "last": 24333,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/kangwa-louza.png",
@@ -2984,6 +2984,12 @@
    },
    "tries": 1
   },
+  "news:24329": {
+   "at": 1792347074.8146865,
+   "claim": "39152884575",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -3654,7 +3660,8 @@
    "bala24.gr:80626",
    "bala24.gr:80564",
    "totalbasket.gr:65045",
-   "bala24.gr:80876"
+   "bala24.gr:80876",
+   "bala24.gr:80881"
   ],
   "items": [
    {
