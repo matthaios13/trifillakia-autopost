@@ -3,6 +3,14 @@
   "last": 24303,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/mets%20aek.jpg",
+    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
+    "nid": 24302,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/mets%20aek.jpg?itok=J90rg5m9",
+    "title": "Ιδανική πρεμιέρα στα πράσινα",
+    "url": "https://www.trifillakia.gr/volei-gynaikon/article/24302/idaniki-premiera-sta-prasina"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/asterass.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24301,
@@ -2430,6 +2438,12 @@
     "igs": "17979038229138502"
    },
    "tries": 1
+  },
+  "news:24303": {
+   "at": 1792282266.3213081,
+   "claim": "39081762301",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
