@@ -3,6 +3,14 @@
   "last": 24322,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-183427.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24319,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-18-183427.png?itok=Cl4cpavx",
+    "title": "Παναθηναϊκός: Το 2-0 με τα πρώτα γκολ των Ντε Φράι και Λούζα (vid)",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24319/panathinaikos-to-2-0-me-ta-prota-gkol-ton-nte-frai-kai-loyza-vid"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/kairat.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24318,
@@ -303,13 +311,6 @@
     "nid": 24252,
     "title": "Πράσινες εμπειρίες στο Κόβεντρι",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24252/prasines-empeiries-sto-koventri"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/nafplio.jpeg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24251,
-    "title": "Εντυπωσιακά τριφύλλια στο Ναύπλιο",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24251/entyposiaka-trifyllia-sto-nayplio"
    }
   ],
   "wait": {}
@@ -2891,6 +2892,12 @@
     "igs": "17974532853155178"
    },
    "tries": 1
+  },
+  "news:24320": {
+   "at": 1792341261.6010854,
+   "claim": "39145303314",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
