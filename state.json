@@ -738,6 +738,38 @@
    "since": 1792325421.1959004,
    "team": "basketball_w"
   },
+  "tb:lYBdkX6c": {
+   "ev": {
+    "away": "Αστέρας Τρίπολης",
+    "away_id": "KMRQ5buc",
+    "away_score": 1,
+    "comp": "Stoiximan Super League",
+    "comp_full": "ΕΛΛΑΔΑ: Stoiximan Super League",
+    "comp_logo": "https://static.flashscore.com/res/image/data/UyLJdoW1-82ryRnWo.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "SENMmweG",
+    "home_score": 5,
+    "id": "lYBdkX6c",
+    "info": "",
+    "periods": [
+     [
+      3,
+      1
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "MNJDddac",
+    "start": 1792333800,
+    "status": "3",
+    "tour_id": "d2pwJFHI",
+    "tour_path": "/football/greece/super-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 7",
+   "round": "7η Αγωνιστική",
+   "since": 1792341923.4898098,
+   "team": "football"
+  },
   "tb:vR4wiQtm": {
    "ev": {
     "away": "Παναθηναϊκός",
