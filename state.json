@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24309,
+  "last": 24311,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/fantrogelen.png",
@@ -14,7 +14,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/paobc_6.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24308,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/paobc_6.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/paobc_6.jpg?itok=hNmQUmza",
     "title": "Παναθηναϊκός: «Προφανώς το AI δεν έχει ενημερωθεί για τη δικαστική μας διαμάχη με τη Βάσω Τσαρούχα»",
     "url": "https://www.trifillakia.gr/mpasket/article/24308/panathinaikos-profanos-to-ai-den-ehei-enimerothei-gia-ti-dikastiki-mas-diamahi"
    },
@@ -22,7 +22,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/oaka_7.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24307,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/oaka_7.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/oaka_7.jpg?itok=Hd0bNpiE",
     "title": "Παναθηναϊκός: Οδηγίες προς τους φιλάθλους για τον αγώνα με τον Αστέρα Aktor στο ΟΑΚΑ",
     "url": "https://www.trifillakia.gr/podosfairo/article/24307/panathinaikos-odigies-pros-toys-filathloys-gia-ton-agona-me-ton-astera"
    },
@@ -2728,6 +2728,12 @@
     "igs": "17887196352491405"
    },
    "tries": 1
+  },
+  "news:24311": {
+   "at": 1792325159.1229284,
+   "claim": "39125830148",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
