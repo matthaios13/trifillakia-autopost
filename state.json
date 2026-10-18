@@ -3,6 +3,14 @@
   "last": 24346,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CF%83%CE%BF%CF%85%CF%80%CE%B5%CF%81%20%CE%BA%CE%B1%CF%80%20%CE%9C%CE%B1%CF%81%CE%BA%CF%8C%CF%80%CE%BF%CF%85%CE%BB%CE%BF.jpg",
+    "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
+    "nid": 24346,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/%CF%83%CE%BF%CF%85%CF%80%CE%B5%CF%81%20%CE%BA%CE%B1%CF%80%20%CE%9C%CE%B1%CF%81%CE%BA%CF%8C%CF%80%CE%BF%CF%85%CE%BB%CE%BF.jpg",
+    "title": "Ξεκίνημα με τίτλο",
+    "url": "https://www.trifillakia.gr/volei-andron/article/24346/xekinima-me-titlo"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-183427_0.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24341,
@@ -310,14 +318,6 @@
     "nid": 24276,
     "title": "EuroLeague: Για το 6/6 ο Παναθηναϊκός κόντρα στη Χάποελ",
     "url": "https://www.trifillakia.gr/mpasket/article/24276/euroleague-gia-to-66-o-panathinaikos-kontra-sti-hapoel"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/dpg_2.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24275,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/dpg_2.jpg?itok=8hFbH4oW",
-    "title": "Γιαννακόπουλος: «Έρχονται εξελίξεις στο μπάσκετ – Θέλουμε πίσω τα κλεμμένα!»",
-    "url": "https://www.trifillakia.gr/mpasket/article/24275/giannakopoylos-erhontai-exelixeis-sto-mpasket-theloyme-piso-ta-klemmena"
    }
   ],
   "wait": {}
