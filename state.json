@@ -3,6 +3,14 @@
   "last": 24314,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/aris-pao.jpg",
+    "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
+    "nid": 24314,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/aris-pao.jpg",
+    "title": "Πέρασε άνετα από το Αλεξάνδρειο",
+    "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/24314/perase-aneta-apo-to-alexandreio"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/grevena.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24312,
@@ -300,13 +308,6 @@
     "nid": 24249,
     "title": "Από νίκη σε νίκη τα πράσινα πιόνια",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24249/apo-niki-se-niki-ta-prasina-pionia"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%B9manol.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24248,
-    "title": "Παναθηναϊκός κατά Αλγκουαθίλ: «Η αλαζονεία και το οπαδιλίκι δεν είναι μαγκιά»",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24248/panathinaikos-kata-algkoyathil-i-alazoneia-kai-to-opadiliki-den-einai"
    }
   ],
   "wait": {}
