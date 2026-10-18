@@ -3,6 +3,14 @@
   "last": 24322,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-181024-1.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24320,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-18-181024-1.png?itok=pDE65JAR",
+    "title": "Παναθηναϊκός: Η πρώτη εκτίμηση για τον τραυματισμό του Ουναΐ (vid)",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24320/panathinaikos-i-proti-ektimisi-gia-ton-traymatismo-toy-oynai-vid"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-183427.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24319,
@@ -304,13 +312,6 @@
     "nid": 24253,
     "title": "Πρωταγωνιστής και στο Παρακανόε",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24253/protagonistis-kai-sto-parakanoe"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/esports_8.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24252,
-    "title": "Πράσινες εμπειρίες στο Κόβεντρι",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24252/prasines-empeiries-sto-koventri"
    }
   ],
   "wait": {}
@@ -2901,6 +2902,12 @@
     "igs": "18152303209531468"
    },
    "tries": 1
+  },
+  "news:24321": {
+   "at": 1792341291.7889779,
+   "claim": "39145303314",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
