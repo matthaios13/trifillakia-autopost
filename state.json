@@ -398,6 +398,46 @@
    "since": 1792324220.9558408,
    "team": "basketball"
   },
+  "tb:6wGNmTGM": {
+   "ev": {
+    "away": "ΑΟ Φλοίσβος Παλαιού Φαλήρου",
+    "away_id": "IsSMr354",
+    "away_score": 0,
+    "comp": "Σούπερ Καπ",
+    "comp_full": "ΕΛΛΑΔΑ: Σούπερ Καπ",
+    "comp_logo": "https://static.flashscore.com/res/image/data/I7p2WqA7-St40OXLN.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "d0FeiWQ6",
+    "home_score": 3,
+    "id": "6wGNmTGM",
+    "info": "",
+    "periods": [
+     [
+      25,
+      21
+     ],
+     [
+      25,
+      15
+     ],
+     [
+      25,
+      15
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "2gNFVCiS",
+    "start": 1792332000,
+    "status": "3",
+    "tour_id": "jyzqc8lB",
+    "tour_path": "/volleyball/greece/super-cup/"
+   },
+   "raw_round": "Τελικός",
+   "round": "Τελικός",
+   "since": 1792338916.0273285,
+   "team": "volley_m"
+  },
   "tb:KtOnzjt0": {
    "ev": {
     "away": "Χάποελ Τελ Αβίβ",
