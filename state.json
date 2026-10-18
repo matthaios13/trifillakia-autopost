@@ -3,6 +3,14 @@
   "last": 24312,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/grevena.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24312,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/grevena.jpg",
+    "title": "Πεντάσφαιρος κι ωραίος στα Γρεβενά",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24312/pentasfairos-ki-oraios-sta-grevena"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/hayes%20davies.JPG",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24311,
@@ -299,13 +307,6 @@
     "nid": 24248,
     "title": "Παναθηναϊκός κατά Αλγκουαθίλ: «Η αλαζονεία και το οπαδιλίκι δεν είναι μαγκιά»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24248/panathinaikos-kata-algkoyathil-i-alazoneia-kai-to-opadiliki-den-einai"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/teteh.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24247,
-    "title": "Στα δικαστήρια ο Τετέι με τον Κωστή Ραπτόπουλο – Η στήριξη της ΠΑΕ",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24247/sta-dikastiria-o-tetei-me-ton-kosti-raptopoylo-i-stirixi-tis-pae"
    }
   ],
   "wait": {}
