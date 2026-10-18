@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24336,
+  "last": 24346,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/de-frai.png",
@@ -3022,6 +3022,12 @@
     "igs": "18010739114774470"
    },
    "tries": 1
+  },
+  "news:24341": {
+   "at": 1792359117.692133,
+   "claim": "39168133137",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
