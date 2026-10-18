@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24312,
+  "last": 24314,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/grevena.jpg",
@@ -2802,6 +2802,12 @@
     "igs": "17903880315670419"
    },
    "tries": 1
+  },
+  "news:24314": {
+   "at": 1792333847.1869154,
+   "claim": "39136211739",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
