@@ -1,12 +1,12 @@
 {
  "news": {
-  "last": 24333,
+  "last": 24336,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/jeiknistroup.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24333,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/jeiknistroup.png",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/jeiknistroup.png?itok=aPTFzQ4O",
     "title": "Νίστρουπ: «Επιστρέψαμε στον δρόμο μας» – Τι είπε για τους τραυματίες",
     "url": "https://www.trifillakia.gr/podosfairo/article/24333/nistroyp-epistrepsame-ston-dromo-mas-ti-eipe-gia-toys-traymaties"
    },
@@ -14,7 +14,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/1_142637.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24331,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/1_142637.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/1_142637.jpg?itok=9mBK--l3",
     "title": "Ομπράντοβιτς: «Το ίδιο χτύπημα με πριν δέκα μέρες ο Γιαμπουσέλε» – Τι είπε για Ναν και Σλούκα",
     "url": "https://www.trifillakia.gr/mpasket/article/24331/omprantovits-to-idio-htypima-me-prin-deka-meres-o-giampoysele-ti-eipe-gia-nan"
    },
@@ -22,7 +22,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-2026-10-18-6.09.28-mm.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24329,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-2026-10-18-6.09.28-mm.png",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-2026-10-18-6.09.28-mm.png?itok=tsxB1AwA",
     "title": "Παναθηναϊκός: Τραυματισμός Ουναΐ και αποχώρηση με φορείο",
     "url": "https://www.trifillakia.gr/podosfairo/article/24329/panathinaikos-traymatismos-oynai-kai-apohorisi-me-foreio"
    },
@@ -3013,6 +3013,12 @@
     "igs": "18076082561732380"
    },
    "tries": 1
+  },
+  "news:24336": {
+   "at": 1792352132.5229743,
+   "claim": "39158675210",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
