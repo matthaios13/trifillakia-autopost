@@ -11,7 +11,7 @@ import os
 import re
 import unicodedata
 from datetime import datetime, timezone
-from email.utils import format_datetime
+from email.utils import format_datetime, parsedate_to_datetime
 
 import requests
 
@@ -55,15 +55,81 @@ def similar(a, b):
     return (common >= 4 and common / min(len(wa), len(wb)) >= 0.75) or common / len(wa | wb) >= 0.5
 
 
+# Ομάδες: δεν μετράνε ως «πρόσωπο» της είδησης (ο ίδιος αντίπαλος εμφανίζεται σε πολλές διαφορετικές ειδήσεις).
+TEAMS = (
+    "ολυμπ", "αεκ", "παοκ", "αρη", "αρης", "αστερ", "οφη", "λεβαδ", "βολο", "βολος", "ατρομ", "πανσε", "κηφισ",
+    "παναι", "αελ", "περισ", "προμη", "κολοσ", "μαρου", "λαυρι", "καρδι", "μυκον", "χαποε", "μακαμ", "ρεαλ",
+    "μπαρτ", "φενερ", "εφες", "αναντ", "μονακ", "βιλερ", "παρτι", "ερυθρ", "ζαλγκ", "μπαγε", "βιρτο",
+    "ολιμπ", "αρμαν", "μπασκ", "βαλεν", "παρι", "ντουμ", "καιρα", "τελ", "αβιβ", "οακα", "aktor", "super",
+    "league", "euroleague", "stoiximan", "gbl", "εθνικ", "ελλαδ",
+)
+SCORE = re.compile(r"(?<![\d.])(\d{1,3})\s*[-–]\s*(\d{1,3})(?![\d.])")
+WINDOW = 18 * 3600  # ίδια είδηση = μέσα σε 18 ώρες
+
+
+def _names(title):
+    """Ονόματα (λέξεις με κεφαλαίο στη μέση της φράσης) του τίτλου, χωρίς ομάδες, π.χ. {"ουναι"}."""
+    out = set()
+    for part in re.split(r"[:–—«»\"“”()|!?]|\s-\s", html.unescape(title)):
+        words = re.findall(r"[^\W\d_][^\W_]*", part)
+        for w in words[1:]:
+            if w[0].isupper() and len(w) >= 3:
+                full = _plain(w)
+                k = full[:5]
+                if full not in STOP and not k.startswith(TEAMS) and not any(x in full for x in PAO_WORDS):
+                    out.add(k)
+    return out
+
+
+_LAT = str.maketrans("αβγδεζηθικλμνξοπρσςτυφχψω", "avgdeziuiklmnxoprsstyfxpo")
+
+
+def _lat(text):
+    """Ελληνικά → λατινικά (χοντρικά), για τίτλους γραμμένους μισά-μισά, π.χ. «Αsteras»."""
+    return _plain(text).translate(_LAT)
+
+
+def _score(text):
+    m = SCORE.search(text)
+    return f"{m.group(1)}-{m.group(2)}" if m else ""
+
+
+def _opponent(title):
+    """Ο αντίπαλος σε τίτλο αγώνα «Παναθηναϊκός – Αστέρας AKTOR (5-1): …» → "αστερ"."""
+    head = re.split(r"[:(]", html.unescape(title))[0]
+    for w in re.findall(r"[^\W\d_]+", head):
+        full = _plain(w)
+        if len(full) >= 3 and full not in STOP and not any(x in full for x in PAO_WORDS):
+            return full[:5]
+    return ""
+
+
 def same_story(title, doc):
-    """doc = (τίτλος, κείμενο) άρθρου του trifillakia. Ίδια είδηση μόνο αν μοιάζουν πολύ οι τίτλοι
-    (η σύγκριση με το κείμενο έβγαζε λάθος ταυτίσεις, π.χ. συνέχειες της ίδιας ιστορίας)."""
-    return similar(title, doc[0])
+    """doc = {"title", "body", "ts"}: άρθρο του trifillakia ή άρθρο που μπήκε ήδη στη ροή. Ίδια είδηση αν:
+    1. μοιάζουν πολύ οι τίτλοι, ή
+    2. ο τίτλος έχει σκορ (τελικό αποτέλεσμα) και το άλλο άρθρο γράφει το ίδιο σκορ με τον ίδιο αντίπαλο
+       (π.χ. ο συντάκτης του trifillakia έγραψε ήδη το ματς με δικό του τίτλο), ή
+    3. μιλάνε για το ίδιο πρόσωπο και έχουν κι άλλη κοινή λέξη (π.χ. τρία άρθρα για τον τραυματισμό του Ουναΐ),
+       αλλά όχι οι δηλώσεις ενός προσώπου σκέτες (Ομπράντοβιτς για Ναν ≠ «Επιστρέφει ο Ναν»)."""
+    if similar(title, doc["title"]):
+        return True
+    score = _score(title)
+    if score:
+        opp = _opponent(title)
+        text = _plain(doc["title"] + " " + doc.get("body", "")[:1500])
+        return score in text.replace("–", "-").replace(" - ", "-") and (not opp or opp in text or _lat(opp) in _lat(text))
+    if _score(doc["title"]):
+        return False  # αγώνας ≠ είδηση γύρω από τον αγώνα
+    names = _names(title) & _names(doc["title"])
+    if not names:
+        return False
+    rest = (_norm_words(title) - _names(title)) & (_norm_words(doc["title"]) - _names(doc["title"]))
+    return bool(rest - {"vid", "vids", "video", "βιντε"})
 
 
-def trifillakia_docs(extra=()):
-    """(τίτλος, κείμενο) των πρόσφατων άρθρων του trifillakia.gr (ροές κατηγοριών)."""
-    docs = [(t, "") for t in extra]
+def trifillakia_docs():
+    """{"title", "body", "ts"} των πρόσφατων άρθρων του trifillakia.gr (ροές κατηγοριών)."""
+    docs = []
     for url in TRIFILLAKIA_FEEDS:
         try:
             r = _s.get(url, timeout=30)
@@ -72,7 +138,13 @@ def trifillakia_docs(extra=()):
         for item in re.findall(r"<item>(.*?)</item>", r.text, re.S):
             t = re.search(r"<title>(.*?)</title>", item, re.S)
             d = re.search(r"<description>(.*?)</description>", item, re.S)
-            docs.append((html.unescape(t.group(1)) if t else "", html.unescape(d.group(1)) if d else ""))
+            pd = re.search(r"<pubDate>(.*?)</pubDate>", item, re.S)
+            try:
+                ts = parsedate_to_datetime(pd.group(1).strip()).timestamp() if pd else 0
+            except (TypeError, ValueError):
+                ts = 0
+            body = html.unescape(re.sub(r"<[^>]+>", " ", html.unescape(d.group(1)))) if d else ""
+            docs.append({"title": html.unescape(t.group(1)) if t else "", "body": re.sub(r"\s+", " ", body), "ts": ts})
     return docs
 
 
@@ -105,12 +177,14 @@ def pao_tag_ids(posts_base):
 
 
 PAO_WORDS = ("παναθηναικ", "πρασιν", "τριφυλλ")
+# Πρόσωπα του Παναθηναϊκού που φτάνουν μόνα τους στον τίτλο (δηλώσεις προπονητών χωρίς «Παναθηναϊκός»).
+PAO_PEOPLE = ("ομπραντοβιτς", "νιστρουπ")
 
 
 def about_pao(title, body, title_only=False):
     """Είδηση του Παναθηναϊκού; Ο τίτλος ή η αρχή του κειμένου (lead) πρέπει να τον αναφέρει.
     Το tag μόνο του δεν αρκεί (π.χ. «Πουλακίδας» με λάθος tag Παναθηναϊκός)."""
-    if any(w in _plain(title) for w in PAO_WORDS):
+    if any(w in _plain(title) for w in PAO_WORDS + PAO_PEOPLE):
         return True
     if title_only:
         return False
@@ -205,18 +279,21 @@ def update(state, now, log=print):
         return state
     state.setdefault("blocked", [])
     state["items"] = [i for i in state["items"] if i["guid"] not in state["blocked"]]
-    have = {i["guid"] for i in state["items"]} | set(state["blocked"])
+    # «done»: όσα μπήκαν ποτέ στη ροή (η ροή κρατά μόνο 30), για να μην ξαναμπεί άρθρο που βγήκε από τη λίστα.
+    state["done"] = list(dict.fromkeys((state.get("done") or []) + [i["guid"] for i in state["items"]]))[-400:]
+    have = {i["guid"] for i in state["items"]} | set(state["blocked"]) | set(state["done"])
     candidates = []
     for src in SOURCES:
         candidates += [p for p in fetch(src, state["since"]) if p["guid"] not in have]
     if candidates:
-        existing = trifillakia_docs(extra=[i["title"] for i in state["items"]])
+        existing = trifillakia_docs() + [{"title": i["title"], "body": i.get("body", ""), "ts": i["ts"]} for i in state["items"]]
         for p in sorted(candidates, key=lambda p: p["ts"]):
-            if any(same_story(p["title"], d) for d in existing):
+            near = [d for d in existing if not d["ts"] or abs(d["ts"] - p["ts"]) < WINDOW]
+            if any(same_story(p["title"], d) for d in near):
                 log("Ροή trifillakia: υπάρχει ήδη →", p["title"])
                 continue
             state["items"].append(p)
-            existing.append((p["title"], ""))
+            existing.append({"title": p["title"], "body": re.sub(r"<[^>]+>", " ", p["body"]), "ts": p["ts"]})
             log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"])
     state["items"] = sorted(state["items"], key=lambda i: -i["ts"])[:30]
     write_feed(state["items"])
