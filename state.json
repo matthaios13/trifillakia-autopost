@@ -3,6 +3,14 @@
   "last": 24316,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/vardinogiannis-2.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24316,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/vardinogiannis-2.png",
+    "title": "Παναθηναϊκός: Τιμά τον Γιώργο Βαρδινογιάννη στο ΟΑΚΑ",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24316/panathinaikos-tima-ton-giorgo-vardinogianni-sto-oaka"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/aris-pao.jpg",
     "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
     "nid": 24314,
@@ -301,13 +309,6 @@
     "nid": 24250,
     "title": "Και τρίτος σερί τίτλος σε σκοποβολή",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24250/kai-tritos-seri-titlos-se-skopovoli"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/skaki%20paides.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24249,
-    "title": "Από νίκη σε νίκη τα πράσινα πιόνια",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24249/apo-niki-se-niki-ta-prasina-pionia"
    }
   ],
   "wait": {}
