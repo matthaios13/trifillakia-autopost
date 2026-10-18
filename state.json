@@ -1,12 +1,12 @@
 {
  "news": {
-  "last": 24316,
+  "last": 24322,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/vardinogiannis-2.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24316,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/vardinogiannis-2.png",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/vardinogiannis-2.png?itok=MejvTRiB",
     "title": "Παναθηναϊκός: Τιμά τον Γιώργο Βαρδινογιάννη στο ΟΑΚΑ",
     "url": "https://www.trifillakia.gr/podosfairo/article/24316/panathinaikos-tima-ton-giorgo-vardinogianni-sto-oaka"
    },
@@ -14,7 +14,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/aris-pao.jpg",
     "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
     "nid": 24314,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/aris-pao.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/aris-pao.jpg?itok=HsF2sEHm",
     "title": "Πέρασε άνετα από το Αλεξάνδρειο",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/24314/perase-aneta-apo-to-alexandreio"
    },
@@ -22,7 +22,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/grevena.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24312,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/grevena.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/grevena.jpg?itok=wA1-A8va",
     "title": "Πεντάσφαιρος κι ωραίος στα Γρεβενά",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24312/pentasfairos-ki-oraios-sta-grevena"
    },
@@ -38,7 +38,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/fantrogelen.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24309,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/fantrogelen.png",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/fantrogelen.png?itok=RCRnSJpe",
     "title": "Φαν Ντρόνγκελεν: «Υπερήφανος που φοράω αυτή τη φανέλα – Η φωτιά μέσα μου δε συγκρίνεται με τίποτα»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24309/fan-ntrongkelen-yperifanos-poy-forao-ayti-ti-fanela-i-fotia-mesa-moy-de"
    },
@@ -2872,6 +2872,12 @@
     "igs": "18640551085044520"
    },
    "tries": 1
+  },
+  "news:24318": {
+   "at": 1792341197.1110673,
+   "claim": "39145303314",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
