@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24301,
+  "last": 24303,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/asterass.png",
@@ -2421,6 +2421,12 @@
     "igs": "18105531041568437"
    },
    "tries": 1
+  },
+  "news:24302": {
+   "at": 1792282241.0416331,
+   "claim": "39081762301",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
