@@ -3,6 +3,14 @@
   "last": 24326,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%9D%CF%84%CE%B5%20%CE%A6%CF%81%CE%AC%CE%B9.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24325,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CE%9D%CF%84%CE%B5%20%CE%A6%CF%81%CE%AC%CE%B9.jpg?itok=FJr1Eon2",
+    "title": "Επέστρεψε στις νίκες εκτελώντας τον Αsteras AKTOR",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24325/epestrepse-stis-nikes-ektelontas-ton-asteras-aktor"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-2026-10-18-6.09.28-mm.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24322,
@@ -306,13 +314,6 @@
     "nid": 24265,
     "title": "Λύγισε από τον Απόλλωνα",
     "url": "https://www.trifillakia.gr/polo/article/24265/lygise-apo-ton-apollona"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/hayesss.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24260,
-    "title": "Ισοπέδωσε την Παρτίζαν στο Βελιγράδι ο Παναθηναϊκός!",
-    "url": "https://www.trifillakia.gr/mpasket/article/24260/isopedose-tin-partizan-sto-veligradi-o-panathinaikos"
    }
   ],
   "wait": {}
@@ -2972,6 +2973,12 @@
     "igs": "17921720955244484"
    },
    "tries": 1
+  },
+  "news:24326": {
+   "at": 1792343216.9783404,
+   "claim": "39147942630",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
