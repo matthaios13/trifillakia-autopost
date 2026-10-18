@@ -52,21 +52,13 @@ def similar(a, b):
     if not wa or not wb:
         return False
     common = len(wa & wb)
-    return common / min(len(wa), len(wb)) >= 0.6 or common / len(wa | wb) >= 0.45
+    return (common >= 4 and common / min(len(wa), len(wb)) >= 0.75) or common / len(wa | wb) >= 0.5
 
 
 def same_story(title, doc):
-    """doc = (τίτλος, κείμενο) άρθρου του trifillakia. Ίδια είδηση αν μοιάζουν οι τίτλοι
-    ή αν σχεδόν όλες οι σημαντικές λέξεις του τίτλου υπάρχουν στο κείμενο του άρθρου."""
-    if similar(title, doc[0]):
-        return True
-    words = _norm_words(title)
-    if len(words) < 3 or not doc[1]:
-        return False
-    # Μόνο ο τίτλος και η αρχή του κειμένου (το lead): τα μεγάλα κείμενα περιέχουν σχεδόν κάθε λέξη.
-    lead = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", doc[1]))).strip()[:350]
-    common = words & _norm_words(doc[0] + " " + lead)
-    return len(common) >= 3 and len(common) / len(words) >= 0.7
+    """doc = (τίτλος, κείμενο) άρθρου του trifillakia. Ίδια είδηση μόνο αν μοιάζουν πολύ οι τίτλοι
+    (η σύγκριση με το κείμενο έβγαζε λάθος ταυτίσεις, π.χ. συνέχειες της ίδιας ιστορίας)."""
+    return similar(title, doc[0])
 
 
 def trifillakia_docs(extra=()):
@@ -112,6 +104,20 @@ def pao_tag_ids(posts_base):
     return [str(t["id"]) for t in tags if isinstance(t, dict) and _plain(PAO) in _plain(t.get("name", ""))]
 
 
+PAO_WORDS = ("παναθηναικ", "πρασιν", "τριφυλλ")
+
+
+def about_pao(title, body, title_only=False):
+    """Είδηση του Παναθηναϊκού; Ο τίτλος ή η αρχή του κειμένου (lead) πρέπει να τον αναφέρει.
+    Το tag μόνο του δεν αρκεί (π.χ. «Πουλακίδας» με λάθος tag Παναθηναϊκός)."""
+    if any(w in _plain(title) for w in PAO_WORDS):
+        return True
+    if title_only:
+        return False
+    lead = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", body))).strip()[:400]
+    return any(w in _plain(lead) for w in PAO_WORDS)
+
+
 def fetch(source, since_ts):
     name, base, filters, category = source
     seen = {}
@@ -135,7 +141,7 @@ def fetch(source, since_ts):
             title = html.unescape(re.sub(r"<[^>]+>", "", p["title"]["rendered"])).strip()
             if title.upper().startswith("ELABET"):
                 continue  # τα προγνωστικά έχουν δικό τους importer
-            if title_only and _plain(PAO) not in _plain(title):
+            if not about_pao(title, p["content"]["rendered"], title_only):
                 continue
             image = _media_url(base, p.get("featured_media"))
             seen[f"{name}:{p['id']}"] = {
