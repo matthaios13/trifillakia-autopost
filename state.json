@@ -3,6 +3,14 @@
   "last": 24311,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/hayes%20davies.JPG",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24311,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/hayes%20davies.JPG",
+    "title": "Μεσημεριανή σιέστα με το Περιστέρι",
+    "url": "https://www.trifillakia.gr/mpasket/article/24311/mesimeriani-siesta-me-to-peristeri"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/fantrogelen.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24309,
@@ -298,13 +306,6 @@
     "nid": 24247,
     "title": "Στα δικαστήρια ο Τετέι με τον Κωστή Ραπτόπουλο – Η στήριξη της ΠΑΕ",
     "url": "https://www.trifillakia.gr/podosfairo/article/24247/sta-dikastiria-o-tetei-me-ton-kosti-raptopoylo-i-stirixi-tis-pae"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CF%86%CE%BF%CF%85%CF%84%CF%83%CE%B1%CE%BB%20%CE%B1%CE%BD%CE%B4%CF%81%CE%B5%CF%82.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24242,
-    "title": "Αρνητές νίκης και στον Πύργο το ανδρικό Futsal",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24242/arnites-nikis-kai-ston-pyrgo-to-andriko-futsal"
    }
   ],
   "wait": {}
