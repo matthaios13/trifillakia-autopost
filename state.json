@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24311,
+  "last": 24312,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/hayes%20davies.JPG",
@@ -2792,6 +2792,12 @@
     "igs": "17905785651656766"
    },
    "tries": 1
+  },
+  "news:24312": {
+   "at": 1792330252.2003112,
+   "claim": "39131836649",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
