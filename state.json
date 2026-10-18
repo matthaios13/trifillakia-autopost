@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24322,
+  "last": 24326,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-2026-10-18-6.09.28-mm.png",
@@ -14,7 +14,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-181024.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24321,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-181024.png",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-18-181024.png?itok=4pdxovrC",
     "title": "Παναθηναϊκός: Μεγάλη ανησυχία για Ουναΐ, αποχώρησε με φορείο (vid)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24321/panathinaikos-megali-anisyhia-gia-oynai-apohorise-me-foreio-vid"
    },
@@ -70,7 +70,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/hayes%20davies.JPG",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24311,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/hayes%20davies.JPG",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/hayes%20davies.JPG?itok=4IK7PLvR",
     "title": "Μεσημεριανή σιέστα με το Περιστέρι",
     "url": "https://www.trifillakia.gr/mpasket/article/24311/mesimeriani-siesta-me-to-peristeri"
    },
@@ -2963,6 +2963,12 @@
     "igs": "18129076132830007"
    },
    "tries": 1
+  },
+  "news:24325": {
+   "at": 1792343180.6713479,
+   "claim": "39147942630",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
