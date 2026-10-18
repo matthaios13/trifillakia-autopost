@@ -3,6 +3,14 @@
   "last": 24322,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-181024.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24321,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-181024.png",
+    "title": "Παναθηναϊκός: Μεγάλη ανησυχία για Ουναΐ, αποχώρησε με φορείο (vid)",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24321/panathinaikos-megali-anisyhia-gia-oynai-apohorise-me-foreio-vid"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-181024-1.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24320,
@@ -305,13 +313,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CE%9A%CE%AD%CE%B9%CE%B2%20%CE%9A%CE%B1%CE%B2%CE%AC%CE%BB%CE%B1.jpg?itok=bU8VVJKx",
     "title": "Πολυτιμότερη της 2ης αγωνιστικής η Κέιβ",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/24254/polytimoteri-tis-2is-agonistikis-i-keiv"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/parakanoe.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24253,
-    "title": "Πρωταγωνιστής και στο Παρακανόε",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24253/protagonistis-kai-sto-parakanoe"
    }
   ],
   "wait": {}
@@ -2911,6 +2912,12 @@
     "igs": "18102572900528723"
    },
    "tries": 1
+  },
+  "news:24322": {
+   "at": 1792341323.0102453,
+   "claim": "39145303314",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
