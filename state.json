@@ -3,6 +3,14 @@
   "last": 24333,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/1_142637.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24331,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/1_142637.jpg",
+    "title": "Ομπράντοβιτς: «Το ίδιο χτύπημα με πριν δέκα μέρες ο Γιαμπουσέλε» – Τι είπε για Ναν και Σλούκα",
+    "url": "https://www.trifillakia.gr/mpasket/article/24331/omprantovits-to-idio-htypima-me-prin-deka-meres-o-giampoysele-ti-eipe-gia-nan"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-2026-10-18-6.09.28-mm.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24329,
@@ -309,13 +317,6 @@
     "nid": 24268,
     "title": "Χάλκινη η Τσάκωνα στην Ελλάδα",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24268/halkini-i-tsakona-stin-ellada"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CF%83%CE%BA%CE%BF%CF%80%CE%BF%CE%B2%CE%BF%CE%BB%CE%AE_1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24267,
-    "title": "Δις πρωταθλητής σε άνδρες-γυναίκες",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24267/dis-protathlitis-se-andres-gynaikes"
    }
   ],
   "wait": {}
@@ -3002,6 +3003,12 @@
     "igs": "18645650797001857"
    },
    "tries": 1
+  },
+  "news:24333": {
+   "at": 1792347150.4880738,
+   "claim": "39152884575",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
