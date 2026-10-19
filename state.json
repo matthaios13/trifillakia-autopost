@@ -3,6 +3,14 @@
   "last": 24402,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/photo_2026-10-19_20-43-50.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24400,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/photo_2026-10-19_20-43-50.jpg",
+    "title": "Σαλάχ-Εντίν στο Bala24: «Στον Παναθηναϊκό μπορεί να γίνει ηγέτης ο καθένας» – Τι είπε για Ουναΐ και Γιάγκουσιτς (vid)",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24400/salah-entin-sto-bala24-ston-panathinaiko-mporei-na-ginei-igetis-o-kathenas"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/paobc_0.png",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24399,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/mets%20aek.jpg?itok=J90rg5m9",
     "title": "Ιδανική πρεμιέρα στα πράσινα",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/24302/idaniki-premiera-sta-prasina"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/asterass.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24301,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/asterass.png?itok=VFGTfs8D",
-    "title": "Αστέρας Aktor: Η αποστολή για Παναθηναϊκό – Ποιοι έμειναν εκτός",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24301/asteras-aktor-i-apostoli-gia-panathinaiko-poioi-emeinan-ektos"
    }
   ],
   "wait": {
@@ -3196,6 +3196,12 @@
     "igs": "17967119370195113"
    },
    "tries": 1
+  },
+  "news:24401": {
+   "at": 1792437088.958588,
+   "claim": "39307335268",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
