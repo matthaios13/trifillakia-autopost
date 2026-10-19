@@ -3,6 +3,14 @@
   "last": 24389,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-doxalefkadaselabet_ht_show_17102026_1-15a60d.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24383,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-doxalefkadaselabet_ht_show_17102026_1-15a60d.jpg",
+    "title": "Show ELABET στο ημίχρονο του αγώνα Δόξα Λευκάδας ELABET – Προμηθέας",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24383/show-elabet-sto-imihrono-toy-agona-doxa-leykadas-elabet"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/paotheavotan.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24370,
@@ -313,13 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/paouefaa.jpg?itok=xmKAb52w",
     "title": "Άλμα 186 θέσεων στο UEFA Ranking – Στόχος το Top 50 μετά από 14 χρόνια!",
     "url": "https://www.trifillakia.gr/podosfairo/article/24283/alma-186-theseon-sto-uefa-ranking-stohos-to-top-50-meta-apo-14-hronia"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/varderasitexnis.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24282,
-    "title": "Παναθηναϊκός ΑΟ για Γιώργο Βαρδινογιάννη: «Συλλυπητήρια για την απώλεια του ιστορικού παράγοντα του Συλλόγου»",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24282/panathinaikos-ao-gia-giorgo-vardinogianni-syllypitiria-gia-tin-apoleia-toy"
    }
   ],
   "wait": {
@@ -3071,6 +3072,12 @@
     "igs": "18015576428957008"
    },
    "tries": 1
+  },
+  "news:24384": {
+   "at": 1792415339.615306,
+   "claim": "39257330052",
+   "nets": {},
+   "tries": 0
   },
   "news:24390": {
    "at": 1792414874.526411,
