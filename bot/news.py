@@ -5,6 +5,7 @@
 """
 import html
 import re
+import time
 
 import requests
 
@@ -39,7 +40,7 @@ def latest_nid():
     ids = []
     for url in [SITE + "/"] + [f"{SITE}/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 302)]:
         try:
-            r = _s.get(url, timeout=30)
+            r = _s.get(url, params={"nc": int(time.time())}, timeout=30)
         except requests.RequestException:
             continue
         ids += [int(x) for x in re.findall(r"/article/(\d+)/", r.text)]
@@ -49,11 +50,12 @@ def latest_nid():
 def probe(nid):
     """'ok' + URL αν το άρθρο υπάρχει και είναι δημοσιευμένο, 'hidden' αν δεν είναι ακόμα δημόσιο, αλλιώς None."""
     try:
-        r = _s.get(f"{SITE}/node/{nid}", allow_redirects=False, timeout=20)
+        # Με «?nc=…» παρακάμπτουμε την cache του site, που κρατά το 404 ενός νούμερου έως 1 ώρα.
+        r = _s.get(f"{SITE}/node/{nid}", params={"nc": int(time.time())}, allow_redirects=False, timeout=20)
     except requests.RequestException:
         return None, None
     if r.status_code in (301, 302) and "/article/" in r.headers.get("Location", ""):
-        return "ok", r.headers["Location"]
+        return "ok", r.headers["Location"].split("?", 1)[0]
     if r.status_code == 403:
         return "hidden", None
     return None, None
