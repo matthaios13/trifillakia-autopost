@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24397,
+  "last": 24398,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/zivkovic.png",
@@ -3170,6 +3170,12 @@
    },
    "tries": 1
   },
+  "news:24398": {
+   "at": 1792429612.1369724,
+   "claim": "39291090705",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -3863,7 +3869,8 @@
    "bala24.gr:80999",
    "bala24.gr:81003",
    "bala24.gr:81022",
-   "bala24.gr:81045"
+   "bala24.gr:81045",
+   "bala24.gr:81041"
   ],
   "items": [
    {
