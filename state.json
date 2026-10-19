@@ -1,12 +1,12 @@
 {
  "news": {
-  "last": 24367,
+  "last": 24370,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-65068.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24367,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-65068.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-65068.jpg?itok=2m_EoFhJ",
     "title": "Χάνει τον Ντοζίερ για 3 εβδομάδες η Εφές – Δεν παίζει με Παναθηναϊκό",
     "url": "https://www.trifillakia.gr/mpasket/article/24367/hanei-ton-ntozier-gia-3-evdomades-i-efes-den-paizei-me-panathinaiko"
    },
@@ -3052,6 +3052,12 @@
     "igs": "18107978060349562"
    },
    "tries": 1
+  },
+  "news:24370": {
+   "at": 1792400944.2015488,
+   "claim": "39227406478",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
