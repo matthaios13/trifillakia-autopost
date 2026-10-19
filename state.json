@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24394,
+  "last": 24396,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/tetteh-1.png",
@@ -3142,6 +3142,12 @@
     "igs": "18012509264766409"
    },
    "tries": 1
+  },
+  "news:24395": {
+   "at": 1792422149.3108144,
+   "claim": "39274116751",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
