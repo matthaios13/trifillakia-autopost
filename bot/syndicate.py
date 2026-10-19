@@ -362,7 +362,9 @@ def update(state, now, log=print):
         candidates += [p for p in fetch(src, state["since"]) if p["guid"] not in have]
     if candidates:
         existing = trifillakia_docs() + [{"title": i["title"], "body": i.get("body", ""), "ts": i["ts"]} for i in state["items"]]
-        for p in sorted(candidates, key=lambda p: p["ts"]):
+        # Χωρίς φωτογραφία: περιμένουμε έως 30 λεπτά (ο συντάκτης συχνά τη βάζει λίγο μετά τη δημοσίευση).
+    candidates = [p for p in candidates if p["image"] or now - p["ts"] > 1800]
+    for p in sorted(candidates, key=lambda p: p["ts"]):
             near = [d for d in existing if not d["ts"] or abs(d["ts"] - p["ts"]) < WINDOW]
             if any(same_story(p["title"], d) for d in near):
                 log("Ροή trifillakia: υπάρχει ήδη →", p["title"])
