@@ -463,6 +463,12 @@ def run_news(st, now, dry):
         a = news.article(nid, url)
         if not a or not a["title"]:
             continue
+        # Χωρίς φωτογραφία: περιμένουμε έως 1 ώρα μήπως μπει (π.χ. διόρθωση από τον συντάκτη), μετά ανεβαίνει έτσι.
+        if not a.get("image"):
+            first = ns.setdefault("noimg", {}).setdefault(str(nid), now)
+            if now - first < 3600:
+                log("Άρθρο χωρίς φωτογραφία, περιμένουμε:", nid)
+                continue
         post(
             st,
             key,
