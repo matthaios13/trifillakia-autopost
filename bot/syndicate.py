@@ -127,13 +127,9 @@ def same_story(title, doc):
         opp = _opponent(title)
         text = _plain(doc["title"] + " " + doc.get("body", "")[:1500])
         return score in text.replace("–", "-").replace(" - ", "-") and (not opp or opp in text or _lat(opp) in _lat(text))
-    if _score(doc["title"]):
-        return False  # αγώνας ≠ είδηση γύρω από τον αγώνα
-    names = _names(title) & _names(doc["title"])
-    if not names:
-        return False
-    rest = (_norm_words(title) - _names(title)) & (_norm_words(doc["title"]) - _names(doc["title"]))
-    return bool(rest - {"vid", "vids", "video", "βιντε"})
+    # Ο κανόνας «ίδιο πρόσωπο + κοινή λέξη» αφαιρέθηκε (19/10): έκοβε διαφορετικά άρθρα για το ίδιο πρόσωπο
+    # (π.χ. «Δε μασάει από τραυματισμούς ο Ουναΐ» ≠ «Σοκ με Ουναΐ: νοκ άουτ»). Ο χρήστης θέλει να περνάνε.
+    return False
 
 
 def trifillakia_docs():
