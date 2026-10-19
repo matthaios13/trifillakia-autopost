@@ -27,19 +27,22 @@ SECTIONS = {
 # Ό,τι δεν είναι στη λίστα δεν ανεβαίνει.
 
 # Πόσα νούμερα μετά το τελευταίο ελέγχουμε (για κενά από διαγραμμένα / μη δημοσιευμένα άρθρα).
-LOOKAHEAD = 12
+# (αποτυχημένες εισαγωγές του Feeds «καίνε» νούμερα, π.χ. 12 στη σειρά στις 19/10)
+LOOKAHEAD = 40
 
 _s = requests.Session()
 _s.headers.update({"User-Agent": UA})
 
 
 def latest_nid():
-    """Ο μεγαλύτερος αριθμός άρθρου στην αρχική σελίδα."""
-    try:
-        r = _s.get(SITE + "/", timeout=30)
-    except requests.RequestException:
-        return 0
-    ids = [int(x) for x in re.findall(r"/article/(\d+)/", r.text)]
+    """Ο μεγαλύτερος αριθμός άρθρου στην αρχική και στις ροές των κατηγοριών (η αρχική μπορεί να είναι σε cache)."""
+    ids = []
+    for url in [SITE + "/"] + [f"{SITE}/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 302)]:
+        try:
+            r = _s.get(url, timeout=30)
+        except requests.RequestException:
+            continue
+        ids += [int(x) for x in re.findall(r"/article/(\d+)/", r.text)]
     return max(ids) if ids else 0
 
 
