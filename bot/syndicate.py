@@ -262,8 +262,20 @@ def fetch(source, since_ts):
     return list(seen.values())
 
 
+def _bmp_html(text):
+    """Η βάση του trifillakia (MySQL utf8, όχι utf8mb4) δεν αποθηκεύει χαρακτήρες 4 byte (emoji, σημαίες)
+    και η εισαγωγή αποτυγχάνει. Στο κείμενο γίνονται οντότητες HTML (&#128202;) που ο browser δείχνει ως emoji."""
+    return "".join(c if ord(c) <= 0xFFFF else f"&#{ord(c)};" for c in text)
+
+
+def _bmp_plain(text):
+    """Για τον τίτλο (απλό κείμενο): τα emoji αφαιρούνται."""
+    return re.sub(r"\s{2,}", " ", "".join(c for c in text if ord(c) <= 0xFFFF and c != "\ufe0f")).strip()
+
+
 def _item(it):
     pub = format_datetime(datetime.fromtimestamp(it["ts"], timezone.utc))
+    it = dict(it, title=_bmp_plain(it["title"]), body=_bmp_html(it["body"]))
     img = f'<source url="{html.escape(it["image"])}">fa-file-text</source>' if it["image"] else "<source>fa-file-text</source>"
     return (
         "<item>"
