@@ -13,12 +13,19 @@ import unicodedata
 from datetime import datetime, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 
+import io
+
 import requests
+from PIL import Image
 
 from .cards import ROOT
 from .flashscore import UA
 
 FEED = os.path.join(ROOT, "docs", "pao-feed.xml")
+IMG_DIR = os.path.join(ROOT, "docs", "img")
+PAGES = "https://matthaios13.github.io/trifillakia-autopost/"
+# Το Drupal 7 του trifillakia δέχεται μόνο αυτές τις μορφές στο πεδίο εικόνας.
+DRUPAL_IMG = (".jpg", ".jpeg", ".png", ".gif")
 
 SOURCES = [
     # (όνομα, βάση REST, φίλτρα, κατηγορία στο trifillakia, συντάκτης)
@@ -249,7 +256,7 @@ def fetch(source, since_ts):
                 "title": title,
                 "link": p["link"],
                 "body": p["content"]["rendered"],
-                "image": image,
+                "image": drupal_image(image, f"{name}:{p['id']}"),
                 "ts": ts,
             }
     return list(seen.values())
@@ -272,7 +279,37 @@ def _item(it):
     )
 
 
+def drupal_image(url, guid):
+    """Φωτογραφία σε μορφή που δέχεται το Drupal. Οι WebP (συνήθεις στο totalbasket) γίνονται JPG,
+    αποθηκεύονται στο docs/img και σερβίρονται από το GitHub Pages."""
+    if not url or os.path.splitext(url.split("?")[0])[1].lower() in DRUPAL_IMG:
+        return url
+    name = re.sub(r"[^a-z0-9]+", "-", guid.lower()).strip("-") + ".jpg"
+    path = os.path.join(IMG_DIR, name)
+    if not os.path.exists(path):
+        try:
+            r = _s.get(url, timeout=40)
+            im = Image.open(io.BytesIO(r.content))
+            im = im.convert("RGB")
+            im.thumbnail((1600, 1600))
+            os.makedirs(IMG_DIR, exist_ok=True)
+            im.save(path, "JPEG", quality=85, optimize=True)
+        except Exception:  # noqa: BLE001
+            return url
+    return PAGES + "img/" + name
+
+
+def _cleanup_images(items):
+    """Κρατάμε μόνο τις εικόνες των άρθρων που είναι ακόμα στη ροή."""
+    keep = {os.path.basename(i["image"]) for i in items if i.get("image", "").startswith(PAGES)}
+    if os.path.isdir(IMG_DIR):
+        for f in os.listdir(IMG_DIR):
+            if f not in keep:
+                os.remove(os.path.join(IMG_DIR, f))
+
+
 def write_feed(items):
+    _cleanup_images(items)
     os.makedirs(os.path.dirname(FEED), exist_ok=True)
     xml = (
         '<?xml version="1.0" encoding="utf-8"?>\n'
@@ -303,6 +340,8 @@ def update(state, now, log=print):
         return state
     state.setdefault("blocked", [])
     state["items"] = [i for i in state["items"] if i["guid"] not in state["blocked"]]
+    for i in state["items"]:  # και όσα μπήκαν πριν από τη μετατροπή WebP → JPG
+        i["image"] = drupal_image(i.get("image", ""), i["guid"])
     # «done»: όσα μπήκαν ποτέ στη ροή (η ροή κρατά μόνο 30), για να μην ξαναμπεί άρθρο που βγήκε από τη λίστα.
     state["done"] = list(dict.fromkeys((state.get("done") or []) + [i["guid"] for i in state["items"]]))[-400:]
     have = {i["guid"] for i in state["items"]} | set(state["blocked"]) | set(state["done"])
