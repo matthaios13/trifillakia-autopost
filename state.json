@@ -3,6 +3,14 @@
   "last": 24415,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-portofc-67b7ae.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24414,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-portofc-67b7ae.jpg",
+    "title": "ELABET: Πόρτο – Αϊντχόφεν με «Ενισχυμένο» Bet Builder σκοραρίσματος",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24414/elabet-porto-ainthofen-me-enishymeno-bet-builder-skorarismatos"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-mancity-aek.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24413,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-18-181024-1.png?itok=pDE65JAR",
     "title": "Παναθηναϊκός: Η πρώτη εκτίμηση για τον τραυματισμό του Ουναΐ (vid)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24320/panathinaikos-i-proti-ektimisi-gia-ton-traymatismo-toy-oynai-vid"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-18-183427.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24319,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-18-183427.png?itok=Cl4cpavx",
-    "title": "Παναθηναϊκός: Το 2-0 με τα πρώτα γκολ των Ντε Φράι και Λούζα (vid)",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24319/panathinaikos-to-2-0-me-ta-prota-gkol-ton-nte-frai-kai-loyza-vid"
    }
   ],
   "wait": {
@@ -3313,6 +3313,12 @@
     "igs": "18450386341122532"
    },
    "tries": 1
+  },
+  "news:24415": {
+   "at": 1792512308.0221028,
+   "claim": "39453611768",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
