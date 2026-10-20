@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24411,
+  "last": 24415,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/olympiacos-opadoi.png",
@@ -3286,6 +3286,12 @@
     "igs": "17987542899116830"
    },
    "tries": 1
+  },
+  "news:24412": {
+   "at": 1792512191.6399298,
+   "claim": "39453611768",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
