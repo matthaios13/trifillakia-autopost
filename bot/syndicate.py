@@ -357,7 +357,10 @@ def update(state, now, log=print):
     for src in SOURCES:
         candidates += [p for p in fetch(src, state["since"]) if p["guid"] not in have]
     if candidates:
-        existing = trifillakia_docs() + [{"title": i["title"], "body": i.get("body", ""), "ts": i["ts"]} for i in state["items"]]
+        # Συγκρίνουμε ΜΟΝΟ με όσα έγραψαν οι συντάκτες του trifillakia: άρθρα που ήρθαν από bala24/totalbasket
+        # δεν «κόβουν» άλλα άρθρα των ίδιων site (δύο άρθρα του bala24 = δύο ειδήσεις).
+        ours = {_plain(t) for t in state.get("done_titles", [])} | {_plain(i["title"]) for i in state["items"]}
+        existing = [d for d in trifillakia_docs() if _plain(_bmp_plain(d["title"])) not in ours]
         # Χωρίς φωτογραφία: περιμένουμε έως 30 λεπτά (ο συντάκτης συχνά τη βάζει λίγο μετά τη δημοσίευση).
     candidates = [p for p in candidates if p["image"] or now - p["ts"] > 1800]
     for p in sorted(candidates, key=lambda p: p["ts"]):
@@ -366,7 +369,7 @@ def update(state, now, log=print):
                 log("Ροή trifillakia: υπάρχει ήδη →", p["title"])
                 continue
             state["items"].append(p)
-            existing.append({"title": p["title"], "body": re.sub(r"<[^>]+>", " ", p["body"]), "ts": p["ts"]})
+            state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
             log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"])
     state["items"] = sorted(state["items"], key=lambda i: -i["ts"])[:30]
     write_feed(state["items"])
