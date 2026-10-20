@@ -3,6 +3,14 @@
   "last": 24415,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-napolifc-7a6c4a_0.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24412,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-napolifc-7a6c4a_0.jpg",
+    "title": "ELABET: Νάπολι – Μπόντο με «Ενισχυμένα» ημίχρονα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24412/elabet-napoli-mponto-me-enishymena-imihrona"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/olympiacos-opadoi.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24411,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/kairat.png?itok=H2aNJTxp",
     "title": "Καϊράτ: Πεντάρα πριν από τον Παναθηναϊκό",
     "url": "https://www.trifillakia.gr/podosfairo/article/24318/kairat-pentara-prin-apo-ton-panathinaiko"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/vardinogiannis-2.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24316,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/vardinogiannis-2.png?itok=MejvTRiB",
-    "title": "Παναθηναϊκός: Τιμά τον Γιώργο Βαρδινογιάννη στο ΟΑΚΑ",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24316/panathinaikos-tima-ton-giorgo-vardinogianni-sto-oaka"
    }
   ],
   "wait": {
@@ -3295,6 +3295,12 @@
     "igs": "17932060641167799"
    },
    "tries": 1
+  },
+  "news:24413": {
+   "at": 1792512233.3999949,
+   "claim": "39453611768",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
