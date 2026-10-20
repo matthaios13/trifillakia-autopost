@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24415,
+  "last": 24416,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-atletikofc-769ceb.jpg",
@@ -3322,6 +3322,12 @@
     "igs": "17893768302437216"
    },
    "tries": 1
+  },
+  "news:24416": {
+   "at": 1792519483.9337168,
+   "claim": "39470218343",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
