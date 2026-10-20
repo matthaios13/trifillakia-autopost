@@ -3,6 +3,14 @@
   "last": 24415,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-mancity-aek.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24413,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-mancity-aek.jpg",
+    "title": "ELABET: Μαν. Σίτι – ΑΕΚ και Παρί – Μπάρτσα έχουν «Ενισχυμένα» γκολ σε τρελά Bet Builder",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24413/elabet-man-siti-aek-kai-pari-mpartsa-ehoyn-enishymena-gkol-se"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-napolifc-7a6c4a_0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24412,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-18-183427.png?itok=Cl4cpavx",
     "title": "Παναθηναϊκός: Το 2-0 με τα πρώτα γκολ των Ντε Φράι και Λούζα (vid)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24319/panathinaikos-to-2-0-me-ta-prota-gkol-ton-nte-frai-kai-loyza-vid"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/kairat.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24318,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/kairat.png?itok=H2aNJTxp",
-    "title": "Καϊράτ: Πεντάρα πριν από τον Παναθηναϊκό",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24318/kairat-pentara-prin-apo-ton-panathinaiko"
    }
   ],
   "wait": {
@@ -3304,6 +3304,12 @@
     "igs": "18188693533411519"
    },
    "tries": 1
+  },
+  "news:24414": {
+   "at": 1792512268.265939,
+   "claim": "39453611768",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
