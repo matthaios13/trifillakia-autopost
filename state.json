@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24410,
+  "last": 24411,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/volos-pao.png",
@@ -3277,6 +3277,12 @@
     "igs": "18127104298657447"
    },
    "tries": 1
+  },
+  "news:24411": {
+   "at": 1792508666.986496,
+   "claim": "39444455389",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
