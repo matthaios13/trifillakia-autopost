@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24404,
+  "last": 24405,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/ounahi-1_0.png",
@@ -3223,6 +3223,12 @@
     "igs": "18178105300391304"
    },
    "tries": 1
+  },
+  "news:24405": {
+   "at": 1792473261.3032951,
+   "claim": "39372985180",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
