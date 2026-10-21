@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24417,
+  "last": 24418,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/futsal%20andrwn.jpg",
@@ -3340,6 +3340,12 @@
     "igs": "17954790228296414"
    },
    "tries": 1
+  },
+  "news:24418": {
+   "at": 1792543927.3934186,
+   "claim": "39523703449",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
