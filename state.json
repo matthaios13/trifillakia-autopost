@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24421,
+  "last": 24422,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/santsespao.png",
@@ -3386,6 +3386,12 @@
     "igs": "18148883053562212"
    },
    "tries": 1
+  },
+  "news:24422": {
+   "at": 1792580669.8122537,
+   "claim": "39588750658",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
