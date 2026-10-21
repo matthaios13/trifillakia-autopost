@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24440,
+  "last": 24441,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-2026-10-21-7.04.35-mm.png",
@@ -3557,6 +3557,12 @@
     "igs": "18089633627251971"
    },
    "tries": 1
+  },
+  "news:24441": {
+   "at": 1792606141.297507,
+   "claim": "39649529096",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
