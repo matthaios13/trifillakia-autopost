@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24416,
+  "last": 24417,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/votanikospanathin.png",
@@ -3331,6 +3331,12 @@
     "igs": "17907953115590179"
    },
    "tries": 1
+  },
+  "news:24417": {
+   "at": 1792543324.257335,
+   "claim": "39522705393",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
