@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24437,
+  "last": 24440,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-24434.jpg",
@@ -3531,6 +3531,12 @@
    },
    "tries": 1
   },
+  "news:24438": {
+   "at": 1792602748.9288502,
+   "claim": "39641369301",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -4246,7 +4252,8 @@
    "totalbasket.gr:65285",
    "bala24.gr:81436",
    "bala24.gr:81442",
-   "bala24.gr:81435"
+   "bala24.gr:81435",
+   "totalbasket.gr:65287"
   ],
   "done_titles": [
    "Παναθηναϊκός: Χωρίς ανησυχία για Λεσόρ, κοντά στο να παίξει με Μπασκόνια",
