@@ -3,6 +3,14 @@
   "last": 24440,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-2026-10-21-7.18.39-mm.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24439,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-2026-10-21-7.18.39-mm.png",
+    "title": "Παναθηναϊκός: Νέα εισιτήρια για το παιχνίδι με τον Βόλο",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24439/panathinaikos-nea-eisitiria-gia-to-paihnidi-me-ton-volo"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/neestrupdil.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24438,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/paobc_0.png?itok=nRxwE2V2",
     "title": "«Πράσινη» επίθεση στον Ολυμπιακό: «Αντί να ζητήσει συγγνώμη, βγάζει αστείες ανακοινώσεις!»",
     "url": "https://www.trifillakia.gr/mpasket/article/24399/prasini-epithesi-ston-olympiako-anti-na-zitisei-syggnomi-vgazei-asteies"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/ounahi-1.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24398,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/ounahi-1.png?itok=4TzyV2tU",
-    "title": "Παναθηναϊκός: Δε «μασάει» από τραυματισμούς ο Ουναΐ – Οι επιστροφές με γκολ και ασίστ (vids)",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24398/panathinaikos-de-masaei-apo-traymatismoys-o-oynai-oi-epistrofes-me-gkol-kai"
    }
   ],
   "wait": {
@@ -3548,6 +3548,12 @@
     "igs": "18107958494244019"
    },
    "tries": 1
+  },
+  "news:24440": {
+   "at": 1792602832.0734043,
+   "claim": "39641369301",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
