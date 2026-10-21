@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24427,
+  "last": 24428,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/balenthia-olympiacos-diaitites.jpg",
@@ -3440,6 +3440,12 @@
     "igs": "18071224730781192"
    },
    "tries": 1
+  },
+  "news:24428": {
+   "at": 1792587421.3203351,
+   "claim": "39602809808",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
