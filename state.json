@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24419,
+  "last": 24420,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/Georgopoulos.jpg",
@@ -3368,6 +3368,12 @@
     "igs": "18110052434608171"
    },
    "tries": 1
+  },
+  "news:24420": {
+   "at": 1792573708.4573522,
+   "claim": "39574205015",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
