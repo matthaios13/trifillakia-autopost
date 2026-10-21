@@ -660,6 +660,50 @@
    "since": 1792255648.3469837,
    "team": "waterpolo"
   },
+  "tb:fLLqQ10m": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "plqPE4do",
+    "away_score": 75,
+    "comp": "ΓιούροΚαπ Γυναικών",
+    "comp_full": "ΕΥΡΩΠΗ: ΓιούροΚαπ Γυναικών",
+    "comp_logo": "https://static.flashscore.com/res/image/data/nNGrhrld-Onfms30a.png",
+    "home": "Σαν Τζιοβάνι",
+    "home_id": "pGl6MicA",
+    "home_score": 65,
+    "id": "fLLqQ10m",
+    "info": "",
+    "periods": [
+     [
+      17,
+      25
+     ],
+     [
+      24,
+      10
+     ],
+     [
+      12,
+      23
+     ],
+     [
+      12,
+      17
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "nJngW0jD",
+    "start": 1792603800,
+    "status": "3",
+    "tour_id": "CzuvKU4J",
+    "tour_path": "/basketball/europe/eurocup-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 2",
+   "round": "2η Αγωνιστική",
+   "since": 1792610423.8928578,
+   "team": "basketball_w"
+  },
   "tb:hvG3AYcm": {
    "ev": {
     "away": "Άλμπα Βερολίνου",
