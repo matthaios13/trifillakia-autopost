@@ -3,6 +3,14 @@
   "last": 24458,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/europa-league-logo-conference-league.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24454,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/europa-league-logo-conference-league.jpg",
+    "title": "Παναθηναϊκός, ΟΦΗ, Ολυμπιακός: Οι σημερινοί ευρωπαϊκοί αγώνες",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24454/panathinaikos-ofi-olympiakos-oi-simerinoi-eyropaikoi-agones"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-logos.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24453,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-portofc-67b7ae.jpg?itok=WJgTHq8j",
     "title": "ELABET: Πόρτο – Αϊντχόφεν με «Ενισχυμένο» Bet Builder σκοραρίσματος",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24414/elabet-porto-ainthofen-me-enishymeno-bet-builder-skorarismatos"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-mancity-aek.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24413,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-mancity-aek.jpg?itok=GaCyEsTv",
-    "title": "ELABET: Μαν. Σίτι – ΑΕΚ και Παρί – Μπάρτσα έχουν «Ενισχυμένα» γκολ σε τρελά Bet Builder",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24413/elabet-man-siti-aek-kai-pari-mpartsa-ehoyn-enishymena-gkol-se"
    }
   ],
   "wait": {
@@ -3748,6 +3748,12 @@
     "igs": "18107789774195198"
    },
    "tries": 1
+  },
+  "news:24455": {
+   "at": 1792671167.3655126,
+   "claim": "39776161022",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
