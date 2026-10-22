@@ -3,6 +3,14 @@
   "last": 24474,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-22-234313.png",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24473,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-22-234313.png",
+    "title": "Χέιζ-Ντέιβις: «Κάναμε πολύ κακή εμφάνιση – Πρέπει να λειτουργήσουμε ως ομάδα»",
+    "url": "https://www.trifillakia.gr/mpasket/article/24473/heiz-nteivis-kaname-poly-kaki-emfanisi-prepei-na-leitoyrgisoyme-os-omada"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CF%87%CE%AD%CE%B9%CF%82-%CE%9D%CF%84%CE%AD%CE%B9%CE%B2%CE%B9%CF%82.JPG",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24472,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-aek-bc-dbbe9f.jpg?itok=70cGmbSr",
     "title": "ELABET: Για το 2/2 νίκη η ΑΕΚ κόντρα στην Αντβέρπ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24433/elabet-gia-to-22-niki-i-aek-kontra-stin-antverp"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-paok-bc-779c3b.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24432,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-paok-bc-779c3b.jpg?itok=yGEACA7Z",
-    "title": "ELABET: ΠΑΟΚ – Ουλμ: Ο Δικέφαλος θέλει επιστροφή στις νίκες!",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24432/elabet-paok-oylm-o-dikefalos-thelei-epistrofi-stis-nikes"
    }
   ],
   "wait": {
@@ -4067,6 +4067,12 @@
     "igs": "18146339968599344"
    },
    "tries": 1
+  },
+  "news:24474": {
+   "at": 1792707338.4608672,
+   "claim": "39862930674",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
