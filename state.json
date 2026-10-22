@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24453,
+  "last": 24458,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-logos.png",
@@ -3739,6 +3739,12 @@
     "igs": "18451035916124502"
    },
    "tries": 1
+  },
+  "news:24454": {
+   "at": 1792671130.1512852,
+   "claim": "39776161022",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
