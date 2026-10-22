@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24474,
+  "last": 24475,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-23-002609.png",
@@ -4076,6 +4076,12 @@
     "igs": "18089817521305799"
    },
    "tries": 1
+  },
+  "news:24475": {
+   "at": 1792710726.4816191,
+   "claim": "39869999101",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
