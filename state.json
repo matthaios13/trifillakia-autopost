@@ -660,6 +660,38 @@
    "since": 1792255648.3469837,
    "team": "waterpolo"
   },
+  "tb:YylyfjNr": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "SENMmweG",
+    "away_score": 5,
+    "comp": "Conference League - League phase",
+    "comp_full": "ΕΥΡΩΠΗ: Conference League - League phase",
+    "comp_logo": "https://static.flashscore.com/res/image/data/pEK5ZhhD-jc2CheFa.png",
+    "home": "Καϊράτ Αλμάτι",
+    "home_id": "CrO7xXpJ",
+    "home_score": 1,
+    "id": "YylyfjNr",
+    "info": "",
+    "periods": [
+     [
+      1,
+      3
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "8WHkz50k",
+    "start": 1792679400,
+    "status": "3",
+    "tour_id": "GfRbsVWM",
+    "tour_path": "/football/europe/conference-league/"
+   },
+   "raw_round": "League phase - Αγωνιστική ημέρα: 2",
+   "round": "2η Αγωνιστική",
+   "since": 1792686320.3211026,
+   "team": "football"
+  },
   "tb:fLLqQ10m": {
    "ev": {
     "away": "Παναθηναϊκός",
@@ -4153,6 +4185,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "tb:YylyfjNr": {
+   "at": 1792686504.1563604,
+   "claim": "39813888050",
+   "nets": {},
+   "tries": 0
   },
   "tb:bDBYfRfD": {
    "at": 1791985793.189812,
