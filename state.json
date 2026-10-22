@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24446,
+  "last": 24447,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-65468.jpg",
@@ -3685,6 +3685,12 @@
     "igs": "18132467719807437"
    },
    "tries": 1
+  },
+  "news:24447": {
+   "at": 1792657648.8189495,
+   "claim": "39747575888",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
