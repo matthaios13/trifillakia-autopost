@@ -3,6 +3,14 @@
   "last": 24458,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-redstart_partizan-91b59f.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24455,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-redstart_partizan-91b59f.jpg",
+    "title": "ELABET: Παρτίζαν – Ερυθρός Αστέρας και το Βελιγράδι παίρνει φωτιά με ισχυρό Bet Builder",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24455/elabet-partizan-erythros-asteras-kai-to-veligradi-pairnei"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/europa-league-logo-conference-league.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24454,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-atletikofc-769ceb.jpg?itok=2QEX_Ja8",
     "title": "ELABET: Η Ατλέτικο έχει ιδανικό «combo» για συνέχεια στο νικηφόρο σερί",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24415/elabet-i-atletiko-ehei-idaniko-combo-gia-syneheia-sto-nikiforo"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-portofc-67b7ae.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24414,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-portofc-67b7ae.jpg?itok=WJgTHq8j",
-    "title": "ELABET: Πόρτο – Αϊντχόφεν με «Ενισχυμένο» Bet Builder σκοραρίσματος",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24414/elabet-porto-ainthofen-me-enishymeno-bet-builder-skorarismatos"
    }
   ],
   "wait": {
@@ -3757,6 +3757,12 @@
     "igs": "18154321486534203"
    },
    "tries": 1
+  },
+  "news:24456": {
+   "at": 1792671211.152983,
+   "claim": "39776161022",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
