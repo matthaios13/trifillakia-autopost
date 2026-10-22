@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24458,
+  "last": 24459,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/Europa-League-logo-Conference-League-860x484.jpg",
@@ -3784,6 +3784,12 @@
     "igs": "18130851988690352"
    },
    "tries": 1
+  },
+  "news:24459": {
+   "at": 1792671479.3634236,
+   "claim": "39776825613",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
