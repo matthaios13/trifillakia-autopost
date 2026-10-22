@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24464,
+  "last": 24465,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/kangwa-pao.png",
@@ -3880,6 +3880,12 @@
     "igs": "18100673894643152"
    },
    "tries": 1
+  },
+  "news:24465": {
+   "at": 1792691961.3989503,
+   "claim": "39826835629",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
