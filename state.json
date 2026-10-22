@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24471,
+  "last": 24472,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-almaty.png",
@@ -3943,6 +3943,12 @@
     "igs": "17997858734830354"
    },
    "tries": 1
+  },
+  "news:24472": {
+   "at": 1792700790.8973114,
+   "claim": "39847225231",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
