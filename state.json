@@ -328,6 +328,48 @@
   }
  },
  "pending": {
+  "mvp:CGY4C75j": {
+   "ev": {
+    "away": "Μπασκόνια",
+    "away_id": "8zQPdU9R",
+    "away_score": 79,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-jJNg8HzP.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 85,
+    "id": "CGY4C75j",
+    "info": "",
+    "periods": [
+     [
+      20,
+      21
+     ],
+     [
+      23,
+      19
+     ],
+     [
+      20,
+      14
+     ],
+     [
+      22,
+      25
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1792692900,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "since": 1792700832.7257392,
+   "team": "basketball"
+  },
   "mvp:KtOnzjt0": {
    "ev": {
     "away": "Χάποελ Τελ Αβίβ",
@@ -451,6 +493,50 @@
    "round": "Τελικός",
    "since": 1792338916.0273285,
    "team": "volley_m"
+  },
+  "tb:CGY4C75j": {
+   "ev": {
+    "away": "Μπασκόνια",
+    "away_id": "8zQPdU9R",
+    "away_score": 79,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-jJNg8HzP.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 85,
+    "id": "CGY4C75j",
+    "info": "",
+    "periods": [
+     [
+      20,
+      21
+     ],
+     [
+      23,
+      19
+     ],
+     [
+      20,
+      14
+     ],
+     [
+      22,
+      25
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1792692900,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 7",
+   "round": "7η Αγωνιστική",
+   "since": 1792700832.7257392,
+   "team": "basketball"
   },
   "tb:KtOnzjt0": {
    "ev": {
@@ -2383,6 +2469,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "mvp:CGY4C75j": {
+   "at": 1792700953.7767432,
+   "claim": "39848673975",
+   "nets": {},
+   "tries": 0
   },
   "mvp:Es957u3N": {
    "at": 1791985793.189812,
