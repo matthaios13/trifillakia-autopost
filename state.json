@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24450,
+  "last": 24453,
   "recent": [
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabethalloween_1200x628-478f6f_0.jpg",
@@ -3712,6 +3712,12 @@
     "igs": "18128916479486779"
    },
    "tries": 1
+  },
+  "news:24451": {
+   "at": 1792668087.0973847,
+   "claim": "39768553977",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
