@@ -6,7 +6,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/kangwa-pao.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24464,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/kangwa-pao.png",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/kangwa-pao.png?itok=sueyaNTd",
     "title": "Καϊράτ Αλμάτι – Παναθηναϊκός (5-1): Απόλυτα κυρίαρχο το Τριφύλλι, πεντάρα στο Αλμάτι (vids)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24464/kairat-almati-panathinaikos-5-1-apolyta-kyriarho-to-trifylli-pentara-sto"
    },
@@ -14,7 +14,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-3.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24463,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao-3.png",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao-3.png?itok=sN-NyLPu",
     "title": "Παναθηναϊκός: Το πρόγραμμα μέχρι την ολοκλήρωση της League Phase του Conference League",
     "url": "https://www.trifillakia.gr/podosfairo/article/24463/panathinaikos-to-programma-mehri-tin-oloklirosi-tis-league-phase-toy"
    },
@@ -22,7 +22,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/taborda-betis.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24462,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/taborda-betis.png",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/taborda-betis.png?itok=56q5HqaQ",
     "title": "Ταμπόρδα: «Δεν ήταν εύκολο ματς, εμείς το κάναμε να φανεί έτσι»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24462/tamporda-den-itan-eykolo-mats-emeis-to-kaname-na-fanei-etsi"
    },
@@ -30,7 +30,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-24459.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24461,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao-24459.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao-24459.jpg?itok=mUw-wx4n",
     "title": "Ναν για την υπόθεση της ΕΟΚ: «Θα χρειαστώ πίσω τα τρόπαιά μου»",
     "url": "https://www.trifillakia.gr/mpasket/article/24461/nan-gia-tin-ypothesi-tis-eok-tha-hreiasto-piso-ta-tropaia-moy"
    },
@@ -4622,7 +4622,8 @@
    "bala24.gr:81648",
    "bala24.gr:81659",
    "bala24.gr:81661",
-   "bala24.gr:81670"
+   "bala24.gr:81670",
+   "bala24.gr:81668"
   ],
   "done_titles": [
    "Παναθηναϊκός: Χωρίς ανησυχία για Λεσόρ, κοντά στο να παίξει με Μπασκόνια",
