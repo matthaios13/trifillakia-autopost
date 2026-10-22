@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, biolinks, captions, cards, flashscore as fs, meta, news, syndicate, wpl
+from . import basket, biolinks, captions, cards, elabet, flashscore as fs, meta, news, syndicate, wpl
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -336,6 +336,11 @@ def run(dry=False):
                     st["pending"][f"mvp:{ev['id']}"] = {"team": team_key, "ev": ev, "since": now}
                 if ev["tour_id"] and ev["stage_id"]:
                     st["pending"][f"tb:{ev['id']}"] = {"team": team_key, "ev": ev, "since": now, "raw_round": m["raw_round"], "round": m["round"]}
+
+    try:
+        elabet.update(log=log)
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα ροής ELABET", e)
 
     try:
         syndicate.update(st["synd"], now, log=log)
