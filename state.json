@@ -3,6 +3,14 @@
   "last": 24458,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-milanfc-700121.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24457,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-milanfc-700121.jpg",
+    "title": "ELABET: Μπόρνμουθ – Μίλαν σε μία ιστορική ευρωπαϊκή βραδιά με ενισχυμένο Bet Builder ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24457/elabet-mpornmoyth-milan-se-mia-istoriki-eyropaiki-vradia-me"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-pao-bc-8df9a2.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24456,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/futsal%20andrwn.jpg?itok=CadtLdqL",
     "title": "Ούτε με ΠΑΟΚ ήρθαν βαθμοί",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24417/oyte-me-paok-irthan-vathmoi"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/votanikospanathin.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24416,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/votanikospanathin.png?itok=pmFT20Ly",
-    "title": "Παναθηναϊκός: Έτσι διαμορφώνεται το βόρειο πέταλο του νέου γηπέδου (vid)",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24416/panathinaikos-etsi-diamorfonetai-to-voreio-petalo-toy-neoy-gipedoy-vid"
    }
   ],
   "wait": {
@@ -3775,6 +3775,12 @@
     "igs": "18488928163118938"
    },
    "tries": 1
+  },
+  "news:24458": {
+   "at": 1792671290.100529,
+   "claim": "39776161022",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
