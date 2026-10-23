@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/jessica_berlin.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24492,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/jessica_berlin.jpg",
+    "title": "Στα πράσινα η Μπερλίν",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24492/sta-prasina-i-mperlin"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/sima%20erasitexni_7.jpg",
     "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
     "nid": 24491,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/kairat-1.png?itok=d9A-gTza",
     "title": "Καϊράτ Αλμάτι: Το προφίλ της αντιπάλου του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/podosfairo/article/24452/kairat-almati-to-profil-tis-antipaloy-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/skandalo.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24451,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/skandalo.jpg?itok=ZqQ0j3Q-",
-    "title": "Ω τι έκπληξη: Μαζί με τα λεφτά βρέθηκαν και 3 φανέλες του Ολυμπιακού!",
-    "url": "https://www.trifillakia.gr/mpasket/article/24451/o-ti-ekplixi-mazi-me-ta-lefta-vrethikan-kai-3-faneles-toy-olympiakoy"
    }
   ],
   "wait": {
