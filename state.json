@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-23-165534.png",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24486,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-23-165534.png",
+    "title": "Παναθηναϊκός: Η απάντηση του Δημήτρη Γιαννακόπουλου στην ανακοίνωση του Ολυμπιακού",
+    "url": "https://www.trifillakia.gr/mpasket/article/24486/panathinaikos-i-apantisi-toy-dimitri-giannakopoyloy-stin-anakoinosi-toy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-23-142649.png",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24484,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-22-085255.png?itok=ti--lsAm",
     "title": "Στο Αλμάτι για το δεύτερο σερί «διπλό» ο Παναθηναϊκός",
     "url": "https://www.trifillakia.gr/podosfairo/article/24445/sto-almati-gia-to-deytero-seri-diplo-o-panathinaikos"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%99%CF%84%CE%B1%CE%BB%CE%B9%CE%B1.jpg",
-    "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
-    "nid": 24444,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CE%99%CF%84%CE%B1%CE%BB%CE%B9%CE%B1.jpg?itok=V5tfExel",
-    "title": "Γείωσε τη GEAS στο σπίτι της",
-    "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/24444/geiose-ti-geas-sto-spiti-tis"
    }
   ],
   "wait": {
@@ -4178,6 +4178,12 @@
     "igs": "18078668288559411"
    },
    "tries": 1
+  },
+  "news:24487": {
+   "at": 1792764865.7203398,
+   "claim": "39967338435",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
