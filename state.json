@@ -3,6 +3,14 @@
   "last": 24482,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-zalgirisbc-5d20da.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24481,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-zalgirisbc-5d20da.jpg",
+    "title": "ELABET: «Ενισχυμένη» αντίδραση η Ζάλγκιρις με Βιλερμπάν ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24481/elabet-enishymeni-antidrasi-i-zalgkiris-me-vilermpan-paixe"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-malagafc-648670.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24480,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao-24436.jpg?itok=wN5qfgMe",
     "title": "Μπόνγκα: «Σίγουρα θα αντιδράσουμε – Νιώθω το Telekom Center σαν σπίτι μου»",
     "url": "https://www.trifillakia.gr/mpasket/article/24441/mpongka-sigoyra-tha-antidrasoyme-niotho-to-telekom-center-san-spiti-moy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-2026-10-21-7.04.35-mm.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24440,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-2026-10-21-7.04.35-mm.png?itok=5k20nfg4",
-    "title": "Παναθηναϊκός: Τελευταία προπόνηση στο Αλμάτι πριν την Καϊράτ",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24440/panathinaikos-teleytaia-proponisi-sto-almati-prin-tin-kairat"
    }
   ],
   "wait": {
@@ -4139,6 +4139,12 @@
     "igs": "18167065669474920"
    },
    "tries": 1
+  },
+  "news:24482": {
+   "at": 1792754062.3165185,
+   "claim": "39944194205",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
