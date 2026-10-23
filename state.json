@@ -3,6 +3,14 @@
   "last": 24482,
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-malagafc-648670.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24480,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-malagafc-648670.jpg",
+    "title": "ELABET: Αλαβές-Μάλαγα με Bet Builder έδρας ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24480/elabet-alaves-malaga-me-bet-builder-edras-paixe-nomima-21"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-stutgardfc-67e5a8.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24479,
@@ -313,14 +321,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-2026-10-21-7.04.35-mm.png?itok=5k20nfg4",
     "title": "Παναθηναϊκός: Τελευταία προπόνηση στο Αλμάτι πριν την Καϊράτ",
     "url": "https://www.trifillakia.gr/podosfairo/article/24440/panathinaikos-teleytaia-proponisi-sto-almati-prin-tin-kairat"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-2026-10-21-7.18.39-mm.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24439,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-2026-10-21-7.18.39-mm.png?itok=SlE2uZ5m",
-    "title": "Παναθηναϊκός: Νέα εισιτήρια για το παιχνίδι με τον Βόλο",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24439/panathinaikos-nea-eisitiria-gia-to-paihnidi-me-ton-volo"
    }
   ],
   "wait": {
@@ -4130,6 +4130,12 @@
     "igs": "18099063935399640"
    },
    "tries": 1
+  },
+  "news:24481": {
+   "at": 1792754032.6570585,
+   "claim": "39944194205",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
