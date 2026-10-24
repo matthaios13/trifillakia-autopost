@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/podilasia_5.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24494,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/podilasia_5.jpg",
+    "title": "Σε εξαιρετική κατάσταση τα πράσινα πεντάλ",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24494/se-exairetiki-katastasi-ta-prasina-pental"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%A0%CE%B1%CF%85%CE%BB%CE%BF%CF%80%CE%BF%CF%8D%CE%BB%CE%BF%CF%85.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24493,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/europa-league-logo-conference-league.jpg?itok=S9sE6uXc",
     "title": "Παναθηναϊκός, ΟΦΗ, Ολυμπιακός: Οι σημερινοί ευρωπαϊκοί αγώνες",
     "url": "https://www.trifillakia.gr/podosfairo/article/24454/panathinaikos-ofi-olympiakos-oi-simerinoi-eyropaikoi-agones"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-logos.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24453,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao-logos.png?itok=cD9gGYpP",
-    "title": "Παναθηναϊκός: Τα 8 σήματα του τριφυλλιού από το 1918 μέχρι σήμερα",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24453/panathinaikos-ta-8-simata-toy-trifyllioy-apo-to-1918-mehri-simera"
    }
   ],
   "wait": {
@@ -4250,6 +4250,12 @@
     "igs": "18074208413742727"
    },
    "tries": 1
+  },
+  "news:24495": {
+   "at": 1792801051.6997533,
+   "claim": "40044043318",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
