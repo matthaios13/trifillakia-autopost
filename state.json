@@ -9,7 +9,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/paofiloii.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24511,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/paofiloii.png",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/paofiloii.png?itok=1Wks99H5",
     "title": "Παναθηναϊκός: Αποθέωση στον Βόλο – Περισσότεροι από 300 οπαδοί συνόδευσαν την αποστολή στο ξενοδοχείο! (vid)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24511/panathinaikos-apotheosi-ston-volo-perissoteroi-apo-300-opadoi-synodeysan"
    },
@@ -17,7 +17,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-24509.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24510,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao-24509.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao-24509.jpg?itok=0xDN2O_c",
     "title": "Ο Παναθηναϊκός γύρισε το ματς στο τέταρτο δεκάλεπτο και πέρασε από την Καρδίτσα",
     "url": "https://www.trifillakia.gr/mpasket/article/24510/o-panathinaikos-gyrise-to-mats-sto-tetarto-dekalepto-kai-perase-apo-tin"
    },
@@ -25,7 +25,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/karditsa%20tc.JPG",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24509,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/karditsa%20tc.JPG",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/karditsa%20tc.JPG?itok=yeAuU7Js",
     "title": "Σοβαρεύτηκε στο τέλος με Καρδίτσα",
     "url": "https://www.trifillakia.gr/mpasket/article/24509/sovareytike-sto-telos-me-karditsa"
    },
@@ -498,6 +498,46 @@
    },
    "since": 1792864801.9356406,
    "team": "basketball"
+  },
+  "tb:0YUeuBF8": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "d0FeiWQ6",
+    "away_score": 3,
+    "comp": "Novibet Volley League",
+    "comp_full": "ΕΛΛΑΔΑ: Novibet Volley League",
+    "comp_logo": "https://static.flashscore.com/res/image/data/dUqcElC7-GdXxoUiF.png",
+    "home": "Καλαμάτα",
+    "home_id": "INbKIAg9",
+    "home_score": 0,
+    "id": "0YUeuBF8",
+    "info": "",
+    "periods": [
+     [
+      18,
+      25
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      20,
+      25
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "8zxfYRtn",
+    "start": 1792859400,
+    "status": "3",
+    "tour_id": "8nn94rPb",
+    "tour_path": "/volleyball/greece/volley-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 1",
+   "round": "1η Αγωνιστική",
+   "since": 1792866316.771346,
+   "team": "volley_m"
   },
   "tb:6wGNmTGM": {
    "ev": {
