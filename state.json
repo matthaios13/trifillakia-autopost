@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-1200x628-2-138860_0.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24499,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-1200x628-2-138860_0.jpg",
+    "title": "ELABET: Derby Del Sole με Bet Builder απόδρασης για τη Ρόμα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24499/elabet-derby-del-sole-me-bet-builder-apodrasis-gia-ti-roma"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-mancityfc-3f4f81.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24498,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/nunnarosssssssss.jpg?itok=1lDhMget",
     "title": "Κέντρικ Ναν: «Θέλω πίσω τα τρόπαιά μου» – Το αιχμηρό σχόλιο για τις εξελίξεις στο ελληνικό μπάσκετ",
     "url": "https://www.trifillakia.gr/mpasket/article/24459/kentrik-nan-thelo-piso-ta-tropaia-moy-to-aihmiro-sholio-gia-tis-exelixeis-sto"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/Europa-League-logo-Conference-League-860x484.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24458,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/Europa-League-logo-Conference-League-860x484.jpg",
-    "title": "ELABET: Ευρωπαϊκό κοστούμι και σούπερ «Ενισχυμένα» Bet Builders για Ολυμπιακό, Παναθηναϊκό και ΟΦΗ",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24458/elabet-eyropaiko-kostoymi-kai-soyper-enishymena-bet-builders"
    }
   ],
   "wait": {
@@ -4295,6 +4295,12 @@
     "igs": "18198833107382500"
    },
    "tries": 1
+  },
+  "news:24500": {
+   "at": 1792822603.7865493,
+   "claim": "40069329036",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
