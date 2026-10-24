@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-mancityfc-3f4f81.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24498,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-mancityfc-3f4f81.jpg",
+    "title": "ELABET: Απόλυτη η Μάντσεστερ Σίτι με Bet Builder ημιχρόνων",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24498/elabet-apolyti-i-mantsester-siti-me-bet-builder-imihronon"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arsenalfc-96d642.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24497,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/Europa-League-logo-Conference-League-860x484.jpg",
     "title": "ELABET: Ευρωπαϊκό κοστούμι και σούπερ «Ενισχυμένα» Bet Builders για Ολυμπιακό, Παναθηναϊκό και ΟΦΗ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24458/elabet-eyropaiko-kostoymi-kai-soyper-enishymena-bet-builders"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-milanfc-700121.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24457,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-milanfc-700121.jpg",
-    "title": "ELABET: Μπόρνμουθ – Μίλαν σε μία ιστορική ευρωπαϊκή βραδιά με ενισχυμένο Bet Builder ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24457/elabet-mpornmoyth-milan-se-mia-istoriki-eyropaiki-vradia-me"
    }
   ],
   "wait": {
@@ -4286,6 +4286,12 @@
     "igs": "18076368116450235"
    },
    "tries": 1
+  },
+  "news:24499": {
+   "at": 1792822566.2567012,
+   "claim": "40069329036",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
