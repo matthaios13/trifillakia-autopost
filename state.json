@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24508,
+  "last": 24509,
   "noimg": {
    "24485": 1792757835.8166077
   },
@@ -457,6 +457,48 @@
    "since": 1792324220.9558408,
    "team": "basketball"
   },
+  "mvp:d84qDxXg": {
+   "ev": {
+    "away": "Α.Σ. Καρδίτσας",
+    "away_id": "EHW5nnIO",
+    "away_score": 64,
+    "comp": "Stoiximan GBL",
+    "comp_full": "ΕΛΛΑΔΑ: Stoiximan GBL",
+    "comp_logo": "https://static.flashscore.com/res/image/data/tzy2M4jD-z3ir92KD.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 78,
+    "id": "d84qDxXg",
+    "info": "",
+    "periods": [
+     [
+      19,
+      15
+     ],
+     [
+      12,
+      24
+     ],
+     [
+      19,
+      17
+     ],
+     [
+      28,
+      8
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "fkqdIc7M",
+    "start": 1792857600,
+    "status": "3",
+    "tour_id": "xn32I3T4",
+    "tour_path": "/basketball/greece/basket-league/"
+   },
+   "since": 1792864801.9356406,
+   "team": "basketball"
+  },
   "tb:6wGNmTGM": {
    "ev": {
     "away": "ΑΟ Φλοίσβος Παλαιού Φαλήρου",
@@ -820,6 +862,50 @@
    "round": "2η Αγωνιστική",
    "since": 1792686320.3211026,
    "team": "football"
+  },
+  "tb:d84qDxXg": {
+   "ev": {
+    "away": "Α.Σ. Καρδίτσας",
+    "away_id": "EHW5nnIO",
+    "away_score": 64,
+    "comp": "Stoiximan GBL",
+    "comp_full": "ΕΛΛΑΔΑ: Stoiximan GBL",
+    "comp_logo": "https://static.flashscore.com/res/image/data/tzy2M4jD-z3ir92KD.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 78,
+    "id": "d84qDxXg",
+    "info": "",
+    "periods": [
+     [
+      19,
+      15
+     ],
+     [
+      12,
+      24
+     ],
+     [
+      19,
+      17
+     ],
+     [
+      28,
+      8
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "fkqdIc7M",
+    "start": 1792857600,
+    "status": "3",
+    "tour_id": "xn32I3T4",
+    "tour_path": "/basketball/greece/basket-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 4",
+   "round": "4η Αγωνιστική",
+   "since": 1792864801.9356406,
+   "team": "basketball"
   },
   "tb:fLLqQ10m": {
    "ev": {
@@ -4477,6 +4563,12 @@
    },
    "tries": 1
   },
+  "news:24509": {
+   "at": 1792865053.6208138,
+   "claim": "40118305911",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -5269,7 +5361,9 @@
    "totalbasket.gr:65827",
    "bala24.gr:82141",
    "bala24.gr:82153",
-   "bala24.gr:82156"
+   "bala24.gr:82156",
+   "totalbasket.gr:65834",
+   "bala24.gr:82202"
   ],
   "done_titles": [
    "Παναθηναϊκός: Χωρίς ανησυχία για Λεσόρ, κοντά στο να παίξει με Μπασκόνια",
