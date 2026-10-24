@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/kalamata.jpg",
+    "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
+    "nid": 24514,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/kalamata.jpg",
+    "title": "Νίκη με το καλησπέρα στη Καλαμάτα",
+    "url": "https://www.trifillakia.gr/volei-andron/article/24514/niki-me-to-kalispera-sti-kalamata"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%B6%CE%B7%CF%81%CE%AF%CE%BD%CE%B5%CE%B9%CE%BF.jpg",
     "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
     "nid": 24513,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-23-002609.png?itok=qR7v9UfM",
     "title": "Ομπράντοβιτς: «Στο τέλος κρατήσαμε την ψυχραιμία μας και δείξαμε ξανά τον χαρακτήρα μας»",
     "url": "https://www.trifillakia.gr/mpasket/article/24474/omprantovits-sto-telos-kratisame-tin-psyhraimia-mas-kai-deixame-xana-ton"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-22-234313.png",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24473,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-22-234313.png?itok=Rhy4ADHj",
-    "title": "Χέιζ-Ντέιβις: «Κάναμε πολύ κακή εμφάνιση – Πρέπει να λειτουργήσουμε ως ομάδα»",
-    "url": "https://www.trifillakia.gr/mpasket/article/24473/heiz-nteivis-kaname-poly-kaki-emfanisi-prepei-na-leitoyrgisoyme-os-omada"
    }
   ],
   "wait": {
