@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arsenalfc-96d642.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24497,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arsenalfc-96d642.jpg",
+    "title": "ELABET: Άρσεναλ – Έβερτον με ισορροπημένο «combo» στο Λονδίνο",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24497/elabet-arsenal-everton-me-isorropimeno-combo-sto-londino"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/ASHER.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24496,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-milanfc-700121.jpg",
     "title": "ELABET: Μπόρνμουθ – Μίλαν σε μία ιστορική ευρωπαϊκή βραδιά με ενισχυμένο Bet Builder ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24457/elabet-mpornmoyth-milan-se-mia-istoriki-eyropaiki-vradia-me"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-pao-bc-8df9a2.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24456,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-pao-bc-8df9a2.jpg?itok=HxNhre0O",
-    "title": "ELABET: Παναθηναϊκός-Μπασκόνια με «Ενισχύσεις» σε «πράσινους» σκόρερ ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24456/elabet-panathinaikos-mpaskonia-me-enishyseis-se-prasinoys"
    }
   ],
   "wait": {
@@ -4277,6 +4277,12 @@
     "igs": "18637814677021474"
    },
    "tries": 1
+  },
+  "news:24498": {
+   "at": 1792822535.5939941,
+   "claim": "40069329036",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
