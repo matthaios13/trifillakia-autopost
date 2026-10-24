@@ -871,6 +871,50 @@
    "since": 1792255648.3469837,
    "team": "waterpolo"
   },
+  "tb:YsDAttZj": {
+   "ev": {
+    "away": "Χίος",
+    "away_id": "QHkThetB",
+    "away_score": 10,
+    "comp": "Α1",
+    "comp_full": "ΕΛΛΑΔΑ: Α1",
+    "comp_logo": "https://static.flashscore.com/res/image/data/E18keuRp-QqCvGd8i.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "8WFCnEH1",
+    "home_score": 23,
+    "id": "YsDAttZj",
+    "info": "",
+    "periods": [
+     [
+      5,
+      2
+     ],
+     [
+      5,
+      1
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      9,
+      2
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "bTA0nNto",
+    "start": 1792864800,
+    "status": "3",
+    "tour_id": "hfdcqrn4",
+    "tour_path": "/water-polo/greece/a1/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 5",
+   "round": "5η Αγωνιστική",
+   "since": 1792875021.3667014,
+   "team": "waterpolo"
+  },
   "tb:YylyfjNr": {
    "ev": {
     "away": "Παναθηναϊκός",
