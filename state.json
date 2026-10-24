@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/volos-pao_0.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24506,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/volos-pao_0.png",
+    "title": "Παναθηναϊκός: Κυκλοφόρησαν επιπλέον εισιτήρια για το Πανθεσσαλικό – Προς τις 20.000 οι φίλαθλοι",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24506/panathinaikos-kykloforisan-epipleon-eisitiria-gia-to-panthessaliko-pros-tis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/photo_2026-10-24_17-23-17.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24505,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CE%B2%CE%BF%CE%BB%CE%B5%CF%8A%20%CE%B3%CF%85%CE%BD.jpg?itok=DaqJMVh1",
     "title": "Ξεχωρίζουν στις επιμέρους κατηγορίες οι Κωνσταντινίδου και Γουάιτ",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/24466/xehorizoyn-stis-epimeroys-katigories-oi-konstantinidoy-kai-goyait"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CF%83%CE%AE%CE%BC%CE%B1%20%CE%B1%CE%BF.jpg",
-    "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
-    "nid": 24465,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CF%83%CE%AE%CE%BC%CE%B1%20%CE%B1%CE%BF.jpg?itok=ftG0L0La",
-    "title": "Ανακοίνωση Α.Ο για τον χώρο του μπάσκετ",
-    "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/24465/anakoinosi-ao-gia-ton-horo-toy-mpasket"
    }
   ],
   "wait": {
@@ -4398,6 +4398,12 @@
     "igs": "18430193056148574"
    },
    "tries": 1
+  },
+  "news:24507": {
+   "at": 1792858653.877611,
+   "claim": "40110693616",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
