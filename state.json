@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/f1aa13f7-bf45-4c8a-9fe5-c4f6e330a37d.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24507,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/f1aa13f7-bf45-4c8a-9fe5-c4f6e330a37d.png",
+    "title": "Παναθηναϊκός: Και άλλες θύρες στη διάθεση των οπαδών στο Πανθεσσαλικό",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24507/panathinaikos-kai-alles-thyres-sti-diathesi-ton-opadon-sto-panthessaliko"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/volos-pao_0.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24506,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/ntesers.png?itok=mKUY3znq",
     "title": "Ντέσερς: «Ικανοποιημένοι με τη νίκη – Δε θα είναι εύκολο να μπούμε στην οκτάδα» (vid)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24467/ntesers-ikanopoiimenoi-me-ti-niki-de-tha-einai-eykolo-na-mpoyme-stin-oktada"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%B2%CE%BF%CE%BB%CE%B5%CF%8A%20%CE%B3%CF%85%CE%BD.jpg",
-    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
-    "nid": 24466,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CE%B2%CE%BF%CE%BB%CE%B5%CF%8A%20%CE%B3%CF%85%CE%BD.jpg?itok=DaqJMVh1",
-    "title": "Ξεχωρίζουν στις επιμέρους κατηγορίες οι Κωνσταντινίδου και Γουάιτ",
-    "url": "https://www.trifillakia.gr/volei-gynaikon/article/24466/xehorizoyn-stis-epimeroys-katigories-oi-konstantinidoy-kai-goyait"
    }
   ],
   "wait": {
@@ -4407,6 +4407,12 @@
     "igs": "18151387873600344"
    },
    "tries": 1
+  },
+  "news:24508": {
+   "at": 1792858688.1852417,
+   "claim": "40110693616",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
