@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao_0.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24504,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao_0.png",
+    "title": "Παναθηναϊκός: Η αποστολή του Τριφυλλιού για το ματς με τον Βόλο",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24504/panathinaikos-i-apostoli-toy-trifyllioy-gia-to-mats-me-ton-volo"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-24-180845.png",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24503,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/kangwa-pao.png?itok=sueyaNTd",
     "title": "Καϊράτ Αλμάτι – Παναθηναϊκός (5-1): Απόλυτα κυρίαρχο το Τριφύλλι, πεντάρα στο Αλμάτι (vids)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24464/kairat-almati-panathinaikos-5-1-apolyta-kyriarho-to-trifylli-pentara-sto"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-3.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24463,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao-3.png?itok=sN-NyLPu",
-    "title": "Παναθηναϊκός: Το πρόγραμμα μέχρι την ολοκλήρωση της League Phase του Conference League",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24463/panathinaikos-to-programma-mehri-tin-oloklirosi-tis-league-phase-toy"
    }
   ],
   "wait": {
@@ -4380,6 +4380,12 @@
     "igs": "17917150134462871"
    },
    "tries": 1
+  },
+  "news:24505": {
+   "at": 1792855089.659962,
+   "claim": "40106121218",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
