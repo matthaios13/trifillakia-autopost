@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/vroxi.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24523,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/vroxi.png",
+    "title": "Παναθηναϊκός – Αστέρας Τρίπολης: Διακοπή λόγω κακοκαιρίας στην Α’ Εθνική Γυναικών",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24523/panathinaikos-asteras-tripolis-diakopi-logo-kakokairias-stin-a-ethniki"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao2332.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24522,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/rekorpao.jpg?itok=6rkGccIq",
     "title": "Ιστορικό ρεκόρ με 4 συνεχόμενα ευρωπαϊκά «διπλά» για πρώτη φορά!",
     "url": "https://www.trifillakia.gr/podosfairo/article/24483/istoriko-rekor-me-4-synehomena-eyropaika-dipla-gia-proti-fora"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-1200x628-2-138860.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24482,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-1200x628-2-138860.jpg?itok=RFUhEMOP",
-    "title": "ELABET: Σούπερ ματσάρα Ολυμπιακός-Φενέρ με 0% γκανιότα και φουλ «Ενισχύσεις» στο Παρίσι ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24482/elabet-soyper-matsara-olympiakos-fener-me-0-gkaniota-kai-foyl"
    }
   ],
   "wait": {
@@ -4927,6 +4927,12 @@
     "igs": "18493500382109145"
    },
    "tries": 1
+  },
+  "news:24524": {
+   "at": 1792956026.7101958,
+   "claim": "40225194621",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
