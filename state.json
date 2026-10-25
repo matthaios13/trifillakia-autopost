@@ -959,6 +959,38 @@
    "since": 1792875021.3667014,
    "team": "waterpolo"
   },
+  "tb:Yu8q0lLF": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "SENMmweG",
+    "away_score": 1,
+    "comp": "Stoiximan Super League",
+    "comp_full": "ΕΛΛΑΔΑ: Stoiximan Super League",
+    "comp_logo": "https://static.flashscore.com/res/image/data/UyLJdoW1-OrtkLuwK.png",
+    "home": "Βόλος",
+    "home_id": "nDZbFBqG",
+    "home_score": 0,
+    "id": "Yu8q0lLF",
+    "info": "",
+    "periods": [
+     [
+      0,
+      1
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "MNJDddac",
+    "start": 1792944000,
+    "status": "3",
+    "tour_id": "d2pwJFHI",
+    "tour_path": "/football/greece/super-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 8",
+   "round": "8η Αγωνιστική",
+   "since": 1792951247.9188375,
+   "team": "football"
+  },
   "tb:YylyfjNr": {
    "ev": {
     "away": "Παναθηναϊκός",
