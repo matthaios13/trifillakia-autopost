@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/volos.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24520,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/volos.png",
+    "title": "Βόλος ELABET: Απάντηση στον Αντόνιο Λούνα πριν από το ματς με τον Παναθηναϊκό",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24520/volos-elabet-apantisi-ston-antonio-loyna-prin-apo-to-mats-me-ton"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pena.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24519,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-malagafc-648670.jpg?itok=qCxMdXMm",
     "title": "ELABET: Αλαβές-Μάλαγα με Bet Builder έδρας ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24480/elabet-alaves-malaga-me-bet-builder-edras-paixe-nomima-21"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-stutgardfc-67e5a8.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24479,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-stutgardfc-67e5a8.jpg?itok=rAGcew69",
-    "title": "ELABET: «Ενισχυμένη» η Στουτγκάρδη, ιστορικό χάλι η Γκλάντμπαχ ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24479/elabet-enishymeni-i-stoytgkardi-istoriko-hali-i-gklantmpah"
    }
   ],
   "wait": {
@@ -4804,6 +4804,12 @@
     "igs": "17977351844935233"
    },
    "tries": 1
+  },
+  "news:24521": {
+   "at": 1792934340.8873136,
+   "claim": "40196760139",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
