@@ -539,6 +539,50 @@
    "since": 1792866316.771346,
    "team": "volley_m"
   },
+  "tb:6DlQ2Ied": {
+   "ev": {
+    "away": "Παναθλητικός",
+    "away_id": "0C9kKV5D",
+    "away_score": 64,
+    "comp": "WBL1 Γυναίκες",
+    "comp_full": "ΕΛΛΑΔΑ: WBL1 Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/SlpLdpW1-2Nr2qbEt.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "plqPE4do",
+    "home_score": 95,
+    "id": "6DlQ2Ied",
+    "info": "",
+    "periods": [
+     [
+      26,
+      15
+     ],
+     [
+      25,
+      16
+     ],
+     [
+      20,
+      16
+     ],
+     [
+      24,
+      17
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "h4wjf39b",
+    "start": 1792931400,
+    "status": "3",
+    "tour_id": "dMKU41qj",
+    "tour_path": "/basketball/greece/wbl1-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 4",
+   "round": "4η Αγωνιστική",
+   "since": 1792939222.6134849,
+   "team": "basketball_w"
+  },
   "tb:6wGNmTGM": {
    "ev": {
     "away": "ΑΟ Φλοίσβος Παλαιού Φαλήρου",
