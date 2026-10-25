@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/ntesers-c.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24529,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/ntesers-c.png",
+    "title": "Ντέσερς: «Πρέπει να παίζουμε πιο έξυπνα και να τελειώνουμε νωρίτερα τα παιχνίδια» (vid)",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24529/ntesers-prepei-na-paizoyme-pio-exypna-kai-na-teleionoyme-noritera-ta"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/tzeikob.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24528,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-2026-10-23-8.27.43-mm.png?itok=ne48wtId",
     "title": "Παναθηναϊκός: Επέστρεψε Αθήνα μετά το 5-1 επί της Καϊράτ",
     "url": "https://www.trifillakia.gr/podosfairo/article/24490/panathinaikos-epestrepse-athina-meta-to-5-1-epi-tis-kairat"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/meliss.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24489,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/meliss.jpg?itok=3plkOJf3",
-    "title": "ΕΣΑΚΕ: Αρνήθηκαν να συνυπογράψουν την ανακοίνωση του Μελή",
-    "url": "https://www.trifillakia.gr/mpasket/article/24489/esake-arnithikan-na-synypograpsoyn-tin-anakoinosi-toy-meli"
    }
   ],
   "wait": {
@@ -4981,6 +4981,12 @@
     "igs": "18016067039988241"
    },
    "tries": 1
+  },
+  "news:24530": {
+   "at": 1792963423.0772643,
+   "claim": "40235005469",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
