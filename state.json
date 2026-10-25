@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-psg-fc-66fe99.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24516,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-psg-fc-66fe99.jpg",
+    "title": "ELABET: Bet Builder κορυφής στη Γαλλία με Παρί και Anytime Σκόρερ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24516/elabet-bet-builder-koryfis-sti-gallia-me-pari-kai-anytime"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/serafeio%20xios.jpg",
     "label": "ΠΟΛΟ",
     "nid": 24515,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/uefa-ranking.png?itok=Bg-e74WA",
     "title": "Βαθμολογία UEFA: Σταθερά στη 10η θέση η Ελλάδα",
     "url": "https://www.trifillakia.gr/podosfairo/article/24476/vathmologia-uefa-stathera-sti-10i-thesi-i-ellada"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-23-005614.png",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24475,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-23-005614.png",
-    "title": "Τα highlights της απαιτητικής νίκης του Παναθηναϊκού κόντρα στην Μπασκόνια",
-    "url": "https://www.trifillakia.gr/mpasket/article/24475/ta-highlights-tis-apaititikis-nikis-toy-panathinaikoy-kontra-stin-mpaskonia"
    }
   ],
   "wait": {
@@ -4738,6 +4738,12 @@
     "igs": "18077560355723937"
    },
    "tries": 1
+  },
+  "news:24517": {
+   "at": 1792909050.9072895,
+   "claim": "40168440719",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
