@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-sb_1200x628-138860.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24539,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-sb_1200x628-138860.jpg",
+    "title": "ELABET: Η ανανεωμένη Προσφορά* Γνωριμίας της Elabet κάνει την εμπειρία στο Στοίχημα ακόμα πιο ισχυρή!",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24539/elabet-i-ananeomeni-prosfora-gnorimias-tis-elabet-kanei-tin"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/votanpaoo.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24538,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-paok-aek-cbe555.jpg?itok=74C5cBAV",
     "title": "ELABET: ΠΑΟΚ – ΑΕΚ με ρεσιτάλ πόντων στη Θεσσαλονίκη",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24500/elabet-paok-aek-me-resital-ponton-sti-thessaloniki"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-1200x628-2-138860_0.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24499,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-1200x628-2-138860_0.jpg",
-    "title": "ELABET: Derby Del Sole με Bet Builder απόδρασης για τη Ρόμα",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24499/elabet-derby-del-sole-me-bet-builder-apodrasis-gia-ti-roma"
    }
   ],
   "wait": {
@@ -5071,6 +5071,12 @@
     "igs": "18114288742842971"
    },
    "tries": 1
+  },
+  "news:24540": {
+   "at": 1793017411.9863145,
+   "claim": "40321745494",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
