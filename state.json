@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/anakoinosi.png",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24545,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/anakoinosi.png",
+    "title": "Κυκλοφόρησαν τα εισιτήρια του Νόρντζελαντ-Παναθηναϊκός",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24545/kykloforisan-ta-eisitiria-toy-norntzelant-panathinaikos"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-26-145450-e1793019341692.png",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24544,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/volos-pao_0.png?itok=c9GpiLs9",
     "title": "Παναθηναϊκός: Κυκλοφόρησαν επιπλέον εισιτήρια για το Πανθεσσαλικό – Προς τις 20.000 οι φίλαθλοι",
     "url": "https://www.trifillakia.gr/podosfairo/article/24506/panathinaikos-kykloforisan-epipleon-eisitiria-gia-to-panthessaliko-pros-tis"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/photo_2026-10-24_17-23-17.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24505,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/photo_2026-10-24_17-23-17.jpg?itok=LbuBKZjJ",
-    "title": "Παναθηναϊκός: Πρωταθλήτρια στο Junior World Cup Antalya η Κ14 του Τριφυλλιού",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24505/panathinaikos-protathlitria-sto-junior-world-cup-antalya-i-k14-toy"
    }
   ],
   "wait": {
@@ -5125,6 +5125,12 @@
     "igs": "18109125448934684"
    },
    "tries": 1
+  },
+  "news:24546": {
+   "at": 1793024577.5444005,
+   "claim": "40338696301",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
