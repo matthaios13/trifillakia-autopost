@@ -58,6 +58,18 @@ jobs:
             python -m bot run
           fi
 
+      # Το Drupal του trifillakia τρέχει cron μόνο μία φορά την ώρα: το «ξυπνάμε» κάθε ~15 λεπτά
+      # ώστε οι importers «PAO news» και «ELABET άρθρα» να παίρνουν τα νέα άρθρα γρήγορα.
+      # DRUPAL_CRON_URL = το link «To run cron from outside the site» από Configuration → System → Cron.
+      - name: Trifillakia cron
+        if: ${{ always() && (github.event_name == 'schedule' || inputs.mode == 'run') }}
+        env:
+          DRUPAL_CRON_URL: ${{ secrets.DRUPAL_CRON_URL }}
+        run: |
+          if [ -n "$DRUPAL_CRON_URL" ] && [ $(( 10#$(date -u +%M) % 15 )) -lt 5 ]; then
+            curl -s -o /dev/null -w "trifillakia cron: %{http_code} σε %{time_total}s\n" --max-time 120 "$DRUPAL_CRON_URL" || true
+          fi
+
       - name: Cards
         uses: actions/upload-artifact@v4
         with:
