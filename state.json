@@ -6,6 +6,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-26-150503.png",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24543,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-26-150503.png",
+    "title": "Φρανσίσκο ενόψει Αρμάνι: «Έχουμε πολύ ταλέντο – Πρέπει να ελέγξουμε τον ρυθμό»",
+    "url": "https://www.trifillakia.gr/mpasket/article/24543/fransisko-enopsei-armani-ehoyme-poly-talento-prepei-na-elegxoyme-ton-rythmo"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-gremiofc-6a33b0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24542,
@@ -316,14 +324,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao_0.png?itok=vJRTX3NV",
     "title": "Παναθηναϊκός: Η αποστολή του Τριφυλλιού για το ματς με τον Βόλο",
     "url": "https://www.trifillakia.gr/podosfairo/article/24504/panathinaikos-i-apostoli-toy-trifyllioy-gia-to-mats-me-ton-volo"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-24-180845.png",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24503,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-24-180845.png?itok=OTTJS1F6",
-    "title": "Παναθηναϊκός AKTOR: Με 11 παίκτες κόντρα στην Καρδίτσα – Ποιοι έμειναν εκτός εξάδας ξένων",
-    "url": "https://www.trifillakia.gr/mpasket/article/24503/panathinaikos-aktor-me-11-paiktes-kontra-stin-karditsa-poioi-emeinan-ektos"
    }
   ],
   "wait": {
@@ -5107,6 +5107,12 @@
     "igs": "18077848511448662"
    },
    "tries": 1
+  },
+  "news:24544": {
+   "at": 1793021532.9984682,
+   "claim": "40329692600",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
