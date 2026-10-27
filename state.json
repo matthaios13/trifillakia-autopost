@@ -501,6 +501,48 @@
    "since": 1792864801.9356406,
    "team": "basketball"
   },
+  "mvp:vmdIwp4k": {
+   "ev": {
+    "away": "Μιλάνο",
+    "away_id": "tUT82gR9",
+    "away_score": 75,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-f1XTBdEd.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 80,
+    "id": "vmdIwp4k",
+    "info": "",
+    "periods": [
+     [
+      18,
+      19
+     ],
+     [
+      22,
+      18
+     ],
+     [
+      20,
+      24
+     ],
+     [
+      20,
+      14
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1793128500,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "since": 1793136917.465823,
+   "team": "basketball"
+  },
   "tb:0YUeuBF8": {
    "ev": {
     "away": "Παναθηναϊκός",
@@ -1264,6 +1306,50 @@
    "round": "3η Αγωνιστική",
    "since": 1792323621.8127606,
    "team": "football_w"
+  },
+  "tb:vmdIwp4k": {
+   "ev": {
+    "away": "Μιλάνο",
+    "away_id": "tUT82gR9",
+    "away_score": 75,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-f1XTBdEd.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 80,
+    "id": "vmdIwp4k",
+    "info": "",
+    "periods": [
+     [
+      18,
+      19
+     ],
+     [
+      22,
+      18
+     ],
+     [
+      20,
+      24
+     ],
+     [
+      20,
+      14
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1793128500,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 8",
+   "round": "8η Αγωνιστική",
+   "since": 1793136917.465823,
+   "team": "basketball"
   },
   "tb:zi7Ayfif": {
    "ev": {
