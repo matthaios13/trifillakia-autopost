@@ -24,8 +24,6 @@ from .flashscore import UA
 FEED = os.path.join(ROOT, "docs", "pao-feed.xml")
 IMG_DIR = os.path.join(ROOT, "docs", "img")
 PAGES = "https://matthaios13.github.io/trifillakia-autopost/"
-# Το Drupal 7 του trifillakia δέχεται μόνο αυτές τις μορφές στο πεδίο εικόνας.
-DRUPAL_IMG = (".jpg", ".jpeg", ".png", ".gif")
 
 SOURCES = [
     # (όνομα, βάση REST, φίλτρα, κατηγορία στο trifillakia, συντάκτης)
@@ -288,9 +286,10 @@ def _item(it):
 
 
 def drupal_image(url, guid):
-    """Φωτογραφία σε μορφή που δέχεται το Drupal. Οι WebP (συνήθεις στο totalbasket) γίνονται JPG,
-    αποθηκεύονται στο docs/img και σερβίρονται από το GitHub Pages."""
-    if not url or os.path.splitext(url.split("?")[0])[1].lower() in DRUPAL_IMG:
+    """Φωτογραφία σε μορφή που δέχεται το Drupal. Ό,τι δεν είναι ήδη JPG (WebP, PNG, GIF) γίνεται JPG,
+    αποθηκεύεται στο docs/img και σερβίρεται από το GitHub Pages. Οι PNG (συνήθως screenshots) είναι πολύ
+    βαριές για το κεντρικό slider του trifillakia (1170x660)."""
+    if not url or os.path.splitext(url.split("?")[0])[1].lower() in (".jpg", ".jpeg"):
         return url
     name = re.sub(r"[^a-z0-9]+", "-", guid.lower()).strip("-") + ".jpg"
     path = os.path.join(IMG_DIR, name)
@@ -298,6 +297,11 @@ def drupal_image(url, guid):
         try:
             r = _s.get(url, timeout=40)
             im = Image.open(io.BytesIO(r.content))
+            if im.mode in ("RGBA", "LA", "P"):
+                im = im.convert("RGBA")
+                bg = Image.new("RGB", im.size, (255, 255, 255))
+                bg.paste(im, mask=im.split()[3])
+                im = bg
             im = im.convert("RGB")
             im.thumbnail((1600, 1600))
             os.makedirs(IMG_DIR, exist_ok=True)
