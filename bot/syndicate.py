@@ -161,6 +161,19 @@ def _media_url(posts_base, media_id):
         return ""
 
 
+def _og_image(link):
+    """Η φωτογραφία από τη σελίδα του άρθρου (og:image), όταν το REST δεν δίνει το media
+    (π.χ. 401 για φωτογραφία που ξαναχρησιμοποιήθηκε από παλιότερο άρθρο)."""
+    if not link:
+        return ""
+    try:
+        r = _s.get(link, timeout=30)
+        m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', r.text) if r.status_code == 200 else None
+        return html.unescape(m.group(1)) if m else ""
+    except requests.RequestException:
+        return ""
+
+
 PAO = "Παναθηναϊκ"
 
 
@@ -247,6 +260,8 @@ def fetch(source, since_ts, log=None):
             if not about_pao(title, p["content"]["rendered"], title_only):
                 continue
             image = _media_url(base, p.get("featured_media"))
+            if not image and p.get("featured_media"):
+                image = _og_image(p["link"])
             seen[f"{name}:{p['id']}"] = {
                 "guid": f"{name}:{p['id']}",
                 "source": name,
@@ -357,6 +372,8 @@ def update(state, now, log=print):
     state.setdefault("blocked", [])
     state["items"] = [i for i in state["items"] if i["guid"] not in state["blocked"]]
     for i in state["items"]:  # και όσα μπήκαν πριν από τη μετατροπή WebP → JPG
+        if not i.get("image") and now - i["ts"] < 2 * 86400:
+            i["image"] = _og_image(i.get("link", ""))  # άρθρο που μπήκε χωρίς φωτογραφία
         i["image"] = drupal_image(i.get("image", ""), i["guid"])
     # «done»: όσα μπήκαν ποτέ στη ροή (η ροή κρατά μόνο 30), για να μην ξαναμπεί άρθρο που βγήκε από τη λίστα.
     state["done"] = list(dict.fromkeys((state.get("done") or []) + [i["guid"] for i in state["items"]]))[-400:]
