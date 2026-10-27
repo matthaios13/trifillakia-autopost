@@ -3,9 +3,18 @@
   "last": 24553,
   "noimg": {
    "24485": 1792757835.8166077,
-   "24549": 1793052318.889579
+   "24549": 1793052318.889579,
+   "24552": 1793095520.2267554
   },
   "recent": [
+   {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-romafc-5ac8a6.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24551,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-romafc-5ac8a6.jpg",
+    "title": "ELABET: Bet Builder επιστροφής στις νίκες για τη Ρόμα ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24551/elabet-bet-builder-epistrofis-stis-nikes-gia-ti-roma-paixe"
+   },
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-asterasfc-be1275.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
@@ -317,14 +326,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao-24509.jpg?itok=0xDN2O_c",
     "title": "Ο Παναθηναϊκός γύρισε το ματς στο τέταρτο δεκάλεπτο και πέρασε από την Καρδίτσα",
     "url": "https://www.trifillakia.gr/mpasket/article/24510/o-panathinaikos-gyrise-to-mats-sto-tetarto-dekalepto-kai-perase-apo-tin"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/karditsa%20tc.JPG",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24509,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/karditsa%20tc.JPG?itok=yeAuU7Js",
-    "title": "Σοβαρεύτηκε στο τέλος με Καρδίτσα",
-    "url": "https://www.trifillakia.gr/mpasket/article/24509/sovareytike-sto-telos-me-karditsa"
    }
   ],
   "wait": {
@@ -5172,6 +5173,12 @@
     "igs": "18123739690941020"
    },
    "tries": 1
+  },
+  "news:24553": {
+   "at": 1793095658.1396449,
+   "claim": "40485739125",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
