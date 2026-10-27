@@ -217,7 +217,7 @@ def about_pao(title, body, title_only=False):
     return any(w in _plain(lead) for w in PAO_WORDS)
 
 
-def fetch(source, since_ts):
+def fetch(source, since_ts, log=None):
     name, base, filters, category = source
     seen = {}
     filters = list(filters)
@@ -231,8 +231,12 @@ def fetch(source, since_ts):
         try:
             r = _s.get(f"{base}?{f}&per_page=20&_fields=id,date_gmt,title,link,content,featured_media,categories", timeout=40)
             posts = r.json() if r.status_code == 200 else []
-        except (requests.RequestException, ValueError):
+            if r.status_code != 200 and log:
+                log(f"Ροή trifillakia: {name} απάντησε {r.status_code} ({f.split('=')[0]})", r.text[:150].replace("\n", " "))
+        except (requests.RequestException, ValueError) as e:
             posts = []
+            if log:
+                log(f"Ροή trifillakia: σφάλμα {name} ({f.split('=')[0]})", repr(e)[:150])
         for p in posts if isinstance(posts, list) else []:
             ts = datetime.fromisoformat(p["date_gmt"]).replace(tzinfo=timezone.utc).timestamp()
             if ts < since_ts:
@@ -359,7 +363,9 @@ def update(state, now, log=print):
     have = {i["guid"] for i in state["items"]} | set(state["blocked"]) | set(state["done"])
     candidates = []
     for src in SOURCES:
-        candidates += [p for p in fetch(src, state["since"]) if p["guid"] not in have]
+        got = fetch(src, state["since"], log)
+        log(f"Ροή trifillakia: {src[0]} {len(got)} άρθρα, νέα {sum(p['guid'] not in have for p in got)}")
+        candidates += [p for p in got if p["guid"] not in have]
     if candidates:
         # Συγκρίνουμε ΜΟΝΟ με όσα έγραψαν οι συντάκτες του trifillakia: άρθρα που ήρθαν από bala24/totalbasket
         # δεν «κόβουν» άλλα άρθρα των ίδιων site (δύο άρθρα του bala24 = δύο ειδήσεις).
