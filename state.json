@@ -7,6 +7,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-asterasfc-be1275.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24550,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-asterasfc-be1275.jpg",
+    "title": "ELABET: Αστέρας Τρίπολης-Κηφισιά:«Ενισχυμένη» απόδραση με γκολ ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24550/elabet-asteras-tripolis-kifisiaenishymeni-apodrasi-me-gkol"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-aek.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24547,
@@ -317,14 +325,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/karditsa%20tc.JPG?itok=yeAuU7Js",
     "title": "Σοβαρεύτηκε στο τέλος με Καρδίτσα",
     "url": "https://www.trifillakia.gr/mpasket/article/24509/sovareytike-sto-telos-me-karditsa"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bolos.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24508,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bolos.png?itok=rS2Gt_GH",
-    "title": "Βόλος ELABET – Παναθηναϊκός: Από την τελευταία θέση οι γηπεδούχοι, με στόχο την αντίδραση στο Πανθεσσαλικό",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24508/volos-elabet-panathinaikos-apo-tin-teleytaia-thesi-oi-gipedoyhoi-me-stoho"
    }
   ],
   "wait": {
@@ -5163,6 +5163,12 @@
     "igs": "18132419815810408"
    },
    "tries": 1
+  },
+  "news:24551": {
+   "at": 1793095628.9463289,
+   "claim": "40485739125",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
