@@ -1067,6 +1067,50 @@
    "since": 1792686320.3211026,
    "team": "football"
   },
+  "tb:b5W06s3T": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "plqPE4do",
+    "away_score": 84,
+    "comp": "ΓιούροΚαπ Γυναικών",
+    "comp_full": "ΕΥΡΩΠΗ: ΓιούροΚαπ Γυναικών",
+    "comp_logo": "https://static.flashscore.com/res/image/data/nNGrhrld-dljyQRdr.png",
+    "home": "Κάστορς Μπρέιν",
+    "home_id": "654u3tOA",
+    "home_score": 66,
+    "id": "b5W06s3T",
+    "info": "",
+    "periods": [
+     [
+      19,
+      17
+     ],
+     [
+      14,
+      27
+     ],
+     [
+      19,
+      22
+     ],
+     [
+      14,
+      18
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "nJngW0jD",
+    "start": 1793212200,
+    "status": "3",
+    "tour_id": "CzuvKU4J",
+    "tour_path": "/basketball/europe/eurocup-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 3",
+   "round": "3η Αγωνιστική",
+   "since": 1793218838.1621473,
+   "team": "basketball_w"
+  },
   "tb:d84qDxXg": {
    "ev": {
     "away": "Α.Σ. Καρδίτσας",
