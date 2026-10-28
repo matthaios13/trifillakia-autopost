@@ -755,6 +755,50 @@
    "since": 1792182922.6707032,
    "team": "basketball"
   },
+  "tb:MHlidrIj": {
+   "ev": {
+    "away": "Φερεντσβάροσι",
+    "away_id": "SpKLEOWl",
+    "away_score": 19,
+    "comp": "Τσάμπιονς Λιγκ - Πρώτη φάση",
+    "comp_full": "ΕΥΡΩΠΗ: Τσάμπιονς Λιγκ - Πρώτη φάση",
+    "comp_logo": "https://static.flashscore.com/res/image/data/0x99bqjD-Mi5WpOqn.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "8WFCnEH1",
+    "home_score": 14,
+    "id": "MHlidrIj",
+    "info": "",
+    "periods": [
+     [
+      5,
+      5
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      2,
+      5
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xIlQWGM8",
+    "start": 1793215800,
+    "status": "3",
+    "tour_id": "CfXS22Jj",
+    "tour_path": "/water-polo/europe/champions-league/"
+   },
+   "raw_round": "Πρώτη φάση - Αγωνιστική ημέρα: 2",
+   "round": "2η Αγωνιστική",
+   "since": 1793221539.273141,
+   "team": "waterpolo"
+  },
   "tb:OIvLIRlI": {
    "ev": {
     "away": "Παναθηναϊκός",
@@ -5883,6 +5927,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "tb:MHlidrIj": {
+   "at": 1793221672.432053,
+   "claim": "40768939240",
+   "nets": {},
+   "tries": 0
   },
   "tb:MN7hFtLE": {
    "at": 1791985793.189812,
