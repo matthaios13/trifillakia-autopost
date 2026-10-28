@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24573,
+  "last": 24574,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -51,7 +51,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cityfc-729d69.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24568,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cityfc-729d69.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-cityfc-729d69.jpg?itok=Qoc22k5q",
     "title": "ELABET: Μαν. Σίτι – Μπράιτον με «Ενισχυμένο» Κωστούλα και Χάαλαντ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24568/elabet-man-siti-mpraiton-me-enishymeno-kostoyla-kai-haalant"
    },
@@ -5508,6 +5508,12 @@
     "igs": "18120935878951842"
    },
    "tries": 1
+  },
+  "news:24574": {
+   "at": 1793201807.7274206,
+   "claim": "40717448265",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
