@@ -8,6 +8,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/goal%20ari.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24578,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/goal%20ari.jpg",
+    "title": "Πέρασε στα προημιτελικά νικώντας τον Άρη",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24578/perase-sta-proimitelika-nikontas-ton-ari"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-82896.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24577,
@@ -318,14 +326,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/taborda.jpg",
     "title": "Παναθηναϊκός: Το απόλυτο απέναντι στους “μικρούς” και το πλεονέκτημα στη «μάχη» του τίτλου",
     "url": "https://www.trifillakia.gr/podosfairo/article/24535/panathinaikos-to-apolyto-apenanti-stoys-mikroys-kai-to-pleonektima-sti-mahi"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/Syrrakos.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24534,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/Syrrakos.jpg?itok=NlxXgYin",
-    "title": "Έβδομος στη Ρόδο ο Συρράκος",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24534/evdomos-sti-rodo-o-syrrakos"
    }
   ],
   "wait": {
