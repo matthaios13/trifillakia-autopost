@@ -1111,6 +1111,38 @@
    "since": 1792864801.9356406,
    "team": "basketball"
   },
+  "tb:dUHR8NWh": {
+   "ev": {
+    "away": "Άρης",
+    "away_id": "SvR5syYq",
+    "away_score": 1,
+    "comp": "Superbet Κύπελλο Ελλάδας",
+    "comp_full": "ΕΛΛΑΔΑ: Superbet Κύπελλο Ελλάδας",
+    "comp_logo": "https://static.flashscore.com/res/image/data/buTVc0md-Y7lJE6YQ.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "SENMmweG",
+    "home_score": 2,
+    "id": "dUHR8NWh",
+    "info": "",
+    "periods": [
+     [
+      1,
+      1
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "QVA4ECc4",
+    "start": 1793201400,
+    "status": "3",
+    "tour_id": "lxsVKym6",
+    "tour_path": "/football/greece/greek-cup/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 4",
+   "round": "4η Αγωνιστική",
+   "since": 1793209355.9522302,
+   "team": "football"
+  },
   "tb:fLLqQ10m": {
    "ev": {
     "away": "Παναθηναϊκός",
@@ -2098,6 +2130,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "ft:xC9aFym9": {
+   "at": 1793209400.3562276,
+   "claim": "40737903980",
+   "nets": {},
+   "tries": 0
   },
   "ft:xEzaz9rm": {
    "at": 1791985793.189812,
