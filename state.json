@@ -8,6 +8,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cityfc-729d69.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24568,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cityfc-729d69.jpg",
+    "title": "ELABET: Μαν. Σίτι – Μπράιτον με «Ενισχυμένο» Κωστούλα και Χάαλαντ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24568/elabet-man-siti-mpraiton-me-enishymeno-kostoyla-kai-haalant"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-bournemouthfc-9192e3.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24567,
@@ -318,14 +326,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/neestrup-1.png?itok=lVrcgdP9",
     "title": "Νίστρουπ: «Ικανοποιημένος από το παιχνίδι μας – Εκπληκτική η ατρόμσφαιρα» (vid)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24526/nistroyp-ikanopoiimenos-apo-to-paihnidi-mas-ekpliktiki-i-atromsfaira-vid"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/dessers.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24525,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/dessers.png?itok=sOemM_K2",
-    "title": "Βόλος – Παναθηναϊκός 0-1: Το γκολ του Ντέσερς και τα highlights της αναμέτρησης (vid)",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24525/volos-panathinaikos-0-1-to-gkol-toy-ntesers-kai-ta-highlights-tis"
    }
   ],
   "wait": {
@@ -5423,6 +5423,12 @@
     "igs": "18432637207151959"
    },
    "tries": 1
+  },
+  "news:24569": {
+   "at": 1793172327.0311265,
+   "claim": "40649406235",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
