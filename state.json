@@ -11,7 +11,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-66391.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24575,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-66391.jpg?itok=RWWyQyvR",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-66391.jpg",
     "title": "Η παρακάμερα του αγώνα Παναθηναϊκός-Αρμάνι (vid)",
     "url": "https://www.trifillakia.gr/mpasket/article/24575/i-parakamera-toy-agona-panathinaikos-armani-vid"
    },
@@ -27,7 +27,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-82925.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24573,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-82925.jpg?itok=gnRnShMM",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-82925.jpg",
     "title": "Άρης: Η ενδεκάδα απέναντι στον Παναθηναϊκό",
     "url": "https://www.trifillakia.gr/podosfairo/article/24573/aris-i-endekada-apenanti-ston-panathinaiko"
    },
@@ -1854,6 +1854,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "ft:dUHR8NWh": {
+   "at": 1793209364.6704965,
+   "claim": "40737903980",
+   "nets": {},
+   "tries": 0
   },
   "ft:drDb1EaE": {
    "at": 1791985793.189812,
