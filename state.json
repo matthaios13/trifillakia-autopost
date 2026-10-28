@@ -8,6 +8,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-bournemouthfc-9192e3.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24567,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-bournemouthfc-9192e3.jpg",
+    "title": "ELABET: Μπόρνμουθ – Άστον Βίλα: Με «Ενισχυμένη» φόρα από το Μάντσεστερ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24567/elabet-mpornmoyth-aston-vila-me-enishymeni-fora-apo-to"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-pao-fc-fe2fbf.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24566,
@@ -318,14 +326,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/dessers.png?itok=sOemM_K2",
     "title": "Βόλος – Παναθηναϊκός 0-1: Το γκολ του Ντέσερς και τα highlights της αναμέτρησης (vid)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24525/volos-panathinaikos-0-1-to-gkol-toy-ntesers-kai-ta-highlights-tis"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-fans3.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24524,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao-fans3.png?itok=7t086mM1",
-    "title": "Παναθηναϊκός: Αποθέωση στο Πανθεσσαλικό από 12.500 οπαδούς παρά την καταρρακτώδη βροχή! (vids)",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24524/panathinaikos-apotheosi-sto-panthessaliko-apo-12500-opadoys-para-tin"
    }
   ],
   "wait": {
@@ -5414,6 +5414,12 @@
     "igs": "17905537347605618"
    },
    "tries": 1
+  },
+  "news:24568": {
+   "at": 1793172292.2280674,
+   "claim": "40649406235",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
