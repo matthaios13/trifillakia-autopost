@@ -8,6 +8,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-newcastle-7aaf6b.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24592,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-newcastle-7aaf6b.jpg",
+    "title": "ELABET: Έβερτον-Νιούκαστλ: «Ενισχυμένη» απόδραση πρόκρισης",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24592/elabet-everton-nioykastl-enishymeni-apodrasi-prokrisis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83090.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24591,
@@ -318,14 +326,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-romafc-5ac8a6.jpg",
     "title": "ELABET: Bet Builder επιστροφής στις νίκες για τη Ρόμα ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24551/elabet-bet-builder-epistrofis-stis-nikes-gia-ti-roma-paixe"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-asterasfc-be1275.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24550,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-asterasfc-be1275.jpg",
-    "title": "ELABET: Αστέρας Τρίπολης-Κηφισιά:«Ενισχυμένη» απόδραση με γκολ ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24550/elabet-asteras-tripolis-kifisiaenishymeni-apodrasi-me-gkol"
    }
   ],
   "wait": {
@@ -5870,6 +5870,12 @@
     "igs": "18075348743724284"
    },
    "tries": 1
+  },
+  "news:24593": {
+   "at": 1793288040.0337298,
+   "claim": "40902256394",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
