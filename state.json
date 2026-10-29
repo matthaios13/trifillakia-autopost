@@ -8,6 +8,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao_18.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24587,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao_18.jpg",
+    "title": "Παναθηναϊκός: Αποθεραπεία για όσους έπαιξαν με τον Άρη – Το πρόγραμμα στο “Γ. Καλαφάτης”",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24587/panathinaikos-apotherapeia-gia-osoys-epaixan-me-ton-ari-to-programma-sto-g"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/chess-600x338_1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24586,
@@ -318,14 +326,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-26-145450-e1793019341692.png?itok=KfL3cjdw",
     "title": "Ομπράντοβιτς: Μόνο ο Ρογκαβόπουλος εκτός – Το μήνυμα για τις εκλογές στη Σερβία",
     "url": "https://www.trifillakia.gr/mpasket/article/24544/omprantovits-mono-o-rogkavopoylos-ektos-to-minyma-gia-tis-ekloges-sti-servia"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/stigmiotypo-othonis-2026-10-26-150503.png",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24543,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/stigmiotypo-othonis-2026-10-26-150503.png?itok=xjAtal19",
-    "title": "Φρανσίσκο ενόψει Αρμάνι: «Έχουμε πολύ ταλέντο – Πρέπει να ελέγξουμε τον ρυθμό»",
-    "url": "https://www.trifillakia.gr/mpasket/article/24543/fransisko-enopsei-armani-ehoyme-poly-talento-prepei-na-elegxoyme-ton-rythmo"
    }
   ],
   "wait": {
@@ -5825,6 +5825,12 @@
     "igs": "18170101576462809"
    },
    "tries": 1
+  },
+  "news:24588": {
+   "at": 1793272024.5461483,
+   "claim": "40862620560",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
