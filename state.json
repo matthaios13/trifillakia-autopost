@@ -8,6 +8,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pagkosmio-madeira.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24583,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pagkosmio-madeira.jpg",
+    "title": "Mετάλλια στο Παγκόσμιο της Μαδέιρα για Μοντέρνο Πένταθλο",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24583/metallia-sto-pagkosmio-tis-madeira-gia-monterno-pentathlo"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/polo_9.jpg",
     "label": "ΠΟΛΟ",
     "nid": 24582,
@@ -318,14 +326,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-sevillafc-183205.jpg",
     "title": "ELABET: Φουλ «Ενισχύσεις» η Σεβίλλη με Οσασούνα ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24540/elabet-foyl-enishyseis-i-sevilli-me-osasoyna-paixe-nomima-21"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-sb_1200x628-138860.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24539,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-sb_1200x628-138860.jpg",
-    "title": "ELABET: Η ανανεωμένη Προσφορά* Γνωριμίας της Elabet κάνει την εμπειρία στο Στοίχημα ακόμα πιο ισχυρή!",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24539/elabet-i-ananeomeni-prosfora-gnorimias-tis-elabet-kanei-tin"
    }
   ],
   "wait": {
@@ -5789,6 +5789,12 @@
     "igs": "18637586656029737"
    },
    "tries": 1
+  },
+  "news:24584": {
+   "at": 1793233336.8293476,
+   "claim": "40793380402",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
