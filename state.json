@@ -8,6 +8,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-voloselabet-965165.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24593,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-voloselabet-965165.jpg",
+    "title": "ELABET: «Ενισχυμένη» επανεκκίνηση ο Βόλος Elabet με Ατρόμητος",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24593/elabet-enishymeni-epanekkinisi-o-volos-elabet-me-atromitos"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-newcastle-7aaf6b.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24592,
@@ -318,14 +326,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arsenalfc-93494b.jpg",
     "title": "ELABET: Με rotation και «Ενισχυμένο» Γιόκερες στο League Cup η Άρσεναλ ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24553/elabet-me-rotation-kai-enishymeno-giokeres-sto-league-cup-i"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-romafc-5ac8a6.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24551,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-romafc-5ac8a6.jpg",
-    "title": "ELABET: Bet Builder επιστροφής στις νίκες για τη Ρόμα ΠΑΙΞΕ ΝΟΜΙΜΑ 21+ | ELABET ΣΤΟΙΧΗΜΑ",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24551/elabet-bet-builder-epistrofis-stis-nikes-gia-ti-roma-paixe"
    }
   ],
   "wait": {
@@ -5879,6 +5879,12 @@
     "igs": "18147171577593657"
    },
    "tries": 1
+  },
+  "news:24594": {
+   "at": 1793288085.1875324,
+   "claim": "40902256394",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
