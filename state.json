@@ -503,6 +503,48 @@
    "since": 1792864801.9356406,
    "team": "basketball"
   },
+  "mvp:dKjd8e9t": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "bqRyXX9C",
+    "away_score": 68,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-f1XTBdEd.png",
+    "home": "Αναντολού Εφές",
+    "home_id": "ny4KlAOf",
+    "home_score": 83,
+    "id": "dKjd8e9t",
+    "info": "",
+    "periods": [
+     [
+      21,
+      18
+     ],
+     [
+      24,
+      19
+     ],
+     [
+      16,
+      14
+     ],
+     [
+      22,
+      17
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1793381400,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "since": 1793389225.7650325,
+   "team": "basketball"
+  },
   "mvp:vmdIwp4k": {
    "ev": {
     "away": "Μιλάνο",
@@ -1199,6 +1241,50 @@
    "raw_round": "Αγωνιστική ημέρα: 4",
    "round": "4η Αγωνιστική",
    "since": 1792864801.9356406,
+   "team": "basketball"
+  },
+  "tb:dKjd8e9t": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "bqRyXX9C",
+    "away_score": 68,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-f1XTBdEd.png",
+    "home": "Αναντολού Εφές",
+    "home_id": "ny4KlAOf",
+    "home_score": 83,
+    "id": "dKjd8e9t",
+    "info": "",
+    "periods": [
+     [
+      21,
+      18
+     ],
+     [
+      24,
+      19
+     ],
+     [
+      16,
+      14
+     ],
+     [
+      22,
+      17
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1793381400,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 9",
+   "round": "9η Αγωνιστική",
+   "since": 1793389225.7650325,
    "team": "basketball"
   },
   "tb:dUHR8NWh": {
@@ -3518,6 +3604,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "mvp:dKjd8e9t": {
+   "at": 1793389402.396554,
+   "claim": "41117123360",
+   "nets": {},
+   "tries": 0
   },
   "mvp:drDb1EaE": {
    "at": 1791985793.189812,
