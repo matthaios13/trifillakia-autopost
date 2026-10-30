@@ -9,6 +9,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-barcelonabc-e3f518.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24606,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-barcelonabc-e3f518.jpg",
+    "title": "ELABET: Μπαρτσελόνα-Βαλένθια: Ισπανικός εμφύλιος με boost έδρας",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24606/elabet-mpartselona-valenthia-ispanikos-emfylios-me-boost-edras"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83327.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24604,
@@ -319,14 +327,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/nunnarossss_0.jpg?itok=UmC_cYIt",
     "title": "Παναθηναϊκός – Αρμάνι Μιλάνο 80-75: Το «τελείωσε» στο τέταρτο με Ναν και Λεσόρ",
     "url": "https://www.trifillakia.gr/mpasket/article/24565/panathinaikos-armani-milano-80-75-to-teleiose-sto-tetarto-me-nan-kai-lesor"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/nunnarossss.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24564,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/nunnarossss.jpg?itok=--hKR0_3",
-    "title": "Η βαθμολογία της EuroLeague μετά τη νίκη του Παναθηναϊκού επί της Αρμάνι Μιλάνο",
-    "url": "https://www.trifillakia.gr/mpasket/article/24564/i-vathmologia-tis-euroleague-meta-ti-niki-toy-panathinaikoy-epi-tis-armani"
    }
   ],
   "wait": {
@@ -5998,6 +5998,12 @@
     "igs": "18132287953801675"
    },
    "tries": 1
+  },
+  "news:24607": {
+   "at": 1793372273.6853302,
+   "claim": "41075903619",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
