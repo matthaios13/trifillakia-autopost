@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24612,
+  "last": 24613,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13,7 +13,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/eptada%20volley%20andres.jpg",
     "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
     "nid": 24612,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/eptada%20volley%20andres.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/eptada%20volley%20andres.jpg?itok=SNwdnQUP",
     "title": "Διπλή εκπροσώπηση στην επτάδα της πρεμιέρας",
     "url": "https://www.trifillakia.gr/volei-andron/article/24612/dipli-ekprosopisi-stin-eptada-tis-premieras"
    },
@@ -21,7 +21,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/el-game-e2026-88.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24611,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/el-game-e2026-88.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/el-game-e2026-88.jpg?itok=I2cnvv2o",
     "title": "Εφές – Παναθηναϊκός 83-68: Ο Μάλκολμ «καθάρισε» το τριφύλλι στην Κωνσταντινούπολη",
     "url": "https://www.trifillakia.gr/mpasket/article/24611/efes-panathinaikos-83-68-o-malkolm-katharise-to-trifylli-stin-konstantinoypoli"
    },
@@ -6150,6 +6150,12 @@
     "igs": "18108904577362968"
    },
    "tries": 1
+  },
+  "news:24613": {
+   "at": 1793392669.5364492,
+   "claim": "41124392321",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
