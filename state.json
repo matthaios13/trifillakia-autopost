@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-brightonfc-3b294a.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24621,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-brightonfc-3b294a.jpg",
+    "title": "ELABET: Μάντσεστερ Σίτι – Μπράιτον με σούπερ combo στην παράδοση",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24621/elabet-mantsester-siti-mpraiton-me-soyper-combo-stin-paradosi"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-standings-2026-10-30.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24620,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-66532.jpg?itok=QhAIvw9I",
     "title": "Γυναίκες: Νίκη για τον Παναθηναϊκό, ήττες για Αθηναϊκό Qualco, Ολυμπιακό και Πανσερραϊκό Fibran",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/24580/gynaikes-niki-gia-ton-panathinaiko-ittes-gia-athinaiko-qualco"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-82975.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24579,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-82975.jpg?itok=RfmBaYIX",
-    "title": "Νίστρουπ: «Σημαντικό ότι κερδίσαμε – Σκληρή ομάδα ο Άρης»",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24579/nistroyp-simantiko-oti-kerdisame-skliri-omada-o-aris"
    }
   ],
   "wait": {
@@ -6231,6 +6231,12 @@
     "igs": "18118176221064252"
    },
    "tries": 1
+  },
+  "news:24622": {
+   "at": 1793431252.4000201,
+   "claim": "41180103233",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
