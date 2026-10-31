@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-bayernfc-a58a5e.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24623,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-bayernfc-a58a5e.jpg",
+    "title": "ELABET: vΝτέρμπι κορυφής Μπάγερν – Ντόρτμουντ με «Ενίσχυση» στην ισορροπία",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24623/elabet-vntermpi-koryfis-mpagern-ntortmoynt-me-enishysi-stin"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-kifisiafc-ceb43e.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24622,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/polo_9.jpg?itok=aQLC00Jx",
     "title": "Hττήθηκε από τη Φερεντσβάρος",
     "url": "https://www.trifillakia.gr/polo/article/24582/httithike-apo-ti-ferentsvaros"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-csm.jpg",
-    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
-    "nid": 24581,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao-csm.jpg?itok=ROR59xYx",
-    "title": "Έκανε το χρέος της απέναντι στην CSM Bουκουρεστίου",
-    "url": "https://www.trifillakia.gr/volei-gynaikon/article/24581/ekane-to-hreos-tis-apenanti-stin-csm-boykoyrestioy"
    }
   ],
   "wait": {
@@ -6249,6 +6249,12 @@
     "igs": "18106776143320033"
    },
    "tries": 1
+  },
+  "news:24624": {
+   "at": 1793431319.1523426,
+   "claim": "41180103233",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
