@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-kifisiafc-ceb43e.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24622,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-kifisiafc-ceb43e.jpg",
+    "title": "ELABET: Κηφισιά – Ολυμπιακός με Ερυθρόλευκο Bet Builder ημιχρόνων",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24622/elabet-kifisia-olympiakos-me-erythroleyko-bet-builder"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-brightonfc-3b294a.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24621,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao-csm.jpg?itok=ROR59xYx",
     "title": "Έκανε το χρέος της απέναντι στην CSM Bουκουρεστίου",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/24581/ekane-to-hreos-tis-apenanti-stin-csm-boykoyrestioy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-66532.jpg",
-    "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
-    "nid": 24580,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-66532.jpg?itok=QhAIvw9I",
-    "title": "Γυναίκες: Νίκη για τον Παναθηναϊκό, ήττες για Αθηναϊκό Qualco, Ολυμπιακό και Πανσερραϊκό Fibran",
-    "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/24580/gynaikes-niki-gia-ton-panathinaiko-ittes-gia-athinaiko-qualco"
    }
   ],
   "wait": {
@@ -6240,6 +6240,12 @@
     "igs": "18115015027865557"
    },
    "tries": 1
+  },
+  "news:24623": {
+   "at": 1793431289.7649212,
+   "claim": "41180103233",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
