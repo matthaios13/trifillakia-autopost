@@ -1319,6 +1319,46 @@
    "since": 1793209355.9522302,
    "team": "football"
   },
+  "tb:f1cFp6il": {
+   "ev": {
+    "away": "Άρης",
+    "away_id": "AuHRihdf",
+    "away_score": 0,
+    "comp": "Novibet Volley League",
+    "comp_full": "ΕΛΛΑΔΑ: Novibet Volley League",
+    "comp_logo": "https://static.flashscore.com/res/image/data/dUqcElC7-feIEyNib.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "d0FeiWQ6",
+    "home_score": 3,
+    "id": "f1cFp6il",
+    "info": "",
+    "periods": [
+     [
+      25,
+      19
+     ],
+     [
+      25,
+      11
+     ],
+     [
+      25,
+      19
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "8zxfYRtn",
+    "start": 1793455200,
+    "status": "3",
+    "tour_id": "8nn94rPb",
+    "tour_path": "/volleyball/greece/volley-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 2",
+   "round": "2η Αγωνιστική",
+   "since": 1793460631.5511148,
+   "team": "volley_m"
+  },
   "tb:fLLqQ10m": {
    "ev": {
     "away": "Παναθηναϊκός",
