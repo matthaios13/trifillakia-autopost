@@ -1403,6 +1403,33 @@
    "since": 1792610423.8928578,
    "team": "basketball_w"
   },
+  "tb:hlwSMwmS": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "plqPE4do",
+    "away_score": 63,
+    "comp": "WBL1 Γυναίκες",
+    "comp_full": "ΕΛΛΑΔΑ: WBL1 Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/SlpLdpW1-2Nr2qbEt.png",
+    "home": "Ολυμπιακός",
+    "home_id": "MBmJk8st",
+    "home_score": 89,
+    "id": "hlwSMwmS",
+    "info": "Παίζει τους εντός έδρας αγώνες σε διαφορετική έδρα - Kleistó Gymnastírio Kaminíon.",
+    "periods": [],
+    "round": "",
+    "stage": "3",
+    "stage_id": "h4wjf39b",
+    "start": 1793449800,
+    "status": "3",
+    "tour_id": "dMKU41qj",
+    "tour_path": "/basketball/greece/wbl1-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 5",
+   "round": "5η Αγωνιστική",
+   "since": 1793465123.8598871,
+   "team": "basketball_w"
+  },
   "tb:hvG3AYcm": {
    "ev": {
     "away": "Άλμπα Βερολίνου",
