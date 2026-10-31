@@ -1710,6 +1710,50 @@
    "since": 1793209355.9522302,
    "team": "volley_w"
   },
+  "tb:za3LE03j": {
+   "ev": {
+    "away": "Κερατέα",
+    "away_id": "jgj11h41",
+    "away_score": 1,
+    "comp": "Βόλεϊ Λιγκ Γυναίκες",
+    "comp_full": "ΕΛΛΑΔΑ: Βόλεϊ Λιγκ Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/EZDtu9kD-0MW90Vjr.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "QN7ZELZa",
+    "home_score": 3,
+    "id": "za3LE03j",
+    "info": "",
+    "periods": [
+     [
+      23,
+      25
+     ],
+     [
+      25,
+      20
+     ],
+     [
+      25,
+      18
+     ],
+     [
+      25,
+      18
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "jTxgo5Qi",
+    "start": 1793471400,
+    "status": "3",
+    "tour_id": "29oD32v5",
+    "tour_path": "/volleyball/greece/volley-league-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 3",
+   "round": "3η Αγωνιστική",
+   "since": 1793480121.271917,
+   "team": "volley_w"
+  },
   "tb:zi7Ayfif": {
    "ev": {
     "away": "Απόλλων Σμύρνης",
