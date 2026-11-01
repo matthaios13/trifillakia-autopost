@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-057bdb_1.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24629,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-057bdb_1.jpg",
+    "title": "ELABET: Παναθηναϊκός – ΑΕΚ και Λίβερπουλ – Άρσεναλ με 0% γκανιότα και σούπερ «Ενισχυμένα» ημίχρονα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24629/elabet-panathinaikos-aek-kai-liverpoyl-arsenal-me-0-gkaniota"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83532.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24628,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/kotsol_0.jpg?itok=0y3Mk-5k",
     "title": "Παναθηναϊκός: Επίσκεψη Αλαφούζου στο “Γ. Καλαφάτης” – Οι επαφές με Κοτσόλη, Νίστρουπ και παίκτες",
     "url": "https://www.trifillakia.gr/podosfairo/article/24588/panathinaikos-episkepsi-alafoyzoy-sto-g-kalafatis-oi-epafes-me-kotsoli"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao_18.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24587,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao_18.jpg",
-    "title": "Παναθηναϊκός: Αποθεραπεία για όσους έπαιξαν με τον Άρη – Το πρόγραμμα στο “Γ. Καλαφάτης”",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24587/panathinaikos-apotherapeia-gia-osoys-epaixan-me-ton-ari-to-programma-sto-g"
    }
   ],
   "wait": {
@@ -6538,6 +6538,12 @@
     "igs": "17984807762901762"
    },
    "tries": 1
+  },
+  "news:24630": {
+   "at": 1793518038.1710105,
+   "claim": "41284699534",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
