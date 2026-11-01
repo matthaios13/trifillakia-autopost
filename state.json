@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24645,
+  "last": 24646,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -6892,6 +6892,12 @@
     "igs": "error: {'message': 'The requested resource does not exist', 'type': 'OAuthException', 'code': 24, 'error_subcode': 2207006, 'is_transient': False, 'error_user_title': 'Media not found', 'error_user_msg': 'The media with ID 18,470,895,892,190,860 cannot be found.', 'fbtrace_id': 'A6Gwvjm7VtPUrGj8_mOgPRl'}"
    },
    "tries": 1
+  },
+  "news:24646": {
+   "at": 1793567223.379209,
+   "claim": "41350139889",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
