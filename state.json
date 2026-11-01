@@ -797,6 +797,38 @@
    "since": 1792338916.0273285,
    "team": "volley_m"
   },
+  "tb:8IrB3NR7": {
+   "ev": {
+    "away": "ΑΕΚ",
+    "away_id": "ANpZncAM",
+    "away_score": 0,
+    "comp": "Stoiximan Super League",
+    "comp_full": "ΕΛΛΑΔΑ: Stoiximan Super League",
+    "comp_logo": "https://static.flashscore.com/res/image/data/UyLJdoW1-OrtkLuwK.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "SENMmweG",
+    "home_score": 2,
+    "id": "8IrB3NR7",
+    "info": "",
+    "periods": [
+     [
+      1,
+      0
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "MNJDddac",
+    "start": 1793554200,
+    "status": "3",
+    "tour_id": "d2pwJFHI",
+    "tour_path": "/football/greece/super-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 9",
+   "round": "9η Αγωνιστική",
+   "since": 1793561719.0102344,
+   "team": "football"
+  },
   "tb:CGY4C75j": {
    "ev": {
     "away": "Μπασκόνια",
