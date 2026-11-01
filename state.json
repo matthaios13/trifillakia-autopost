@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24641,
+  "last": 24642,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13,7 +13,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67140.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24641,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67140.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-67140.jpg?itok=AC3S7Twv",
     "title": "Ομπράντοβιτς: «Χρειαζόμαστε χρόνο» – Το πρόβλημα που κόστισε δύο ματς",
     "url": "https://www.trifillakia.gr/mpasket/article/24641/omprantovits-hreiazomaste-hrono-to-provlima-poy-kostise-dyo-mats"
    },
@@ -21,7 +21,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67139.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24640,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67139.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-67139.jpg?itok=jdoJuIrp",
     "title": "Σπανούλης: «Κοιτάξαμε τον Παναθηναϊκό στα μάτια» – Τι είπε για τον Ομπράντοβιτς",
     "url": "https://www.trifillakia.gr/mpasket/article/24640/spanoylis-koitaxame-ton-panathinaiko-sta-matia-ti-eipe-gia-ton-omprantovits"
    },
@@ -6857,6 +6857,12 @@
    },
    "tries": 1
   },
+  "news:24642": {
+   "at": 1793562707.9699645,
+   "claim": "41343740589",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -7843,7 +7849,8 @@
    "totalbasket.gr:67134",
    "totalbasket.gr:67140",
    "totalbasket.gr:67139",
-   "bala24.gr:83716"
+   "bala24.gr:83716",
+   "bala24.gr:83850"
   ],
   "done_titles": [
    "Παναθηναϊκός: Χωρίς ανησυχία για Λεσόρ, κοντά στο να παίξει με Μπασκόνια",
