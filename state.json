@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24639,
+  "last": 24641,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13,7 +13,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67134.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24639,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67134.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-67134.jpg?itok=pkaB_CY-",
     "title": "Ομπράντοβιτς: «Ήταν ένα δύσκολο ματς – πολλά μικρά πράγματα δεν πήγαν καλά»",
     "url": "https://www.trifillakia.gr/mpasket/article/24639/omprantovits-itan-ena-dyskolo-mats-polla-mikra-pragmata-den-pigan-kala"
    },
@@ -6796,6 +6796,12 @@
     "igs": "18110539181212431"
    },
    "tries": 1
+  },
+  "news:24640": {
+   "at": 1793560913.5335386,
+   "claim": "41341212573",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
