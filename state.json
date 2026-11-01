@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-paok-fc-a8f156.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24631,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-paok-fc-a8f156.jpg",
+    "title": "ELABET: Ο ΠΑΟΚ έχει «boost» αντίδρασης κόντρα στον Αστέρα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24631/elabet-o-paok-ehei-boost-antidrasis-kontra-ston-astera"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arisfc-671008.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24630,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-83087.jpg?itok=IlCim6ls",
     "title": "Παναθηναϊκός: Επιτυχημένη η επέμβαση του Αζεντίν Ουναΐ – Εκτός δράσης για 4-5 μήνες",
     "url": "https://www.trifillakia.gr/podosfairo/article/24590/panathinaikos-epityhimeni-i-epemvasi-toy-azentin-oynai-ektos-drasis-gia-4-5"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1_1.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24589,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1_1.jpg",
-    "title": "Παναθηναϊκός: Νέα ψηφιακή εφαρμογή σε συνεργασία με την YinzCam – Όλες οι υπηρεσίες σε ένα app",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24589/panathinaikos-nea-psifiaki-efarmogi-se-synergasia-me-tin-yinzcam-oles-oi"
    }
   ],
   "wait": {
@@ -6556,6 +6556,12 @@
     "igs": "18145089178596409"
    },
    "tries": 1
+  },
+  "news:24632": {
+   "at": 1793518107.6062133,
+   "claim": "41284699534",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
