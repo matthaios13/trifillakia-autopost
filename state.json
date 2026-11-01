@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83788.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24635,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83788.jpg",
+    "title": "Παναθηναϊκός: Αυτή είναι η ενδεκάδα που επέλεξε ο Νίστρουπ κόντρα στην ΑΕΚ",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24635/panathinaikos-ayti-einai-i-endekada-poy-epelexe-o-nistroyp-kontra-stin-aek"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83668.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24634,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-euroleague-bf1a7d.jpg?itok=gPGlAiIH",
     "title": "ELABET: Βραδιά με φουλ «Ενισχυμένη» Euroleague και 0% γκανιότα στη σύγκρουση Ρεάλ-Φενέρ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24594/elabet-vradia-me-foyl-enishymeni-euroleague-kai-0-gkaniota-sti"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-voloselabet-965165.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24593,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-voloselabet-965165.jpg?itok=DykxhqxE",
-    "title": "ELABET: «Ενισχυμένη» επανεκκίνηση ο Βόλος Elabet με Ατρόμητος",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24593/elabet-enishymeni-epanekkinisi-o-volos-elabet-me-atromitos"
    }
   ],
   "wait": {
@@ -6664,6 +6664,12 @@
     "igs": "17988046425082608"
    },
    "tries": 1
+  },
+  "news:24636": {
+   "at": 1793552872.9284098,
+   "claim": "41329618128",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
