@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-atalantafc-0741e1.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24655,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-atalantafc-0741e1.jpg",
+    "title": "ELABET: Combo ισορροπίας στο Αταλάντα-Πάρμα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24655/elabet-combo-isorropias-sto-atalanta-parma"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24654,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/skopovoli_7.jpg?itok=wu5P15g5",
     "title": "Έλαμψαν στη Δράμα τα πράσινα όπλα",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24616/elampsan-sti-drama-ta-prasina-opla"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/polo%20tournament.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24615,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/polo%20tournament.jpg?itok=aWOXY1Pm",
-    "title": "Tρίτη θέση για τους Παίδες στη Βουλιαγμένη",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24615/triti-thesi-gia-toys-paides-sti-voyliagmeni"
    }
   ],
   "wait": {
@@ -6982,6 +6982,12 @@
     "igs": "18023490821939431"
    },
    "tries": 1
+  },
+  "news:24656": {
+   "at": 1793625809.4605298,
+   "claim": "41452096399",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
