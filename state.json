@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/antino.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24650,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/antino.jpg",
+    "title": "Σαντίνο Αντίνο: Τσάι και αργεντίνικη συμπάθεια!",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24650/santino-antino-tsai-kai-argentiniki-sympatheia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83943.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24649,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/el-game-e2026-88.jpg?itok=I2cnvv2o",
     "title": "Εφές – Παναθηναϊκός 83-68: Ο Μάλκολμ «καθάρισε» το τριφύλλι στην Κωνσταντινούπολη",
     "url": "https://www.trifillakia.gr/mpasket/article/24611/efes-panathinaikos-83-68-o-malkolm-katharise-to-trifylli-stin-konstantinoypoli"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/foyrnie-scaled.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24610,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/foyrnie-scaled.jpg?itok=Z8OgSeL6",
-    "title": "Injury report EuroLeague: Χωρίς Φουρνιέ και Μοντέρο ο Ολυμπιακός, απόντες Σλούκας και Ρογκαβόπουλος για τον Παναθηναϊκό",
-    "url": "https://www.trifillakia.gr/mpasket/article/24610/injury-report-euroleague-horis-foyrnie-kai-montero-o-olympiakos-apontes"
    }
   ],
   "wait": {
