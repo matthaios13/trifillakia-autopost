@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_0.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24654,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_0.jpg",
+    "title": "ELABET: Η Λα Κορούνια έχει «Ενισχήσεις» για να μην χάσει με την Οσασούνα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24654/elabet-i-la-koroynia-ehei-enishiseis-gia-na-min-hasei-me-tin"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24653,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/polo%20tournament.jpg?itok=aWOXY1Pm",
     "title": "Tρίτη θέση για τους Παίδες στη Βουλιαγμένη",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24615/triti-thesi-gia-toys-paides-sti-voyliagmeni"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/league%20cup%20me%20paok.jpg",
-    "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
-    "nid": 24614,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/league%20cup%20me%20paok.jpg?itok=gmuxQwzv",
-    "title": "Στις 4 Νοεμβρίου με ΠΑΟΚ στο League Cup",
-    "url": "https://www.trifillakia.gr/volei-andron/article/24614/stis-4-noemvrioy-me-paok-sto-league-cup"
    }
   ],
   "wait": {
@@ -6973,6 +6973,12 @@
     "igs": "18051496400816046"
    },
    "tries": 1
+  },
+  "news:24655": {
+   "at": 1793625777.6683066,
+   "claim": "41452096399",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
