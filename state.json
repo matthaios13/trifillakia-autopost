@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24648,
+  "last": 24649,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -21,7 +21,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/tetteh.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24647,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/tetteh.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/tetteh.jpg?itok=_y5KqcLY",
     "title": "Football Meets Data: Πώς διαμορφώνονται οι πιθανότητες για την κατάκτηση του πρωταθλήματος μετά τη νίκη του Παναθηναϊκού επί της ΑΕΚ",
     "url": "https://www.trifillakia.gr/podosfairo/article/24647/football-meets-data-pos-diamorfonontai-oi-pithanotites-gia-tin-kataktisi"
    },
@@ -6920,6 +6920,12 @@
    },
    "tries": 1
   },
+  "news:24649": {
+   "at": 1793608592.175223,
+   "claim": "41414144432",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -7932,7 +7938,8 @@
    "bala24.gr:83874",
    "bala24.gr:83880",
    "bala24.gr:83906",
-   "totalbasket.gr:67195"
+   "totalbasket.gr:67195",
+   "bala24.gr:83943"
   ],
   "done_titles": [
    "Παναθηναϊκός: Χωρίς ανησυχία για Λεσόρ, κοντά στο να παίξει με Μπασκόνια",
