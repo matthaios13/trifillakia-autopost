@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83981.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24651,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83981.jpg",
+    "title": "Τεττέη & Σισέ σε κοινό ποδοσφαιρικό στιγμιότυπο – Η αποθέωση του Γάλλου σταρ στον επιθετικό του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24651/tettei-sise-se-koino-podosfairiko-stigmiotypo-i-apotheosi-toy-galloy-star"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/antino.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24650,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/eptada%20volley%20andres.jpg?itok=SNwdnQUP",
     "title": "Διπλή εκπροσώπηση στην επτάδα της πρεμιέρας",
     "url": "https://www.trifillakia.gr/volei-andron/article/24612/dipli-ekprosopisi-stin-eptada-tis-premieras"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/el-game-e2026-88.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24611,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/el-game-e2026-88.jpg?itok=I2cnvv2o",
-    "title": "Εφές – Παναθηναϊκός 83-68: Ο Μάλκολμ «καθάρισε» το τριφύλλι στην Κωνσταντινούπολη",
-    "url": "https://www.trifillakia.gr/mpasket/article/24611/efes-panathinaikos-83-68-o-malkolm-katharise-to-trifylli-stin-konstantinoypoli"
    }
   ],
   "wait": {
@@ -6946,6 +6946,12 @@
     "igs": "18072002234502502"
    },
    "tries": 1
+  },
+  "news:24652": {
+   "at": 1793616769.225014,
+   "claim": "41431961592",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
