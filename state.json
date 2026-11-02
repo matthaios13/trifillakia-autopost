@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24653,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f.jpg",
+    "title": "ELABET: Δευτέρα με φουλ «Ενισχυμένα» Bet Builders στα… Ατρόμητος-Βόλος Elabet & Καλαμάτα-Ηρακλής",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24653/elabet-deytera-me-foyl-enishymena-bet-builders-sta-atromitos"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83972.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24652,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/league%20cup%20me%20paok.jpg?itok=gmuxQwzv",
     "title": "Στις 4 Νοεμβρίου με ΠΑΟΚ στο League Cup",
     "url": "https://www.trifillakia.gr/volei-andron/article/24614/stis-4-noemvrioy-me-paok-sto-league-cup"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/Tsavalias-madeira.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24613,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/Tsavalias-madeira.jpg?itok=85g1UzN_",
-    "title": "Δυο ακόμα μετάλλια για Τσαβαλιά",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24613/dyo-akoma-metallia-gia-tsavalia"
    }
   ],
   "wait": {
@@ -6964,6 +6964,12 @@
     "igs": "18117849311002849"
    },
    "tries": 1
+  },
+  "news:24654": {
+   "at": 1793625742.4461014,
+   "claim": "41452096399",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
