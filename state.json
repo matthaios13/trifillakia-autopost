@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-fiorentinafc-3b465f.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24656,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-fiorentinafc-3b465f.jpg",
+    "title": "ELABET: Σασουόλο-Φιορεντίνα με Bet Builder στα… βιόλα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24656/elabet-sasoyolo-fiorentina-me-bet-builder-sta-viola"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-atalantafc-0741e1.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24655,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/nba-2k.jpg?itok=d4di1dKG",
     "title": "Στο final four του Ευρωπαϊκού το ΝΒΑ2Κ",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24617/sto-final-four-toy-eyropaikoy-to-nva2k"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/skopovoli_7.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24616,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/skopovoli_7.jpg?itok=wu5P15g5",
-    "title": "Έλαμψαν στη Δράμα τα πράσινα όπλα",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24616/elampsan-sti-drama-ta-prasina-opla"
    }
   ],
   "wait": {
@@ -6991,6 +6991,12 @@
     "igs": "18184970065426041"
    },
    "tries": 1
+  },
+  "news:24657": {
+   "at": 1793625842.2562654,
+   "claim": "41452096399",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
