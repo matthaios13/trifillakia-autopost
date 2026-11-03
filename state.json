@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_1.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24672,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_1.jpg",
+    "title": "ELABET για “ενισχυμένα” γκολ στην ματσάρα Φέγενορντ – Ίντερ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24672/elabet-gia-enishymena-gkol-stin-matsara-fegenornt-inter"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24671,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83676.jpg",
     "title": "ΑΕΚ: Με τη «δοκιμασμένη» τριάδα απέναντι στον Παναθηναϊκό",
     "url": "https://www.trifillakia.gr/podosfairo/article/24633/aek-me-ti-dokimasmeni-triada-apenanti-ston-panathinaiko"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-juvefc-4ba79e.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24632,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-juvefc-4ba79e.jpg?itok=sC4KW1c2",
-    "title": "ELABET: Γιουβέντους – Νάπολι με «Ενισχυμένο»… μπιανκονέρο combo",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24632/elabet-gioyventoys-napoli-me-enishymeno-mpiankonero-combo"
    }
   ],
   "wait": {
@@ -7135,6 +7135,12 @@
     "igs": "17992615902056392"
    },
    "tries": 1
+  },
+  "news:24673": {
+   "at": 1793722073.352933,
+   "claim": "41670517627",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
