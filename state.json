@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/diarra2.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24669,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/diarra2.jpg",
+    "title": "Διαψέυδει ο Παναθηναϊκός για Αλιού Ντιαρά!",
+    "url": "https://www.trifillakia.gr/mpasket/article/24669/diapseydei-o-panathinaikos-gia-alioy-ntiara"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67921.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24668,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-arisfc-671008.jpg?itok=BVym9CpU",
     "title": "ELABET: Ο Άρης έχει «Ενίσχυση» για σκορ στη Λιβαδειά",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24630/elabet-o-aris-ehei-enishysi-gia-skor-sti-livadeia"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-057bdb_1.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24629,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-ela-057bdb_1.jpg?itok=Rb8KI_2S",
-    "title": "ELABET: Παναθηναϊκός – ΑΕΚ και Λίβερπουλ – Άρσεναλ με 0% γκανιότα και σούπερ «Ενισχυμένα» ημίχρονα",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24629/elabet-panathinaikos-aek-kai-liverpoyl-arsenal-me-0-gkaniota"
    }
   ],
   "wait": {
