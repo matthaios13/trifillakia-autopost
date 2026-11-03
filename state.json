@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67924.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24667,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67924.jpg",
+    "title": "Κάρλικ Τζόουνς: «Είχα πρόταση από τον Παναθηναϊκό-Δεν διώξαμε εμείς τον Ομπράντοβιτς από την Παρτίζαν, εκείνος έφυγε»",
+    "url": "https://www.trifillakia.gr/mpasket/article/24667/karlik-tzooyns-eiha-protasi-apo-ton-panathinaiko-den-dioxame-emeis-ton"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-84261.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24666,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-83532.jpg?itok=YHcWxx_O",
     "title": "Παναθηναϊκός Κ19 – ΑΕΚ Κ19 3-1: Ανατροπή και κορυφή για το «τριφύλλι»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24628/panathinaikos-k19-aek-k19-3-1-anatropi-kai-koryfi-gia-to-trifylli"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83516.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24627,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-83516.jpg?itok=mnoujxJp",
-    "title": "Παναθηναϊκός Κ19 – ΑΕΚ Κ19: Στο ντέρμπι ο Νίστρουπ",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24627/panathinaikos-k19-aek-k19-sto-ntermpi-o-nistroyp"
    }
   ],
   "wait": {
@@ -7090,6 +7090,12 @@
     "igs": "18131799874828645"
    },
    "tries": 1
+  },
+  "news:24668": {
+   "at": 1793706387.934894,
+   "claim": "41628711478",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
