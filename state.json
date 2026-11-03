@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24669,
+  "last": 24670,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -21,7 +21,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67921.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24668,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67921.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-67921.jpg?itok=Z8K2hfVY",
     "title": "«Πρόταση Παναθηναϊκού σε Βίρτους για Αλιού Ντιαρά»",
     "url": "https://www.trifillakia.gr/mpasket/article/24668/protasi-panathinaikoy-se-virtoys-gia-alioy-ntiara"
    },
@@ -7108,6 +7108,12 @@
     "igs": "18088285199700860"
    },
    "tries": 1
+  },
+  "news:24670": {
+   "at": 1793713023.7139301,
+   "claim": "41645636107",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
