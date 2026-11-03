@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-psg-fc-4ed5b6.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24673,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-psg-fc-4ed5b6.jpg",
+    "title": "ELABET: ΕΛΑΒΕΤ για το επιθετικό Bet Builder της Παρί στο ματς με την Βιγιαρεάλ!",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24673/elabet-elavet-gia-to-epithetiko-bet-builder-tis-pari-sto-mats"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_1.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24672,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-83668.jpg?itok=mYQP7_2Y",
     "title": "Το πλάνο του Τζέικομπ Νίστρουπ με στόχο την κορυφή της βαθμολογίας",
     "url": "https://www.trifillakia.gr/podosfairo/article/24634/to-plano-toy-tzeikomp-nistroyp-me-stoho-tin-koryfi-tis-vathmologias"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83676.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24633,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83676.jpg",
-    "title": "ΑΕΚ: Με τη «δοκιμασμένη» τριάδα απέναντι στον Παναθηναϊκό",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24633/aek-me-ti-dokimasmeni-triada-apenanti-ston-panathinaiko"
    }
   ],
   "wait": {
@@ -7144,6 +7144,12 @@
     "igs": "18397914826207386"
    },
    "tries": 1
+  },
+  "news:24674": {
+   "at": 1793722102.5733871,
+   "claim": "41670517627",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
