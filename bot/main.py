@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, biolinks, captions, cards, elabet, flashscore as fs, meta, news, syndicate, wpl
+from . import basket, biolinks, captions, cards, elabet, flashscore as fs, meta, news, syndicate, wpl, youtube
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -57,6 +57,8 @@ def load_state():
     st["news"].setdefault("wait", {})
     st["news"].setdefault("recent", [])
     st.setdefault("synd", {})
+    st.setdefault("yt", {})
+    st["yt"].setdefault("upcoming", [])
     return st
 
 
@@ -134,12 +136,12 @@ def sync_state(st, message="state"):
     """Αποθήκευση και push στο GitHub· αν άλλη εκτέλεση πρόλαβε, συγχώνευση και ξανά. True αν ανέβηκε."""
     if not CI:
         save_state(st)
-        biolinks.write(st["news"]["recent"])
+        biolinks.write(st["news"]["recent"], st["yt"]["upcoming"])
         return True
     for _ in range(6):
         merge_state(st, _remote_state())
         save_state(st)
-        biolinks.write(st["news"]["recent"])
+        biolinks.write(st["news"]["recent"], st["yt"]["upcoming"])
         _git("add", "state.json", "docs")
         if _git("diff", "--cached", "--quiet").returncode == 0:
             _git("reset", "-q", "--mixed", "origin/main")
@@ -352,6 +354,11 @@ def run(dry=False):
     except Exception as e:  # noqa: BLE001
         log("Σφάλμα ειδήσεων", e)
 
+    try:
+        run_shows(st, dry)
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα εκπομπών YouTube", e)
+
     # MVP και βαθμολογίες που περιμένουν
     for key, p in list(st["pending"].items()):
         ev, team_key = p["ev"], p["team"]
@@ -490,6 +497,25 @@ def run_news(st, now, dry):
             item["thumb"] = news.thumb_url(a["image"])
             ns["recent"].insert(0, item)
             ns["recent"] = ns["recent"][:40]
+
+
+def run_shows(st, dry):
+    """Νέα προγραμματισμένη εκπομπή στο YouTube: κάρτα + story στο Instagram, post με το link στο Facebook."""
+    shows = youtube.upcoming()
+    # Για τη σελίδα του bio (εκεί δείχνει το «link στο bio»).
+    st["yt"]["upcoming"] = [{k: v[k] for k in ("id", "url", "show", "topic", "start", "image")} for v in shows]
+    for v in shows:
+        if is_done(st, f"yt:{v['id']}"):
+            continue
+        post(
+            st,
+            f"yt:{v['id']}",
+            cards.show_card(v),
+            captions.show_ig(v),
+            dry,
+            story_card=cards.show_story(v),
+            publisher=lambda f, sp, c, done, v=v: meta.publish_news(f, sp, c, v["url"], captions.show_fb(v), done=done),
+        )
 
 
 def preview():

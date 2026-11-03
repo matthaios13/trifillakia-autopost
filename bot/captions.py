@@ -123,3 +123,30 @@ def news_fb(a):
     if a["section"] == "prognostika-stoihimatos":
         text += "\n\n" + BETTING_NOTE
     return text + "\n\n" + NEWS_TAGS.get(a["section"], DEFAULT_NEWS_TAGS)
+
+
+SHOW_TAGS = "#Trifillakia #Panathinaikos #PAO #ΠΑΟ #YouTube #Live"
+
+
+def _show_when(v):
+    dt = datetime.fromtimestamp(v["start"], TZ)
+    rel = {0: "Σήμερα", 1: "Αύριο"}.get((dt.date() - datetime.now(TZ).date()).days)
+    day, hour = date_line(v["start"])
+    return (f"{rel}, {day}" if rel else day), hour
+
+
+def show_ig(v):
+    day, hour = _show_when(v)
+    lines = [f"🔴 ΖΩΝΤΑΝΑ | {v['show'] or 'Trifillakia'} ☘️", ""]
+    if v.get("topic"):
+        lines += [v["topic"], ""]
+    lines += [f"🗓 {day}", f"⏰ {hour}", "📺 Ζωντανά στο κανάλι μας στο YouTube", "🔗 Link στο bio", "", SHOW_TAGS]
+    return "\n".join(lines)
+
+
+def show_fb(v):
+    day, hour = _show_when(v)
+    text = f"🔴 ΖΩΝΤΑΝΑ | {v['show'] or 'Trifillakia'} ☘️"
+    if v.get("topic"):
+        text += f"\n\n{v['topic']}"
+    return text + f"\n\n🗓 {day} ⏰ {hour}\n📺 Ζωντανά στο κανάλι μας στο YouTube 👇\n\n{SHOW_TAGS}"

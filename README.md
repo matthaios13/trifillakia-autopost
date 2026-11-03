@@ -49,6 +49,16 @@ Logos διοργανώσεων: `logos/comp/<flashscore tour id>.png`. Υπάρ�
 
 **Link στο bio:** https://matthaios13.github.io/trifillakia-autopost/ (GitHub Pages, φάκελος `docs/`, ενημερώνεται μόνο του με τα 30 τελευταία άρθρα).
 
+## Εκπομπές στο YouTube
+
+Κάθε νέα προγραμματισμένη εκπομπή (live) του καναλιού [@trifillakia_gr](https://www.youtube.com/@trifillakia_gr)
+ανεβαίνει μόλις οριστεί (`bot/youtube.py`, χωρίς κλειδί API):
+- **Instagram:** κάρτα + story με τη μικρογραφία, την εκπομπή, το θέμα, τη μέρα και την ώρα.
+- **Facebook:** post με το link της εκπομπής.
+- **Link στο bio:** η εκπομπή εμφανίζεται πάνω από τα άρθρα έως 3 ώρες μετά την έναρξη.
+
+Μία φορά ανά εκπομπή: αν αλλάξει η ώρα, δεν ξαναβγαίνει.
+
 ## Συχνότητα (cron-job.org)
 
 Το GitHub τρέχει το πρόγραμμα του workflow μόνο περίπου κάθε 30 λεπτά. Για έλεγχο κάθε 5 λεπτά, το cron-job.org (job «Trifillakia autopost») στέλνει POST στο

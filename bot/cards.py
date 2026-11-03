@@ -658,3 +658,107 @@ def news_story(a):
     bottom = "21+ | ΠΑΙΞΕ ΝΟΜΙΜΑ ΚΑΙ ΥΠΕΥΘΥΝΑ" if a.get("section") == "prognostika-stoihimatos" else "@trifillakiagr"
     ctext(d, W / 2, SH - 90, bottom, font("semi", 38), fill=MUTED, anchor="mm")
     return c
+
+
+# --------------------------------------------------------------------------
+# Εκπομπές στο YouTube (προγραμματισμένα live του καναλιού)
+# --------------------------------------------------------------------------
+
+YT_RED = (255, 32, 32)
+
+
+def show_when(ts):
+    """(«ΣΗΜΕΡΑ · ΤΡΙΤΗ 3 ΝΟΕΜΒΡΙΟΥ», «12:00»)."""
+    dt = datetime.fromtimestamp(ts, TZ)
+    days = (dt.date() - datetime.now(TZ).date()).days
+    rel = {0: "ΣΗΜΕΡΑ", 1: "ΑΥΡΙΟ"}.get(days)
+    day = f"{DAYS[dt.weekday()]} {dt.day} {MONTHS[dt.month - 1]}"
+    return (f"{rel} · {day}" if rel else day), dt.strftime("%H:%M")
+
+
+def _framed_thumb(c, v, y, w=1000):
+    """Η μικρογραφία του YouTube ολόκληρη (16:9), σε πλαίσιο με στρογγυλές γωνίες και neon περίγραμμα."""
+    h = int(w * 9 / 16)
+    x = (W - w) // 2
+    im = fetch_image(v.get("image"))
+    sh = Image.new("RGBA", (w + 80, h + 80), (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle((40, 40, w + 40, h + 40), radius=28, fill=(0, 0, 0, 180))
+    c.alpha_composite(sh.filter(ImageFilter.GaussianBlur(22)), (x - 40, y - 28))
+    if im is not None:
+        im = cover(im, w, h, focus_y=0.5)
+        mask = Image.new("L", (w, h), 0)
+        ImageDraw.Draw(mask).rounded_rectangle((0, 0, w, h), radius=28, fill=255)
+        c.paste(im, (x, y), mask)
+    shape(c, "rounded_rectangle", (x, y, x + w, y + h), radius=28, outline=NEON + (255,), width=4)
+    return y + h
+
+
+def _live_pill(c, x, y, size=38):
+    """Κόκκινη ετικέτα «● ΖΩΝΤΑΝΑ ΣΤΟ YOUTUBE» (αριστερή άκρη στο x)."""
+    d = ImageDraw.Draw(c, "RGBA")
+    f = font("black", size)
+    s = "ΖΩΝΤΑΝΑ ΣΤΟ YOUTUBE"
+    b = d.textbbox((0, 0), s, font=f)
+    th, pad, dot = b[3] - b[1], int(size * 0.45), int(size * 0.42)
+    box = (x, y, x + pad * 2 + dot + 16 + (b[2] - b[0]), y + th + pad * 2)
+    d.rounded_rectangle(box, radius=(box[3] - box[1]) / 2, fill=YT_RED)
+    cy = (box[1] + box[3]) / 2
+    d.ellipse((x + pad, cy - dot / 2, x + pad + dot, cy + dot / 2), fill=WHITE)
+    d.text((x + pad + dot + 16, y + pad - b[1]), s, font=f, fill=WHITE)
+    return box[3]
+
+
+def _show_text(c, v, y, size, maxlines):
+    """Όνομα εκπομπής (neon) και θέμα (τίτλος) κάτω από τη μικρογραφία."""
+    d = ImageDraw.Draw(c, "RGBA")
+    if v.get("show"):
+        y = pill(c, W / 2, y, upper(v["show"]), font("black", 40)) + 26
+    if v.get("topic"):
+        f, lines = wrap(d, upper(v["topic"]), "xbold", size, W - 140, maxlines, minsize=40)
+        lh = int(f.size * 1.08)
+        for i, line in enumerate(lines):
+            glow_text(c, (W / 2, y + i * lh), line, f, radius=10, strength=1, glow=(0, 0, 0))
+        y += lh * len(lines)
+    return y
+
+
+def _when(c, v, y, day_size, time_size):
+    d = ImageDraw.Draw(c, "RGBA")
+    day, hour = show_when(v["start"])
+    ctext(d, W / 2, y, day, shrink(d, day, "xbold", day_size, W - 120), fill=NEON_SOFT)
+    glow_text(c, (W / 2, y + int(day_size * 1.25)), hour, font("black", time_size), glow=NEON, radius=18, strength=2)
+    return y + int(day_size * 1.25) + int(time_size * 1.0)
+
+
+def show_card(v):
+    """Post 1080x1350: μικρογραφία, εκπομπή, θέμα, μέρα και ώρα."""
+    c = background(seed=53)
+    _live_pill(c, 40, 46)
+    lg = fit(logo(), 210)
+    c.alpha_composite(lg, (W - lg.width - 40, 30))
+    y = _framed_thumb(c, v, 150) + 34
+    _show_text(c, v, y, 52, 2)
+    _when(c, v, H - 330, 48, 150)
+    d = ImageDraw.Draw(c, "RGBA")
+    d.text((60, H - 56), "YOUTUBE.COM/@TRIFILLAKIA_GR", font=font("semi", 32), fill=NEON_SOFT, anchor="lm")
+    d.text((W - 60, H - 56), "LINK ΣΤΟ BIO", font=font("xbold", 32), fill=WHITE, anchor="rm")
+    return c
+
+
+def show_story(v):
+    """Story 1080x1920."""
+    c = background(SH, seed=53)
+    lg = fit(logo(), 300)
+    c.alpha_composite(lg, ((W - lg.width) // 2, 70))
+    d = ImageDraw.Draw(c, "RGBA")
+    probe = font("black", 40)
+    pw = text_w(d, "ΖΩΝΤΑΝΑ ΣΤΟ YOUTUBE", probe) + 2 * 18 + 17 + 16
+    _live_pill(c, int((W - pw) / 2), 70 + lg.height + 36, 40)
+    y = _framed_thumb(c, v, 70 + lg.height + 150) + 44
+    _show_text(c, v, y, 60, 3)
+    _when(c, v, SH - 560, 56, 190)
+    box = (60, SH - 250, W - 60, SH - 150)
+    shape(c, "rounded_rectangle", box, radius=50, fill=NEON + (255,))
+    ctext(d, W / 2, SH - 200, "ΔΕΣ ΤΟ ΣΤΟ LINK ΤΟΥ BIO", font("black", 46), fill=DARK, anchor="mm")
+    ctext(d, W / 2, SH - 90, "youtube.com/@trifillakia_gr", font("semi", 38), fill=MUTED, anchor="mm")
+    return c

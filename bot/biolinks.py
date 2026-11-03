@@ -3,7 +3,7 @@ import html
 import os
 import shutil
 
-from .cards import ASSETS, ROOT
+from .cards import ASSETS, ROOT, show_when
 
 DOCS = os.path.join(ROOT, "docs")
 
@@ -11,6 +11,7 @@ LINKS = [
     ("Trifillakia.gr", "https://www.trifillakia.gr"),
     ("Facebook", "https://www.facebook.com/349363601832677"),
     ("Instagram", "https://www.instagram.com/trifillakiagr/"),
+    ("YouTube", "https://www.youtube.com/@trifillakia_gr"),
 ]
 
 PAGE = """<!doctype html>
@@ -40,6 +41,13 @@ PAGE = """<!doctype html>
                background:linear-gradient(transparent, rgba(2,26,11,.95)); }}
   .grid em {{ font-style:normal; display:block; color:var(--neon); font-size:11px; font-weight:800; }}
   @media (max-width:420px) {{ .grid span {{ font-size:11.5px; }} }}
+  .live {{ display:flex; gap:12px; align-items:center; background:var(--card); border:2px solid var(--neon); border-radius:12px;
+          padding:10px; margin:0 0 22px; color:var(--text); text-decoration:none; }}
+  .live img {{ width:42%; max-width:240px; aspect-ratio:16/9; object-fit:cover; border-radius:8px; flex:none; }}
+  .live b {{ display:inline-block; background:#ff2020; color:#fff; font-size:12px; font-weight:800; padding:3px 9px; border-radius:999px; }}
+  .live strong {{ display:block; font-size:17px; margin:5px 0 3px; }}
+  .live span {{ display:block; color:var(--neon); font-weight:800; font-size:15px; }}
+  .live small {{ display:block; color:var(--muted); font-size:13px; line-height:1.2; margin-top:3px; }}
   footer {{ text-align:center; color:var(--muted); margin-top:28px; font-size:14px; }}
 </style>
 </head>
@@ -47,10 +55,17 @@ PAGE = """<!doctype html>
 <div class="wrap">
   <header><img src="logo.png" alt="Trifillakia.gr"></header>
   <nav class="links">{links}</nav>
+  {shows}
   <h2>ΤΕΛΕΥΤΑΙΑ ΝΕΑ</h2>
   <main class="grid">{items}</main>
   <footer>☘️ trifillakia.gr</footer>
 </div>
+<script>
+  // Η εκπομπή φεύγει από τη σελίδα 3 ώρες μετά την έναρξη (η σελίδα ανανεώνεται μόνο όταν τρέξει το bot).
+  document.querySelectorAll('.live').forEach(function (a) {{
+    if (Date.now() / 1000 > +a.dataset.end) a.remove();
+  }});
+</script>
 </body>
 </html>
 """
@@ -61,7 +76,21 @@ def thumb(url):
     return url.replace("/sites/default/files/field/image/", "/sites/default/files/styles/image_320x320/public/field/image/")
 
 
-def write(recent):
+def _shows(shows):
+    """Οι προγραμματισμένες εκπομπές του YouTube πάνω από τα άρθρα (εκεί οδηγεί το «link στο bio» της κάρτας)."""
+    e = html.escape
+    out = []
+    for v in shows or []:
+        day, hour = show_when(v["start"])
+        out.append(
+            f'<a class="live" href="{e(v["url"])}" data-end="{v["start"] + 3 * 3600}"><img src="{e(v["image"])}" alt="">'
+            f'<div><b>● ΖΩΝΤΑΝΑ ΣΤΟ YOUTUBE</b><strong>{e(v["show"] or "Trifillakia")}</strong>'
+            f'<span>{e(day)} · {e(hour)}</span><small>{e(v["topic"])}</small></div></a>'
+        )
+    return "".join(out)
+
+
+def write(recent, shows=None):
     os.makedirs(DOCS, exist_ok=True)
     logo = os.path.join(DOCS, "logo.png")
     if not os.path.exists(logo):
@@ -76,7 +105,7 @@ def write(recent):
         f'<span>{"<em>" + e(a["label"]) + "</em>" if a.get("label") else ""}{e(a["title"])}</span></a>'
         for a in recent[:30]
     )
-    page = PAGE.format(links=links, items=items)
+    page = PAGE.format(links=links, items=items, shows=_shows(shows))
     path = os.path.join(DOCS, "index.html")
     try:
         with open(path, encoding="utf-8") as fh:
