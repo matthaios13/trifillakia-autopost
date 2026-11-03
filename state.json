@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24666,
+  "last": 24668,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13,7 +13,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-84261.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24666,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-84261.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-84261.jpg?itok=JEIjjoNo",
     "title": "Ο Μοχάμεντ Αλ Χακίμ στο Παναθηναϊκός – ΤΣΣΚΑ Σόφιας",
     "url": "https://www.trifillakia.gr/podosfairo/article/24666/o-mohament-al-hakim-sto-panathinaikos-tsska-sofias"
    },
@@ -7081,6 +7081,12 @@
     "igs": "18123467087065730"
    },
    "tries": 1
+  },
+  "news:24667": {
+   "at": 1793706344.5391521,
+   "claim": "41628711478",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
