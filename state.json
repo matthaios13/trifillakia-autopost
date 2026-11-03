@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_0.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24671,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_0.jpg",
+    "title": "ELABET και Champions League με 0% γκανιότα και δυνατά Bet Builders σε Μαδρίτη και Μάντσεστερ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24671/elabet-kai-champions-league-me-0-gkaniota-kai-dynata-bet"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67965.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24670,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-juvefc-4ba79e.jpg?itok=sC4KW1c2",
     "title": "ELABET: Γιουβέντους – Νάπολι με «Ενισχυμένο»… μπιανκονέρο combo",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24632/elabet-gioyventoys-napoli-me-enishymeno-mpiankonero-combo"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-paok-fc-a8f156.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24631,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-paok-fc-a8f156.jpg?itok=SiTWTbLZ",
-    "title": "ELABET: Ο ΠΑΟΚ έχει «boost» αντίδρασης κόντρα στον Αστέρα",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24631/elabet-o-paok-ehei-boost-antidrasis-kontra-ston-astera"
    }
   ],
   "wait": {
@@ -7126,6 +7126,12 @@
     "igs": "18077873402727626"
    },
    "tries": 1
+  },
+  "news:24672": {
+   "at": 1793722037.278673,
+   "claim": "41670517627",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
