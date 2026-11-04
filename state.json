@@ -1133,6 +1133,50 @@
    "since": 1792324220.9558408,
    "team": "basketball"
   },
+  "tb:QBKBDbAd": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "plqPE4do",
+    "away_score": 79,
+    "comp": "ΓιούροΚαπ Γυναικών",
+    "comp_full": "ΕΥΡΩΠΗ: ΓιούροΚαπ Γυναικών",
+    "comp_logo": "https://static.flashscore.com/res/image/data/nNGrhrld-dljyQRdr.png",
+    "home": "Άλμπα Βερολίνου",
+    "home_id": "v9Uijhuq",
+    "home_score": 56,
+    "id": "QBKBDbAd",
+    "info": "",
+    "periods": [
+     [
+      13,
+      17
+     ],
+     [
+      14,
+      22
+     ],
+     [
+      19,
+      16
+     ],
+     [
+      10,
+      24
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "nJngW0jD",
+    "start": 1793817000,
+    "status": "3",
+    "tour_id": "CzuvKU4J",
+    "tour_path": "/basketball/europe/eurocup-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 4",
+   "round": "4η Αγωνιστική",
+   "since": 1793824241.2472622,
+   "team": "basketball_w"
+  },
   "tb:QLcX7Az0": {
    "ev": {
     "away": "ΑΕΚ",
@@ -7763,6 +7807,12 @@
     "igs": "18128791231892098"
    },
    "tries": 1
+  },
+  "tb:QBKBDbAd": {
+   "at": 1793824384.577302,
+   "claim": "41907244968",
+   "nets": {},
+   "tries": 0
   },
   "tb:QLcX7Az0": {
    "at": 1792254021.5340302,
