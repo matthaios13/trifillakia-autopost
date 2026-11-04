@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-standings-2026-11-04.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24695,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-standings-2026-11-04.jpg",
+    "title": "Η βαθμολογία της EuroLeague μετά τη νίκη του Παναθηναϊκού επί της Ρεάλ Μαδρίτης",
+    "url": "https://www.trifillakia.gr/mpasket/article/24695/i-vathmologia-tis-euroleague-meta-ti-niki-toy-panathinaikoy-epi-tis-real"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68219.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24694,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-fiorentinafc-3b465f.jpg?itok=F0U-xwEU",
     "title": "ELABET: Σασουόλο-Φιορεντίνα με Bet Builder στα… βιόλα",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24656/elabet-sasoyolo-fiorentina-me-bet-builder-sta-viola"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-atalantafc-0741e1.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24655,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-atalantafc-0741e1.jpg",
-    "title": "ELABET: Combo ισορροπίας στο Αταλάντα-Πάρμα",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24655/elabet-combo-isorropias-sto-atalanta-parma"
    }
   ],
   "wait": {
@@ -7658,6 +7658,12 @@
     "igs": "18194828551400014"
    },
    "tries": 1
+  },
+  "news:24696": {
+   "at": 1793831859.7706308,
+   "claim": "41926554778",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
