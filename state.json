@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-bc-dbbe9f_0.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24684,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-bc-dbbe9f_0.jpg",
+    "title": "ELABET: ΑΕΚ και Παναθηναϊκός κόντρα στη Βασίλισσα με 0% γκανιότα και δυνατά Bet Builders",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24684/elabet-aek-kai-panathinaikos-kontra-sti-vasilissa-me-0"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/A712AD89-3469-495C-AE57-0B11088FCD03.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24683,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-83874.jpg?itok=f2jQ4e5_",
     "title": "Τεττέη: «Πρέπει να παραμείνουμε προσγειωμένοι, κάθε ματς είναι τρεις βαθμοί»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24645/tettei-prepei-na-parameinoyme-prosgeiomenoi-kathe-mats-einai-treis-vathmoi"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83873.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24644,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-83873.jpg?itok=u9rcn6em",
-    "title": "Νίστρουπ:«Η ΑΕΚ είναι η καλύτερη ομάδα στην Ελλάδα τους τελευταίους 15 μήνες – Είμαι ευχαριστημένος από τους παίκτες μου»",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24644/nistroypi-aek-einai-i-kalyteri-omada-stin-ellada-toys-teleytaioys-15-mines"
    }
   ],
   "wait": {
@@ -7283,6 +7283,12 @@
     "igs": "18134031841838919"
    },
    "tries": 1
+  },
+  "news:24685": {
+   "at": 1793791656.7785826,
+   "claim": "41820688259",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
