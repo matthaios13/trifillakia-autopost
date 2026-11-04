@@ -829,6 +829,50 @@
    "since": 1793561719.0102344,
    "team": "football"
   },
+  "tb:AP77DFHL": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "QN7ZELZa",
+    "away_score": 3,
+    "comp": "Τσάλεντζ Καπ Γυναίκες",
+    "comp_full": "ΕΥΡΩΠΗ: Τσάλεντζ Καπ Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/MB51Sdmd-hQADRwd3.png",
+    "home": "CSM Βουκουρεστίου",
+    "home_id": "h25adBHl",
+    "home_score": 1,
+    "id": "AP77DFHL",
+    "info": "Αποτέλεσμα πρώτου γύρου: 0-3. Συνολικό σκορ: 1-6.",
+    "periods": [
+     [
+      25,
+      22
+     ],
+     [
+      17,
+      25
+     ],
+     [
+      18,
+      25
+     ],
+     [
+      15,
+      25
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "02pvxVBE",
+    "start": 1793800800,
+    "status": "3",
+    "tour_id": "lGALDDtR",
+    "tour_path": "/volleyball/europe/challenge-cup-women/"
+   },
+   "raw_round": "1/32-Τελικά",
+   "round": "1/32-Τελικά",
+   "since": 1793807723.833772,
+   "team": "volley_w"
+  },
   "tb:CGY4C75j": {
    "ev": {
     "away": "Μπασκόνια",
