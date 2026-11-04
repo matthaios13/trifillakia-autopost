@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24688,
+  "last": 24690,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -45,7 +45,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-bc-dbbe9f_0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24684,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-bc-dbbe9f_0.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-aek-bc-dbbe9f_0.jpg?itok=UpDDUOm5",
     "title": "ELABET: ΑΕΚ και Παναθηναϊκός κόντρα στη Βασίλισσα με 0% γκανιότα και δυνατά Bet Builders",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24684/elabet-aek-kai-panathinaikos-kontra-sti-vasilissa-me-0"
    },
@@ -7319,6 +7319,12 @@
     "igs": "18140619901627973"
    },
    "tries": 1
+  },
+  "news:24689": {
+   "at": 1793798504.7385168,
+   "claim": "41837159055",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
