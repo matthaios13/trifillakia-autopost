@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24693,
+  "last": 24694,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -667,6 +667,50 @@
    "raw_round": "Αγωνιστική ημέρα: 1",
    "round": "1η Αγωνιστική",
    "since": 1792866316.771346,
+   "team": "volley_m"
+  },
+  "tb:2LaGfk56": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "d0FeiWQ6",
+    "away_score": 3,
+    "comp": "Λιγκ Καπ",
+    "comp_full": "ΕΛΛΑΔΑ: Λιγκ Καπ",
+    "comp_logo": "https://static.flashscore.com/res/image/data/61QjLhmd-UJkWPKGG.png",
+    "home": "ΠΑΟΚ",
+    "home_id": "vP40jjtD",
+    "home_score": 1,
+    "id": "2LaGfk56",
+    "info": "",
+    "periods": [
+     [
+      25,
+      23
+     ],
+     [
+      16,
+      25
+     ],
+     [
+      19,
+      25
+     ],
+     [
+      22,
+      25
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "dKAidDpR",
+    "start": 1793808000,
+    "status": "3",
+    "tour_id": "KMybLyqp",
+    "tour_path": "/volleyball/greece/league-cup/"
+   },
+   "raw_round": "Προημιτελικά",
+   "round": "Προημιτελικά",
+   "since": 1793815522.8535428,
    "team": "volley_m"
   },
   "tb:4hboXcOP": {
@@ -7429,6 +7473,12 @@
    },
    "tries": 1
   },
+  "news:24694": {
+   "at": 1793815658.8241713,
+   "claim": "41883520102",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -8492,7 +8542,8 @@
    "bala24.gr:84719",
    "bala24.gr:84767",
    "bala24.gr:84766",
-   "totalbasket.gr:68193"
+   "totalbasket.gr:68193",
+   "totalbasket.gr:68219"
   ],
   "done_titles": [
    "Παναθηναϊκός: Χωρίς ανησυχία για Λεσόρ, κοντά στο να παίξει με Μπασκόνια",
