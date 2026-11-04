@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24699,
+  "last": 24700,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13,7 +13,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68280.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24699,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68280.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-68280.jpg?itok=yZKovd26",
     "title": "Λεσόρ: «Αυτή είναι η δουλειά μας, πρέπει να είμαστε έτοιμοι»",
     "url": "https://www.trifillakia.gr/mpasket/article/24699/lesor-ayti-einai-i-doyleia-mas-prepei-na-eimaste-etoimoi"
    },
@@ -21,7 +21,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/nunnn_0.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24698,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/nunnn_0.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/nunnn_0.jpg?itok=ckSHg9E2",
     "title": "Ρεάλ Μαδρίτης – Παναθηναϊκός 112-115: Ο Ναν υπέγραψε το μεγάλο διπλό στην παράταση",
     "url": "https://www.trifillakia.gr/mpasket/article/24698/real-madritis-panathinaikos-112-115-o-nan-ypegrapse-to-megalo-diplo-stin"
    },
@@ -29,7 +29,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-p-zeljko-obradovic-2.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24697,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-p-zeljko-obradovic-2.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-p-zeljko-obradovic-2.jpg?itok=ZEJKEpS9",
     "title": "Ομπράντοβιτς: «Ο Ναν έπαιξε καταπληκτικά, ξέρουμε όλοι την ποιότητα που έχει»",
     "url": "https://www.trifillakia.gr/mpasket/article/24697/omprantovits-o-nan-epaixe-katapliktika-xeroyme-oloi-tin-poiotita-poy-ehei"
    },
@@ -7694,6 +7694,12 @@
     "igs": "17884039206535055"
    },
    "tries": 1
+  },
+  "news:24700": {
+   "at": 1793835397.0148714,
+   "claim": "41934877346",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
