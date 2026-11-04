@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-p-zeljko-obradovic-2.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24697,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-p-zeljko-obradovic-2.jpg",
+    "title": "Ομπράντοβιτς: «Ο Ναν έπαιξε καταπληκτικά, ξέρουμε όλοι την ποιότητα που έχει»",
+    "url": "https://www.trifillakia.gr/mpasket/article/24697/omprantovits-o-nan-epaixe-katapliktika-xeroyme-oloi-tin-poiotita-poy-ehei"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/nunnn.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24696,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-84052.jpg?itok=a3006DKg",
     "title": "Παναθηναϊκός: Προπόνηση σε δύο γκρουπ μετά την ΑΕΚ",
     "url": "https://www.trifillakia.gr/podosfairo/article/24658/panathinaikos-proponisi-se-dyo-gkroyp-meta-tin-aek"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-84013.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24657,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-84013.jpg?itok=OZ_IwA2C",
-    "title": "Παναθηναϊκός: Περιμένει το «οκ» της ΕΛ.ΑΣ. για οπαδούς στο Καυτανζόγλειο",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24657/panathinaikos-perimenei-to-ok-tis-elas-gia-opadoys-sto-kaytanzogleio"
    }
   ],
   "wait": {
@@ -7676,6 +7676,12 @@
     "igs": "18148727917604653"
    },
    "tries": 1
+  },
+  "news:24698": {
+   "at": 1793832730.8572328,
+   "claim": "41928641260",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
