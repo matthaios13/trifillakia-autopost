@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-dortmundfc-53219c.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24686,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-dortmundfc-53219c.jpg",
+    "title": "ELABET: Ντόρτμουντ-Μπέτις με «Ενισχυμένη» ισορροπία",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24686/elabet-ntortmoynt-mpetis-me-enishymeni-isorropia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-bc-dbbe9f_1.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24685,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/tetteh.jpg?itok=_y5KqcLY",
     "title": "Football Meets Data: Πώς διαμορφώνονται οι πιθανότητες για την κατάκτηση του πρωταθλήματος μετά τη νίκη του Παναθηναϊκού επί της ΑΕΚ",
     "url": "https://www.trifillakia.gr/podosfairo/article/24647/football-meets-data-pos-diamorfonontai-oi-pithanotites-gia-tin-kataktisi"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83880.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24646,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-83880.jpg?itok=b_XnNsee",
-    "title": "Αντίνο: «Πολύ χαρούμενος για το αποτέλεσμα – Ευχαριστώ τον κόσμο που μας στήριξε»",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24646/antino-poly-haroymenos-gia-to-apotelesma-eyharisto-ton-kosmo-poy-mas"
    }
   ],
   "wait": {
@@ -7301,6 +7301,12 @@
     "igs": "17919354915533625"
    },
    "tries": 1
+  },
+  "news:24687": {
+   "at": 1793791718.116682,
+   "claim": "41820688259",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
