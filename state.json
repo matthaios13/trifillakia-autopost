@@ -10,6 +10,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-bc-dbbe9f_1.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24685,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-bc-dbbe9f_1.jpg",
+    "title": "ELABET: Σομπατέλι – ΑΕΚ: Η Ένωση ψάχνει την… αντεπίθεση",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24685/elabet-sompateli-aek-i-enosi-psahnei-tin-antepithesi"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-bc-dbbe9f_0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24684,
@@ -320,14 +328,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-83880.jpg?itok=b_XnNsee",
     "title": "Αντίνο: «Πολύ χαρούμενος για το αποτέλεσμα – Ευχαριστώ τον κόσμο που μας στήριξε»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24646/antino-poly-haroymenos-gia-to-apotelesma-eyharisto-ton-kosmo-poy-mas"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-83874.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24645,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-83874.jpg?itok=f2jQ4e5_",
-    "title": "Τεττέη: «Πρέπει να παραμείνουμε προσγειωμένοι, κάθε ματς είναι τρεις βαθμοί»",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24645/tettei-prepei-na-parameinoyme-prosgeiomenoi-kathe-mats-einai-treis-vathmoi"
    }
   ],
   "wait": {
@@ -7292,6 +7292,12 @@
     "igs": "18079831373416520"
    },
    "tries": 1
+  },
+  "news:24686": {
+   "at": 1793791690.0037253,
+   "claim": "41820688259",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
