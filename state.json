@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24696,
+  "last": 24698,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13,7 +13,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/nunnn.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24696,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/nunnn.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/nunnn.jpg?itok=-060bQwg",
     "title": "Ρεάλ Μαδρίτης – Παναθηναϊκός AKTOR 112-115: Ο Ναν «καθάρισε» στην παράταση στη Μαδρίτη",
     "url": "https://www.trifillakia.gr/mpasket/article/24696/real-madritis-panathinaikos-aktor-112-115-o-nan-katharise-stin-paratasi-sti"
    },
@@ -21,7 +21,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-standings-2026-11-04.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24695,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-standings-2026-11-04.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/el-news-standings-2026-11-04.jpg?itok=hUSFXl2w",
     "title": "Η βαθμολογία της EuroLeague μετά τη νίκη του Παναθηναϊκού επί της Ρεάλ Μαδρίτης",
     "url": "https://www.trifillakia.gr/mpasket/article/24695/i-vathmologia-tis-euroleague-meta-ti-niki-toy-panathinaikoy-epi-tis-real"
    },
@@ -7667,6 +7667,12 @@
     "igs": "18041016212847736"
    },
    "tries": 1
+  },
+  "news:24697": {
+   "at": 1793832695.1671295,
+   "claim": "41928641260",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
