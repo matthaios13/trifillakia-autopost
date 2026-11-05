@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24702,
+  "last": 24703,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13,7 +13,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68374.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24702,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68374.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-68374.jpg?itok=JCZF95Le",
     "title": "Τα highlights από το μεγάλο διπλό του Παναθηναϊκού στη Μαδρίτη (vid)",
     "url": "https://www.trifillakia.gr/mpasket/article/24702/ta-highlights-apo-to-megalo-diplo-toy-panathinaikoy-sti-madriti-vid"
    },
@@ -7731,6 +7731,12 @@
     "igs": "18118860515073734"
    },
    "tries": 1
+  },
+  "news:24703": {
+   "at": 1793869642.2761967,
+   "claim": "41999472674",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
