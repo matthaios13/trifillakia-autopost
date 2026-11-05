@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85225.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24712,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85225.jpg",
+    "title": "Ο Καμαρά αποκάλυψε γιατί επέλεξε το πράσινο χρώμα στα μαλλιά του",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24712/o-kamara-apokalypse-giati-epelexe-to-prasino-hroma-sta-mallia-toy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85187.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24711,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-elabet-94453f_1.jpg?itok=13wbv_ci",
     "title": "ELABET για “ενισχυμένα” γκολ στην ματσάρα Φέγενορντ – Ίντερ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24672/elabet-gia-enishymena-gkol-stin-matsara-fegenornt-inter"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_0.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24671,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-elabet-94453f_0.jpg?itok=UOboNa76",
-    "title": "ELABET και Champions League με 0% γκανιότα και δυνατά Bet Builders σε Μαδρίτη και Μάντσεστερ",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24671/elabet-kai-champions-league-me-0-gkaniota-kai-dynata-bet"
    }
   ],
   "wait": {
@@ -7813,6 +7813,12 @@
     "igs": "17996985149840934"
    },
    "tries": 1
+  },
+  "news:24713": {
+   "at": 1793909048.038742,
+   "claim": "42099289592",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
