@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-milanfc-700121.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24708,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-milanfc-700121.jpg",
+    "title": "ELABET: Μίλαν-Φερεντσβάρος με Bet Builder από ημίχρονο",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24708/elabet-milan-ferentsvaros-me-bet-builder-apo-imihrono"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-barcabc-cf4ab4.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24706,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-67921.jpg?itok=Z8K2hfVY",
     "title": "«Πρόταση Παναθηναϊκού σε Βίρτους για Αλιού Ντιαρά»",
     "url": "https://www.trifillakia.gr/mpasket/article/24668/protasi-panathinaikoy-se-virtoys-gia-alioy-ntiara"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-67924.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24667,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-67924.jpg?itok=lZXrWKAk",
-    "title": "Κάρλικ Τζόουνς: «Είχα πρόταση από τον Παναθηναϊκό-Δεν διώξαμε εμείς τον Ομπράντοβιτς από την Παρτίζαν, εκείνος έφυγε»",
-    "url": "https://www.trifillakia.gr/mpasket/article/24667/karlik-tzooyns-eiha-protasi-apo-ton-panathinaiko-den-dioxame-emeis-ton"
    }
   ],
   "wait": {
@@ -7777,6 +7777,12 @@
     "igs": "18097961072446265"
    },
    "tries": 1
+  },
+  "news:24709": {
+   "at": 1793892201.67195,
+   "claim": "42053928475",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
