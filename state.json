@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5417673-1.jpg",
+    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
+    "nid": 24772,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5417673-1.jpg",
+    "title": "Στην κορυφαία επτάδα της 3ης αγωνιστικής η Αντωνακάκη",
+    "url": "https://www.trifillakia.gr/volei-gynaikon/article/24772/stin-koryfaia-eptada-tis-3is-agonistikis-i-antonakaki"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5412943-1.jpg",
     "label": "ΠΟΛΟ",
     "nid": 24771,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-hamburgfc-841d95.jpg",
     "title": "ELABET: Αμβούργο – Γκλάντμπαχ: Bet Builder επιβίωσης στην Bundesliga",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24731/elabet-amvoyrgo-gklantmpah-bet-builder-epiviosis-stin"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85458.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24730,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85458.jpg",
-    "title": "Παναθηναϊκός: Πρωινή προπόνηση μετά τη νίκη επί της ΤΣΣΚΑ Σόφιας",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24730/panathinaikos-proini-proponisi-meta-ti-niki-epi-tis-tsska-sofias"
    }
   ],
   "wait": {
@@ -8388,6 +8388,12 @@
     "igs": "17955323529315796"
    },
    "tries": 1
+  },
+  "news:24773": {
+   "at": 1793983978.0278387,
+   "claim": "42255969260",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
