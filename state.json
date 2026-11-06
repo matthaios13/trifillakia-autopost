@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/271584574_1346511945771109_8713652248672410909_n_2.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24751,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/271584574_1346511945771109_8713652248672410909_n_2.jpg",
+    "title": "Το βόλεϊ του Παναθηναϊκού απαντά στον Ολυμπιακό για Μετς και Ρέντη",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24751/to-volei-toy-panathinaikoy-apanta-ston-olympiako-gia-mets-kai-renti"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/1953-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24749,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-85187.jpg?itok=v6ZvNGid",
     "title": "Ναζιστικοί χαιρετισμοί από οπαδούς της ΤΣΣΚΑ Σόφιας στο κέντρο της Αθήνας (video)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24711/nazistikoi-hairetismoi-apo-opadoys-tis-tsska-sofias-sto-kentro-tis-athinas"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85132.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24710,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-85132.jpg?itok=BUAOiMG6",
-    "title": "Επίθεση δέχτηκε το πούλμαν της ΤΣΣΚΑ Σόφιας πριν τον Παναθηναϊκό",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24710/epithesi-dehtike-to-poylman-tis-tsska-sofias-prin-ton-panathinaiko"
    }
   ],
   "wait": {
@@ -8208,6 +8208,12 @@
     "igs": "18445584010179126"
    },
    "tries": 1
+  },
+  "news:24752": {
+   "at": 1793982255.473798,
+   "claim": "42251415294",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
