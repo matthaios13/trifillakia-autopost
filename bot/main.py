@@ -128,7 +128,9 @@ def merge_state(st, remote):
         st["synd"]["done_titles"] = list(dict.fromkeys((rs.get("done_titles") or []) + (st["synd"].get("done_titles") or [])))[-400:]
         st["synd"]["done"] = list(dict.fromkeys((rs.get("done") or []) + (st["synd"].get("done") or [])))[-400:]
         items = {i["guid"]: i for i in (rs.get("items") or []) + (st["synd"].get("items") or [])}
-        st["synd"]["items"] = sorted(items.values(), key=lambda i: -i["ts"])[:30]
+        newest = sorted(items.values(), key=lambda i: -i["ts"])
+        now = time.time()  # + όσα μπήκαν τις τελευταίες 6 ώρες (backfill pao1908 με παλιές ημερομηνίες)
+        st["synd"]["items"] = [i for n, i in enumerate(newest) if n < 30 or now - i.get("added", 0) < 6 * 3600]
     return st
 
 

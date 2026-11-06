@@ -410,6 +410,7 @@ def update(state, now, log=print):
             p["image"] = drupal_image(p["image"], p["guid"])
             p["added"] = now
             state["items"].append(p)
+            state["done"].append(p["guid"])
             state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
             log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"])
     except Exception as e:  # noqa: BLE001

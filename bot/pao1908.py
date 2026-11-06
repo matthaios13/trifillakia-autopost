@@ -99,8 +99,11 @@ PROMPT = """Είσαι συντάκτης του trifillakia.gr (site για τ�
 - Στην πρώτη πρόταση να φαίνεται καθαρά το τμήμα/άθλημα του Παναθηναϊκού (π.χ. «η ομάδα βόλεϊ γυναικών», «το τμήμα πινγκ πονγκ», «η ακαδημία πάλης»), αν είναι γνωστό.
 - Γλώσσα: ελληνικά, φυσικό αθλητικό ύφος.
 
-Απάντησε ΜΟΝΟ με JSON: {"title": "...", "body": "<p>...</p>"}
+- Κράτα το είδος του κειμένου: αφιέρωμα, «σαν σήμερα», μνήμη ή ιστορικό κείμενο μένει αφιέρωμα. Ο τίτλος ΔΕΝ το παρουσιάζει ως τωρινό γεγονός (π.χ. όχι «Πέθανε ο …» για κάποιον που έφυγε παλιότερα, αλλά «Θυμόμαστε τον …»). Αν δεν λέει έτος, μη βάλεις έτος.
 
+Δώσε την απάντηση με το εργαλείο save_article.
+
+Ημερομηνία δημοσίευσης στο pao1908: {date}{old}
 Άθλημα: {sport}
 Αρχικός τίτλος: {title}
 Αρχικό κείμενο:
@@ -114,26 +117,31 @@ def _clean_source(body):
 
 
 def rewrite(item, key, log=print):
+    date = datetime.fromtimestamp(item["ts"], timezone.utc).strftime("%d/%m/%Y")
+    m = re.search(r"/uploads/(\d{4})/", item.get("image") or "")
+    old = (f" (η φωτογραφία ανέβηκε το {m.group(1)}: πιθανότατα παλιό κείμενο που ξαναδημοσιεύτηκε, π.χ. αφιέρωμα)"
+           if m and int(m.group(1)) < datetime.fromtimestamp(item["ts"], timezone.utc).year else "")
     prompt = (PROMPT.replace("{sport}", item["sport"] or "-").replace("{title}", item["orig_title"])
-              .replace("{body}", _clean_source(item["orig_body"])))
+              .replace("{date}", date).replace("{old}", old).replace("{body}", _clean_source(item["orig_body"])))
+    tool = {"name": "save_article", "description": "Αποθηκεύει το ξαναγραμμένο άρθρο.", "input_schema": {
+        "type": "object", "required": ["title", "body"], "properties": {
+            "title": {"type": "string", "description": "Νέος τίτλος"},
+            "body": {"type": "string", "description": "Κείμενο σε HTML"}}}}
     try:
         r = requests.post("https://api.anthropic.com/v1/messages", timeout=120, headers={
             "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json",
-        }, json={"model": MODEL, "max_tokens": 4000, "messages": [{"role": "user", "content": prompt}]})
+        }, json={"model": MODEL, "max_tokens": 4000, "tools": [tool],
+                 "tool_choice": {"type": "tool", "name": "save_article"},
+                 "messages": [{"role": "user", "content": prompt}]})
     except requests.RequestException as e:
         log("pao1908: σφάλμα Claude", repr(e)[:150])
         return None
     if r.status_code != 200:
         log(f"pao1908: Claude {r.status_code}", r.text[:200].replace("\n", " "))
         return None
-    text = "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
-    m = re.search(r"\{.*\}", text, re.S)
-    try:
-        data = json.loads(m.group(0)) if m else None
-    except ValueError:
-        data = None
-    if not data or not str(data.get("title", "")).strip() or len(re.sub(r"<[^>]+>", "", str(data.get("body", "")))) < 80:
-        log("pao1908: άκυρη απάντηση Claude για", item["orig_title"], text[:150].replace("\n", " "))
+    data = next((b.get("input") for b in r.json().get("content", []) if b.get("type") == "tool_use"), None)
+    if not isinstance(data, dict) or not str(data.get("title", "")).strip() or len(re.sub(r"<[^>]+>", "", str(data.get("body", "")))) < 80:
+        log("pao1908: άκυρη απάντηση Claude για", item["orig_title"], str(data)[:150])
         return None
     title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", str(data["title"]))).strip().strip("«»\"")
     body = str(data["body"]).strip()
