@@ -117,6 +117,10 @@ def _clean_source(body):
     return re.sub(r"\n{3,}", "\n\n", body).strip()[:12000]
 
 
+class ApiError(Exception):
+    pass
+
+
 def rewrite(item, key, log=print):
     date = datetime.fromtimestamp(item["ts"], timezone.utc).strftime("%d/%m/%Y")
     m = re.search(r"/uploads/(\d{4})/", item.get("image") or "")
@@ -132,15 +136,23 @@ def rewrite(item, key, log=print):
         r = requests.post("https://api.anthropic.com/v1/messages", timeout=120, headers={
             "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json",
         }, json={"model": MODEL, "max_tokens": 4000, "tools": [tool],
-                 "tool_choice": {"type": "tool", "name": "save_article"},
+                 "tool_choice": {"type": "auto"},
                  "messages": [{"role": "user", "content": prompt}]})
     except requests.RequestException as e:
         log("pao1908: σφάλμα Claude", repr(e)[:150])
         return None
     if r.status_code != 200:
         log(f"pao1908: Claude {r.status_code}", r.text[:200].replace("\n", " "))
-        return None
-    data = next((b.get("input") for b in r.json().get("content", []) if b.get("type") == "tool_use"), None)
+        raise ApiError(r.status_code)
+    content = r.json().get("content", [])
+    data = next((b.get("input") for b in content if b.get("type") == "tool_use"), None)
+    if data is None:  # χωρίς εργαλείο: JSON μέσα στο κείμενο
+        text = "".join(b.get("text", "") for b in content if b.get("type") == "text")
+        m = re.search(r"\{.*\}", text, re.S)
+        try:
+            data = json.loads(m.group(0)) if m else None
+        except ValueError:
+            data = None
     if not isinstance(data, dict) or not str(data.get("title", "")).strip() or len(re.sub(r"<[^>]+>", "", str(data.get("body", "")))) < 80:
         log("pao1908: άκυρη απάντηση Claude για", item["orig_title"], str(data)[:150])
         return None
@@ -193,7 +205,10 @@ def candidates(have, existing, same_story, log=print):
             log("Ροή trifillakia: υπάρχει ήδη →", p["orig_title"])
             out.append(dict(p, skip=True))
             continue
-        res = checked_rewrite(p, key, log)
+        try:
+            res = checked_rewrite(p, key, log)
+        except ApiError:
+            break  # σφάλμα API (κλειδί, μοντέλο, όριο): σταματάμε ως την επόμενη εκτέλεση
         if not res:
             continue
         title, body = res
