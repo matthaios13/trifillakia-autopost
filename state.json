@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/kypello-day-1-14.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24746,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/kypello-day-1-14.jpg",
+    "title": "Κατέκτησε το Ομαδικό Κύπελλο Αττικής η σκακιστική ομάδα Παίδων-Κορασίδων του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24746/katektise-to-omadiko-kypello-attikis-i-skakistiki-omada-paidon-korasidon"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5417672-1.jpg",
     "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
     "nid": 24745,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-barcabc-cf4ab4.jpg?itok=eYmqZjGI",
     "title": "ELABET: Bet Builder με ειδικά παικτών στο Χάποελ – Μπαρτσελόνα",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24706/elabet-bet-builder-me-eidika-paikton-sto-hapoel-mpartselona"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85028.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24705,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-85028.jpg?itok=SGSNCJAo",
-    "title": "Ο Σαντίνο Αντίνο στο νέο «ΠΑΝΑΘΗΝΑΪΚΟΝ»: «Παλεύουμε να γίνουμε πρωταθλητές. Θα ήταν ωραίο να μείνω πολλά χρόνια εδώ»",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24705/o-santino-antino-sto-neo-panathinaikon-paleyoyme-na-ginoyme-protathlites"
    }
   ],
   "wait": {
@@ -8171,6 +8171,12 @@
     "igs": "18333627280263345"
    },
    "tries": 1
+  },
+  "news:24747": {
+   "at": 1793981160.0546563,
+   "claim": "42248526151",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
