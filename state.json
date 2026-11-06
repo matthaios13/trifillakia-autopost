@@ -8462,10 +8462,13 @@
    "tries": 1
   },
   "news:24781": {
-   "at": 1793984843.3944952,
-   "claim": "42258342183",
-   "nets": {},
-   "tries": 0
+   "at": 1793984864.94068,
+   "nets": {
+    "fb": "349363601832677_1744516494341782",
+    "ig": "error: {'message': 'User is performing too many actions', 'type': 'OAuthException', 'is_transient': False, 'code': 9, 'error_subcode': 2207042, 'error_user_title': 'Media publish limit exceeded', 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'fbtrace_id': 'AvIpfQufsCsSxMX3vt0p2TM'}",
+    "igs": "error: {'message': 'User is performing too many actions', 'type': 'OAuthException', 'is_transient': False, 'code': 9, 'error_subcode': 2207042, 'error_user_title': 'Media publish limit exceeded', 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'fbtrace_id': 'ASwf3qxaIgzQoaOUBZwsArX'}"
+   },
+   "tries": 1
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
