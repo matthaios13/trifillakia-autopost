@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/volley-academies.jpg",
+    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
+    "nid": 24752,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/volley-academies.jpg",
+    "title": "Νίκες για τις ακαδημίες βόλεϊ του Παναθηναϊκού στα πρωταθλήματα",
+    "url": "https://www.trifillakia.gr/volei-gynaikon/article/24752/nikes-gia-tis-akadimies-volei-toy-panathinaikoy-sta-protathlimata"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/271584574_1346511945771109_8713652248672410909_n_2.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24751,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-85225.jpg?itok=dVQycdlk",
     "title": "Ο Καμαρά αποκάλυψε γιατί επέλεξε το πράσινο χρώμα στα μαλλιά του",
     "url": "https://www.trifillakia.gr/podosfairo/article/24712/o-kamara-apokalypse-giati-epelexe-to-prasino-hroma-sta-mallia-toy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85187.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24711,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-85187.jpg?itok=v6ZvNGid",
-    "title": "Ναζιστικοί χαιρετισμοί από οπαδούς της ΤΣΣΚΑ Σόφιας στο κέντρο της Αθήνας (video)",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24711/nazistikoi-hairetismoi-apo-opadoys-tis-tsska-sofias-sto-kentro-tis-athinas"
    }
   ],
   "wait": {
@@ -8217,6 +8217,12 @@
     "igs": "18131178893510858"
    },
    "tries": 1
+  },
+  "news:24753": {
+   "at": 1793982289.959405,
+   "claim": "42251415294",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
