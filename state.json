@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/toliou-portugal.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24781,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/toliou-portugal.jpg",
+    "title": "Τέλος στο Feeder της Πορτογαλίας για την Τόλιου, στις θέσεις 17-32",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24781/telos-sto-feeder-tis-portogalias-gia-tin-tolioy-stis-theseis-17-32"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/891808200_1935487330492884_2861504749977694843_n.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24780,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/868358908_1436842711208902_6671202203655386532_n.jpg",
     "title": "Πρεμιέρα με ήττα 43-44 από τον Αστέρα Εξαρχείων για την ομάδα μπάσκετ ΑμεΑ του ΠΑΟ",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24740/premiera-me-itta-43-44-apo-ton-astera-exarheion-gia-tin-omada-mpasket-amea"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-01-at-11.16.13-2.jpeg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24739,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-01-at-11.16.13-2.jpeg",
-    "title": "Πολλοί αθλητές του Παναθηναϊκού στο IRONMAN 70.3 Costa Navarino",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24739/polloi-athlites-toy-panathinaikoy-sto-ironman-703-costa-navarino"
    }
   ],
   "wait": {
@@ -8469,6 +8469,12 @@
     "igs": "error: {'message': 'User is performing too many actions', 'type': 'OAuthException', 'is_transient': False, 'code': 9, 'error_subcode': 2207042, 'error_user_title': 'Media publish limit exceeded', 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'fbtrace_id': 'ASwf3qxaIgzQoaOUBZwsArX'}"
    },
    "tries": 1
+  },
+  "news:24782": {
+   "at": 1793984868.4980516,
+   "claim": "42258342183",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
