@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/1306365.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24742,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/1306365.jpg",
+    "title": "Οι Keighley Shamrocks, η ιστορία της ερασιτεχνικής ομάδας της Αγγλίας",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24742/oi-keighley-shamrocks-i-istoria-tis-erasitehnikis-omadas-tis-agglias"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/tsavalias-madeira-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24741,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-68374.jpg?itok=JCZF95Le",
     "title": "Τα highlights από το μεγάλο διπλό του Παναθηναϊκού στη Μαδρίτη (vid)",
     "url": "https://www.trifillakia.gr/mpasket/article/24702/ta-highlights-apo-to-megalo-diplo-toy-panathinaikoy-sti-madriti-vid"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-84970.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24701,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-84970.jpg?itok=gFVKsMpL",
-    "title": "Παναθηναϊκός-Τσσκα Σόφιας: Κανάλι και ώρα έναρξης του αγώνα",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24701/panathinaikos-tsska-sofias-kanali-kai-ora-enarxis-toy-agona"
    }
   ],
   "wait": {
@@ -8135,6 +8135,12 @@
     "igs": "18132967768705037"
    },
    "tries": 1
+  },
+  "news:24743": {
+   "at": 1793980540.529595,
+   "claim": "42246736921",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
