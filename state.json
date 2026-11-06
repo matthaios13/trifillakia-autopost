@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/05dee780-795a-4a98-a3ed-100dc19240b9.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24747,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/05dee780-795a-4a98-a3ed-100dc19240b9.jpg",
+    "title": "Καλές επιδόσεις της Ακαδημίας Πάλης στα Τρίκαλα",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24747/kales-epidoseis-tis-akadimias-palis-sta-trikala"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/kypello-day-1-14.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24746,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-milanfc-700121.jpg?itok=EW0sQnYw",
     "title": "ELABET: Μίλαν-Φερεντσβάρος με Bet Builder από ημίχρονο",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24708/elabet-milan-ferentsvaros-me-bet-builder-apo-imihrono"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-barcabc-cf4ab4.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24706,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-barcabc-cf4ab4.jpg?itok=eYmqZjGI",
-    "title": "ELABET: Bet Builder με ειδικά παικτών στο Χάποελ – Μπαρτσελόνα",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24706/elabet-bet-builder-me-eidika-paikton-sto-hapoel-mpartselona"
    }
   ],
   "wait": {
@@ -8180,6 +8180,12 @@
     "igs": "18642432316058657"
    },
    "tries": 1
+  },
+  "news:24748": {
+   "at": 1793981192.188604,
+   "claim": "42248526151",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
