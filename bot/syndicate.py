@@ -20,6 +20,7 @@ from PIL import Image
 
 from .cards import ROOT
 from .flashscore import UA
+from . import pao1908
 
 FEED = os.path.join(ROOT, "docs", "pao-feed.xml")
 IMG_DIR = os.path.join(ROOT, "docs", "img")
@@ -345,7 +346,7 @@ def write_feed(items):
     xml = (
         '<?xml version="1.0" encoding="utf-8"?>\n'
         '<rss version="2.0"><channel>'
-        "<title>Trifillakia – Παναθηναϊκός από bala24 / totalbasket</title>"
+        "<title>Trifillakia – Παναθηναϊκός από bala24 / totalbasket / pao1908</title>"
         "<link>https://www.trifillakia.gr</link>"
         "<description>Αυτόματη ροή για το Feeds του trifillakia.gr</description>"
         + "".join(_item(i) for i in sorted(items, key=lambda i: -i["ts"]))
@@ -398,6 +399,24 @@ def update(state, now, log=print):
             state["items"].append(p)
             state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
             log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"])
-    state["items"] = sorted(state["items"], key=lambda i: -i["ts"])[:30]
+    # Ερασιτέχνης: pao1908.com, ξαναγραμμένα (έως 5 ανά εκτέλεση, ώστε το backfill από 1/11 να μπαίνει σταδιακά).
+    try:
+        ours = {_plain(t) for t in state.get("done_titles", [])} | {_plain(i["title"]) for i in state["items"]}
+        docs = [d for d in trifillakia_docs() if _plain(_bmp_plain(d["title"])) not in ours]
+        for p in pao1908.candidates(have, docs, same_story, log):
+            if p.get("skip"):
+                state["done"].append(p["guid"])
+                continue
+            p["image"] = drupal_image(p["image"], p["guid"])
+            p["added"] = now
+            state["items"].append(p)
+            state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
+            log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"])
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα ροής pao1908", repr(e)[:200])
+    # Τα 30 πιο πρόσφατα + όσα μπήκαν τις τελευταίες 6 ώρες (παλιά άρθρα του backfill, μέχρι να τα πάρει το Drupal).
+    newest = sorted(state["items"], key=lambda i: -i["ts"])
+    recent = {i["guid"] for i in newest if now - i.get("added", 0) < 6 * 3600}
+    state["items"] = [i for n, i in enumerate(newest) if n < 30 or i["guid"] in recent]
     write_feed(state["items"])
     return state

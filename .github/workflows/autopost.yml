@@ -46,6 +46,7 @@ jobs:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DRY_RUN: ${{ inputs.mode == 'dry' && '1' || '0' }}
         run: |
           if [ "${{ inputs.mode }}" = "preview" ]; then
