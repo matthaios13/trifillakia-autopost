@@ -8928,6 +8928,12 @@
     "igs": "18078360122561184"
    },
    "tries": 1
+  },
+  "yt:jLpnmPnnfcw": {
+   "at": 1793974955.2692182,
+   "claim": "42233002799",
+   "nets": {},
+   "tries": 0
   }
  },
  "seeded": [
@@ -9714,6 +9720,15 @@
   "since": 1792246435.7726338
  },
  "yt": {
-  "upcoming": []
+  "upcoming": [
+   {
+    "id": "jLpnmPnnfcw",
+    "image": "https://i.ytimg.com/vi/jLpnmPnnfcw/maxresdefault.jpg",
+    "show": "ROI MAT SHOW",
+    "start": 1793993400,
+    "topic": "Νέο ΣΦΥΡΟΚΟΠΗΜΑ στην ΤΣΣΚΑ – Μεγάλο διπλό στην Μαδρίτη – Ανοικτές Γραμμές",
+    "url": "https://www.youtube.com/watch?v=jLpnmPnnfcw"
+   }
+  ]
  }
 }
