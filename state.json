@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/podilasiaaa.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24766,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/podilasiaaa.jpg",
+    "title": "Στο Παγκόσμιο Πρωτάθλημα του 2027 ο Πάρης Ζαραφωνίτης",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24766/sto-pagkosmio-protathlima-toy-2027-o-paris-zarafonitis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/50698d593630c650e9b7b252be90b4f7_l.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24765,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85424.jpg",
     "title": "Παναθηναϊκός: Χωρίς τον κόσμο του στο Καυτατζόγλειο κόντρα στον Ηρακλή",
     "url": "https://www.trifillakia.gr/podosfairo/article/24725/panathinaikos-horis-ton-kosmo-toy-sto-kaytatzogleio-kontra-ston-irakli"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85377.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24724,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85377.jpg",
-    "title": "Παναθηναϊκός: Διοργανώνει το 1ο OPEN TALENT DAY",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24724/panathinaikos-diorganonei-to-1o-open-talent-day"
    }
   ],
   "wait": {
@@ -8334,6 +8334,12 @@
     "igs": "error: {'message': 'User is performing too many actions', 'type': 'OAuthException', 'is_transient': False, 'code': 9, 'error_subcode': 2207042, 'error_user_title': 'Media publish limit exceeded', 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'fbtrace_id': 'AfXpUFM5xbiVQ5KB8mRHPw4'}"
    },
    "tries": 1
+  },
+  "news:24767": {
+   "at": 1793983094.7223527,
+   "claim": "42253002419",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
