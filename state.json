@@ -7,9 +7,18 @@
    "24552": 1793095520.2267554,
    "24605": 1793372119.6106815,
    "24608": 1793372119.6106815,
-   "24707": 1793892026.2116199
+   "24707": 1793892026.2116199,
+   "24750": 1793980991.1115725
   },
   "recent": [
+   {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/1953-1.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24749,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/1953-1.jpg",
+    "title": "Πέντε γκολ για τον Παναθηναϊκό στην Κωνσταντινούπολη απέναντι στη Γαλατασαράι",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24749/pente-gkol-gia-ton-panathinaiko-stin-konstantinoypoli-apenanti-sti"
+   },
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/a3.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
@@ -321,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-85132.jpg?itok=BUAOiMG6",
     "title": "Επίθεση δέχτηκε το πούλμαν της ΤΣΣΚΑ Σόφιας πριν τον Παναθηναϊκό",
     "url": "https://www.trifillakia.gr/podosfairo/article/24710/epithesi-dehtike-to-poylman-tis-tsska-sofias-prin-ton-panathinaiko"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-lyonfc-8b9bd3.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24709,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-lyonfc-8b9bd3.jpg?itok=Hzkvxr8V",
-    "title": "ELABET: Σοσιεδάδ – Λυών με «Ενισχυμένη» ισορροπία",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24709/elabet-sosiedad-lyon-me-enishymeni-isorropia"
    }
   ],
   "wait": {
