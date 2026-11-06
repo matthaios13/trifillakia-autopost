@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-01-at-11.16.13-2.jpeg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24739,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-01-at-11.16.13-2.jpeg",
+    "title": "Πολλοί αθλητές του Παναθηναϊκού στο IRONMAN 70.3 Costa Navarino",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24739/polloi-athlites-toy-panathinaikoy-sto-ironman-703-costa-navarino"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5418925-scaled.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24738,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-68280.jpg?itok=yZKovd26",
     "title": "Λεσόρ: «Αυτή είναι η δουλειά μας, πρέπει να είμαστε έτοιμοι»",
     "url": "https://www.trifillakia.gr/mpasket/article/24699/lesor-ayti-einai-i-doyleia-mas-prepei-na-eimaste-etoimoi"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/nunnn_0.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24698,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/nunnn_0.jpg?itok=ckSHg9E2",
-    "title": "Ρεάλ Μαδρίτης – Παναθηναϊκός 112-115: Ο Ναν υπέγραψε το μεγάλο διπλό στην παράταση",
-    "url": "https://www.trifillakia.gr/mpasket/article/24698/real-madritis-panathinaikos-112-115-o-nan-ypegrapse-to-megalo-diplo-stin"
    }
   ],
   "wait": {
@@ -8108,6 +8108,12 @@
     "igs": "18022855241946578"
    },
    "tries": 1
+  },
+  "news:24740": {
+   "at": 1793980441.1176238,
+   "claim": "42246736921",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
