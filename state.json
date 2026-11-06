@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/868358908_1436842711208902_6671202203655386532_n.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24740,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/868358908_1436842711208902_6671202203655386532_n.jpg",
+    "title": "Πρεμιέρα με ήττα 43-44 από τον Αστέρα Εξαρχείων για την ομάδα μπάσκετ ΑμεΑ του ΠΑΟ",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24740/premiera-me-itta-43-44-apo-ton-astera-exarheion-gia-tin-omada-mpasket-amea"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-01-at-11.16.13-2.jpeg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24739,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-68289.jpg?itok=Bu3-QuzR",
     "title": "Ναν: «Φυσικά και είμαι κουρασμένος – Ξεκινήσαμε με στόχο να είμαστε μια ομάδα που βασίζεται στην άμυνα»",
     "url": "https://www.trifillakia.gr/mpasket/article/24700/nan-fysika-kai-eimai-koyrasmenos-xekinisame-me-stoho-na-eimaste-mia-omada-poy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68280.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24699,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-68280.jpg?itok=yZKovd26",
-    "title": "Λεσόρ: «Αυτή είναι η δουλειά μας, πρέπει να είμαστε έτοιμοι»",
-    "url": "https://www.trifillakia.gr/mpasket/article/24699/lesor-ayti-einai-i-doyleia-mas-prepei-na-eimaste-etoimoi"
    }
   ],
   "wait": {
@@ -8117,6 +8117,12 @@
     "igs": "18079149092708789"
    },
    "tries": 1
+  },
+  "news:24741": {
+   "at": 1793980472.0575109,
+   "claim": "42246736921",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
