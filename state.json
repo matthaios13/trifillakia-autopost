@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5418925-scaled.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24738,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5418925-scaled.jpg",
+    "title": "Με τέσσερα γκολ επικράτησε ο Παναθηναϊκός της Νάνου",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24738/me-tessera-gkol-epikratise-o-panathinaikos-tis-nanoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/charissaki-margaritopoulou-dakar.jpg",
     "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
     "nid": 24737,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/nunnn_0.jpg?itok=ckSHg9E2",
     "title": "Ρεάλ Μαδρίτης – Παναθηναϊκός 112-115: Ο Ναν υπέγραψε το μεγάλο διπλό στην παράταση",
     "url": "https://www.trifillakia.gr/mpasket/article/24698/real-madritis-panathinaikos-112-115-o-nan-ypegrapse-to-megalo-diplo-stin"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-p-zeljko-obradovic-2.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24697,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-p-zeljko-obradovic-2.jpg?itok=ZEJKEpS9",
-    "title": "Ομπράντοβιτς: «Ο Ναν έπαιξε καταπληκτικά, ξέρουμε όλοι την ποιότητα που έχει»",
-    "url": "https://www.trifillakia.gr/mpasket/article/24697/omprantovits-o-nan-epaixe-katapliktika-xeroyme-oloi-tin-poiotita-poy-ehei"
    }
   ],
   "wait": {
@@ -8099,6 +8099,12 @@
     "igs": "18225747454337295"
    },
    "tries": 1
+  },
+  "news:24739": {
+   "at": 1793980410.5897915,
+   "claim": "42246736921",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
