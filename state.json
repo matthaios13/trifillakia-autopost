@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-hamburgfc-841d95.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24731,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-hamburgfc-841d95.jpg",
+    "title": "ELABET: Αμβούργο – Γκλάντμπαχ: Bet Builder επιβίωσης στην Bundesliga",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24731/elabet-amvoyrgo-gklantmpah-bet-builder-epiviosis-stin"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85458.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24730,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-84766.jpg?itok=gGW9bDMf",
     "title": "Παναθηναϊκός: Το μήνυμα του Νίστρουπ στον κόσμο ενόψει ΤΣΣΚΑ Σόφιας – «Γεμίστε το ΟΑΚΑ»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24691/panathinaikos-to-minyma-toy-nistroyp-ston-kosmo-enopsei-tsska-sofias"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-84714.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24690,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-84714.jpg?itok=OSsyNiHE",
-    "title": "Νίστρουπ: «Δεν θα πρέπει να περιμένει ο κόσμος πολλές αλλαγές – Θέλουμε τους 3 βαθμούς»",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24690/nistroyp-den-tha-prepei-na-perimenei-o-kosmos-polles-allages-theloyme-toys"
    }
   ],
   "wait": {
@@ -8036,6 +8036,12 @@
     "igs": "18648004885021696"
    },
    "tries": 1
+  },
+  "news:24732": {
+   "at": 1793971352.1686,
+   "claim": "42224677219",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
