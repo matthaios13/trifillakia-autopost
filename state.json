@@ -2014,7 +2014,7 @@
     "comp_logo": "https://static.flashscore.com/res/image/data/E18keuRp-OvnhoGhE.png",
     "home": "Ολυμπιακός",
     "home_id": "QF2qPBRo",
-    "home_score": 15,
+    "home_score": 14,
     "id": "vPF044re",
     "info": "",
     "periods": [
@@ -2031,12 +2031,12 @@
       3
      ],
      [
-      3,
+      2,
       2
      ]
     ],
     "round": "",
-    "stage": "1",
+    "stage": "3",
     "stage_id": "bTA0nNto",
     "start": 1793980800,
     "status": "3",
@@ -2045,7 +2045,7 @@
    },
    "raw_round": "Αγωνιστική ημέρα: 7",
    "round": "7η Αγωνιστική",
-   "since": 1793985621.9237893,
+   "since": 1793985917.7287908,
    "team": "waterpolo"
   },
   "tb:vR4wiQtm": {
