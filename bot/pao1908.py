@@ -19,7 +19,7 @@ CATS = {1, 6, 7}  # Δελτία τύπου, ΝΕΑ, Ανακοινώσεις
 START = datetime(2026, 10, 31, 22, 0, tzinfo=timezone.utc).timestamp()  # 1/11/2026 00:00 ώρα Ελλάδας
 LOOKBACK = 7 * 86400
 PER_RUN = 5  # πόσα ξαναγράφονται ανά εκτέλεση (το backfill μπαίνει σταδιακά)
-MODEL = "claude-haiku-5-5"
+MODEL = "claude-sonnet-5-5"  # Haiku αντέστρεψε σκορ (43-44 → «νίκη 44-43») στις 6/11
 
 # Άθλημα του pao1908 → τμήμα (κατηγορία) του trifillakia, ονόματα όπως στο Drupal. Όλα τα άλλα → Ερασιτέχνης.
 def section(sport):
@@ -93,6 +93,7 @@ PROMPT = """Είσαι συντάκτης του trifillakia.gr (site για τ�
 Κανόνες:
 - Νέος τίτλος, διαφορετικός από τον αρχικό, σύντομος και ειδησεογραφικός (όχι clickbait, χωρίς emoji, χωρίς εισαγωγικά γύρω του).
 - Κείμενο με άλλη διατύπωση και σειρά προτάσεων, αλλά ΙΔΙΑ γεγονότα: ονόματα, σκορ, σετ, χρόνοι, θέσεις, ημερομηνίες, ώρες, τιμές εισιτηρίων ακριβώς όπως στο αρχικό. Μην προσθέσεις τίποτα που δεν γράφει.
+- Σκορ και αποτελέσματα: γράψ' τα ΑΚΡΙΒΩΣ με την ίδια σειρά αριθμών (το «43-44» μένει «43-44»). Στο «Α – Β 43-44» νίκησε η Β (Α 43, Β 44). Αν δεν είναι σαφές ποιος νίκησε, μη γράψεις «νίκη»/«ήττα».
 - Αν το αρχικό έχει λίστες, πίνακες αποτελεσμάτων, συνθέσεις ή πρόγραμμα αγώνων, κράτα τα όλα (μπορείς να τα μορφοποιήσεις ως <ul><li> ή <p> με <strong>).
 - Περίπου ίδιο μήκος με το αρχικό. Αν το αρχικό είναι πολύ μικρό, γράψε τουλάχιστον 2 παραγράφους χωρίς να επινοήσεις στοιχεία.
 - HTML μόνο με <p>, <strong>, <em>, <ul>, <li>, <br>. Χωρίς εικόνες, links, <h1>-<h6>.
@@ -149,6 +150,30 @@ def rewrite(item, key, log=print):
     return title, body
 
 
+SCORE = re.compile(r"(?<![\d:/])(?<!\d[.,])(\d{1,3})\s*[-–]\s*(\d{1,3})(?![\d:/]|[.,]\d)")
+
+
+def _scores(htm):
+    t = html.unescape(re.sub(r"<[^>]+>", " ", htm))
+    return {f"{a}-{b}" for a, b in SCORE.findall(t)}
+
+
+def checked_rewrite(item, key, log=print):
+    """Ξαναγράψιμο + έλεγχος: κάθε σκορ του αρχικού πρέπει να υπάρχει ίδιο (ίδια σειρά) στο νέο κείμενο."""
+    want = _scores(item["orig_title"] + " " + item["orig_body"])
+    for _ in range(2):
+        res = rewrite(item, key, log)
+        if not res:
+            return None
+        got = _scores(res[0] + " " + res[1])
+        missing = want - got
+        flipped = {s for s in got - want if "-".join(reversed(s.split("-"))) in want}
+        if not missing and not flipped:
+            return res
+        log("pao1908: σκορ δεν ταιριάζει, ξανά →", item["orig_title"], sorted(missing), sorted(flipped))
+    return None
+
+
 def candidates(have, existing, same_story, log=print):
     """Νέα άρθρα, ξαναγραμμένα (έως PER_RUN), έτοιμα για τη ροή. existing = άρθρα του trifillakia."""
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
@@ -168,7 +193,7 @@ def candidates(have, existing, same_story, log=print):
             log("Ροή trifillakia: υπάρχει ήδη →", p["orig_title"])
             out.append(dict(p, skip=True))
             continue
-        res = rewrite(p, key, log)
+        res = checked_rewrite(p, key, log)
         if not res:
             continue
         title, body = res
