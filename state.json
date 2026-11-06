@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/generic_anakoinoseis_1600x720_2.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24776,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/generic_anakoinoseis_1600x720_2.jpg",
+    "title": "Θυμόμαστε τους Ανδρέα Βγενόπουλο και Θοδωρή Αλούπη",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24776/thymomaste-toys-andrea-vgenopoylo-kai-thodori-aloypi"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2021-03-13-at-19.48.38.jpeg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24775,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-85510.jpg",
     "title": "Παναθηναϊκός: Η UEFA αποθέωσε τον Ταμπόρδα για το τρομερό τακουνάκι απέναντι στην Τσσκα Σόφιας (vid)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24735/panathinaikos-i-uefa-apotheose-ton-tamporda-gia-to-tromero-takoynaki"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_2.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24734,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_2.jpg",
-    "title": "ELABET: Ολυμπιακός – Ερυθρός Αστέρας: Ερυθρόλευκη μάχη στη EuroLeague με σούπερ «ενισχυμένο» Bet Builder",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24734/elabet-olympiakos-erythros-asteras-erythroleyki-mahi-sti"
    }
   ],
   "wait": {
@@ -8424,6 +8424,12 @@
     "igs": "error: {'message': 'User is performing too many actions', 'type': 'OAuthException', 'is_transient': False, 'code': 9, 'error_subcode': 2207042, 'error_user_title': 'Media publish limit exceeded', 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'fbtrace_id': 'AlcNJ-sFhl6rcer8ub1OU-K'}"
    },
    "tries": 1
+  },
+  "news:24777": {
+   "at": 1793984092.2290928,
+   "claim": "42255969260",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
