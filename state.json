@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-evertonfc-b778e8.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24732,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-evertonfc-b778e8.jpg",
+    "title": "ELABET: Έβερτον-Κόβεντρι με Bet Builder… ζάχαρη",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24732/elabet-everton-koventri-me-bet-builder-zahari"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-hamburgfc-841d95.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24731,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-84767.jpg?itok=J4yzsoVC",
     "title": "Κινγκς Κάνγκουα: Μία αγωνιστική τιμωρίας για την κόκκινη κάρτα στο ματς με την ΑΕΚ",
     "url": "https://www.trifillakia.gr/podosfairo/article/24692/kingks-kangkoya-mia-agonistiki-timorias-gia-tin-kokkini-karta-sto-mats-me"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-84766.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24691,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-84766.jpg?itok=gGW9bDMf",
-    "title": "Παναθηναϊκός: Το μήνυμα του Νίστρουπ στον κόσμο ενόψει ΤΣΣΚΑ Σόφιας – «Γεμίστε το ΟΑΚΑ»",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24691/panathinaikos-to-minyma-toy-nistroyp-ston-kosmo-enopsei-tsska-sofias"
    }
   ],
   "wait": {
@@ -8045,6 +8045,12 @@
     "igs": "18110936578917641"
    },
    "tries": 1
+  },
+  "news:24733": {
+   "at": 1793971384.5108676,
+   "claim": "42224677219",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
