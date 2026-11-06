@@ -11,6 +11,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/orfanidis.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24743,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/orfanidis.jpg",
+    "title": "Θυμόμαστε τον Ορφανίδη, τον ποδηλάτη που έμεινε για πάντα Παναθηναϊκός",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24743/thymomaste-ton-orfanidi-ton-podilati-poy-emeine-gia-panta-panathinaikos"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/1306365.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24742,
@@ -321,14 +329,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-84995.jpg?itok=FZmuGqg3",
     "title": "Νέα αυτοψία Δούκα στον Βοτανικό: «Μπήκαμε στα έγκατα του γηπέδου – Το έργο τρέχει» (vid)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24703/nea-aytopsia-doyka-ston-votaniko-mpikame-sta-egkata-toy-gipedoy-to-ergo"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68374.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24702,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-68374.jpg?itok=JCZF95Le",
-    "title": "Τα highlights από το μεγάλο διπλό του Παναθηναϊκού στη Μαδρίτη (vid)",
-    "url": "https://www.trifillakia.gr/mpasket/article/24702/ta-highlights-apo-to-megalo-diplo-toy-panathinaikoy-sti-madriti-vid"
    }
   ],
   "wait": {
@@ -8144,6 +8144,12 @@
     "igs": "18092324375260166"
    },
    "tries": 1
+  },
+  "news:24744": {
+   "at": 1793980570.5089822,
+   "claim": "42246736921",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
