@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24811,
+  "last": 24812,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -16,7 +16,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68768.jpg",
     "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
     "nid": 24811,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68768.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-68768.jpg?itok=bQQSnyUX",
     "title": "Άνετες νίκες για Αθηναϊκό, Ολυμπιακό και Παναθηναϊκό",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/24811/anetes-nikes-gia-athinaiko-olympiako-kai-panathinaiko"
    },
@@ -24,7 +24,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68771.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24810,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68771.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-68771.jpg?itok=uRtjxAcJ",
     "title": "Σάκοτα: «Να διεκδικήσουμε ό,τι μας αναλογεί κόντρα στον Παναθηναϊκό»",
     "url": "https://www.trifillakia.gr/mpasket/article/24810/sakota-na-diekdikisoyme-oti-mas-analogei-kontra-ston-panathinaiko"
    },
@@ -32,7 +32,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/mitasss.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24809,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/mitasss.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/mitasss.jpg?itok=6rFMlWZi",
     "title": "Στην ένατη θέση του Παγκοσμίου ο Μίτας με την Κατζουράκη",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24809/stin-enati-thesi-toy-pagkosmioy-o-mitas-me-tin-katzoyraki"
    },
@@ -8823,6 +8823,12 @@
     "igs": "18119481388810836"
    },
    "tries": 1
+  },
+  "news:24812": {
+   "at": 1794075387.8902233,
+   "claim": "42399485472",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
