@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_3.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24795,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_3.jpg",
+    "title": "ELABET: Βόλος Elabet – Κηφισιά και Λιντς – Τότεναμ με 0% γκανιότα και «Ενισχυμένα» combos",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24795/elabet-volos-elabet-kifisia-kai-lints-totenam-me-0-gkaniota"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-grande-league_mayridis_youtube-1-182fcd_0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24793,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikos_1938.jpg",
     "title": "Θυμόμαστε τον Γιώργο Σχορέλη, ποδοσφαιριστή του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24754/thymomaste-ton-giorgo-shoreli-podosfairisti-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-53772.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24753,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-53772.jpg",
-    "title": "London Irish: η πράσινη ομάδα του ράγκμπι με τριφύλλι στο έμβλημα",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24753/london-irish-i-prasini-omada-toy-ragkmpi-me-trifylli-sto-emvlima"
    }
   ],
   "wait": {
@@ -8650,6 +8650,12 @@
     "igs": "18095291492661240"
    },
    "tries": 1
+  },
+  "news:24796": {
+   "at": 1794041555.4493701,
+   "claim": "42357152149",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
