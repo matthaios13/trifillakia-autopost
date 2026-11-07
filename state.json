@@ -2165,6 +2165,33 @@
    "since": 1793209355.9522302,
    "team": "volley_w"
   },
+  "tb:xE6Arf9l": {
+   "ev": {
+    "away": "Πρωτέας Βούλας",
+    "away_id": "E3s1FX2E",
+    "away_score": 54,
+    "comp": "WBL1 Γυναίκες",
+    "comp_full": "ΕΛΛΑΔΑ: WBL1 Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/SlpLdpW1-2Nr2qbEt.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "plqPE4do",
+    "home_score": 100,
+    "id": "xE6Arf9l",
+    "info": "",
+    "periods": [],
+    "round": "",
+    "stage": "3",
+    "stage_id": "h4wjf39b",
+    "start": 1794054600,
+    "status": "3",
+    "tour_id": "dMKU41qj",
+    "tour_path": "/basketball/greece/wbl1-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 6",
+   "round": "6η Αγωνιστική",
+   "since": 1794066325.811625,
+   "team": "basketball_w"
+  },
   "tb:za3LE03j": {
    "ev": {
     "away": "Κερατέα",
