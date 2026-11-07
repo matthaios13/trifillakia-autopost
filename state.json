@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_4.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24798,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_4.jpg",
+    "title": "ELABET: Βαυαρικό Bet Builder με «Ενισχυμένο» Κέιν κόντρα στη Μάιντς",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24798/elabet-vayariko-bet-builder-me-enishymeno-kein-kontra-sti"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cityfc-c7141b.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24797,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/883563004_1843732177759142_6028210826001554958_n.jpg",
     "title": "Στην έβδομη θέση στο Mix Relay ο Κυριάκος με τη Σπαντούρου",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24757/stin-evdomi-thesi-sto-mix-relay-o-kyriakos-me-ti-spantoyroy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/charissaki-margaritopoulou-panigiriko.jpg",
-    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
-    "nid": 24756,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/charissaki-margaritopoulou-panigiriko.jpg",
-    "title": "Οκτάδα στους Ολυμπιακούς Αγώνες Νέων για Χαρισσάκη και Μαργαριτοπούλου",
-    "url": "https://www.trifillakia.gr/volei-gynaikon/article/24756/oktada-stoys-olympiakoys-agones-neon-gia-harissaki-kai-margaritopoyloy"
    }
   ],
   "wait": {
@@ -8677,6 +8677,12 @@
     "igs": "17998549385834955"
    },
    "tries": 1
+  },
+  "news:24799": {
+   "at": 1794041667.5506315,
+   "claim": "42357152149",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
