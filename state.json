@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cityfc-c7141b.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24797,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cityfc-c7141b.jpg",
+    "title": "ELABET: Η Σίτι έχει γαλάζιο Bet Builder με Anytime σκόρερ για απόδραση από το Νότιγχαμ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24797/elabet-i-siti-ehei-galazio-bet-builder-me-anytime-skorer-gia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arisfc-8f1043.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24796,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/charissaki-margaritopoulou-panigiriko.jpg",
     "title": "Οκτάδα στους Ολυμπιακούς Αγώνες Νέων για Χαρισσάκη και Μαργαριτοπούλου",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/24756/oktada-stoys-olympiakoys-agones-neon-gia-harissaki-kai-margaritopoyloy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5421814-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24755,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5421814-1.jpg",
-    "title": "Η Πούλιου βραβεύτηκε ως κορυφαία Ελληνίδα ποδοσφαιρίστρια της Α’ Εθνικής",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24755/i-poylioy-vraveytike-os-koryfaia-ellinida-podosfairistria-tis-a-ethnikis"
    }
   ],
   "wait": {
@@ -8668,6 +8668,12 @@
     "igs": "18093641615216713"
    },
    "tries": 1
+  },
+  "news:24798": {
+   "at": 1794041628.619247,
+   "claim": "42357152149",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
