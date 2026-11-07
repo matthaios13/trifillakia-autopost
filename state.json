@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arisfc-8f1043.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24796,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arisfc-8f1043.jpg",
+    "title": "ELABET: Ο Άρης έχει «Ενισχυμένα» ημίχρονα για αντίδραση κόντρα στον Παναιτωλικό",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24796/elabet-o-aris-ehei-enishymena-imihrona-gia-antidrasi-kontra"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_3.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24795,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5421814-1.jpg",
     "title": "Η Πούλιου βραβεύτηκε ως κορυφαία Ελληνίδα ποδοσφαιρίστρια της Α’ Εθνικής",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24755/i-poylioy-vraveytike-os-koryfaia-ellinida-podosfairistria-tis-a-ethnikis"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikos_1938.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24754,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikos_1938.jpg",
-    "title": "Θυμόμαστε τον Γιώργο Σχορέλη, ποδοσφαιριστή του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24754/thymomaste-ton-giorgo-shoreli-podosfairisti-toy-panathinaikoy"
    }
   ],
   "wait": {
@@ -8659,6 +8659,12 @@
     "igs": "18122347495943875"
    },
    "tries": 1
+  },
+  "news:24797": {
+   "at": 1794041594.1849167,
+   "claim": "42357152149",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
