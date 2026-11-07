@@ -12,6 +12,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-grande-league_mayridis_youtube-1-182fcd_0.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24799,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-grande-league_mayridis_youtube-1-182fcd_0.jpg",
+    "title": "Κώστας Μαυρίδης στο Fox Prime: «Όνειρο που βγήκε αληθινό ο Παναθηναϊκός» | Grande League Interviews",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24799/kostas-mayridis-sto-fox-prime-oneiro-poy-vgike-alithino-o"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_4.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24798,
@@ -322,14 +330,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/beach-volley.jpg",
     "title": "Πρόκριση στη φάση των 16 για το δίδυμο Μαργαριτοπούλου, Χαρισσάκη",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/24758/prokrisi-sti-fasi-ton-16-gia-to-didymo-margaritopoyloy-harissaki"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/883563004_1843732177759142_6028210826001554958_n.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24757,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/883563004_1843732177759142_6028210826001554958_n.jpg",
-    "title": "Στην έβδομη θέση στο Mix Relay ο Κυριάκος με τη Σπαντούρου",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24757/stin-evdomi-thesi-sto-mix-relay-o-kyriakos-me-ti-spantoyroy"
    }
   ],
   "wait": {
@@ -8686,6 +8686,12 @@
     "igs": "17959400004270925"
    },
    "tries": 1
+  },
+  "news:24800": {
+   "at": 1794041705.767397,
+   "claim": "42357152149",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
