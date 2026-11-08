@@ -9795,6 +9795,12 @@
    },
    "tries": 1
   },
+  "yt:In8IqIe-N7I": {
+   "at": 1794127002.8896084,
+   "claim": "42463558072",
+   "nets": {},
+   "tries": 0
+  },
   "yt:cAvUFQNTHXw": {
    "at": 1793693854.6896284,
    "nets": {
@@ -10780,6 +10786,15 @@
   "since": 1792246435.7726338
  },
  "yt": {
-  "upcoming": []
+  "upcoming": [
+   {
+    "id": "In8IqIe-N7I",
+    "image": "https://i.ytimg.com/vi/In8IqIe-N7I/maxresdefault.jpg",
+    "show": "PITCH TALK",
+    "start": 1794128700,
+    "topic": "Ο Παναθηναϊκός του Νίστρουπ τρομάζει, το \"διπλο\" στην Μαδρίτη και το... πεντάρι",
+    "url": "https://www.youtube.com/watch?v=In8IqIe-N7I"
+   }
+  ]
  }
 }
