@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24830,
+  "last": 24831,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -17,7 +17,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86116.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24830,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86116.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86116.jpg?itok=XzBqNTuh",
     "title": "Ηρακλής: Οργή για τη διαιτησία του Ευαγγέλου, «φωνάζει» για κόκκινη του Αντίνο",
     "url": "https://www.trifillakia.gr/podosfairo/article/24830/iraklis-orgi-gia-ti-diaitisia-toy-eyaggeloy-fonazei-gia-kokkini-toy-antino"
    },
@@ -25,7 +25,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86104.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24829,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86104.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86104.jpg?itok=zgWG8au3",
     "title": "Καλάμπρια: «Η πίεση με βοηθά να αποδίδω καλύτερα – Μία από τις σημαντικότερες νίκες της σεζόν»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24829/kalampria-i-piesi-me-voitha-na-apodido-kalytera-mia-apo-tis-simantikoteres"
    },
@@ -33,7 +33,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/891802434_1433468638995359_6289808057803230085_n-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24828,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/891802434_1433468638995359_6289808057803230085_n-1.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/891802434_1433468638995359_6289808057803230085_n-1.jpg?itok=tpaaczM3",
     "title": "Διακρίσεις και ατομικά ρεκόρ για την Σκοποβολή του Παναθηναϊκού στα αεροβόλα",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24828/diakriseis-kai-atomika-rekor-gia-tin-skopovoli-toy-panathinaikoy-sta"
    },
@@ -9311,6 +9311,12 @@
     "igs": "17906944038353290"
    },
    "tries": 1
+  },
+  "news:24831": {
+   "at": 1794166616.3514655,
+   "claim": "42515748141",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
