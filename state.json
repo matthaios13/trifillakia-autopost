@@ -14,6 +14,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/891802434_1433468638995359_6289808057803230085_n-1.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24828,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/891802434_1433468638995359_6289808057803230085_n-1.jpg",
+    "title": "Διακρίσεις και ατομικά ρεκόρ για την Σκοποβολή του Παναθηναϊκού στα αεροβόλα",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24828/diakriseis-kai-atomika-rekor-gia-tin-skopovoli-toy-panathinaikoy-sta"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86089.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24826,
@@ -324,14 +332,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/5427249-1.jpg?itok=wHkrYyJW",
     "title": "Νίκη με 1-2 στην Καισαριανή για το Futsal γυναικών του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24786/niki-me-1-2-stin-kaisariani-gia-to-futsal-gynaikon-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/kalaitzis-giorgos-i-zoi-me-ton-zeljko.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24785,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/kalaitzis-giorgos-i-zoi-me-ton-zeljko.jpg?itok=xCDattfy",
-    "title": "Σαν σήμερα το 2002: Ο Καλαϊτζής έπαιξε την ημέρα που έχασε τη μητέρα του",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24785/san-simera-to-2002-o-kalaitzis-epaixe-tin-imera-poy-ehase-ti-mitera-toy"
    }
   ],
   "wait": {
@@ -9293,6 +9293,12 @@
     "igs": "18130344388884129"
    },
    "tries": 1
+  },
+  "news:24829": {
+   "at": 1794163932.912677,
+   "claim": "42511966120",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
