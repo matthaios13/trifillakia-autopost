@@ -13,6 +13,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-fc-ea85bb.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24814,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-fc-ea85bb.jpg",
+    "title": "ELABET: Η ΑΕΚ έχει «boost» για ξέσπασμα στη Νέα Φιλαδέλφεια",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24814/elabet-i-aek-ehei-boost-gia-xespasma-sti-nea-filadelfeia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-post-static_1200x1200_-abc67f.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24813,
@@ -323,14 +331,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/271584574_1346511945771109_8713652248672410909_n_4.jpg",
     "title": "Πόλο ανδρών: Έως την Κυριακή οι αιτήσεις διαπίστευσης για το ματς",
     "url": "https://www.trifillakia.gr/polo/article/24773/polo-andron-eos-tin-kyriaki-oi-aitiseis-diapisteysis-gia-to-mats"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5417673-1.jpg",
-    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
-    "nid": 24772,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/5417673-1.jpg?itok=1y5oPMzZ",
-    "title": "Στην κορυφαία επτάδα της 3ης αγωνιστικής η Αντωνακάκη",
-    "url": "https://www.trifillakia.gr/volei-gynaikon/article/24772/stin-koryfaia-eptada-tis-3is-agonistikis-i-antonakaki"
    }
   ],
   "wait": {
@@ -8850,6 +8850,12 @@
     "igs": "17997666408052035"
    },
    "tries": 1
+  },
+  "news:24815": {
+   "at": 1794122581.7443357,
+   "claim": "42458365714",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
