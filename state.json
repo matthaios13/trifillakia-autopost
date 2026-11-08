@@ -13,6 +13,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-post-static_1200x1200_-abc67f.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24813,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-post-static_1200x1200_-abc67f.jpg",
+    "title": "ELABET: Καυτό Ολυμπιακός- ΠΑΟΚ με 0% γκανιότα και «Ενισχυμένα» γκολ στο Ατλέτικο-Μπάρτσα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24813/elabet-kayto-olympiakos-paok-me-0-gkaniota-kai-enishymena-gkol"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/3b704880-237a-4818-86ad-57db41d9fa87-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24812,
@@ -323,14 +331,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/5417673-1.jpg?itok=1y5oPMzZ",
     "title": "Στην κορυφαία επτάδα της 3ης αγωνιστικής η Αντωνακάκη",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/24772/stin-koryfaia-eptada-tis-3is-agonistikis-i-antonakaki"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5412943-1.jpg",
-    "label": "ΠΟΛΟ",
-    "nid": 24771,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5412943-1.jpg",
-    "title": "Διαθέσιμα τα εισιτήρια για το ματς του Παναθηναϊκού με τη Steaua Bucuresti",
-    "url": "https://www.trifillakia.gr/polo/article/24771/diathesima-ta-eisitiria-gia-to-mats-toy-panathinaikoy-me-ti-steaua-bucuresti"
    }
   ],
   "wait": {
@@ -8841,6 +8841,12 @@
     "igs": "18094726568284167"
    },
    "tries": 1
+  },
+  "news:24814": {
+   "at": 1794122534.4782062,
+   "claim": "42458365714",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
