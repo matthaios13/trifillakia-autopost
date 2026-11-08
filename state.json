@@ -1620,6 +1620,46 @@
    "since": 1793218838.1621473,
    "team": "basketball_w"
   },
+  "tb:bkb2eN56": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "d0FeiWQ6",
+    "away_score": 3,
+    "comp": "Novibet Volley League",
+    "comp_full": "ΕΛΛΑΔΑ: Novibet Volley League",
+    "comp_logo": "https://static.flashscore.com/res/image/data/dUqcElC7-feIEyNib.png",
+    "home": "Ρέθυμνο",
+    "home_id": "dhfrxQhU",
+    "home_score": 0,
+    "id": "bkb2eN56",
+    "info": "",
+    "periods": [
+     [
+      14,
+      25
+     ],
+     [
+      16,
+      25
+     ],
+     [
+      19,
+      25
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "8zxfYRtn",
+    "start": 1794146400,
+    "status": "3",
+    "tour_id": "8nn94rPb",
+    "tour_path": "/volleyball/greece/volley-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 3",
+   "round": "3η Αγωνιστική",
+   "since": 1794151522.1871717,
+   "team": "volley_m"
+  },
   "tb:d84qDxXg": {
    "ev": {
     "away": "Α.Σ. Καρδίτσας",
