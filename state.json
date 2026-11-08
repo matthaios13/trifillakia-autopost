@@ -13,6 +13,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68862.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24819,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68862.jpg",
+    "title": "ΑΕΚ – Παναθηναϊκός AKTOR 74-83: Επιστροφή στις εγχώριες νίκες για το τριφύλλι με μαγικό Μπάντιο – Καταστροφή στην Ένωση με Μπράουν",
+    "url": "https://www.trifillakia.gr/mpasket/article/24819/aek-panathinaikos-aktor-74-83-epistrofi-stis-eghories-nikes-gia-to-trifylli-me"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-68853.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24818,
@@ -323,14 +331,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pao1908-com-53845.jpg?itok=M2WSass_",
     "title": "Επικράτησε της Άλμπα Βερολίνου με 58-79 το μπάσκετ γυναικών του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/24778/epikratise-tis-almpa-verolinoy-me-58-79-to-mpasket-gynaikon-toy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/569d7952-a868-4e1b-8b51-cf9a7550718a.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24777,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/569d7952-a868-4e1b-8b51-cf9a7550718a.jpg?itok=qn6VOu1i",
-    "title": "Ήττα με 0-5 από τους Soristas για το πινγκ πονγκ ΑμεΑ",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24777/itta-me-0-5-apo-toys-soristas-gia-to-pingk-pongk-amea"
    }
   ],
   "wait": {
@@ -9041,6 +9041,12 @@
     "igs": "18113545889114561"
    },
    "tries": 1
+  },
+  "news:24820": {
+   "at": 1794148641.8509889,
+   "claim": "42490530439",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
