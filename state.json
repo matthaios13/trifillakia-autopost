@@ -14,6 +14,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/podilasia-pao.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24833,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/podilasia-pao.jpg",
+    "title": "Δεύτερος ο Φίλιος στη Χρονοανάβαση Κερατοβουνίου",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24833/deyteros-o-filios-sti-hronoanavasi-keratovoynioy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86134.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24832,
@@ -324,14 +332,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/5428608-1.jpg?itok=bzU3f_ow",
     "title": "Ο Παναθηναϊκός έχασε 15-12 από τον Ολυμπιακό στο φινάλε",
     "url": "https://www.trifillakia.gr/polo/article/24791/o-panathinaikos-ehase-15-12-apo-ton-olympiako-sto-finale"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/csm-bucuresti.jpg",
-    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
-    "nid": 24790,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/csm-bucuresti.jpg?itok=BYJ1jZLK",
-    "title": "Βόλεϊ γυναικών: Στις 25 Νοεμβρίου το πρώτο ματς με την Κορόνα Μπρασόφ",
-    "url": "https://www.trifillakia.gr/volei-gynaikon/article/24790/volei-gynaikon-stis-25-noemvrioy-to-proto-mats-me-tin-korona-mprasof"
    }
   ],
   "wait": {
