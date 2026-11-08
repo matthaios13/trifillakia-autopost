@@ -13,6 +13,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-pao-fc-009271.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24815,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-pao-fc-009271.jpg",
+    "title": "ELABET: Ο Παναθηναϊκός έχει «μπουστάρισμα» για να μεγαλώσει το τρελό σερί!",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24815/elabet-o-panathinaikos-ehei-mpoystarisma-gia-na-megalosei-to"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-fc-ea85bb.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24814,
@@ -323,14 +331,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5424709-1.jpg",
     "title": "Με τον ΟΦΗ στο Ηράκλειο ο Παναθηναϊκός στον ημιτελικό του League Cup",
     "url": "https://www.trifillakia.gr/volei-andron/article/24774/me-ton-ofi-sto-irakleio-o-panathinaikos-ston-imiteliko-toy-league-cup"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/271584574_1346511945771109_8713652248672410909_n_4.jpg",
-    "label": "ΠΟΛΟ",
-    "nid": 24773,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/271584574_1346511945771109_8713652248672410909_n_4.jpg",
-    "title": "Πόλο ανδρών: Έως την Κυριακή οι αιτήσεις διαπίστευσης για το ματς",
-    "url": "https://www.trifillakia.gr/polo/article/24773/polo-andron-eos-tin-kyriaki-oi-aitiseis-diapisteysis-gia-to-mats"
    }
   ],
   "wait": {
@@ -8859,6 +8859,12 @@
     "igs": "17906595657599679"
    },
    "tries": 1
+  },
+  "news:24816": {
+   "at": 1794122612.261218,
+   "claim": "42458365714",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
