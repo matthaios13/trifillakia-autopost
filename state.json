@@ -9813,6 +9813,12 @@
    },
    "tries": 1
   },
+  "yt:8_8MP_O5lu8": {
+   "at": 1794140195.2826061,
+   "claim": "42479357257",
+   "nets": {},
+   "tries": 0
+  },
   "yt:In8IqIe-N7I": {
    "at": 1794127037.7346907,
    "nets": {
@@ -10809,6 +10815,15 @@
   "since": 1792246435.7726338
  },
  "yt": {
-  "upcoming": []
+  "upcoming": [
+   {
+    "id": "8_8MP_O5lu8",
+    "image": "https://i.ytimg.com/vi/8_8MP_O5lu8/maxresdefault.jpg",
+    "show": "PAO INSIDE",
+    "start": 1794143400,
+    "topic": "Ο ΠΑΝΑΘΗΝΑΪΚΟΣ στην ΚΟΡΥΦΗ, 3/3 στην ΕΥΡΩΠΗ – Ηρακλής, ΑΕΚ και θρίαμβος με ΡΕΑΛ",
+    "url": "https://www.youtube.com/watch?v=8_8MP_O5lu8"
+   }
+  ]
  }
 }
