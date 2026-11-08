@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24823,
+  "last": 24824,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -32,7 +32,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86014.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24821,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86014.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86014.jpg?itok=PBX6meD2",
     "title": "Ηρακλής – Παναθηναϊκός: Με Ταμπόρδα βασικό και Γκαρσία στον πάγκο οι «πράσινοι»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24821/iraklis-panathinaikos-me-tamporda-vasiko-kai-gkarsia-ston-pagko-oi-prasinoi"
    },
@@ -891,6 +891,33 @@
    "round": "4η Αγωνιστική",
    "since": 1792939222.6134849,
    "team": "basketball_w"
+  },
+  "tb:6HYjNlNr": {
+   "ev": {
+    "away": "PEA",
+    "away_id": "x4pfCYCQ",
+    "away_score": 0,
+    "comp": "Α Κατηγορία Γυναίκες",
+    "comp_full": "ΕΛΛΑΔΑ: Α Κατηγορία Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/23Uj7yU1-GtRBqEeI.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "U133kB5D",
+    "home_score": 2,
+    "id": "6HYjNlNr",
+    "info": "",
+    "periods": [],
+    "round": "",
+    "stage": "3",
+    "stage_id": "QXBBUtBt",
+    "start": 1794142800,
+    "status": "3",
+    "tour_id": "2i9trvQh",
+    "tour_path": "/football/greece/division-a-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 6",
+   "round": "6η Αγωνιστική",
+   "since": 1794155716.4963067,
+   "team": "football_w"
   },
   "tb:6knqhUie": {
    "ev": {
@@ -9187,6 +9214,12 @@
     "igs": "18099258935445761"
    },
    "tries": 1
+  },
+  "news:24824": {
+   "at": 1794155866.0055966,
+   "claim": "42500639059",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
