@@ -14,6 +14,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5431987-1.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24834,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5431987-1.jpg",
+    "title": "Στίβος: Παναθηναϊκοί αθλητές στα πανελλήνια πρωταθλήματα της Αθήνας",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24834/stivos-panathinaikoi-athlites-sta-panellinia-protathlimata-tis-athinas"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/podilasia-pao.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24833,
@@ -324,14 +332,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-grande-league_mayridis_youtube-1-182fcd.jpg?itok=zR4J_vwR",
     "title": "Κώστας Μαυρίδης στο Fox Prime: «Όνειρο που βγήκε αληθινό ο Παναθηναϊκός» | Grande League Interviews",
     "url": "https://www.trifillakia.gr/mpasket/article/24792/kostas-mayridis-sto-fox-prime-oneiro-poy-vgike-alithino-o-panathinaikos-grande"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5428608-1.jpg",
-    "label": "ΠΟΛΟ",
-    "nid": 24791,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/5428608-1.jpg?itok=bzU3f_ow",
-    "title": "Ο Παναθηναϊκός έχασε 15-12 από τον Ολυμπιακό στο φινάλε",
-    "url": "https://www.trifillakia.gr/polo/article/24791/o-panathinaikos-ehase-15-12-apo-ton-olympiako-sto-finale"
    }
   ],
   "wait": {
@@ -9347,6 +9347,12 @@
     "igs": "18020945264955822"
    },
    "tries": 1
+  },
+  "news:24835": {
+   "at": 1794173808.713607,
+   "claim": "42525910470",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
