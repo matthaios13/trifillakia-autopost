@@ -1771,6 +1771,38 @@
    "since": 1792864801.9356406,
    "team": "basketball"
   },
+  "tb:dGdPHDnI": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "SENMmweG",
+    "away_score": 2,
+    "comp": "Stoiximan Super League",
+    "comp_full": "ΕΛΛΑΔΑ: Stoiximan Super League",
+    "comp_logo": "https://static.flashscore.com/res/image/data/UyLJdoW1-OrtkLuwK.png",
+    "home": "Ηρακλής",
+    "home_id": "46PfJ545",
+    "home_score": 1,
+    "id": "dGdPHDnI",
+    "info": "",
+    "periods": [
+     [
+      0,
+      2
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "MNJDddac",
+    "start": 1794151800,
+    "status": "3",
+    "tour_id": "d2pwJFHI",
+    "tour_path": "/football/greece/super-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 10",
+   "round": "10η Αγωνιστική",
+   "since": 1794159038.5671368,
+   "team": "football"
+  },
   "tb:dKjd8e9t": {
    "ev": {
     "away": "Παναθηναϊκός",
@@ -10029,6 +10061,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "tb:vPF044re": {
+   "at": 1794159181.9995868,
+   "claim": "42505290235",
+   "nets": {},
+   "tries": 0
   },
   "tb:vR4wiQtm": {
    "at": 1792329418.4755838,
