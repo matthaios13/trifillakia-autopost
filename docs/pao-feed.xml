@@ -1,54 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Trifillakia – Παναθηναϊκός από bala24 / totalbasket / pao1908</title><link>https://www.trifillakia.gr</link><description>Αυτόματη ροή για το Feeds του trifillakia.gr</description><item><title>Οι αγώνες των τμημάτων του Παναθηναϊκού από 9 έως 15 Νοεμβρίου</title><link>https://www.pao1908.com/nea/to-prasino-programma-tis-evdomadas-155/</link><description>&lt;p&gt;Αγωνιστικό φορτίο για τα ερασιτεχνικά τμήματα του Παναθηναϊκού, από το μπάσκετ και το βόλεϊ μέχρι το futsal, το υδατόσφαιρα, την πυγμαχία και το ποδόσφαιρο. Αναλυτικά το πρόγραμμα της εβδομάδας:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Δευτέρα 9 Νοεμβρίου&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;19:00 Κλειστό Πολιτείας: Αθήνα ’90 – Παναθηναϊκός, για την 8η αγωνιστική της Futsal Super League&lt;/li&gt;
-&lt;li&gt;21:00 Κλειστό Γέρακα: Κρόνος ΑΟ – Παναθηναϊκός, για την έβδομη αγωνιστική της Α’ κατηγορίας μπάσκετ Νεανίδων&lt;/li&gt;
-&lt;li&gt;21:30 Κλειστό «Παύλος Γιαννακόπουλος»: Παναθηναϊκός – ΑΟΠ Κηφισιάς, για το πρωτάθλημα βόλεϊ Νέων ανδρών&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Τετάρτη 11 Νοεμβρίου&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;19:00 Βελιγράδι: Σερβία – Ελλάδα, για τα προκριματικά του EuroBasket γυναικών, με τη συμμετοχή των Σταμολάμπρου, Κριμίλη και Χατζηλεοντή&lt;/li&gt;
-&lt;li&gt;19:30 Κλειστό κολυμβητήριο ΟΑΚΑ: Παναθηναϊκός – Στεάουα Βουκουρεστίου, για την τρίτη αγωνιστική του LEN Champions League (ΣΠΟΡ FM TV)&lt;/li&gt;
-&lt;li&gt;21:30 5Χ5 Ρουφ: Παναθηναϊκός – Άφοβος Bandoleros, για την τέταρτη αγωνιστική του πρωταθλήματος Futsal γυναικών&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Πέμπτη 12 Νοεμβρίου&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;10:00 Κλειστό γυμναστήριο ΔΑΚ Κολινδρού: Πανελλήνιο πρωτάθλημα Πυγμαχίας Β’ ανδρών&lt;/li&gt;
-&lt;li&gt;22:30 Μετς: Παναθηναϊκός – Τράχωνες, για την έβδομη αγωνιστική της Futsal Super League (εξ’ αναβολής)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Παρασκευή 13 Νοεμβρίου&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;10:00 Κλειστό γυμναστήριο ΔΑΚ Κολινδρού: Πανελλήνιο πρωτάθλημα Πυγμαχίας Β’ ανδρών&lt;/li&gt;
-&lt;li&gt;21:30 Κλειστό Γυμναστήριο Μυρακτής: ΑΟ Νέοι Βύρωνος – Παναθηναϊκός, για το πρωτάθλημα βόλεϊ Νέων Ανδρών&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Σάββατο 14 Νοεμβρίου&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;09:00 Σκοπευτήριο Βύρωνα: Φθινοπωρινοί αγώνες Αεροβόλων – Πυροβόλων όπλων του ΣΟ Αποφοίτων ΑΣΟΕΕ, με τη συμμετοχή των αθλητών του Παναθηναϊκού&lt;/li&gt;
-&lt;li&gt;10:00 Πόρετς: Ευρωπαϊκό πρωτάθλημα πυγμαχίας U23, με τη συμμετοχή του Νικολάου&lt;/li&gt;
-&lt;li&gt;10:00 Κλειστό γυμναστήριο ΔΑΚ Κολινδρού: Πανελλήνιο πρωτάθλημα Πυγμαχίας Β’ ανδρών&lt;/li&gt;
-&lt;li&gt;12:00 Αθήνα: Face Off με τη συμμετοχή των Ασατιάνι, Χουνταλά και Ομομπούντε (πυγμαχία)&lt;/li&gt;
-&lt;li&gt;15:00 Δημ. Αργυρούπολης: Ολυμπιάδα Υμηττού – Παναθηναϊκός Κ17, για τη δεύτερη αγωνιστική του πρωταθλήματος ποδοσφαίρου Κ17 (εξ’ αναβολής)&lt;/li&gt;
-&lt;li&gt;15:30 Λύκειο Μελισσίων: ΣΦΑ Μελισσίων «Ο Φοίβος» – Παναθηναϊκός, για την έβδομη αγωνιστική του πρωταθλήματος βόλεϊ Εφήβων&lt;/li&gt;
-&lt;li&gt;16:30 Κλειστό «Παύλος Γιαννακόπουλος»: Παναθηναϊκός – ΑΕ Αγίας Παρασκευής, για την έβδομη αγωνιστική του πρωταθλήματος βόλεϊ Νεανίδων (ΣΤ’ όμιλος)&lt;/li&gt;
-&lt;li&gt;19:00 Ιβανώφειο: Ελλάδα – Σλοβακία, για τα προκριματικά του EuroBasket γυναικών, με τη συμμετοχή των Σταμολάμπρου, Κριμίλη και Χατζηλεοντή (ΕΡΤ 2 ΣΠΟΡ)&lt;/li&gt;
-&lt;li&gt;20:00 Κλειστό Αγ. Νικολάου Παλλήνης: ΑΟ Αγ. Νικολάου Παλλήνης Β’ – Παναθηναϊκός Β’, για την έβδομη αγωνιστική της Γ’ κατηγορίας μπάσκετ Κορασίδων (4ος όμιλος)&lt;/li&gt;
-&lt;li&gt;21:00 Κλειστό «Παύλος Γιαννακόπουλος»: Παναθηναϊκός – ΚΑΟ Μελισσίων, για την έβδομη αγωνιστική της Α’ κατηγορίας μπάσκετ Κορασίδων&lt;/li&gt;
-&lt;li&gt;21:00 Σεράφειο: Παναθηναϊκός – ΑΟΠ Φαλήρου, για την 8η αγωνιστική της Waterpolo League ανδρών (ΣΠΟΡ FM TV)&lt;/li&gt;
-&lt;li&gt;21:15 Κλειστό Μετς: Παναθηναϊκός – Ολυμπιακός ΟΝΕΧ, για την τέταρτη αγωνιστική της Novibet Volley League, κεκλεισμένων των θυρών (ΕΡΤ 2 ΣΠΟΡ)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Κυριακή 15 Νοεμβρίου&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;10:00 Κλειστό γυμναστήριο ΔΑΚ Κολινδρού: Πανελλήνιο πρωτάθλημα Πυγμαχίας Β’ ανδρών&lt;/li&gt;
-&lt;li&gt;14:30 Κλειστό «Παύλος Γιαννακόπουλος»: Παναθηναϊκός – ΖΑΟΝ, για το πρωτάθλημα βόλεϊ Νεανίδων ΕΣΠΑΑΑ 3&lt;/li&gt;
-&lt;li&gt;15:00 Γήπεδο Νέων Επιβατών: ΠΑΟΚ – Παναθηναϊκός, για την έβδομη αγωνιστική της Α’ Εθνικής κατηγορίας ποδοσφαίρου γυναικών (ΕΡΤ)&lt;/li&gt;
-&lt;li&gt;16:30 Κλειστό «Παύλος Γιαννακόπουλος»: Παναθηναϊκός – ΑΟ Θρακομακεδόνων, για το πρωτάθλημα βόλεϊ Νεανίδων ΕΣΠΑΑΑ 2&lt;/li&gt;
-&lt;li&gt;17:00 Κλειστό γυμναστήριο Μαρκόπουλου: Μαρκόπουλο – Παναθηναϊκός, για την πέμπτη αγωνιστική της Volley League γυναικών (ΕΡΤ 2 ΣΠΟΡ)&lt;/li&gt;
-&lt;li&gt;17:00 Κλειστό «Μιχάλης Μουρούτσος»: ΑΟ Δάφνης Β’ – Παναθηναϊκός Γ’, για την ένατη αγωνιστική της Β’ κατηγορίας μπάσκετ Παίδων (12ος όμιλος)&lt;/li&gt;
-&lt;li&gt;17:15 Κλειστό Κάντζας: ΑΟ Παλλήνη – Παναθηναϊκός, για την έβδομη αγωνιστική του πρωταθλήματος βόλεϊ Νέων ανδρών&lt;/li&gt;
-&lt;li&gt;20:30 Κλειστό «Παύλος Γιαννακόπουλος»: Παναθηναϊκός – Αμαζόνες Αχαρνών, για την έβδομη αγωνιστική του πρωταθλήματος βόλεϊ Νέων γυναικών (Α’ όμιλος)&lt;/li&gt;
-&lt;li&gt;Μινώταυρος – Παναθηναϊκός, για την 9η αγωνιστική της Futsal Super League&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;em&gt;Πηγή: &lt;a href=&quot;https://www.pao1908.com/nea/to-prasino-programma-tis-evdomadas-155/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;pao1908.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description><category>Ερασιτεχνης</category><guid isPermaLink="false">pao1908.com:54002</guid><author>pao1908.com</author><pubDate>Sun, 08 Nov 2026 22:09:41 +0000</pubDate><source url="https://www.pao1908.com/wp-content/uploads/2020/03/06/Generic Πρόγραμμα ΑΟ - Copy.jpg">fa-file-text</source></item><item><title>Διακρίσεις για την ακαδημία ξιφασκίας του Παναθηναϊκού στην Παιανία</title><link>https://www.pao1908.com/nea/elampsan-ta-trifyllakia-stin-paiania/</link><description>&lt;p&gt;Η ακαδημία ξιφασκίας του Παναθηναϊκού είχε παρουσία στην Παιανία, με τους νεαρούς αθλητές του τριφυλλιού να αγωνίζονται στο ξίφος ασκήσεως Νέων, Νέων γυναικών, Παμπαίδων και Παγκορασίδων.&lt;/p&gt;
+<rss version="2.0"><channel><title>Trifillakia – Παναθηναϊκός από bala24 / totalbasket / pao1908</title><link>https://www.trifillakia.gr</link><description>Αυτόματη ροή για το Feeds του trifillakia.gr</description><item><title>Διακρίσεις για την ακαδημία ξιφασκίας του Παναθηναϊκού στην Παιανία</title><link>https://www.pao1908.com/nea/elampsan-ta-trifyllakia-stin-paiania/</link><description>&lt;p&gt;Η ακαδημία ξιφασκίας του Παναθηναϊκού είχε παρουσία στην Παιανία, με τους νεαρούς αθλητές του τριφυλλιού να αγωνίζονται στο ξίφος ασκήσεως Νέων, Νέων γυναικών, Παμπαίδων και Παγκορασίδων.&lt;/p&gt;
 &lt;p&gt;Στα κορίτσια κάτω των 13 ετών, η Τσενζουανί Ζανγκ κατέκτησε την τρίτη θέση, ενώ η αδερφή της, Τσενμπόγια, τερμάτισε στην έκτη θέση.&lt;/p&gt;
 &lt;p&gt;Στα αγόρια κάτω των 13 ετών, ο Άνθιμος Γκιντής ήταν ενδέκατος. Στην ίδια κατηγορία ο Φώτης Καλογερόπουλος κατετάγη 23ος και ο Νικόλας Πατρινός 28ος, ενώ ο Φίλιππος Τύμβιος ήταν 31ος και ο Ευάγγελος Αλεξανδρής κατέλαβε την 44η θέση.&lt;/p&gt;
 &lt;p&gt;Στα αγόρια κάτω των 10 ετών, ο Κωνσταντίνος Αγκάς τερμάτισε στη 13η θέση και ο Αλφρέδος Γκιντής στην 20ή.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Πηγή: &lt;a href=&quot;https://www.pao1908.com/nea/elampsan-ta-trifyllakia-stin-paiania/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;pao1908.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description><category>Ερασιτεχνης</category><guid isPermaLink="false">pao1908.com:53995</guid><author>pao1908.com</author><pubDate>Sun, 08 Nov 2026 21:44:17 +0000</pubDate><source url="https://www.pao1908.com/wp-content/uploads/2026/11/08/ksifaskis-1.jpg">fa-file-text</source></item><item><title>Στίβος: Παναθηναϊκοί αθλητές στα πανελλήνια πρωταθλήματα της Αθήνας</title><link>https://www.pao1908.com/nea/prasines-parousies-ston-marathonio-tis-athinas/</link><description>&lt;p&gt;Το τμήμα στίβου του Παναθηναϊκού είχε εκπροσώπους στο Πανελλήνιο πρωτάθλημα Μαραθωνίου, όπου έτρεξε ο Παύλος Κουτρουμπής. Ο δρομέας του Παναθηναϊκού εγκατέλειψε μετά το 30ό χιλιόμετρο.&lt;/p&gt;
@@ -721,4 +672,18 @@
 &lt;li&gt;2 Πρωταθλήματα Ελλάδας (Μικτή Σκυτάλη): 2024, 2025&lt;/li&gt;
 &lt;li&gt;1 Πρωτάθλημα Ελλάδας (Μικτή Σκυτάλη Triathle): 2025&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Στους επίσημους τίτλους ο Παναθηναϊκός είναι δεύτερος μετά τον Πανελλήνιο.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Πηγή: &lt;a href=&quot;https://www.pao1908.com/deltia-typoy/o-panathinaikos-efere-to-monterno-pentathlo-stin-ellada/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;pao1908.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description><category>Ερασιτεχνης</category><guid isPermaLink="false">pao1908.com:53931</guid><author>pao1908.com</author><pubDate>Sat, 07 Nov 2026 14:12:36 +0000</pubDate><source url="/wp-content/themes/whsk_paoac/common/imgs/default.jpg">fa-file-text</source></item></channel></rss>
+&lt;p&gt;&lt;em&gt;Στους επίσημους τίτλους ο Παναθηναϊκός είναι δεύτερος μετά τον Πανελλήνιο.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Πηγή: &lt;a href=&quot;https://www.pao1908.com/deltia-typoy/o-panathinaikos-efere-to-monterno-pentathlo-stin-ellada/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;pao1908.com&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description><category>Ερασιτεχνης</category><guid isPermaLink="false">pao1908.com:53931</guid><author>pao1908.com</author><pubDate>Sat, 07 Nov 2026 14:12:36 +0000</pubDate><source url="/wp-content/themes/whsk_paoac/common/imgs/default.jpg">fa-file-text</source></item><item><title>Δεν θα πάει στην Εθνική του ο Λιβάι Γκαρσία</title><link>https://bala24.gr/den-tha-paei-stin-ethniki-tou-o-livai-gkarsia/</link><description>
+&lt;p class=&quot;wp-block-paragraph&quot;&gt;Την μη συμμετοχή του στην αποστολή του Τρίνινταντ και Τομπάγκο ζήτησε από τον ομοσπονδιακό τεχνικό ο Λιβάι Γκαρσία, αίτημα που έγινε δεκτό καθώς ο επιθετικός του Παναθηναϊκού δίνει προτεραιότητα στην αποκατάσταση του ενόψει της δύσκολης συνέχειας που έρχεται.&lt;/p&gt;
+
+
+
+&lt;p class=&quot;wp-block-paragraph&quot;&gt;Ο 28χρονος επιθετικός είχε κληθεί αρχικά, όμως ο ίδιος επικοινώνησε με τον προπονητή του και ζήτησε να μην συμμετάσχει καθώς δεν έχει περάσει πολύς καιρός από τον τραυματισμό του.&lt;/p&gt;
+
+
+
+&lt;p class=&quot;wp-block-paragraph&quot;&gt;Αυτή πάντως, δεν είναι η πρώτη φορά που παίκτης των «Πρασίνων» ζητά κάτι τέτοιο, καθώς στην προηγούμενη διακοπή το έκανε ο &lt;strong&gt;Σίριλ Ντέσερς&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+&lt;p class=&quot;wp-block-paragraph&quot;&gt;Οι διεθνείς του Παναθηναϊκού είναι οι &lt;strong&gt;Κάνγκουα&lt;/strong&gt; (Ζάμπια), &lt;strong&gt;Σαλάχ-Εντίν&lt;/strong&gt; (Μαρόκο), &lt;strong&gt;Πελίστρι&lt;/strong&gt; (Ουρουγουάη), &lt;strong&gt;Τεττέη&lt;/strong&gt; (Ελλάδα) και &lt;strong&gt;Ραστόντερ&lt;/strong&gt; (Σκόπια). Στις Κ21 αντίστοιχα είναι οι &lt;strong&gt;Γιάγκουσιτς&lt;/strong&gt; (Κροατία), καθώς και οι &lt;strong&gt;Κάτρης&lt;/strong&gt; και &lt;strong&gt;Κοντούρης&lt;/strong&gt; (Ελλάδα).&lt;/p&gt;
+</description><category>Ποδοσφαιρο</category><guid isPermaLink="false">bala24.gr:85745</guid><author>bala24.gr</author><pubDate>Sat, 07 Nov 2026 13:29:49 +0000</pubDate><source url="https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-85745.jpg">fa-file-text</source></item></channel></rss>
