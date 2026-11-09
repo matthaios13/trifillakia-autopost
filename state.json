@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24853,
+  "last": 24854,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -18,7 +18,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_5.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24853,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_5.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-elabet-94453f_5.jpg?itok=URXq6_oF",
     "title": "ELABET: Η ανανεωμένη Προσφορά* Γνωριμίας της ELABET κάνει την εμπειρία στο Στοίχημα ακόμα πιο ισχυρή!",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24853/elabet-i-ananeomeni-prosfora-gnorimias-tis-elabet-kanei-tin"
    },
@@ -9510,6 +9510,12 @@
     "igs": "17895926973436922"
    },
    "tries": 1
+  },
+  "news:24854": {
+   "at": 1794251990.4170597,
+   "claim": "42682048525",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
