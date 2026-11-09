@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/trd.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24857,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/trd.jpg",
+    "title": "St. Patrick's Hockey Club: ο ιστορικός σύλλογος χόκεϊ της Κανμπέρας",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24857/st-patricks-hockey-club-o-istorikos-syllogos-hokei-tis-kanmperas"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/gettyimages-516946_1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24856,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-manu-fc-4f336b.jpg?itok=fDdP8L-a",
     "title": "ELABET: Μαν. Γιουνάιτεντ – Άστον Βίλα με «combo» ισορροπίας",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24816/elabet-man-gioynaitent-aston-vila-me-combo-isorropias"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-pao-fc-009271.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24815,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-pao-fc-009271.jpg?itok=bYEqhaKI",
-    "title": "ELABET: Ο Παναθηναϊκός έχει «μπουστάρισμα» για να μεγαλώσει το τρελό σερί!",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24815/elabet-o-panathinaikos-ehei-mpoystarisma-gia-na-megalosei-to"
    }
   ],
   "wait": {
