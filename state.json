@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5436307-scaled.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24855,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5436307-scaled.jpg",
+    "title": "Στην Πολιτεία έχασε το futsal του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24855/stin-politeia-ehase-to-futsal-toy-panathinaikoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-e72a1121a42e71c4.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24854,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-aek-fc-ea85bb.jpg?itok=NWrT2lo_",
     "title": "ELABET: Η ΑΕΚ έχει «boost» για ξέσπασμα στη Νέα Φιλαδέλφεια",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24814/elabet-i-aek-ehei-boost-gia-xespasma-sti-nea-filadelfeia"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-post-static_1200x1200_-abc67f.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24813,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-post-static_1200x1200_-abc67f.jpg?itok=TUQA0loW",
-    "title": "ELABET: Καυτό Ολυμπιακός- ΠΑΟΚ με 0% γκανιότα και «Ενισχυμένα» γκολ στο Ατλέτικο-Μπάρτσα",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24813/elabet-kayto-olympiakos-paok-me-0-gkaniota-kai-enishymena-gkol"
    }
   ],
   "wait": {
