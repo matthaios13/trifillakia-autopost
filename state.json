@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24855,
+  "last": 24857,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -18,7 +18,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5436307-scaled.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24855,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5436307-scaled.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/5436307-scaled.jpg?itok=e3GhZdhX",
     "title": "Στην Πολιτεία έχασε το futsal του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24855/stin-politeia-ehase-to-futsal-toy-panathinaikoy"
    },
@@ -9528,6 +9528,12 @@
     "igs": "18492917131107836"
    },
    "tries": 1
+  },
+  "news:24856": {
+   "at": 1794262902.4838054,
+   "claim": "42710950157",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
