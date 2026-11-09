@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/gettyimages-516946_1.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24856,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/gettyimages-516946_1.jpg",
+    "title": "Θυμόμαστε το ντεμπούτο του Φώτση στο NBA",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24856/thymomaste-to-ntempoyto-toy-fotsi-sto-nba"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5436307-scaled.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24855,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-pao-fc-009271.jpg?itok=bYEqhaKI",
     "title": "ELABET: Ο Παναθηναϊκός έχει «μπουστάρισμα» για να μεγαλώσει το τρελό σερί!",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24815/elabet-o-panathinaikos-ehei-mpoystarisma-gia-na-megalosei-to"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek-fc-ea85bb.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24814,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-aek-fc-ea85bb.jpg?itok=NWrT2lo_",
-    "title": "ELABET: Η ΑΕΚ έχει «boost» για ξέσπασμα στη Νέα Φιλαδέλφεια",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24814/elabet-i-aek-ehei-boost-gia-xespasma-sti-nea-filadelfeia"
    }
   ],
   "wait": {
@@ -9537,6 +9537,12 @@
     "igs": "17956119567270762"
    },
    "tries": 1
+  },
+  "news:24857": {
+   "at": 1794262934.4148939,
+   "claim": "42710950157",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
