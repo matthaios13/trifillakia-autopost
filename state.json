@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-houston-nba-2328fa.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24851,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-houston-nba-2328fa.jpg",
+    "title": "ELABET: Ρόκετς – Νάγκετς: Μάχη κορυφής στο Χιούστον με ενισχυμένη επιλογή στο 1.95!",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24851/elabet-rokets-nagkets-mahi-koryfis-sto-hioyston-me-enishymeni"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-doxalefkadaselabet_aris_basket-5c2e26.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24850,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/totalbasket-gr-68771.jpg?itok=uRtjxAcJ",
     "title": "Σάκοτα: «Να διεκδικήσουμε ό,τι μας αναλογεί κόντρα στον Παναθηναϊκό»",
     "url": "https://www.trifillakia.gr/mpasket/article/24810/sakota-na-diekdikisoyme-oti-mas-analogei-kontra-ston-panathinaiko"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/mitasss.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24809,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/mitasss.jpg?itok=6rFMlWZi",
-    "title": "Στην ένατη θέση του Παγκοσμίου ο Μίτας με την Κατζουράκη",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24809/stin-enati-thesi-toy-pagkosmioy-o-mitas-me-tin-katzoyraki"
    }
   ],
   "wait": {
@@ -9492,6 +9492,12 @@
     "igs": "18135396298674141"
    },
    "tries": 1
+  },
+  "news:24852": {
+   "at": 1794245709.1576161,
+   "claim": "42665544251",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
