@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24858,
+  "last": 24859,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -18,7 +18,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/kw5.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24858,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/kw5.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/kw5.jpg?itok=21QsnHAY",
     "title": "Ανατροπή του Παναθηναϊκού στο kw5 και κούπα για τους «πράσινους",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24858/anatropi-toy-panathinaikoy-sto-kw5-kai-koypa-gia-toys-prasinoys"
    },
@@ -9555,6 +9555,12 @@
     "igs": "17866041330692625"
    },
    "tries": 1
+  },
+  "news:24859": {
+   "at": 1794303442.6819518,
+   "claim": "42791942343",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
