@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/gfr.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24867,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/gfr.jpg",
+    "title": "Τα esports του Παναθηναϊκού με 14 επίσημους ομαδικούς τίτλους",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24867/ta-esports-toy-panathinaikoy-me-14-episimoys-omadikoys-titloys"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86582.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24866,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86089.jpg?itok=hfRhJX5i",
     "title": "Νίστρουπ: «Η πιο αδύναμη εμφάνισή μας μετά τον Ολυμπιακό – Σωστό το πέναλτι»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24826/nistroyp-i-pio-adynami-emfanisi-mas-meta-ton-olympiako-sosto-to-penalti"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86040.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24825,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86040.jpg?itok=sa00ovmn",
-    "title": "Παναθηναϊκός – Ηρακλής 1-2: Απόδραση στο 90+4′ με Καλάμπρια και ανατροπή στις καθυστερήσεις! (vids)",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24825/panathinaikos-iraklis-1-2-apodrasi-sto-904-me-kalampria-kai-anatropi-stis"
    }
   ],
   "wait": {
@@ -9636,6 +9636,12 @@
     "igs": "18074148614786432"
    },
    "tries": 1
+  },
+  "news:24868": {
+   "at": 1794316051.1560736,
+   "claim": "42821294295",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
