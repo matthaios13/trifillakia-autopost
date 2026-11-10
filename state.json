@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24866,
+  "last": 24868,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -26,7 +26,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86554.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24865,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86554.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86554.jpg?itok=db67pQkF",
     "title": "Παναθηναϊκός: Ανοίγει θέση για νέο δεξί εξτρέμ με την αποχώρηση Πελίστρι",
     "url": "https://www.trifillakia.gr/podosfairo/article/24865/panathinaikos-anoigei-thesi-gia-neo-dexi-extrem-me-tin-apohorisi-pelistri"
    },
@@ -9627,6 +9627,12 @@
     "igs": "18003380958033005"
    },
    "tries": 1
+  },
+  "news:24867": {
+   "at": 1794316010.1638353,
+   "claim": "42821294295",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
