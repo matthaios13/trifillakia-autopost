@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86972.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24888,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86972.jpg",
+    "title": "Παναθηναϊκός: Διθύραμβοι για Καλάμπρια στην Ιταλία",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24888/panathinaikos-dithyramvoi-gia-kalampria-stin-italia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54072.jpg",
     "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
     "nid": 24887,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/895705683_3770219329800872_511578050941271045_n.jpg?itok=13XVsVYK",
     "title": "Δύο αθλητές του στίβου ΑμεΑ στην εκκίνηση του Μαραθωνίου της Αθήνας",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24849/dyo-athlites-toy-stivoy-amea-stin-ekkinisi-toy-marathonioy-tis-athinas"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/kotsolis-goumas-lisavona-transferroom.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24848,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/kotsolis-goumas-lisavona-transferroom.jpg?itok=7V0mlOVQ",
-    "title": "Παναθηναϊκός: Κοτσόλης και Γκούμας στη Λισαβόνα για το TransferRoom",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24848/panathinaikos-kotsolis-kai-gkoymas-sti-lisavona-gia-to-transferroom"
    }
   ],
   "wait": {
