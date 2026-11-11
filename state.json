@@ -806,6 +806,50 @@
    "since": 1793815522.8535428,
    "team": "volley_m"
   },
+  "tb:2kacCf8l": {
+   "ev": {
+    "away": "Στεάουα Βουκουρεστίου",
+    "away_id": "lO8dM9Gi",
+    "away_score": 14,
+    "comp": "Τσάμπιονς Λιγκ - Πρώτη φάση",
+    "comp_full": "ΕΥΡΩΠΗ: Τσάμπιονς Λιγκ - Πρώτη φάση",
+    "comp_logo": "https://static.flashscore.com/res/image/data/0x99bqjD-Mi5WpOqn.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "8WFCnEH1",
+    "home_score": 25,
+    "id": "2kacCf8l",
+    "info": "",
+    "periods": [
+     [
+      7,
+      2
+     ],
+     [
+      8,
+      3
+     ],
+     [
+      5,
+      5
+     ],
+     [
+      5,
+      4
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xIlQWGM8",
+    "start": 1794418200,
+    "status": "3",
+    "tour_id": "CfXS22Jj",
+    "tour_path": "/water-polo/europe/champions-league/"
+   },
+   "raw_round": "Πρώτη φάση - Αγωνιστική ημέρα: 3",
+   "round": "3η Αγωνιστική",
+   "since": 1794423644.4348397,
+   "team": "waterpolo"
+  },
   "tb:4hboXcOP": {
    "ev": {
     "away": "Παναθηναϊκός",
@@ -9848,6 +9892,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "tb:2kacCf8l": {
+   "at": 1794423818.90653,
+   "claim": "43083118802",
+   "nets": {},
+   "tries": 0
   },
   "tb:2yKcXboC": {
    "at": 1791985793.189812,
