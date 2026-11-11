@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-psg-bc-e1e010.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24884,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-psg-bc-e1e010.jpg",
+    "title": "ELABET: Παρί – Φενερμπαχτσέ με Bet Builder στους πόντους",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24884/elabet-pari-fenermpahtse-me-bet-builder-stoys-pontoys"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_6.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24883,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/rthw.jpg",
     "title": "Τριάντα επίσημοι ομαδικοί τίτλοι για το τμήμα σκακιού του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24845/trianta-episimoi-omadikoi-titloi-gia-to-tmima-skakioy-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86246.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24844,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86246.jpg?itok=cUQtsxGB",
-    "title": "Εμπνευσμένος από το One Piece ο χθεσινός πανηγυρισμός του Καλάμπρια (pic)",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24844/empneysmenos-apo-to-one-piece-o-hthesinos-panigyrismos-toy-kalampria-pic"
    }
   ],
   "wait": {
@@ -9799,6 +9799,12 @@
     "igs": "17956156071302717"
    },
    "tries": 1
+  },
+  "news:24885": {
+   "at": 1794416744.5174456,
+   "claim": "43063896264",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
