@@ -10671,6 +10671,12 @@
     "igs": "18650260063005357"
    },
    "tries": 1
+  },
+  "yt:wGgi0yl2DkI": {
+   "at": 1794391345.461045,
+   "claim": "42999937986",
+   "nets": {},
+   "tries": 0
   }
  },
  "seeded": [
@@ -11752,6 +11758,15 @@
   "since": 1792246435.7726338
  },
  "yt": {
-  "upcoming": []
+  "upcoming": [
+   {
+    "id": "wGgi0yl2DkI",
+    "image": "https://i.ytimg.com/vi/wGgi0yl2DkI/sddefault.jpg",
+    "show": "ROI MAT SHOW",
+    "start": 1794394800,
+    "topic": "ALL IN για ΠΡΩΤΑΘΛΗΜΑ – Όλος ο ΜΕΤΑΓΡΑΦΙΚΟΣ ΑΞΟΝΑΣ του Γενάρη",
+    "url": "https://www.youtube.com/watch?v=wGgi0yl2DkI"
+   }
+  ]
  }
 }
