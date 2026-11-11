@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-post-static_25-apodosh_1200x1200_-e216fd.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24879,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-post-static_25-apodosh_1200x1200_-e216fd.jpg",
+    "title": "ELABET: ΑΠΙΣΤΕΥΤΗ απόδοση στα γκολ της Ελλάδας με την Ολλανδία!",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24879/elabet-apisteyti-apodosi-sta-gkol-tis-elladas-me-tin-ollandia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-pr_5-c8b689.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24878,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86191.jpg",
     "title": "Στο «Παπαγεωργίου» οπαδός του Παναθηναϊκού – Παρασύρθηκε από αυτοκίνητο",
     "url": "https://www.trifillakia.gr/podosfairo/article/24840/sto-papageorgioy-opados-toy-panathinaikoy-parasyrthike-apo-aytokinito"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86180.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24839,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86180.jpg",
-    "title": "Νέα δεδομένα στη «μάχη του τίτλου» παρουσιάζει το Football Meets Data",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24839/nea-dedomena-sti-mahi-toy-titloy-paroysiazei-to-football-meets-data"
    }
   ],
   "wait": {
@@ -9754,6 +9754,12 @@
     "igs": "18648978196054881"
    },
    "tries": 1
+  },
+  "news:24880": {
+   "at": 1794413454.9355605,
+   "claim": "43054760120",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
