@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54085.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24892,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54085.jpg",
+    "title": "Darwin Rovers: η διαδρομή του αυστραλιανού συλλόγου από το 2014 ως το 2018",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24892/darwin-rovers-i-diadromi-toy-aystralianoy-syllogoy-apo-to-2014-os-to-2018"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5438684-scaled.jpg",
     "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
     "nid": 24891,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-elabet-94453f_5.jpg?itok=URXq6_oF",
     "title": "ELABET: Η ανανεωμένη Προσφορά* Γνωριμίας της ELABET κάνει την εμπειρία στο Στοίχημα ακόμα πιο ισχυρή!",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24853/elabet-i-ananeomeni-prosfora-gnorimias-tis-elabet-kanei-tin"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-atl-nba-6ad343.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24852,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/elabet-atl-nba-6ad343.jpg?itok=vtLHRM8J",
-    "title": "ELABET: Ατλάντα Χοκς – Λος Άντζελες Λέικερς με «Ενίσχυση» στα… γεράνια",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24852/elabet-atlanta-hoks-los-antzeles-leikers-me-enishysi-sta"
    }
   ],
   "wait": {
@@ -9925,6 +9925,12 @@
     "igs": "18083041010375069"
    },
    "tries": 1
+  },
+  "news:24893": {
+   "at": 1794437953.1851516,
+   "claim": "43115041187",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
