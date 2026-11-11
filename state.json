@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24873,
+  "last": 24874,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -18,7 +18,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/imagesdatafiles155482.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24873,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/imagesdatafiles155482.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/imagesdatafiles155482.jpg?itok=dQDuAU1z",
     "title": "Σαν σήμερα το 1919 το τριφύλλι έγινε έμβλημα του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24873/san-simera-to-1919-to-trifylli-egine-emvlima-toy-panathinaikoy"
    },
@@ -9700,6 +9700,12 @@
     "igs": "18091078556268886"
    },
    "tries": 1
+  },
+  "news:24874": {
+   "at": 1794386154.780753,
+   "claim": "42987910188",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
