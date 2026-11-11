@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/toliou-1.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24875,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/toliou-1.jpg",
+    "title": "Στην 297η θέση της παγκόσμιας κατάταξης ανέβηκε η Τόλιου",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24875/stin-297i-thesi-tis-pagkosmias-katataxis-anevike-i-tolioy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/ts.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24874,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86148.jpg?itok=T08d0d7V",
     "title": "Ολυμπιακός – ΠΑΟΚ 1-1: Μοιρασιά στο Καραϊσκάκης με «νικητή» τον Παναθηναϊκό",
     "url": "https://www.trifillakia.gr/podosfairo/article/24835/olympiakos-paok-1-1-moirasia-sto-karaiskakis-me-nikiti-ton-panathinaiko"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5431987-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24834,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/5431987-1.jpg?itok=JyZOKd50",
-    "title": "Στίβος: Παναθηναϊκοί αθλητές στα πανελλήνια πρωταθλήματα της Αθήνας",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24834/stivos-panathinaikoi-athlites-sta-panellinia-protathlimata-tis-athinas"
    }
   ],
   "wait": {
