@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24887,
+  "last": 24888,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -66,7 +66,7 @@
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86913.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 24881,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-86913.jpg",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86913.jpg?itok=ySHVe8Uu",
     "title": "Πάντοβιτς: Απόλυτος πρωταγωνιστής με δύο γκολ στη νίκη της Ζελέζνιτσαρ επί της Ραντνίτσκι",
     "url": "https://www.trifillakia.gr/podosfairo/article/24881/pantovits-apolytos-protagonistis-me-dyo-gkol-sti-niki-tis-zeleznitsar-epi"
    },
@@ -9880,6 +9880,12 @@
     "igs": "17897252415427470"
    },
    "tries": 1
+  },
+  "news:24888": {
+   "at": 1794424091.5035827,
+   "claim": "43083852266",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
