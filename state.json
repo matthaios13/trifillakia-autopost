@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_7.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24885,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_7.jpg",
+    "title": "ELABET: Σικάγο Μπουλς – Σαν Αντόνιο Σπερς με «Ενισχυμένο» σκόρερ Μπουζέλις",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24885/elabet-sikago-mpoyls-san-antonio-spers-me-enishymeno-skorer"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-psg-bc-e1e010.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24884,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/maria-tsakona.jpg?itok=5r4Sl0NM",
     "title": "Τσάκωνα: 6/9 και performance 2288 στο διεθνές τουρνουά της Βαυαρίας",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24846/tsakona-69-kai-performance-2288-sto-diethnes-toyrnoya-tis-vayarias"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/rthw.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24845,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/rthw.jpg",
-    "title": "Τριάντα επίσημοι ομαδικοί τίτλοι για το τμήμα σκακιού του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24845/trianta-episimoi-omadikoi-titloi-gia-to-tmima-skakioy-toy-panathinaikoy"
    }
   ],
   "wait": {
@@ -9808,6 +9808,12 @@
     "igs": "18118854824041762"
    },
    "tries": 1
+  },
+  "news:24886": {
+   "at": 1794416777.8000138,
+   "claim": "43063896264",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
