@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_6.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24883,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_6.jpg",
+    "title": "ELABET: Άρης – Ρίγκας & Περιστέρι – Βαρέζε: Ελληνική διπλή μάχη με “Ενισχύσεις” στους πόντους",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24883/elabet-aris-rigkas-peristeri-vareze-elliniki-dipli-mahi-me"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-partizanbc-baa63a.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24882,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86246.jpg?itok=cUQtsxGB",
     "title": "Εμπνευσμένος από το One Piece ο χθεσινός πανηγυρισμός του Καλάμπρια (pic)",
     "url": "https://www.trifillakia.gr/podosfairo/article/24844/empneysmenos-apo-to-one-piece-o-hthesinos-panigyrismos-toy-kalampria-pic"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/vocyqy3t2h4ny2i6gc3cvumwbu.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24843,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/vocyqy3t2h4ny2i6gc3cvumwbu.jpg?itok=XMem4Gc9",
-    "title": "Bondi Shamrocks, η γυναικεία ομάδα AFL από το Σίδνεϊ",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24843/bondi-shamrocks-i-gynaikeia-omada-afl-apo-to-sidnei"
    }
   ],
   "wait": {
@@ -9790,6 +9790,12 @@
     "igs": "17886312966525295"
    },
    "tries": 1
+  },
+  "news:24884": {
+   "at": 1794416682.6360052,
+   "claim": "43063896264",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
