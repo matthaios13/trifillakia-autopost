@@ -15,6 +15,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/referres.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24897,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/referres.jpg",
+    "title": "Παναθηναϊκός-Μπαρτσελόνα: Οι διαιτητές του αγώνα",
+    "url": "https://www.trifillakia.gr/mpasket/article/24897/panathinaikos-mpartselona-oi-diaitites-toy-agona"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5173750-scaled.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24896,
@@ -325,14 +333,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/kw5.jpg?itok=21QsnHAY",
     "title": "Ανατροπή του Παναθηναϊκού στο kw5 και κούπα για τους «πράσινους",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24858/anatropi-toy-panathinaikoy-sto-kw5-kai-koypa-gia-toys-prasinoys"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/trd.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24857,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/trd.jpg?itok=3EvAb-XG",
-    "title": "St. Patrick's Hockey Club: ο ιστορικός σύλλογος χόκεϊ της Κανμπέρας",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24857/st-patricks-hockey-club-o-istorikos-syllogos-hokei-tis-kanmperas"
    }
   ],
   "wait": {
