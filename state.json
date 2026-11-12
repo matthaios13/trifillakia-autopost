@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 24934,
+  "last": 24935,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11074,6 +11074,21 @@
   "volley_w",
   "waterpolo"
  ],
+ "shows": {
+  "items": [
+   {
+    "body": "<p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/wGgi0yl2DkI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></p><p></p><p>Δείτε ολόκληρη την εκπομπή στο κανάλι μας στο YouTube: <a href=\"https://www.youtube.com/watch?v=wGgi0yl2DkI\" target=\"_blank\">https://www.youtube.com/@trifillakia_gr</a></p>",
+    "category": "PODCAST",
+    "format": "fa-play-circle-o",
+    "guid": "yt-show:wGgi0yl2DkI",
+    "image": "https://i.ytimg.com/vi/wGgi0yl2DkI/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=wGgi0yl2DkI",
+    "source": "YouTube",
+    "title": "",
+    "ts": 1794441746.0
+   }
+  ]
+ },
  "synd": {
   "blocked": [
    "bala24.gr:80754",
