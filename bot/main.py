@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, syndicate, wpl, youtube
+from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, shows, syndicate, wpl, youtube
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -59,6 +59,7 @@ def load_state():
     st.setdefault("synd", {})
     st.setdefault("yt", {})
     st["yt"].setdefault("upcoming", [])
+    st.setdefault("shows", {})
     return st
 
 
@@ -131,6 +132,8 @@ def merge_state(st, remote):
         newest = sorted(items.values(), key=lambda i: -i["ts"])
         now = time.time()  # + όσα μπήκαν τις τελευταίες 6 ώρες (backfill pao1908 με παλιές ημερομηνίες)
         st["synd"]["items"] = [i for n, i in enumerate(newest) if n < 30 or now - i.get("added", 0) < 6 * 3600]
+    shows = {i["guid"]: i for i in ((remote.get("shows") or {}).get("items") or []) + (st["shows"].get("items") or [])}
+    st["shows"]["items"] = sorted(shows.values(), key=lambda i: -i["ts"])[:15]
     return st
 
 
@@ -350,6 +353,11 @@ def run(dry=False):
         syndicate.update(st["synd"], now, log=log)
     except Exception as e:  # noqa: BLE001
         log("Σφάλμα ροής bala24/totalbasket", e)
+
+    try:
+        shows.update(st["shows"], log=log)
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα ροής εκπομπών", e)
 
     try:
         blogs.update(log=log)
