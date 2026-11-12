@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, biolinks, captions, cards, elabet, flashscore as fs, meta, news, syndicate, wpl, youtube
+from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, syndicate, wpl, youtube
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -350,6 +350,11 @@ def run(dry=False):
         syndicate.update(st["synd"], now, log=log)
     except Exception as e:  # noqa: BLE001
         log("Σφάλμα ροής bala24/totalbasket", e)
+
+    try:
+        blogs.update(log=log)
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα ροής blogs", e)
 
     try:
         run_news(st, now, dry)
