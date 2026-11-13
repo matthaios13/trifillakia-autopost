@@ -71,7 +71,17 @@ def update(state, log=print):
         if pts < SINCE:
             continue
         v = youtube.video(vid.group(1))
-        if not v or v["upcoming"]:
+        if not v:
+            continue
+        # Από τους servers του GitHub η σελίδα του YouTube έρχεται συχνά χωρίς στοιχεία (consent/bot check):
+        # τότε ο τίτλος παίρνεται από το RSS και «δεν έχει ξεκινήσει» = 0 προβολές.
+        if not v["title"]:
+            ft = re.search(r"<title>(.*?)</title>", e, re.S)
+            views = re.search(r'<media:statistics views="(\d+)"', e)
+            v["title"] = html.unescape(ft.group(1)).strip() if ft else ""
+            v["topic"] = youtube._split_title(v["title"])[1]
+            v["upcoming"] = not views or views.group(1) == "0"
+        if v["upcoming"]:
             continue  # δεν έχει ξεκινήσει ακόμα
         title = _clean_title(v["title"])
         if not title:
