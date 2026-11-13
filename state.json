@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/1700169823125.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 24975,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/1700169823125.jpg",
+    "title": "Πούσκας: Το γκολ με τη Μικτή Ευρώπης Παλαιμάχων το 1972",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/24975/poyskas-to-gkol-me-ti-mikti-eyropis-palaimahon-to-1972"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/SYLVAIN.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24974,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/referres.jpg?itok=ELt4i7FA",
     "title": "Παναθηναϊκός-Μπαρτσελόνα: Οι διαιτητές του αγώνα",
     "url": "https://www.trifillakia.gr/mpasket/article/24897/panathinaikos-mpartselona-oi-diaitites-toy-agona"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5173750-scaled.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24896,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5173750-scaled.jpg",
-    "title": "Στις 27-29 Νοεμβρίου το 10ο Διεθνές Τρόπαιο Κολύμβησης του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24896/stis-27-29-noemvrioy-to-10o-diethnes-tropaio-kolymvisis-toy-panathinaikoy"
    }
   ],
   "wait": {
@@ -10441,6 +10441,12 @@
     "igs": "17891996808468506"
    },
    "tries": 1
+  },
+  "news:24976": {
+   "at": 1794610372.400961,
+   "claim": "43522485612",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
