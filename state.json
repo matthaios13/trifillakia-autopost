@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-24940.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 24955,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao-24940.jpg",
+    "title": "Γιαννακόπουλος: «Θα απαντάω με αλήθειες» στη λάσπη του Basketgate",
+    "url": "https://www.trifillakia.gr/mpasket/article/24955/giannakopoylos-tha-apantao-me-alitheies-sti-laspi-toy-basketgate"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_8.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24947,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_6.jpg",
     "title": "ELABET: Άρης – Ρίγκας & Περιστέρι – Βαρέζε: Ελληνική διπλή μάχη με “Ενισχύσεις” στους πόντους",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24883/elabet-aris-rigkas-peristeri-vareze-elliniki-dipli-mahi-me"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-partizanbc-baa63a.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24882,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-partizanbc-baa63a.jpg",
-    "title": "ELABET: Παρτιζάν – Μπασκόνια: Το Βελιγράδι δίνει τον ρυθμό με «ενισχυμένο» Bet Builder",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24882/elabet-partizan-mpaskonia-to-veligradi-dinei-ton-rythmo-me"
    }
   ],
   "wait": {
@@ -10209,6 +10209,12 @@
     "igs": "18470759437190712"
    },
    "tries": 1
+  },
+  "news:24956": {
+   "at": 1794574371.3061104,
+   "claim": "43428538378",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
