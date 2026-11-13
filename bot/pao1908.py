@@ -102,6 +102,9 @@ PROMPT = """Είσαι συντάκτης του trifillakia.gr (site για τ�
 
 - Κράτα το είδος του κειμένου: αφιέρωμα, «σαν σήμερα», μνήμη ή ιστορικό κείμενο μένει αφιέρωμα. Ο τίτλος ΔΕΝ το παρουσιάζει ως τωρινό γεγονός (π.χ. όχι «Πέθανε ο …» για κάποιον που έφυγε παλιότερα, αλλά «Θυμόμαστε τον …»). Αν δεν λέει έτος, μη βάλεις έτος.
 
+- Υπότιτλος: μία πρόταση (έως ~200 χαρακτήρες) που συμπληρώνει τον τίτλο με το βασικό στοιχείο της είδησης, χωρίς να τον επαναλαμβάνει.
+- Ετικέτες: 3 έως 5, ονόματα προσώπων, ομάδων/αντιπάλων, διοργανώσεων ή του αθλήματος που αναφέρει το κείμενο (π.χ. «Παναθηναϊκός», «Βόλεϊ Γυναικών», «Μαργαριτοπούλου»). Όχι γενικές λέξεις.
+
 Δώσε την απάντηση με το εργαλείο save_article.
 
 Ημερομηνία δημοσίευσης στο pao1908: {date}{old}
@@ -131,7 +134,9 @@ def rewrite(item, key, log=print):
     tool = {"name": "save_article", "description": "Αποθηκεύει το ξαναγραμμένο άρθρο.", "input_schema": {
         "type": "object", "required": ["title", "body"], "properties": {
             "title": {"type": "string", "description": "Νέος τίτλος"},
-            "body": {"type": "string", "description": "Κείμενο σε HTML"}}}}
+            "body": {"type": "string", "description": "Κείμενο σε HTML"},
+            "subtitle": {"type": "string", "description": "Υπότιτλος, μία πρόταση"},
+            "tags": {"type": "array", "items": {"type": "string"}, "description": "3-5 ετικέτες"}}}}
     try:
         r = requests.post("https://api.anthropic.com/v1/messages", timeout=120, headers={
             "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json",
@@ -159,7 +164,9 @@ def rewrite(item, key, log=print):
     title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", str(data["title"]))).strip().strip("«»\"")
     body = str(data["body"]).strip()
     body += f'<p><em>Πηγή: <a href="{html.escape(item["link"])}" target="_blank" rel="noopener">pao1908.com</a></em></p>'
-    return title, body
+    sub = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", str(data.get("subtitle") or ""))).strip()
+    tags = [re.sub(r"\s+", " ", str(t)).strip().lstrip("#") for t in (data.get("tags") or []) if str(t).strip()]
+    return title, body, sub, list(dict.fromkeys(tags))[:5]
 
 
 SCORE = re.compile(r"(?<![\d:/])(?<!\d[.,])(\d{1,3})\s*[-–]\s*(\d{1,3})(?![\d:/]|[.,]\d)")
@@ -177,7 +184,7 @@ def checked_rewrite(item, key, log=print):
         res = rewrite(item, key, log)
         if not res:
             return None
-        got = _scores(res[0] + " " + res[1])
+        got = _scores(res[0] + " " + res[1] + " " + res[2])
         missing = want - got
         flipped = {s for s in got - want if "-".join(reversed(s.split("-"))) in want}
         if not missing and not flipped:
@@ -211,6 +218,7 @@ def candidates(have, existing, same_story, log=print):
             break  # σφάλμα API (κλειδί, μοντέλο, όριο): σταματάμε ως την επόμενη εκτέλεση
         if not res:
             continue
-        title, body = res
-        out.append({k: p[k] for k in ("guid", "source", "category", "link", "image", "ts")} | {"title": title, "body": body})
+        title, body, sub, tags = res
+        out.append({k: p[k] for k in ("guid", "source", "category", "link", "image", "ts")}
+                   | {"title": title, "body": body, "subtitle": sub, "tags": tags})
     return out

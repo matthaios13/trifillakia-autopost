@@ -6,6 +6,7 @@
 
 Ένα άρθρο μπαίνει μόνο αν δεν υπάρχει ήδη στο trifillakia.gr με παρόμοιο τίτλο.
 """
+import csv
 import html
 import os
 import re
@@ -23,6 +24,7 @@ from .flashscore import UA
 from . import pao1908
 
 FEED = os.path.join(ROOT, "docs", "pao-feed.xml")
+CSV_FEED = os.path.join(ROOT, "docs", "pao-feed.csv")  # importer «PAO news CSV»: υπότιτλος + ετικέτες (από 13/11)
 IMG_DIR = os.path.join(ROOT, "docs", "img")
 PAGES = "https://matthaios13.github.io/trifillakia-autopost/"
 
@@ -244,7 +246,7 @@ def fetch(source, since_ts, log=None):
     for f in filters:
         title_only = f.startswith("search=")
         try:
-            r = _s.get(f"{base}?{f}&per_page=20&_fields=id,date_gmt,title,link,content,featured_media,categories", timeout=40)
+            r = _s.get(f"{base}?{f}&per_page=20&_fields=id,date_gmt,title,link,content,featured_media,categories,tags", timeout=40)
             posts = r.json() if r.status_code == 200 else []
             if r.status_code != 200 and log:
                 log(f"Ροή trifillakia: {name} απάντησε {r.status_code} ({f.split('=')[0]})", r.text[:150].replace("\n", " "))
@@ -276,6 +278,8 @@ def fetch(source, since_ts, log=None):
                 "body": p["content"]["rendered"],
                 "image": drupal_image(image, f"{name}:{p['id']}"),
                 "ts": ts,
+                "tag_ids": p.get("tags") or [],
+                "base": base,
             }
     return list(seen.values())
 
@@ -344,8 +348,72 @@ def _cleanup_images(items):
                 os.remove(os.path.join(IMG_DIR, f))
 
 
+# Ετικέτες του bala24/totalbasket που είναι εσωτερικές (θέσεις στην αρχική κ.λπ.), όχι θέματα.
+SKIP_TAGS = {"top", "2ndtop", "3rdtop", "hot", "main", "slider", "featured", "breaking", "διεθνη"}
+_tag_cache = {}
+
+
+def tag_names(base, ids):
+    """Ονόματα ετικετών (έως 5), χωρίς τις εσωτερικές."""
+    ids = [i for i in ids if (base, i) not in _tag_cache]
+    if ids:
+        try:
+            r = _s.get(base.replace("/posts", "/tags"), params={"include": ",".join(map(str, ids)), "per_page": 100, "_fields": "id,name"}, timeout=30)
+            for t in r.json() if r.status_code == 200 else []:
+                _tag_cache[(base, t["id"])] = html.unescape(t["name"]).strip()
+        except (requests.RequestException, ValueError):
+            pass
+    return None
+
+
+def post_tags(base, ids):
+    tag_names(base, ids)
+    out = []
+    for i in ids:
+        n = _tag_cache.get((base, i), "")
+        if n and _plain(n) not in SKIP_TAGS and n not in out:
+            out.append(n)
+    return out[:5]
+
+
+def subtitle(link):
+    """Ο υπότιτλος (tagline του Foxiz: <h2 class="s-tagline">) από τη σελίδα του άρθρου."""
+    try:
+        r = _s.get(link, timeout=30)
+    except requests.RequestException:
+        return ""
+    m = re.search(r'<h2[^>]*class="[^"]*s-tagline[^"]*"[^>]*>(.*?)</h2>', r.text, re.S) if r.status_code == 200 else None
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", m.group(1)))).strip() if m else ""
+
+
+def write_csv(items):
+    """Ροή CSV για το importer «PAO news CSV»: ξεχωριστές στήλες για υπότιτλο (body:summary), ετικέτες, τμήμα."""
+    # Ονόματα στηλών = πηγές του mapping (κλώνος του «PAO news»): description→body, source:url→εικόνα κ.λπ.
+    cols = ["guid", "title", "description", "summary", "category", "tag1", "tag2", "tag3", "tag4", "tag5",
+            "source:url", "timestamp", "source:title", "url", "author_name"]
+    buf = io.StringIO()
+    w = csv.writer(buf, quoting=csv.QUOTE_ALL, lineterminator="\n")
+    w.writerow(cols)
+    for it in sorted(items, key=lambda i: -i["ts"]):
+        tags = [_bmp_plain(t) for t in (it.get("tags") or [])][:5]
+        w.writerow([
+            it["guid"], _bmp_plain(it["title"]), _bmp_html(it["body"]).replace("\r", " ").replace("\n", " "),
+            _bmp_plain(it.get("subtitle") or ""), it["category"], *(tags + [""] * (5 - len(tags))),
+            it.get("image") or "", int(it["ts"]), "fa-file-text", it["link"], it["source"],
+        ])
+    data = buf.getvalue()
+    try:
+        with open(CSV_FEED, encoding="utf-8") as fh:
+            if fh.read() == data:
+                return False
+    except OSError:
+        pass
+    with open(CSV_FEED, "w", encoding="utf-8") as fh:
+        fh.write(data)
+    return True
+
+
 def write_feed(items):
-    _cleanup_images(items)
     os.makedirs(os.path.dirname(FEED), exist_ok=True)
     xml = (
         '<?xml version="1.0" encoding="utf-8"?>\n'
@@ -406,9 +474,12 @@ def update(state, now, log=print):
             if any(same_story(p["title"], d) for d in near):
                 log("Ροή trifillakia: υπάρχει ήδη →", p["title"])
                 continue
+            p["subtitle"] = subtitle(p["link"])
+            p["tags"] = post_tags(p.pop("base", ""), p.pop("tag_ids", []))
+            p["added"] = now
             state["items"].append(p)
             state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
-            log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"])
+            log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"], "| υπότιτλος:", bool(p["subtitle"]), "| ετικέτες:", ", ".join(p["tags"]))
     # Ερασιτέχνης: pao1908.com, ξαναγραμμένα (έως 5 ανά εκτέλεση, ώστε το backfill από 1/11 να μπαίνει σταδιακά).
     try:
         ours = {_plain(t) for t in state.get("done_titles", [])} | {_plain(i["title"]) for i in state["items"]}
@@ -429,5 +500,13 @@ def update(state, now, log=print):
     newest = sorted(state["items"], key=lambda i: -i["ts"])
     recent = {i["guid"] for i in newest if now - i.get("added", 0) < 6 * 3600}
     state["items"] = [i for n, i in enumerate(newest) if n < 30 or i["guid"] in recent]
-    write_feed(state["items"])
+    # Από 13/11 τα νέα άρθρα πάνε στη ροή CSV (υπότιτλος + ετικέτες). Η XML κρατά μόνο όσα είχε ήδη, ώστε το
+    # παλιό importer να μη φέρει τίποτα νέο και κανένα άρθρο να μη μπει δύο φορές (κάθε importer έχει δικά του GUID).
+    if "xml_done" not in state:
+        state["xml_done"] = list(dict.fromkeys(state.get("done", []) + [i["guid"] for i in state["items"]]))
+    old = set(state["xml_done"])
+    state["xml_done"] = [g for g in state["xml_done"] if g in {i["guid"] for i in state["items"]}]  # μόνο όσα είναι ακόμα στη ροή
+    write_feed([i for i in state["items"] if i["guid"] in old])
+    write_csv([i for i in state["items"] if i["guid"] not in old])
+    _cleanup_images(state["items"])
     return state
