@@ -24,7 +24,8 @@ EVERY = 30 * 60
 GR = {
     "Panathinaikos": "Παναθηναϊκός", "Olympiacos": "Ολυμπιακός", "AEK Athens": "ΑΕΚ", "PAOK": "ΠΑΟΚ",
     "PAOK Salonika": "ΠΑΟΚ", "Aris": "Άρης", "Aris Thessaloniki": "Άρης", "OFI Crete": "ΟΦΗ", "OFI": "ΟΦΗ",
-    "Asteras Tripolis": "Αστέρας Τρίπολης", "Asteras Aktor": "Αστέρας Τρίπολης", "Volos": "Βόλος",
+    "Asteras Tripolis": "Αστέρας Τρίπολης", "Asteras Tripoli": "Αστέρας Τρίπολης", "A.E. Kifisia": "Κηφισιά",
+    "Niki Volos": "Νίκη Βόλου", "Nestos Chrysoupoli": "Νέστος Χρυσούπολης", "Nestos": "Νέστος Χρυσούπολης", "Marko": "Μαρκό", "Asteras Aktor": "Αστέρας Τρίπολης", "Volos": "Βόλος",
     "Volos NFC": "Βόλος", "Levadiakos": "Λεβαδειακός", "Panserraikos": "Πανσερραϊκός", "Atromitos": "Ατρόμητος",
     "Kifisia": "Κηφισιά", "AE Kifisia": "Κηφισιά", "Panetolikos": "Παναιτωλικός", "AEL": "ΑΕΛ",
     "AEL Larissa": "ΑΕΛ", "Larissa": "ΑΕΛ", "Lamia": "Λαμία", "Athens Kallithea": "Καλλιθέα",
@@ -45,6 +46,8 @@ GBL = {
     "ΠΡΟΜΗΘΕΑΣ": "Προμηθέας", "ΠΕΡΙΣΤΕΡΙ": "Περιστέρι", "ΚΟΛΟΣΣΟΣ": "Κολοσσός", "ΜΑΡΟΥΣΙ": "Μαρούσι",
     "ΛΑΥΡΙΟ": "Λαύριο", "ΜΥΚΟΝΟΣ": "Μύκονος", "ΗΡΑΚΛΗΣ": "Ηρακλής", "ΚΑΡΔΙΤΣΑ": "Καρδίτσα",
     "ΑΠΟΛΛΩΝ": "Απόλλων", "ΔΟΞΑ": "Δόξα Λευκάδας", "VIKOS": "Vikos Falcons", "ΜΑΚΕΔΟΝΙΚΟΣ": "Μακεδονικός", "ΠΑΝΙΩΝΙΟΣ": "Πανιώνιος", "ΑΜΑΡΟΥΣΙΟΣ": "Αμαρούσιος",
+}
+CUPLOGO = {
 }
 ELGR = {"Panathinaikos": "Παναθηναϊκός", "Olympiacos": "Ολυμπιακός"}
 
@@ -95,7 +98,8 @@ def cup(espn_logos):
         if len(c) < 10 or not c[0].isdigit():
             continue
         name = re.sub(r"\s*\(.*?\)", "", c[1]).strip()
-        logo = espn_logos.get(name) or next((v for k, v in espn_logos.items() if k.startswith(name) or name.startswith(k)), "")
+        bygr = {gr(k): v for k, v in espn_logos.items()}
+        logo = espn_logos.get(name) or bygr.get(gr(name)) or next((v for k, v in espn_logos.items() if k.startswith(name) or name.startswith(k)), "") or CUPLOGO.get(gr(name), "")
         rows.append({"pos": int(c[0]), "team": gr(name), "logo": logo, "pld": int(c[2]), "w": int(c[3]),
                      "d": int(c[4]), "l": int(c[5]), "gf": int(c[6]), "ga": int(c[7]),
                      "pts": int(re.sub(r"\D", "", c[9]) or 0), "note": c[10] if len(c) > 10 else ""})
