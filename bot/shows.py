@@ -17,7 +17,8 @@ from .cards import ROOT
 from .syndicate import _item, _plain, _s
 
 FEED = os.path.join(ROOT, "docs", "shows-feed.xml")
-SINCE = datetime(2026, 11, 12, tzinfo=timezone.utc).timestamp()  # τα παλιότερα δεν μπαίνουν
+# Από τη μέρα μετά το τελευταίο GREEN VOICE (26/10) που υπήρχε ήδη στο PODCAST: ό,τι παλιότερο δεν μπαίνει.
+SINCE = datetime(2026, 10, 27, tzinfo=timezone.utc).timestamp()
 CATEGORY = "PODCAST"
 FORMAT = "fa-play-circle-o"
 PODCAST_FEED = "https://www.trifillakia.gr/taxonomy/term/3766/feed"
@@ -73,6 +74,8 @@ def update(state, log=print):
         if not v or v["upcoming"]:
             continue  # δεν έχει ξεκινήσει ακόμα
         title = _clean_title(v["title"])
+        if not title:
+            continue  # το YouTube δεν έδωσε τίτλο: ξανά στον επόμενο κύκλο, όχι άρθρο χωρίς τίτλο
         if existing is None:
             existing = _existing_titles()
         if _plain(title) in existing:
