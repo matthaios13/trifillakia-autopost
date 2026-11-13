@@ -349,7 +349,7 @@ def _cleanup_images(items):
 
 
 # Ετικέτες του bala24/totalbasket που είναι εσωτερικές (θέσεις στην αρχική κ.λπ.), όχι θέματα.
-SKIP_TAGS = {"top", "2ndtop", "3rdtop", "hot", "main", "slider", "featured", "breaking", "διεθνη"}
+SKIP_TAGS = {"top", "2ndtop", "3rdtop", "hot", "main", "slider", "featured", "breaking", "διεθνη", "bala", "bala24", "totalbasket"}
 _tag_cache = {}
 
 
