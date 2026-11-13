@@ -176,6 +176,7 @@ def _og_image(link):
 
 
 PAO = "Παναθηναϊκ"
+ORIGIN_RE = re.compile(r"/pao-\d{4,6}(?:-\d+)?(?:-\d+x\d+)?\.(?:jpe?g|png|webp)", re.I)
 
 
 def _plain(text):
@@ -263,6 +264,9 @@ def fetch(source, since_ts, log=None):
             image = _media_url(base, p.get("featured_media"))
             if not image and p.get("featured_media"):
                 image = _og_image(p["link"])
+            if ORIGIN_RE.search(image or ""):  # ήρθε από το trifillakia: όχι πίσω (ούτε μετατροπή φωτογραφίας)
+                seen[f"{name}:{p['id']}"] = {"guid": f"{name}:{p['id']}", "title": title, "image": "", "image_src": image, "ts": ts}
+                continue
             seen[f"{name}:{p['id']}"] = {
                 "guid": f"{name}:{p['id']}",
                 "source": name,
@@ -390,6 +394,12 @@ def update(state, now, log=print):
         ours = {_plain(t) for t in state.get("done_titles", [])} | {_plain(i["title"]) for i in state["items"]}
         existing = [d for d in trifillakia_docs() if _plain(_bmp_plain(d["title"])) not in ours]
         # Χωρίς φωτογραφία: περιμένουμε έως 30 λεπτά (ο συντάκτης συχνά τη βάζει λίγο μετά τη δημοσίευση).
+    # Άρθρα που πήρε το totalbasket/bala24 ΑΠΟ το trifillakia (φωτογραφία «pao-<nid>.jpg») δεν ξαναγυρίζουν
+    # εδώ με άλλον τίτλο (13/11: Γιαννακόπουλος 24940→24955, ΠΑΟ–Μπαρτσελόνα 24938→24956).
+    for p in [p for p in candidates if ORIGIN_RE.search(p.get("image_src") or p.get("image") or "")]:
+        log("Ροή trifillakia: προέρχεται από το trifillakia →", p["title"])
+        state["done"].append(p["guid"])
+    candidates = [p for p in candidates if not ORIGIN_RE.search(p.get("image_src") or p.get("image") or "")]
     candidates = [p for p in candidates if p["image"] or now - p["ts"] > 1800]
     for p in sorted(candidates, key=lambda p: p["ts"]):
             near = [d for d in existing if not d["ts"] or abs(d["ts"] - p["ts"]) < WINDOW]
