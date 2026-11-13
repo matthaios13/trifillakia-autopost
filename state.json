@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-87583.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 24972,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-87583.jpg",
+    "title": "Κοντά στην αποχώρηση του από τον Παναθηναϊκό ο Τσιριβέγια",
+    "url": "https://www.trifillakia.gr/podosfairo/article/24972/konta-stin-apohorisi-toy-apo-ton-panathinaiko-o-tsirivegia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/nuntrifillakia.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 24971,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/olaprasina1908-9-600x400-1.jpg?itok=U1D-l4dz",
     "title": "Τοξοβολία: Το πρωτοπόρο τμήμα του Παναθηναϊκού και οι 33 τίτλοι του",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24894/toxovolia-to-protoporo-tmima-toy-panathinaikoy-kai-oi-33-titloi-toy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5438982-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24893,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/5438982-1.jpg?itok=lLUZLq1O",
-    "title": "Άνετη επικράτηση για το futsal γυναικών του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24893/aneti-epikratisi-gia-to-futsal-gynaikon-toy-panathinaikoy"
    }
   ],
   "wait": {
@@ -10414,6 +10414,12 @@
     "igs": "18122633080946753"
    },
    "tries": 1
+  },
+  "news:24973": {
+   "at": 1794608590.7446382,
+   "claim": "43518429857",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
