@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-germanyfc-48bcf7.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24945,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-germanyfc-48bcf7.jpg",
+    "title": "ELABET: «Ενισχυμένη» γερμανική απόδραση από το Βελιγράδι",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24945/elabet-enishymeni-germaniki-apodrasi-apo-to-veligradi"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/areti-ksinidi.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24944,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-86896.jpg?itok=xwVCWwqC",
     "title": "Προπονητής Τρινιντάντ και Τομπάγκο για Λιβάι Γκαρσία: «Ίσως να είναι μαζί μας στη δεύτερη αναμέτρηση»",
     "url": "https://www.trifillakia.gr/podosfairo/article/24880/proponitis-trinintant-kai-tompagko-gia-livai-gkarsia-isos-na-einai-mazi-mas"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-post-static_25-apodosh_1200x1200_-e216fd.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24879,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-post-static_25-apodosh_1200x1200_-e216fd.jpg",
-    "title": "ELABET: ΑΠΙΣΤΕΥΤΗ απόδοση στα γκολ της Ελλάδας με την Ολλανδία!",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24879/elabet-apisteyti-apodosi-sta-gkol-tis-elladas-me-tin-ollandia"
    }
   ],
   "wait": {
@@ -10182,6 +10182,12 @@
     "igs": "18379476778210505"
    },
    "tries": 1
+  },
+  "news:24946": {
+   "at": 1794568969.3452501,
+   "claim": "43416233615",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
