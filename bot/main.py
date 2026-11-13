@@ -523,11 +523,45 @@ def run_news(st, now, dry):
             ns["recent"] = ns["recent"][:40]
 
 
+LIVE_JSON = os.path.join(ROOT, "docs", "live.json")
+
+
+def write_live(shows):
+    """docs/live.json για το κουτί «Τελευταία εκπομπή» του trifillakia.gr (block 41, live.js):
+    live = εκπομπές LIVE τώρα, next = προγραμματισμένες. Αν η σελίδα κάποιου βίντεο δεν έδωσε στοιχεία
+    (consent στο GitHub), κρατάμε ό,τι ξέραμε γι' αυτό (το site κόβει μόνο του 3 ώρες μετά την έναρξη)."""
+    now = time.time()
+    try:
+        with open(LIVE_JSON, encoding="utf-8") as fh:
+            old = json.load(fh)
+    except (OSError, ValueError):
+        old = {}
+    pick = lambda v: {"id": v["id"], "title": v["title"], "show": v["show"], "topic": v["topic"], "start": v["start"]}
+    live = [pick(v) for v in youtube.LAST["live"]]
+    nxt = [pick(v) for v in shows]
+    unknown = set(youtube.LAST["unknown"])
+    seen = {v["id"] for v in live + nxt}
+    for key, lst in (("live", live), ("next", nxt)):
+        for v in old.get(key, []):
+            if v["id"] in unknown and v["id"] not in seen and (v.get("start") or now) > now - 3 * 3600:
+                lst.append(v)
+                seen.add(v["id"])
+    data = {"live": live, "next": sorted(nxt, key=lambda v: v.get("start") or 0)}
+    if {k: data[k] for k in ("live", "next")} != {k: old.get(k) for k in ("live", "next")}:
+        data["updated"] = int(now)
+        with open(LIVE_JSON, "w", encoding="utf-8") as fh:
+            json.dump(data, fh, ensure_ascii=False)
+
+
 def run_shows(st, dry):
     """Νέα προγραμματισμένη εκπομπή στο YouTube: κάρτα + story στο Instagram, post με το link στο Facebook."""
     shows = youtube.upcoming()
     # Για τη σελίδα του bio (εκεί δείχνει το «link στο bio»).
     st["yt"]["upcoming"] = [{k: v[k] for k in ("id", "url", "show", "topic", "start", "image")} for v in shows]
+    try:
+        write_live(shows)
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα live.json", e)
     for v in shows:
         if is_done(st, f"yt:{v['id']}"):
             continue

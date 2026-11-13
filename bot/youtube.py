@@ -68,8 +68,14 @@ def video(vid):
     }
 
 
+LAST = {"live": [], "unknown": []}  # από το τελευταίο upcoming(): εκπομπές LIVE τώρα / σελίδες χωρίς στοιχεία
+
+
 def upcoming(max_age_days=14):
-    """Οι εκπομπές που είναι ακόμα προγραμματισμένες (δεν έχουν ξεκινήσει), με τη σειρά έναρξης."""
+    """Οι εκπομπές που είναι ακόμα προγραμματισμένες (δεν έχουν ξεκινήσει), με τη σειρά έναρξης.
+    Στο ίδιο πέρασμα γεμίζει το LAST: όσες είναι LIVE τώρα και όσες η σελίδα δεν έδωσε στοιχεία
+    (consent/bot check στους servers του GitHub), για το «LIVE ΤΩΡΑ / Επόμενη εκπομπή» του site."""
+    LAST["live"], LAST["unknown"] = [], []
     r = _s.get(FEED, params={"nc": int(time.time())}, timeout=30)
     if r.status_code != 200:
         return []
@@ -82,6 +88,10 @@ def upcoming(max_age_days=14):
         if time.time() - time.mktime(time.strptime("-".join(pub.groups()), "%Y-%m-%d")) > max_age_days * 86400:
             continue
         v = video(vid.group(1))
+        if v and v["live"]:
+            LAST["live"].append(v)
+        elif v is None or not v["title"]:
+            LAST["unknown"].append(vid.group(1))
         if v and v["upcoming"] and v["start"] and v["start"] > time.time() - 600:
             out.append(v)
     return sorted(out, key=lambda v: v["start"])
