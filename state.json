@@ -642,6 +642,48 @@
    "since": 1793389225.7650325,
    "team": "basketball"
   },
+  "mvp:dxYGxbKl": {
+   "ev": {
+    "away": "Μπαρτσελόνα",
+    "away_id": "EDQLcAfL",
+    "away_score": 76,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-f1XTBdEd.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 74,
+    "id": "dxYGxbKl",
+    "info": "",
+    "periods": [
+     [
+      17,
+      17
+     ],
+     [
+      16,
+      15
+     ],
+     [
+      24,
+      11
+     ],
+     [
+      17,
+      33
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1794597300,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "since": 1794605720.1989226,
+   "team": "basketball"
+  },
   "mvp:n9umnKz0": {
    "ev": {
     "away": "Παναθηναϊκός",
@@ -1928,6 +1970,50 @@
    "round": "4η Αγωνιστική",
    "since": 1793209355.9522302,
    "team": "football"
+  },
+  "tb:dxYGxbKl": {
+   "ev": {
+    "away": "Μπαρτσελόνα",
+    "away_id": "EDQLcAfL",
+    "away_score": 76,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-f1XTBdEd.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "bqRyXX9C",
+    "home_score": 74,
+    "id": "dxYGxbKl",
+    "info": "",
+    "periods": [
+     [
+      17,
+      17
+     ],
+     [
+      16,
+      15
+     ],
+     [
+      24,
+      11
+     ],
+     [
+      17,
+      33
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1794597300,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 11",
+   "round": "11η Αγωνιστική",
+   "since": 1794605720.1989226,
+   "team": "basketball"
   },
   "tb:f1cFp6il": {
    "ev": {
@@ -4968,6 +5054,12 @@
    "nets": {
     "seed": "ok"
    }
+  },
+  "mvp:dxYGxbKl": {
+   "at": 1794605878.664145,
+   "claim": "43511993333",
+   "nets": {},
+   "tries": 0
   },
   "mvp:fss2DYXg": {
    "at": 1791985793.189812,
