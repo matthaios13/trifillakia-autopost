@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-austriafc-098be4.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24978,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-austriafc-098be4.jpg",
+    "title": "ELABET: Η Αυστρία βλέπει άνοδο με Bet Builder ημιχρόνων",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24978/elabet-i-aystria-vlepei-anodo-me-bet-builder-imihronon"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54146.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 24977,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/voulkidis.jpg",
     "title": "Στην καλύτερη ομάδα της 3ης αγωνιστικής ο Βουλκίδης",
     "url": "https://www.trifillakia.gr/volei-andron/article/24904/stin-kalyteri-omada-tis-3is-agonistikis-o-voylkidis"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-87077.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24899,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-87077.jpg",
-    "title": "Παναθηναϊκός: Παίρνει μορφή το νέο γήπεδο – Προχωρούν οι εργασίες για το στέγαστρο (vid)",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24899/panathinaikos-pairnei-morfi-to-neo-gipedo-prohoroyn-oi-ergasies-gia-to"
    }
   ],
   "wait": {
@@ -10468,6 +10468,12 @@
     "igs": "18127964614977102"
    },
    "tries": 1
+  },
+  "news:24979": {
+   "at": 1794640947.3751748,
+   "claim": "43570613913",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
