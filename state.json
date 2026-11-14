@@ -1115,6 +1115,50 @@
    "since": 1793561719.0102344,
    "team": "football"
   },
+  "tb:8bG7KGYh": {
+   "ev": {
+    "away": "Παλαιό Φάληρο",
+    "away_id": "Eu75Z6uj",
+    "away_score": 10,
+    "comp": "Α1",
+    "comp_full": "ΕΛΛΑΔΑ: Α1",
+    "comp_logo": "https://static.flashscore.com/res/image/data/E18keuRp-OvnhoGhE.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "8WFCnEH1",
+    "home_score": 29,
+    "id": "8bG7KGYh",
+    "info": "",
+    "periods": [
+     [
+      8,
+      1
+     ],
+     [
+      9,
+      4
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      8,
+      3
+     ]
+    ],
+    "round": "",
+    "stage": "1",
+    "stage_id": "bTA0nNto",
+    "start": 1794675600,
+    "status": "3",
+    "tour_id": "hfdcqrn4",
+    "tour_path": "/water-polo/greece/a1/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 8",
+   "round": "8η Αγωνιστική",
+   "since": 1794680124.2159836,
+   "team": "waterpolo"
+  },
   "tb:AP5J2iwI": {
    "ev": {
     "away": "Παναθηναϊκός",
