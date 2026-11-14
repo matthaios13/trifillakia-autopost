@@ -1335,6 +1335,54 @@
    "since": 1792700832.7257392,
    "team": "basketball"
   },
+  "tb:Kbe1DeRi": {
+   "ev": {
+    "away": "Ολυμπιακός",
+    "away_id": "p84AgERs",
+    "away_score": 2,
+    "comp": "Novibet Volley League",
+    "comp_full": "ΕΛΛΑΔΑ: Novibet Volley League",
+    "comp_logo": "https://static.flashscore.com/res/image/data/dUqcElC7-feIEyNib.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "d0FeiWQ6",
+    "home_score": 3,
+    "id": "Kbe1DeRi",
+    "info": "",
+    "periods": [
+     [
+      25,
+      22
+     ],
+     [
+      22,
+      25
+     ],
+     [
+      25,
+      21
+     ],
+     [
+      22,
+      25
+     ],
+     [
+      15,
+      12
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "8zxfYRtn",
+    "start": 1794683700,
+    "status": "3",
+    "tour_id": "8nn94rPb",
+    "tour_path": "/volleyball/greece/volley-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 4",
+   "round": "4η Αγωνιστική",
+   "since": 1794693920.3450742,
+   "team": "volley_m"
+  },
   "tb:KtOnzjt0": {
    "ev": {
     "away": "Χάποελ Τελ Αβίβ",
