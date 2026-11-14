@@ -11529,6 +11529,17 @@
  "shows": {
   "items": [
    {
+    "body": "<p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/TzIwykAFI8k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></p><p>Πάλι ΤΡΑΓΙΚΟΣ Παναθηναϊκός, θέλει ΕΝΙΣΧΥΣΗ &amp; ΡΟΛΟΥΣ άμεσα – Ανοικτές Γραμμές</p><p>Δείτε ολόκληρη την εκπομπή στο κανάλι μας στο YouTube: <a href=\"https://www.youtube.com/watch?v=TzIwykAFI8k\" target=\"_blank\">https://www.youtube.com/@trifillakia_gr</a></p>",
+    "category": "PODCAST",
+    "format": "fa-play-circle-o",
+    "guid": "yt-show:TzIwykAFI8k",
+    "image": "https://i.ytimg.com/vi/TzIwykAFI8k/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=TzIwykAFI8k",
+    "source": "YouTube",
+    "title": "ROI MAT SHOW | Πάλι ΤΡΑΓΙΚΟΣ Παναθηναϊκός, θέλει ΕΝΙΣΧΥΣΗ & ΡΟΛΟΥΣ άμεσα | Ανοικτές Γραμμές",
+    "ts": 1794641392.0
+   },
+   {
     "body": "<p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/wGgi0yl2DkI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></p><p></p><p>Δείτε ολόκληρη την εκπομπή στο κανάλι μας στο YouTube: <a href=\"https://www.youtube.com/watch?v=wGgi0yl2DkI\" target=\"_blank\">https://www.youtube.com/@trifillakia_gr</a></p>",
     "category": "PODCAST",
     "format": "fa-play-circle-o",
