@@ -3921,6 +3921,12 @@
     "seed": "ok"
    }
   },
+  "gd:Kbe1DeRi": {
+   "at": 1794643455.5096056,
+   "claim": "43573725128",
+   "nets": {},
+   "tries": 0
+  },
   "gd:KtOnzjt0": {
    "at": 1792134086.1162918,
    "nets": {
@@ -12800,15 +12806,6 @@
   ]
  },
  "yt": {
-  "upcoming": [
-   {
-    "id": "TzIwykAFI8k",
-    "image": "https://i.ytimg.com/vi/TzIwykAFI8k/maxresdefault.jpg",
-    "show": "ROI MAT SHOW",
-    "start": 1794643500,
-    "topic": "Πάλι ΤΡΑΓΙΚΟΣ Παναθηναϊκός, θέλει ΕΝΙΣΧΥΣΗ & ΡΟΛΟΥΣ άμεσα – Ανοικτές Γραμμές",
-    "url": "https://www.youtube.com/watch?v=TzIwykAFI8k"
-   }
-  ]
+  "upcoming": []
  }
 }
