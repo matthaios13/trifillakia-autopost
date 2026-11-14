@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-northirelandfc-d20fb7.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24980,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-northirelandfc-d20fb7.jpg",
+    "title": "ELABET: Η Βόρεια Ιρλανδία έχει δυνατό «combo» πρωτιάς με γκολ και ημίχρονα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24980/elabet-i-voreia-irlandia-ehei-dynato-combo-protias-me-gkol-kai"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-polandfc-d31553.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24979,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-87122.jpg?itok=T7ZZM4jI",
     "title": "Παναθηναϊκός: Σεμινάριο για τους νεαρούς τερματοφύλακες της Ακαδημίας στο πλαίσιο του “Beyond the Game”",
     "url": "https://www.trifillakia.gr/podosfairo/article/24906/panathinaikos-seminario-gia-toys-nearoys-termatofylakes-tis-akadimias-sto"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-87116.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24905,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-87116.jpg?itok=FVvXR5PO",
-    "title": "Παναθηναϊκός: Ιστορική συμφωνία με τη NOVIBET για το naming του νέου γηπέδου στον Βοτανικό",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24905/panathinaikos-istoriki-symfonia-me-ti-novibet-gia-to-naming-toy-neoy"
    }
   ],
   "wait": {
@@ -10486,6 +10486,12 @@
     "igs": "error: {'message': 'The requested resource does not exist', 'code': 24, 'type': 'OAuthException', 'error_subcode': 2207006, 'is_transient': False, 'error_user_msg': 'The media with ID 18,473,506,531,190,860 cannot be found.', 'error_user_title': 'Media not found', 'fbtrace_id': 'A4mlghEPc-LZ-Px6P_zcgi2'}"
    },
    "tries": 1
+  },
+  "news:24981": {
+   "at": 1794641006.3522215,
+   "claim": "43570613913",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
