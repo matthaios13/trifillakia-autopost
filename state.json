@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-polandfc-d31553.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24979,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-polandfc-d31553.jpg",
+    "title": "ELABET: Η Πολωνία έχει σούπερ Bet Builder με γκολ και ημίχρονα κόντρα στη Ρουμανία",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24979/elabet-i-polonia-ehei-soyper-bet-builder-me-gkol-kai-imihrona"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-austriafc-098be4.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24978,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-87116.jpg?itok=FVvXR5PO",
     "title": "Παναθηναϊκός: Ιστορική συμφωνία με τη NOVIBET για το naming του νέου γηπέδου στον Βοτανικό",
     "url": "https://www.trifillakia.gr/podosfairo/article/24905/panathinaikos-istoriki-symfonia-me-ti-novibet-gia-to-naming-toy-neoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/voulkidis.jpg",
-    "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
-    "nid": 24904,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/voulkidis.jpg",
-    "title": "Στην καλύτερη ομάδα της 3ης αγωνιστικής ο Βουλκίδης",
-    "url": "https://www.trifillakia.gr/volei-andron/article/24904/stin-kalyteri-omada-tis-3is-agonistikis-o-voylkidis"
    }
   ],
   "wait": {
@@ -10477,6 +10477,12 @@
     "igs": "18103362503643563"
    },
    "tries": 1
+  },
+  "news:24980": {
+   "at": 1794640980.6778362,
+   "claim": "43570613913",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
