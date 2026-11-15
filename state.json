@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-croatiafc-8b7e9c.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24996,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-croatiafc-8b7e9c.jpg",
+    "title": "ELABET: Η Κροατία έχει δυνατό «boost» σε ημίχρονα για τη σωτηρία της",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24996/elabet-i-kroatia-ehei-dynato-boost-se-imihrona-gia-ti-sotiria"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5445049-scaled.jpg",
     "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
     "nid": 24995,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/ju.jpg",
     "title": "Donegal Celtic: ο σύλλογος του Βελφάστης με το τριφύλλι στο σήμα",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24943/donegal-celtic-o-syllogos-toy-velfastis-me-to-trifylli-sto-sima"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/04-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24942,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/04-1.jpg",
-    "title": "Σαν σήμερα το 2021: Η Γεωργιάδου πήρε την πρώτη θέση στο Παγκόσμιο Γκραν Πρι",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24942/san-simera-to-2021-i-georgiadoy-pire-tin-proti-thesi-sto-pagkosmio-gkran"
    }
   ],
   "wait": {
@@ -10753,6 +10753,12 @@
     "igs": "17968792341200044"
    },
    "tries": 1
+  },
+  "news:24997": {
+   "at": 1794728855.181873,
+   "claim": "43691337621",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
