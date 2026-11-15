@@ -12114,7 +12114,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "bala24.gr:80984",
    "bala24.gr:80987",
    "bala24.gr:80996",
    "bala24.gr:80999",
@@ -12513,7 +12512,8 @@
    "totalbasket.gr:69882",
    "bala24.gr:88040",
    "bala24.gr:88033",
-   "totalbasket.gr:69924"
+   "totalbasket.gr:69924",
+   "bala24.gr:88088"
   ],
   "done_titles": [
    "Μπόνγκα: «Σίγουρα θα αντιδράσουμε – Νιώθω το Telekom Center σαν σπίτι μου»",
@@ -13403,15 +13403,6 @@
   ]
  },
  "yt": {
-  "upcoming": [
-   {
-    "id": "JLnn7cR24co",
-    "image": "https://i.ytimg.com/vi/JLnn7cR24co/sddefault.jpg",
-    "show": "",
-    "start": 1794750000,
-    "topic": "TWO AND A HALF STEPS Κατέρρευσαν οι πράσινοι",
-    "url": "https://www.youtube.com/watch?v=JLnn7cR24co"
-   }
-  ]
+  "upcoming": []
  }
 }
