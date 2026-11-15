@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cyprusfc-04b801.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24997,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cyprusfc-04b801.jpg",
+    "title": "ELABET: Αυλαία με σούπερ «combo» σκοραρίσματος στο Κύπρος – Μαυροβούνιο",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24997/elabet-aylaia-me-soyper-combo-skorarismatos-sto-kypros"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-croatiafc-8b7e9c.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24996,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/areti-ksinidi.jpg",
     "title": "Πέμπτη θέση για την Αρετή Ξυνίδη στο Ευρωπαϊκό Σκάκι",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24944/pempti-thesi-gia-tin-areti-xynidi-sto-eyropaiko-skaki"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/ju.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24943,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/ju.jpg",
-    "title": "Donegal Celtic: ο σύλλογος του Βελφάστης με το τριφύλλι στο σήμα",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24943/donegal-celtic-o-syllogos-toy-velfastis-me-to-trifylli-sto-sima"
    }
   ],
   "wait": {
@@ -10762,6 +10762,12 @@
     "igs": "18039892586849326"
    },
    "tries": 1
+  },
+  "news:24998": {
+   "at": 1794728889.4257565,
+   "claim": "43691337621",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
