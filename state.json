@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88088.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25007,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88088.jpg",
+    "title": "ΑΕΚ Κ15 – Παναθηναϊκός Κ15 1-1: Ο Κάμπος έδωσε τον βαθμό στο φινάλε",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25007/aek-k15-panathinaikos-k15-1-1-o-kampos-edose-ton-vathmo-sto-finale"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/sloukas.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25006,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-87563.jpg",
     "title": "Παναθηναϊκός: Sold-out τα εισιτήρια με Φράιμπουργκ και Νόρτζελαντ",
     "url": "https://www.trifillakia.gr/podosfairo/article/24965/panathinaikos-sold-out-ta-eisitiria-me-fraimpoyrgk-kai-nortzelant"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/mario.png",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 24964,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/mario.png?itok=LTgTB6S4",
-    "title": "Χεζόνια: Ανοιχτή η πόρτα του Παναθηναϊκού – Τι είπε για το συμβόλαιό του με τους Καβαλίερς",
-    "url": "https://www.trifillakia.gr/mpasket/article/24964/hezonia-anoihti-i-porta-toy-panathinaikoy-ti-eipe-gia-to-symvolaio-toy-me-toys"
    }
   ],
   "wait": {
@@ -13423,10 +13423,10 @@
   "upcoming": [
    {
     "id": "JLnn7cR24co",
-    "image": "https://i.ytimg.com/vi/JLnn7cR24co/sddefault.jpg",
-    "show": "",
-    "start": 1794750000,
-    "topic": "TWO AND A HALF STEPS Κατέρρευσαν οι πράσινοι",
+    "image": "https://i.ytimg.com/vi/JLnn7cR24co/maxresdefault.jpg",
+    "show": "TWO AND A HALF STEPS",
+    "start": 1794750300,
+    "topic": "Κατέρρευσαν οι πράσινοι 🏀",
     "url": "https://www.youtube.com/watch?v=JLnn7cR24co"
    }
   ]
