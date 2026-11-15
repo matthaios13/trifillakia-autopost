@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25023,
+  "last": 25024,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11161,6 +11161,12 @@
    },
    "tries": 1
   },
+  "news:25024": {
+   "at": 1794779524.2207272,
+   "claim": "43765873661",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13175,6 +13181,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54218",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/15/WhatsApp-Image-2026-11-15-at-23.12.33-2.jpeg",
+    "imported": 1794779423.736257,
     "link": "https://www.pao1908.com/nea/o-1900os-titlos-irthe-sto-sounio/",
     "source": "pao1908.com",
     "subtitle": "Το «πράσινο» τρίαθλο κατέκτησε το πρωτάθλημα συλλογών με 13.737,1 βαθμούς και πήρε και το WSL Open Water League με 3.338,46 βαθμούς.",
