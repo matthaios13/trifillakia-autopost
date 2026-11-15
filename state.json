@@ -11757,6 +11757,12 @@
    },
    "tries": 1
   },
+  "yt:2CEPnWg7BYI": {
+   "at": 1794732414.663106,
+   "claim": "43695966283",
+   "nets": {},
+   "tries": 0
+  },
   "yt:8_8MP_O5lu8": {
    "at": 1794140226.3522525,
    "nets": {
@@ -13198,6 +13204,15 @@
   ]
  },
  "yt": {
-  "upcoming": []
+  "upcoming": [
+   {
+    "id": "2CEPnWg7BYI",
+    "image": "https://i.ytimg.com/vi/2CEPnWg7BYI/maxresdefault.jpg",
+    "show": "PAO INSIDE",
+    "start": 1794733800,
+    "topic": "ΠΡΩΤΟΣ ο ΠΑΝΑΘΗΝΑΪΚΟΣ, ανοίγει ο φάκελος «ΜΕΤΑΓΡΑΦΕΣ» -Το ΜΠΑΣΚΕΤ εκπέμπει SOS!",
+    "url": "https://www.youtube.com/watch?v=2CEPnWg7BYI"
+   }
+  ]
  }
 }
