@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, shows, standings, ytall, syndicate, wpl, youtube
+from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, shows, standings, trending, ytall, syndicate, wpl, youtube
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -382,6 +382,11 @@ def run(dry=False):
         run_shows(st, dry)
     except Exception as e:  # noqa: BLE001
         log("Σφάλμα εκπομπών YouTube", e)
+
+    try:
+        trending.write(log)
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα trending.json", e)
 
     # MVP και βαθμολογίες που περιμένουν
     for key, p in list(st["pending"].items()):
