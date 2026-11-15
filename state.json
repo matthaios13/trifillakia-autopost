@@ -11833,6 +11833,17 @@
  "shows": {
   "items": [
    {
+    "body": "<p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/2CEPnWg7BYI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></p><p>ΠΡΩΤΟΣ ο ΠΑΝΑΘΗΝΑΪΚΟΣ, ανοίγει ο φάκελος «ΜΕΤΑΓΡΑΦΕΣ» -Το ΜΠΑΣΚΕΤ εκπέμπει SOS!</p><p>Δείτε ολόκληρη την εκπομπή στο κανάλι μας στο YouTube: <a href=\"https://www.youtube.com/watch?v=2CEPnWg7BYI\" target=\"_blank\">https://www.youtube.com/@trifillakia_gr</a></p>",
+    "category": "PODCAST",
+    "format": "fa-play-circle-o",
+    "guid": "yt-show:2CEPnWg7BYI",
+    "image": "https://i.ytimg.com/vi/2CEPnWg7BYI/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=2CEPnWg7BYI",
+    "source": "YouTube",
+    "title": "PAO INSIDE | ΠΡΩΤΟΣ ο ΠΑΝΑΘΗΝΑΪΚΟΣ, ανοίγει ο φάκελος «ΜΕΤΑΓΡΑΦΕΣ» -Το ΜΠΑΣΚΕΤ εκπέμπει SOS!",
+    "ts": 1794732212.0
+   },
+   {
     "body": "<p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/TzIwykAFI8k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></p><p>Πάλι ΤΡΑΓΙΚΟΣ Παναθηναϊκός, θέλει ΕΝΙΣΧΥΣΗ &amp; ΡΟΛΟΥΣ άμεσα – Ανοικτές Γραμμές</p><p>Δείτε ολόκληρη την εκπομπή στο κανάλι μας στο YouTube: <a href=\"https://www.youtube.com/watch?v=TzIwykAFI8k\" target=\"_blank\">https://www.youtube.com/@trifillakia_gr</a></p>",
     "category": "PODCAST",
     "format": "fa-play-circle-o",
@@ -13207,15 +13218,6 @@
   ]
  },
  "yt": {
-  "upcoming": [
-   {
-    "id": "2CEPnWg7BYI",
-    "image": "https://i.ytimg.com/vi/2CEPnWg7BYI/maxresdefault.jpg",
-    "show": "PAO INSIDE",
-    "start": 1794733800,
-    "topic": "ΠΡΩΤΟΣ ο ΠΑΝΑΘΗΝΑΪΚΟΣ, ανοίγει ο φάκελος «ΜΕΤΑΓΡΑΦΕΣ» -Το ΜΠΑΣΚΕΤ εκπέμπει SOS!",
-    "url": "https://www.youtube.com/watch?v=2CEPnWg7BYI"
-   }
-  ]
+  "upcoming": []
  }
 }
