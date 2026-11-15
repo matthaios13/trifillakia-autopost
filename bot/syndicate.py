@@ -276,6 +276,46 @@ def about_pao(title, body, title_only=False):
     return any(w in _plain(lead) for w in PAO_WORDS)
 
 
+YOUTH_RE = re.compile(r"(?<![a-zα-ω])(κ|u)-?1[0-9](?![0-9])|νεων|ακαδημ|εφηβ|παιδ|παμπαιδ|κορασ|γυναικ|πρασινες|βολει|πολο|futsal|χαντμπολ")
+
+
+def slider_ok(category, title, tags=()):
+    """«Appear on Slider?» για άρθρα bala24/totalbasket (15/11, κανόνας χρήστη): ΜΟΝΟ Παναθηναϊκός,
+    ποδόσφαιρο ανδρών και μπάσκετ ανδρών, και η είδηση να αφορά τον Παναθηναϊκό, όχι αντίπαλο
+    (π.χ. «Σπανούλης: …δύσκολο να κερδίσεις Ολυμπιακό και Παναθηναϊκό» = όχι)."""
+    if category not in ("Ποδοσφαιρο", "Μπασκετ"):
+        return False
+    t = _plain(title)
+    if YOUTH_RE.search(t):
+        return False
+    def pao_at(x):
+        hits = [x.find(w) for w in PAO_WORDS + PAO_PEOPLE if w in x]
+        m = re.search(r"(?<![a-zα-ω])παο(?![a-zα-ωκ])", x)
+        if m:
+            hits.append(m.start())
+        return min(hits) if hits else -1
+    head = t.split(":", 1)[0] if ":" in t[:90] else ""
+    is_match = re.search(r"\s[-–]\s", head or t[:60]) is not None
+    # «Σπανούλης: …» / «Μπαρτσελόνα: …»: ο τίτλος ξεκινά με άλλον (δηλώσεις/νέα αντιπάλου)
+    # Δηλώσεις «Πελίστρι: …» περνάνε μόνο αν το άρθρο έχει ετικέτα Παναθηναϊκός και καμία άλλης ομάδας/διεθνή.
+    tg = [_plain(x) for x in tags]
+    pao_tag = any(any(w in x for w in PAO_WORDS) and "ακαδημ" not in x for x in tg)
+    other_tag = any((x[:5].startswith(TEAMS) and x not in ("super league", "stoiximan super league", "euroleague", "basket league"))
+                    or "διεθν" in x or x.startswith("εθνικη ") for x in tg if not any(w in x for w in PAO_WORDS))
+    pos = pao_at(t)
+    if pos < 0:
+        # «Ναν: «Φυσικά και είμαι κουρασμένος…»»: δήλωση παίκτη του ΠΑΟ χωρίς το όνομα της ομάδας στον τίτλο
+        return bool(head) and pao_tag and not other_tag
+    if head and pao_at(head) < 0 and not is_match and not (pao_tag and not other_tag):
+        return False
+    # «Ο Ολυμπιακός νίκησε τον Παναθηναϊκό…»: πρώτα αντίπαλος στον τίτλο, όχι αγώνας «Χ – Παναθηναϊκός»
+    words = re.findall(r"(?<![0-9a-zα-ω])[a-zα-ω]+", t[:pos])
+    if not is_match and any(w[:5].startswith(TEAMS) and w not in ("super", "league", "euroleague", "stoiximan", "gbl")
+                            for w in words):
+        return False
+    return True
+
+
 def fetch(source, since_ts, log=None):
     name, base, filters, category = source
     seen = {}
@@ -432,7 +472,7 @@ def write_csv(items):
     """Ροή CSV για το importer «PAO news CSV»: ξεχωριστές στήλες για υπότιτλο (body:summary), ετικέτες, τμήμα."""
     # Ονόματα στηλών = πηγές του mapping (κλώνος του «PAO news»): description→body, source:url→εικόνα κ.λπ.
     cols = ["guid", "title", "description", "summary", "category", "tag1", "tag2", "tag3", "tag4", "tag5",
-            "source:url", "timestamp", "source:title", "url", "author_name"]
+            "source:url", "timestamp", "source:title", "url", "author_name", "feature"]
     buf = io.StringIO()
     w = csv.writer(buf, quoting=csv.QUOTE_ALL, lineterminator="\n")
     w.writerow(cols)
@@ -442,6 +482,7 @@ def write_csv(items):
             it["guid"], _bmp_plain(it["title"]), _bmp_html(it["body"]).replace("\r", " ").replace("\n", " "),
             _bmp_plain(it.get("subtitle") or ""), it["category"], *(tags + [""] * (5 - len(tags))),
             it.get("image") or "", int(it["ts"]), "fa-file-text", it["link"], it["source"],
+            "yes" if it.get("feature") else "no",
         ])
     data = buf.getvalue()
     try:
@@ -523,7 +564,9 @@ def update(state, now, log=print):
                 log("Ροή trifillakia: υπάρχει ήδη →", p["title"])
                 continue
             p["subtitle"] = subtitle(p["link"])
-            p["tags"] = post_tags(p.pop("base", ""), p.pop("tag_ids", []))
+            base, ids = p.pop("base", ""), p.pop("tag_ids", [])
+            p["tags"] = post_tags(base, ids)
+            p["feature"] = slider_ok(p["category"], p["title"], [_tag_cache.get((base, i), "") for i in ids])
             p["added"] = now
             state["items"].append(p)
             state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
