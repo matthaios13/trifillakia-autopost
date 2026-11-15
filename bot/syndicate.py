@@ -33,7 +33,7 @@ SOURCES = [
     ("bala24.gr", "https://bala24.gr/wp-json/wp/v2/posts", ["categories=55", "tags=47"], "Ποδοσφαιρο"),
     ("totalbasket.gr", "https://totalbasket.gr/wp-json/wp/v2/posts", ["tags=137"], "Μπασκετ"),
 ]
-TRIFILLAKIA_FEEDS = [f"https://www.trifillakia.gr/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5)]
+TRIFILLAKIA_FEEDS = [f"https://www.trifillakia.gr/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 299, 300, 301, 302, 5456)]
 
 _s = requests.Session()
 _s.headers.update({"User-Agent": UA})
@@ -112,7 +112,33 @@ def _opponent(title):
     return ""
 
 
-def same_story(title, doc):
+MARKERS = ("γυναικ", "βολει", "μπασκετ", "πολο", "χαντμπολ", "νεων", "κ19", "κ17")
+
+
+def _markers(text):
+    t = _plain(text)
+    return {m for m in MARKERS if m in t}
+
+
+GENERIC = ("γυναικ", "ανδρ", "εθνικ", "λεωφορ", "κυριακ", "δευτερ", "τριτη", "τεταρτ", "πεμπτ", "παρασκ", "σαββατ",
+           "ιανουα", "φεβρου", "μαρτι", "απριλ", "μαιου", "ιουνι", "ιουλι", "αυγουσ", "σεπτεμ", "οκτωβρ", "νοεμβρ",
+           "δεκεμβ", "πρωταθ", "αγωνισ", "ομαδα", "σεζον", "league", "stoix", "volley")
+
+
+def _body_names(text):
+    """Κύρια ονόματα (κεφαλαίο αρχικό, ≥5 γράμματα), χωρίς ομάδες/ΠΑΟ: «Σιαφαρίκα», «Αντρέεφσκα»."""
+    out = set()
+    for w in re.findall(r"(?<![\w])[Α-ΩΆ-ΏA-Z][^\W\d_]{4,}", text):
+        k = _plain(w)
+        if k not in STOP and not k.startswith(GENERIC) and not k[:5].startswith(TEAMS) and not any(x in k for x in PAO_WORDS):
+            out.add(k[:6])
+    return out
+
+
+RESULT_RE = re.compile(r"νικ|ηττ|επικρατ|ισοπαλ|εχασε|λυγισε|υπεταξε|κερδισε|απωλει|βαθμο|προκρι|αποκλει")
+
+
+def same_story(title, doc, body=""):
     """doc = {"title", "body", "ts"}: άρθρο του trifillakia ή άρθρο που μπήκε ήδη στη ροή. Ίδια είδηση αν:
     1. μοιάζουν πολύ οι τίτλοι, ή
     2. ο τίτλος έχει σκορ (τελικό αποτέλεσμα) και το άλλο άρθρο γράφει το ίδιο σκορ με τον ίδιο αντίπαλο
@@ -124,6 +150,16 @@ def same_story(title, doc):
     # Ο κανόνας του σκορ μόνο για τίτλους ρεπορτάζ (σκορ πριν από την «:»), όχι για άρθρα που απλώς
     # αναφέρουν το αποτέλεσμα (π.χ. «Παναθηναϊκός: 26 τελικές και 5,72 xGoals στο 5-1» = στατιστικά).
     score = _score(re.split(r":", html.unescape(title))[0])
+    # Ρεπορτάζ αγώνα χωρίς σκορ στον τίτλο («Ο ΠΑΟΚ νίκησε τον Παναθηναϊκό…» ↔ «Πρώτη ήττα της σεζόν…»):
+    # ίδιος αντίπαλος, ίδιο άθλημα/φύλο και τουλάχιστον 3 κοινά ονόματα (παίκτριες/σκόρερ) στα κείμενα (15/11).
+    if not score and body and RESULT_RE.search(_plain(title)):
+        mine = html.unescape(re.sub(r"<[^>]+>", " ", body))[:2500]
+        other = doc["title"] + " " + doc.get("body", "")[:2500]
+        opp = _opponent(title)
+        if (opp and opp.startswith(TEAMS) and _markers(title + " " + mine[:400]) == _markers(other[:500])
+                and opp in _plain(other) and "elabet" not in _plain(title + other[:80])
+                and RESULT_RE.search(_plain(other[:600])) and len(_body_names(mine) & _body_names(other)) >= 3):
+            return True
     if score:
         opp = _opponent(title)
         text = _plain(doc["title"] + " " + doc.get("body", "")[:1500])
@@ -465,8 +501,12 @@ def update(state, now, log=print):
     if candidates:
         # Συγκρίνουμε ΜΟΝΟ με όσα έγραψαν οι συντάκτες του trifillakia: άρθρα που ήρθαν από bala24/totalbasket
         # δεν «κόβουν» άλλα άρθρα των ίδιων site (δύο άρθρα του bala24 = δύο ειδήσεις).
-        ours = {_plain(t) for t in state.get("done_titles", [])} | {_plain(i["title"]) for i in state["items"]}
-        existing = [d for d in trifillakia_docs() if _plain(_bmp_plain(d["title"])) not in ours]
+        # Συγκρίνουμε με ΟΛΑ τα άρθρα του trifillakia (συντάκτες, pao1908, άλλη πηγή), εκτός από όσα ήρθαν από την
+        # ΙΔΙΑ πηγή: δύο άρθρα του bala24 = δύο ειδήσεις, αλλά bala24 μετά από pao1908/συντάκτη = ίδια είδηση (15/11).
+        by_src = {}
+        for i in state["items"]:
+            by_src.setdefault(i.get("source", ""), set()).add(_plain(_bmp_plain(i["title"])))
+        existing = trifillakia_docs()
         # Χωρίς φωτογραφία: περιμένουμε έως 30 λεπτά (ο συντάκτης συχνά τη βάζει λίγο μετά τη δημοσίευση).
     # Άρθρα που πήρε το totalbasket/bala24 ΑΠΟ το trifillakia (φωτογραφία «pao-<nid>.jpg») δεν ξαναγυρίζουν
     # εδώ με άλλον τίτλο (13/11: Γιαννακόπουλος 24940→24955, ΠΑΟ–Μπαρτσελόνα 24938→24956).
@@ -476,8 +516,10 @@ def update(state, now, log=print):
     candidates = [p for p in candidates if not ORIGIN_RE.search(p.get("image_src") or p.get("image") or "")]
     candidates = [p for p in candidates if p["image"] or now - p["ts"] > 1800]
     for p in sorted(candidates, key=lambda p: p["ts"]):
-            near = [d for d in existing if not d["ts"] or abs(d["ts"] - p["ts"]) < WINDOW]
-            if any(same_story(p["title"], d) for d in near):
+            mine = by_src.get(p.get("source", ""), set())
+            near = [d for d in existing if (not d["ts"] or abs(d["ts"] - p["ts"]) < WINDOW)
+                    and _plain(_bmp_plain(d["title"])) not in mine]
+            if any(same_story(p["title"], d, p.get("body", "")) for d in near):
                 log("Ροή trifillakia: υπάρχει ήδη →", p["title"])
                 continue
             p["subtitle"] = subtitle(p["link"])
@@ -512,7 +554,16 @@ def update(state, now, log=print):
         state["xml_done"] = list(dict.fromkeys(state.get("done", []) + [i["guid"] for i in state["items"]]))
     old = set(state["xml_done"])
     state["xml_done"] = [g for g in state["xml_done"] if g in {i["guid"] for i in state["items"]}]  # μόνο όσα είναι ακόμα στη ροή
+    # Όσα μπήκαν ήδη στο site βγαίνουν από τη ροή CSV: αλλιώς, αν ο συντάκτης σβήσει το άρθρο, το Feeds
+    # «ξεχνά» ότι το έφερε και το ξαναφέρνει (15/11: ΠΑΟΚ–Παναθηναϊκός γυναικών σβήστηκε 2 φορές και ξαναγύρισε).
+    try:
+        on_site = {_plain(_bmp_plain(d["title"])) for d in trifillakia_docs()}
+    except Exception:  # noqa: BLE001
+        on_site = set()
+    for i in state["items"]:
+        if not i.get("imported") and (_plain(_bmp_plain(i["title"])) in on_site or now - i.get("added", i["ts"]) > 3 * 3600):
+            i["imported"] = now
     write_feed([i for i in state["items"] if i["guid"] in old])
-    write_csv([i for i in state["items"] if i["guid"] not in old])
+    write_csv([i for i in state["items"] if i["guid"] not in old and not i.get("imported")])
     _cleanup_images(state["items"])
     return state
