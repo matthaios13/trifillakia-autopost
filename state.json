@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-spain_england-db6dc9.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 24998,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-spain_england-db6dc9.jpg",
+    "title": "ELABET: Ισπανία – Αγγλία με δυνατό «combo» σε γκολ και σούπερ Bet Builder πρόκρισης για Ιταλία",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24998/elabet-ispania-agglia-me-dynato-combo-se-gkol-kai-soyper-bet"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cyprusfc-04b801.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 24997,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-germanyfc-48bcf7.jpg",
     "title": "ELABET: «Ενισχυμένη» γερμανική απόδραση από το Βελιγράδι",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24945/elabet-enishymeni-germaniki-apodrasi-apo-to-veligradi"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/areti-ksinidi.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24944,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/areti-ksinidi.jpg",
-    "title": "Πέμπτη θέση για την Αρετή Ξυνίδη στο Ευρωπαϊκό Σκάκι",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24944/pempti-thesi-gia-tin-areti-xynidi-sto-eyropaiko-skaki"
    }
   ],
   "wait": {
@@ -10771,6 +10771,12 @@
     "igs": "17996398224105732"
    },
    "tries": 1
+  },
+  "news:24999": {
+   "at": 1794728922.0108545,
+   "claim": "43691337621",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
