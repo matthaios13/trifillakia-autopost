@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25008,
+  "last": 25009,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11021,6 +11021,12 @@
    },
    "tries": 1
   },
+  "news:25009": {
+   "at": 1794751355.6636817,
+   "claim": "43721970682",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -12051,6 +12057,17 @@
  ],
  "shows": {
   "items": [
+   {
+    "body": "<p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/JLnn7cR24co\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></p><p>Κατέρρευσαν οι πράσινοι με Μπάρτσα - Έρχεται καυτή διαβολοβδομάδα!</p><p>Δείτε ολόκληρη την εκπομπή στο κανάλι μας στο YouTube: <a href=\"https://www.youtube.com/watch?v=JLnn7cR24co\" target=\"_blank\">https://www.youtube.com/@trifillakia_gr</a></p>",
+    "category": "PODCAST",
+    "format": "fa-play-circle-o",
+    "guid": "yt-show:JLnn7cR24co",
+    "image": "https://i.ytimg.com/vi/JLnn7cR24co/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=JLnn7cR24co",
+    "source": "YouTube",
+    "title": "TWO AND A HALF STEPS | Κατέρρευσαν οι πράσινοι με Μπάρτσα - Έρχεται καυτή διαβολοβδομάδα!",
+    "ts": 1794748262.0
+   },
    {
     "body": "<p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/2CEPnWg7BYI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></p><p>ΠΡΩΤΟΣ ο ΠΑΝΑΘΗΝΑΪΚΟΣ, ανοίγει ο φάκελος «ΜΕΤΑΓΡΑΦΕΣ» -Το ΜΠΑΣΚΕΤ εκπέμπει SOS!</p><p>Δείτε ολόκληρη την εκπομπή στο κανάλι μας στο YouTube: <a href=\"https://www.youtube.com/watch?v=2CEPnWg7BYI\" target=\"_blank\">https://www.youtube.com/@trifillakia_gr</a></p>",
     "category": "PODCAST",
