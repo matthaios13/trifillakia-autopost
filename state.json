@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/paokolo.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25008,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/paokolo.jpg",
+    "title": "Παναθηναϊκός – Κολοσσός 78-73: Νίκη με χαμηλή πτήση πριν από τη διαβολοβδομάδα – Ξεχώρισαν Ρογκαβόπουλος και Σλούκας",
+    "url": "https://www.trifillakia.gr/mpasket/article/25008/panathinaikos-kolossos-78-73-niki-me-hamili-ptisi-prin-apo-ti-diavolovdomada"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88088.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25007,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pelli%20%281%29.jpg?itok=cwjT_QZO",
     "title": "Η Μπόκα Τζούνιορς θέλει τον Πελίστρι – Ζεστός ο Ρικέλμε, ανοιχτός ο Παναθηναϊκός!",
     "url": "https://www.trifillakia.gr/podosfairo/article/24966/i-mpoka-tzoyniors-thelei-ton-pelistri-zestos-o-rikelme-anoihtos-o"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-87563.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24965,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-87563.jpg",
-    "title": "Παναθηναϊκός: Sold-out τα εισιτήρια με Φράιμπουργκ και Νόρτζελαντ",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24965/panathinaikos-sold-out-ta-eisitiria-me-fraimpoyrgk-kai-nortzelant"
    }
   ],
   "wait": {
@@ -13477,7 +13477,7 @@
     "image": "https://i.ytimg.com/vi/JLnn7cR24co/maxresdefault.jpg",
     "show": "TWO AND A HALF STEPS",
     "start": 1794751200,
-    "topic": "Κατέρρευσαν οι πράσινοι 🏀",
+    "topic": "Κατέρρευσαν οι πράσινοι με Μπάρτσα - Έρχεται καυτή διαβολοβδομάδα!",
     "url": "https://www.youtube.com/watch?v=JLnn7cR24co"
    }
   ]
