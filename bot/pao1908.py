@@ -28,6 +28,8 @@ def section(sport):
         return "Βόλεϊ Γυναικών" if "γυναικ" in t else "Βολεϊ Ανδρών"
     if "μπασκετ γυναικ" in t:
         return "Μπάσκετ Γυναικών"
+    if "ποδοσφαιρ" in t and "γυναικ" in t:  # και «Ακαδημία Ποδοσφαίρου γυναικών»
+        return "Ποδόσφαιρο Γυναικών"
     if "πολο" in t.split() or t.startswith("πολο"):
         return "Πόλο"
     return DEFAULT_CAT

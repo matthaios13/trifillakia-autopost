@@ -208,6 +208,12 @@ TB_VOLLEY = {624}
 
 def sport_category(source, post, title, default):
     cats = set(post.get("categories") or [])
+    if source == "bala24.gr":
+        # γυναικείο ποδόσφαιρο του Παναθηναϊκού → δικό του τμήμα στο trifillakia
+        t = _plain(title)
+        if re.search(r"γυναικ|ποδοσφαιριστρι|women", t):
+            return "Ποδόσφαιρο Γυναικών"
+        return default
     if source != "totalbasket.gr":
         return default
     text = _plain(title + " " + re.sub(r"<[^>]+>", " ", post["content"]["rendered"])[:600])
