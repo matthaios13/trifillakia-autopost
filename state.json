@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25007,
+  "last": 25008,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -2116,6 +2116,38 @@
    "round": "9η Αγωνιστική",
    "since": 1793389225.7650325,
    "team": "basketball"
+  },
+  "tb:dMXoWq6D": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "U133kB5D",
+    "away_score": 1,
+    "comp": "Α Κατηγορία Γυναίκες",
+    "comp_full": "ΕΛΛΑΔΑ: Α Κατηγορία Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/23Uj7yU1-GtRBqEeI.png",
+    "home": "ΠΑΟΚ",
+    "home_id": "GOQVSmsh",
+    "home_score": 3,
+    "id": "dMXoWq6D",
+    "info": "",
+    "periods": [
+     [
+      2,
+      0
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "QXBBUtBt",
+    "start": 1794743100,
+    "status": "3",
+    "tour_id": "2i9trvQh",
+    "tour_path": "/football/greece/division-a-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 7",
+   "round": "7η Αγωνιστική",
+   "since": 1794750916.6857328,
+   "team": "football_w"
   },
   "tb:dUHR8NWh": {
    "ev": {
@@ -10979,6 +11011,12 @@
     "igs": "18121401970997130"
    },
    "tries": 1
+  },
+  "news:25008": {
+   "at": 1794751047.5156422,
+   "claim": "43721506595",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
