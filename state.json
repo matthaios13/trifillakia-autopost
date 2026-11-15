@@ -19,6 +19,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/zotskolossos.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25009,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/zotskolossos.jpg",
+    "title": "Ομπράντοβιτς μετά το Παναθηναϊκός – Κολοσσός: «Δεν θα σχολιάσω τα τελευταία πέντε λεπτά» – Οι παίκτες που ξεχώρισε",
+    "url": "https://www.trifillakia.gr/mpasket/article/25009/omprantovits-meta-to-panathinaikos-kolossos-den-tha-sholiaso-ta-teleytaia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/paokolo.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25008,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pedro.png?itok=zaE7osw1",
     "title": "Ψάχνει πρόταση για να αποχωρήσει ο Τσιριβέγια τον Ιανουάριο",
     "url": "https://www.trifillakia.gr/podosfairo/article/24967/psahnei-protasi-gia-na-apohorisei-o-tsirivegia-ton-ianoyario"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pelli%20%281%29.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 24966,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/pelli%20%281%29.jpg?itok=cwjT_QZO",
-    "title": "Η Μπόκα Τζούνιορς θέλει τον Πελίστρι – Ζεστός ο Ρικέλμε, ανοιχτός ο Παναθηναϊκός!",
-    "url": "https://www.trifillakia.gr/podosfairo/article/24966/i-mpoka-tzoyniors-thelei-ton-pelistri-zestos-o-rikelme-anoihtos-o"
    }
   ],
   "wait": {
@@ -13491,15 +13491,6 @@
   ]
  },
  "yt": {
-  "upcoming": [
-   {
-    "id": "JLnn7cR24co",
-    "image": "https://i.ytimg.com/vi/JLnn7cR24co/maxresdefault.jpg",
-    "show": "TWO AND A HALF STEPS",
-    "start": 1794751200,
-    "topic": "Κατέρρευσαν οι πράσινοι με Μπάρτσα - Έρχεται καυτή διαβολοβδομάδα!",
-    "url": "https://www.youtube.com/watch?v=JLnn7cR24co"
-   }
-  ]
+  "upcoming": []
  }
 }
