@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25043,
+  "last": 25045,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11271,6 +11271,12 @@
    },
    "tries": 1
   },
+  "news:25044": {
+   "at": 1794844330.1118305,
+   "claim": "43900731618",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13286,6 +13292,7 @@
     "feature": true,
     "guid": "bala24.gr:88398",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-88398.jpg",
+    "imported": 1794844230.2795532,
     "link": "https://bala24.gr/panathinaikos-etoimos-o-neos-chlootapitas-tou-oaka/",
     "source": "bala24.gr",
     "subtitle": "Ολοκληρώθηκαν σήμερα (16/11) οι εργασίες στον χλοοτάπητα του ΟΑΚΑ, όπως ανακοίνωσε η ΠΑΕ Παναθηναϊκός.",
@@ -13303,6 +13310,7 @@
     "feature": false,
     "guid": "totalbasket.gr:70076",
     "image": "https://totalbasket.gr/wp-content/uploads/2026/11/gbl-news-70076-v2.jpg",
+    "imported": 1794844230.2795532,
     "link": "https://totalbasket.gr/giabousele-i-pio-talantoucha-omada-stin-opoia-epaixa-pote-o-panathinaikos/",
     "source": "totalbasket.gr",
     "subtitle": "",
