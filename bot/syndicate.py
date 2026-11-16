@@ -525,6 +525,39 @@ def subtitle(link):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", m.group(1)))).strip() if m else ""
 
 
+def _lead_sentence(body, limit=220):
+    """Η πρώτη πρόταση του κειμένου (για υπότιτλο όταν δεν υπάρχει)."""
+    text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", body or ""))).strip()
+    m = re.match(r"(.{40,%d}?[.!;»])(\s|$)" % limit, text)
+    return (m.group(1) if m else text[:limit].rsplit(" ", 1)[0] + "…") if text else ""
+
+
+def make_subtitle(title, body, log=print):
+    """Υπότιτλος όταν η πηγή δεν έχει (π.χ. κάποια άρθρα του totalbasket): μία πρόταση από το Claude,
+    αλλιώς η πρώτη πρόταση του κειμένου (16/11, κανόνας χρήστη: κάθε άρθρο με υπότιτλο)."""
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    lead = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", body or ""))).strip()[:2500]
+    if key and lead:
+        prompt = ("Γράψε υπότιτλο για αθλητικό άρθρο του trifillakia.gr (Παναθηναϊκός): ΜΙΑ πρόταση στα ελληνικά, "
+                  "έως 200 χαρακτήρες, που συμπληρώνει τον τίτλο με το βασικό στοιχείο της είδησης, χωρίς να τον "
+                  "επαναλαμβάνει και χωρίς να επινοεί στοιχεία. Απάντησε ΜΟΝΟ με τον υπότιτλο.\n\n"
+                  f"Τίτλος: {title}\nΚείμενο: {lead}")
+        try:
+            r = requests.post("https://api.anthropic.com/v1/messages", timeout=60, headers={
+                "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+                json={"model": "claude-sonnet-5-5", "max_tokens": 300, "messages": [{"role": "user", "content": prompt}]})
+            if r.status_code == 200:
+                txt = "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
+                txt = re.sub(r"\s+", " ", txt).strip().strip('"«»')
+                if 30 <= len(txt) <= 260 and _plain(txt) != _plain(title):
+                    return txt
+            else:
+                log(f"Ροή trifillakia: υπότιτλος Claude {r.status_code}", r.text[:120].replace("\n", " "))
+        except requests.RequestException as e:
+            log("Ροή trifillakia: σφάλμα υπότιτλου", repr(e)[:120])
+    return _lead_sentence(body)
+
+
 def write_csv(items):
     """Ροή CSV για το importer «PAO news CSV»: ξεχωριστές στήλες για υπότιτλο (body:summary), ετικέτες, τμήμα."""
     # Ονόματα στηλών = πηγές του mapping (κλώνος του «PAO news»): description→body, source:url→εικόνα κ.λπ.
@@ -623,7 +656,7 @@ def update(state, now, log=print):
             if any(same_story(p["title"], d, p.get("body", "")) for d in near):
                 log("Ροή trifillakia: υπάρχει ήδη →", p["title"])
                 continue
-            p["subtitle"] = subtitle(p["link"])
+            p["subtitle"] = subtitle(p["link"]) or make_subtitle(p["title"], p.get("body", ""), log)
             base, ids = p.pop("base", ""), p.pop("tag_ids", [])
             p["tags"] = post_tags(base, ids)
             names = [_tag_cache.get((base, i), "") for i in ids]
