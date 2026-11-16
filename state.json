@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25035,
+  "last": 25036,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11217,6 +11217,12 @@
    },
    "tries": 1
   },
+  "news:25036": {
+   "at": 1794837082.6285095,
+   "claim": "43879625353",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13232,6 +13238,7 @@
     "feature": false,
     "guid": "bala24.gr:88356",
     "image": "https://bala24.gr/wp-content/uploads/2026/11/bala24-c-ofi-crete-fc-v2.jpg",
+    "imported": 1794837035.1406715,
     "link": "https://bala24.gr/ofi-me-arketes-apousies-xekinise-i-proetoimasia-ton-kritikon-enopsei-panathinaikou/",
     "source": "bala24.gr",
     "subtitle": "Με αρκετά προβλήματα ξεκίνησε η προετοιμασία του ΟΦΗ για το παιχνίδι απέναντι στον Παναθηναϊκό (22/11), στο πλαίσιο της 11ης αγωνιστικής της Stoiximan Super League.",
