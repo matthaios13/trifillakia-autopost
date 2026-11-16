@@ -33,7 +33,7 @@ SOURCES = [
     ("bala24.gr", "https://bala24.gr/wp-json/wp/v2/posts", ["categories=55", "tags=47"], "Ποδοσφαιρο"),
     ("totalbasket.gr", "https://totalbasket.gr/wp-json/wp/v2/posts", ["tags=137"], "Μπασκετ"),
 ]
-TRIFILLAKIA_FEEDS = [f"https://www.trifillakia.gr/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 299, 300, 301, 302, 5456, 5496)]
+TRIFILLAKIA_FEEDS = [f"https://www.trifillakia.gr/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 299, 300, 301, 302, 5456, 5496, 5419)]
 
 _s = requests.Session()
 _s.headers.update({"User-Agent": UA})
@@ -314,6 +314,15 @@ def slider_ok(category, title, tags=(), known=()):
                             for w in words):
         return False
     return True
+
+
+STADIUM_RE = re.compile(r"βοτανικ|διπλη αναπλασ|αναπλαση λεωφορ|νεο γηπεδο|γηπεδο του παναθηναικου|γηπεδικ")
+
+
+def is_stadium(title, tags=(), body=""):
+    """Γηπεδικό (16/11, κανόνας χρήστη): ετικέτα ή λέξη «Βοτανικός», «διπλή ανάπλαση» κ.λπ. → κατηγορία Γηπεδικό."""
+    lead = html.unescape(re.sub(r"<[^>]+>", " ", body or ""))[:400]
+    return bool(STADIUM_RE.search(_plain(" ".join([title, " ".join(tags), lead]))))
 
 
 def is_opponent(category, title, tags=(), known=()):
@@ -660,7 +669,9 @@ def update(state, now, log=print):
             base, ids = p.pop("base", ""), p.pop("tag_ids", [])
             p["tags"] = post_tags(base, ids)
             names = [_tag_cache.get((base, i), "") for i in ids]
-            if is_opponent(p["category"], p["title"], names, known):
+            if is_stadium(p["title"], names, p.get("body", "")):
+                p["category"] = "Γηπεδικό"
+            elif is_opponent(p["category"], p["title"], names, known):
                 p["category"] = "Αντίπαλοι"
             p["feature"] = slider_ok(p["category"], p["title"], names, known)
             p["added"] = now
