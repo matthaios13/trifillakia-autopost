@@ -316,7 +316,7 @@ def slider_ok(category, title, tags=()):
     return True
 
 
-def is_opponent(category, title, tags=()):
+def is_opponent(category, title, tags=(), known=()):
     """Είδηση αντιπάλου → κατηγορία «Αντίπαλοι» (16/11, κανόνας χρήστη): «ΟΦΗ: …ενόψει Παναθηναϊκού»,
     «Σπανούλης: …». Δηλώσεις/νέα δικών μας (ετικέτα Παναθηναϊκός χωρίς άλλη ομάδα) μένουν στην ενότητά τους."""
     if category not in ("Ποδοσφαιρο", "Μπασκετ"):
@@ -329,6 +329,11 @@ def is_opponent(category, title, tags=()):
     has_pao = any(w in t for w in PAO_WORDS + PAO_PEOPLE) or _is_pao_abbr(title)
     head = t.split(":", 1)[0] if ":" in t[:90] else ""
     is_match = re.search(r"\s[-–]\s", head or t[:60]) is not None
+    # γνωστό πρόσωπο του Παναθηναϊκού (από άλλα άρθρα με ετικέτα ΠΑΟ), π.χ. «Γιαμπουσέλε: …» χωρίς ετικέτα ΠΑΟ
+    if known and (_plain(head)[:6] in known if head else False):
+        return False
+    if known and not has_pao and not pao_tag and _body_names(title) & set(known):
+        return False
     if not has_pao and not pao_tag:
         return True
     if head and not is_match and not any(w in head for w in PAO_WORDS + PAO_PEOPLE) and not _is_pao_abbr(head):
@@ -337,6 +342,31 @@ def is_opponent(category, title, tags=()):
         if head_is_team or not pao_tag:
             return True
     return False
+
+
+def pao_people(items):
+    """Πρόσωπα του Παναθηναϊκού (ρίζες 6 γραμμάτων) από άρθρα με ετικέτα Παναθηναϊκός: ετικέτες-πρόσωπα
+    («Γκερσόν Γιαμπουσέλε» → «γιαμπου») και ονόματα στον τίτλο («Εκτός οι Γιαμπουσέλε, Σλούκας και Ναν»)."""
+    out = set()
+    for it in items:
+        base, ids = it.get("base"), it.get("tag_ids") or []
+        if not base or not ids:
+            continue
+        tag_names(base, ids)
+        names = [_tag_cache.get((base, i), "") for i in ids]
+        if not any(any(w in _plain(n) for w in PAO_WORDS) for n in names):
+            continue
+        for n in names:
+            k = _plain(n)
+            words = k.split()
+            if (len(words) in (2, 3) and not any(w in k for w in PAO_WORDS) and not words[0][:5].startswith(TEAMS)
+                    and not k.startswith(GENERIC) and not re.search(r"\d|league|euro|cup|κυπελλ|πρωταθλ|εθνικ", k)):
+                out.add(words[-1][:6])
+        # ονόματα μέσα στη φράση (όχι η πρώτη λέξη του τίτλου ή μετά την «:», που έχει πάντα κεφαλαίο)
+        t = it.get("title", "")
+        first = {_plain(w)[:6] for w in re.findall(r"(?:^|[:«\-–]\s*)([^\W\d_]+)", t)}
+        out |= _body_names(t) - first
+    return out
 
 
 def fetch(source, since_ts, log=None):
@@ -562,10 +592,13 @@ def update(state, now, log=print):
     state["done"] = list(dict.fromkeys((state.get("done") or []) + [i["guid"] for i in state["items"]]))[-400:]
     have = {i["guid"] for i in state["items"]} | set(state["blocked"]) | set(state["done"])
     candidates = []
+    known = set(state.get("pao_people") or [])
     for src in SOURCES:
         got = fetch(src, state["since"], log)
+        known |= pao_people(got)
         log(f"Ροή trifillakia: {src[0]} {len(got)} άρθρα, νέα {sum(p['guid'] not in have for p in got)}")
         candidates += [p for p in got if p["guid"] not in have]
+    state["pao_people"] = sorted(known)[-600:]
     if candidates:
         # Συγκρίνουμε ΜΟΝΟ με όσα έγραψαν οι συντάκτες του trifillakia: άρθρα που ήρθαν από bala24/totalbasket
         # δεν «κόβουν» άλλα άρθρα των ίδιων site (δύο άρθρα του bala24 = δύο ειδήσεις).
@@ -594,7 +627,7 @@ def update(state, now, log=print):
             base, ids = p.pop("base", ""), p.pop("tag_ids", [])
             p["tags"] = post_tags(base, ids)
             names = [_tag_cache.get((base, i), "") for i in ids]
-            if is_opponent(p["category"], p["title"], names):
+            if is_opponent(p["category"], p["title"], names, known):
                 p["category"] = "Αντίπαλοι"
             p["feature"] = slider_ok(p["category"], p["title"], names)
             p["added"] = now
