@@ -149,6 +149,112 @@ def euroleague():
     return {"title": "EuroLeague", "kind": "basket", "round": rnd, "rows": rows}
 
 
+def _season_long():
+    y = time.gmtime().tm_year if time.gmtime().tm_mon >= 7 else time.gmtime().tm_year - 1
+    return y
+
+
+def volley_men():
+    """Novibet Volley League ανδρών: υπολογισμός από τα αποτελέσματα (bala24 /trif/v1/scores, πηγή volleyleague.gr).
+    3-0 / 3-1 = 3 βαθμοί στον νικητή, 3-2 = 2 στον νικητή και 1 στον ηττημένο."""
+    d = _get("https://bala24.gr/wp-json/trif/v1/scores?sport=vb", True)
+    comp = next(c for c in d.get("comps", []) if c.get("key") == "vlm")
+    tab = {}
+    for g in comp.get("games", []):
+        h, a = g["home"], g["away"]
+        for t in (h, a):
+            tab.setdefault(t["name"], {"team": t["name"], "logo": t.get("logo", ""), "pld": 0, "w": 0, "l": 0, "sw": 0, "sl": 0, "pts": 0})
+        if h.get("score") is None or a.get("score") is None or max(h["score"], a["score"]) != 3:
+            continue
+        for me, op in ((h, a), (a, h)):
+            r = tab[me["name"]]
+            r["pld"] += 1
+            r["sw"] += me["score"]
+            r["sl"] += op["score"]
+            if me["score"] == 3:
+                r["w"] += 1
+                r["pts"] += 3 if op["score"] < 2 else 2
+            else:
+                r["l"] += 1
+                r["pts"] += 1 if me["score"] == 2 else 0
+    rows = sorted(tab.values(), key=lambda r: (-r["pts"], -r["w"], -(r["sw"] / max(r["sl"], 1)), r["team"]))
+    for i, r in enumerate(rows, 1):
+        r["pos"] = i
+    return {"title": "Novibet Volley League Ανδρών", "kind": "volley", "rows": rows}
+
+
+def volley_women():
+    """Volley League γυναικών: επίσημος πίνακας ΕΟΠΕ (volleyball.gr, SportsPress)."""
+    y = _season_long()
+    slug = f"vathmologia-volley-league-gynaikon-{y}-{y + 1}"
+    t = _get(f"https://volleyball.gr/wp-json/sportspress/v2/tables?slug={slug}&_fields=data", True)[0]["data"]
+    logos = {}
+    try:
+        d = _get("https://bala24.gr/wp-json/trif/v1/scores?sport=vb", True)
+        for c in d.get("comps", []):
+            if c.get("key") == "vlw":
+                for g in c.get("games", []):
+                    for side in (g["home"], g["away"]):
+                        logos[side["name"]] = side.get("logo", "")
+    except Exception:  # noqa: BLE001
+        pass
+    rows = []
+    for k, r in t.items():
+        if not str(k).isdigit() or not str(r.get("pos", "")).isdigit():
+            continue
+        name = html.unescape(r.get("name", "")).strip()
+        rows.append({"pos": int(r.get("pos") or 0), "team": name, "logo": logos.get(name, ""), "pld": int(r.get("p") or 0),
+                     "w": int(r.get("w") or 0), "l": int(r.get("l") or 0), "sw": int(r.get("pw") or 0),
+                     "sl": int(r.get("pl") or 0), "pts": int(r.get("pts") or 0)})
+    rows.sort(key=lambda r: r["pos"])
+    return {"title": "Volley League Γυναικών", "kind": "volley", "rows": rows}
+
+
+def polo_men():
+    """Water Polo League ανδρών: επίσημος πίνακας (waterpololeague.gr)."""
+    y = _season_long() % 100
+    h = _get(f"https://waterpololeague.gr/championship/wpl-{y}-{y + 1}/standings")
+    rows = []
+    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", h, re.S):
+        c = [html.unescape(re.sub(r"<[^>]+>", " ", x)).strip() for x in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
+        c = [re.sub(r"\s+", " ", x) for x in c if x.strip()]
+        if len(c) < 9 or not c[0].isdigit():
+            continue
+        img = re.findall(r'(?:data-twic-src|src)="(https://[^"]+\.(?:png|jpe?g|webp|svg)[^"]*)"', tr)
+        rows.append({"pos": int(c[0]), "team": c[1], "logo": img[0] if img else "", "pts": int(c[2]), "pld": int(c[3]),
+                     "w": int(c[4]), "d": int(c[5]), "l": int(c[6]), "gf": int(c[7]), "ga": int(c[8])})
+    rows.sort(key=lambda r: r["pos"])
+    return {"title": "Water Polo League Ανδρών", "kind": "football", "rows": rows}
+
+
+def basket_women():
+    """Allwyn Women's Basketball League 1 (Α1 γυναικών): επίσημη βαθμολογία ΕΟΚ (apps.basket.gr)."""
+    seasons = _get("https://apps.basket.gr/iframe/seasons/12/standings?competition_id=4")
+    gid = re.findall(r'data-group-id="(\d+)"', seasons)[0]
+    req = urllib.request.Request(f"https://apps.basket.gr/iframe/groups/{gid}/standings", headers=dict(UA, **{"X-Requested-With": "XMLHttpRequest"}))
+    with urllib.request.urlopen(req, timeout=25) as r:
+        h = json.loads(r.read().decode("utf-8", "ignore"))["html"]
+    rows = []
+    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", h, re.S):
+        c = [html.unescape(re.sub(r"<[^>]+>", " ", x)).strip() for x in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
+        img = re.findall(r'<img[^>]+src="([^"]+)"', tr)
+        c = [re.sub(r"\s+", " ", x) for x in c]
+        nums = [x for x in c if re.fullmatch(r"[+-]?\d+", x)]
+        name = next((x for x in c if re.search(r"[Α-ΩA-Z]{3}", x)), "")
+        if not c or not c[0].isdigit() or not name or len(nums) < 5:
+            continue
+        # στήλες: θέση, βαθμοί, αγώνες, νίκες, ήττες, (μηδενισμοί), διαφορά
+        pos, pts, pld, w, l = (int(x) for x in nums[:5])
+        diff = int(nums[-1]) if len(nums) > 5 else 0
+        rows.append({"pos": pos, "team": name, "logo": img[0] if img and len(img[0]) < 20000 else "", "pts": pts, "pld": pld,
+                     "w": w, "l": l, "diff": diff})
+    rows.sort(key=lambda r: r["pos"])
+    return {"title": "Allwyn Women's Basketball League 1", "kind": "basketw", "rows": rows}
+
+
+EXTRA = (("vlm", volley_men), ("vlw", volley_women), ("wpm", polo_men), ("bkw", basket_women))
+
+
 def update(log=print, force=False):
     if not force and os.path.exists(OUT) and time.time() - os.path.getmtime(OUT) < EVERY:
         return
@@ -174,6 +280,17 @@ def update(log=print, force=False):
             log("Βαθμολογία", key, "σφάλμα:", e)
             if key in old:
                 comps[key] = old[key]
+    for key, fn in EXTRA:
+        try:
+            comps[key] = fn()
+            if not comps[key].get("rows"):
+                raise ValueError("κενός πίνακας")
+        except Exception as e:  # noqa: BLE001
+            log("Βαθμολογία", key, "σφάλμα:", e)
+            if key in old:
+                comps[key] = old[key]
+            else:
+                comps.pop(key, None)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump({"updated": int(time.time()), "comps": comps}, fh, ensure_ascii=False)
