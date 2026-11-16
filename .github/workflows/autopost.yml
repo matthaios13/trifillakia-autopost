@@ -71,6 +71,15 @@ jobs:
             curl -s -o /dev/null -w "trifillakia cron: %{http_code} σε %{time_total}s\n" --max-time 120 "$DRUPAL_CRON_URL" || true
           fi
 
+      # Ζέσταμα cache του trifillakia (16/11): η αρχική χωρίς cache θέλει ~5″, οπότε το βαρύ χτίσιμο το κάνει το bot
+      # και όχι ο πρώτος επισκέπτης. Μοναδικό ?warm= ώστε να γίνει πραγματικό render (γεμίζει την cache των Views 5′).
+      - name: Warm trifillakia cache
+        if: ${{ always() && (github.event_name == 'schedule' || inputs.mode == 'run') }}
+        run: |
+          for p in / /podosfairo /mpasket /erasitehnis /radio; do
+            curl -s -o /dev/null -A "Mozilla/5.0 (TrifillakiaWarm)" -w "warm $p: %{http_code} σε %{time_total}s\n" --max-time 60 "https://www.trifillakia.gr$p?warm=$(date +%s)" || true
+          done
+
       - name: Cards
         uses: actions/upload-artifact@v4
         with:
