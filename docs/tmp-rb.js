@@ -13,7 +13,8 @@ var css='.tsrp{position:absolute;top:50%;right:58px;z-index:20;transform:transla
 '.tsrp-eq i:nth-child(1){height:5px}.tsrp-eq i:nth-child(2){height:11px;animation-delay:.25s}.tsrp-eq i:nth-child(3){height:7px;animation-delay:.5s}'+
 '@keyframes tsrpq{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1)}}.tsrp-eq i{transform-origin:bottom}'+
 '.tsrp.mini{padding:0;width:34px;justify-content:center;background:transparent;border-color:transparent}.tsrp.mini .tsrp-tx,.tsrp.mini .tsrp-eq{display:none}'+
-'@media(max-width:767px){.tsrp{right:50px}}';
+'@media(max-width:767px){.tsrp{right:50px}}'+
+'.tsrp.top{position:relative;top:auto;right:auto;transform:none;height:28px;margin:0 12px 0 0;vertical-align:middle;padding:0 11px 0 3px;font-size:11px!important}.tsrp.top .tsrp-ic{width:22px;height:22px}';
 var st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
 var a=document.createElement('a');a.className='tsrp';a.href='/radio';a.title='Άκουσε PAO Radio (ανοίγει μικρό παράθυρο, η μουσική δεν σταματάει)';a.setAttribute('aria-label','PAO Radio');
 a.innerHTML='<span class="tsrp-ic"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l12.5-7.5z"/><\/svg><\/span><span class="tsrp-tx">PAO RADIO<\/span><span class="tsrp-eq"><i><\/i><i><\/i><i><\/i><\/span>';
@@ -22,10 +23,13 @@ a.addEventListener('click',function(ev){ev.preventDefault();
  var p=window.open(URL+'?autoplay=1','paoradio','popup=yes,width='+w+',height='+h+',left='+l+',top='+t);
  if(!p)location.href='/radio';else try{p.focus()}catch(_){}});
 inner.appendChild(a);
-/* αν δεν χωράει δίπλα στο μενού, μένει μόνο το εικονίδιο */
-function fit(){a.classList.remove('mini');if(window.innerWidth<768){a.classList.add('mini');return}
- var lis=[].filter.call(inner.querySelectorAll('#menu-main ul.menu > li'),function(li){return li.offsetParent});var last=lis[lis.length-1];
- if(last&&last.getBoundingClientRect().right+14>a.getBoundingClientRect().left)a.classList.add('mini')}
+/* δίπλα στην αναζήτηση αν χωράει, αλλιώς μόνο εικονίδιο, αλλιώς στη μπάρα πάνω από το λογότυπο (δίπλα στα social) */
+var top=document.querySelector('.region-top-right');
+function hits(){var r=a.getBoundingClientRect();return [].some.call(inner.querySelectorAll('a,img,button'),function(x){if(x===a||a.contains(x))return false;var q=x.getBoundingClientRect();if(!q.width||!q.height)return false;return !(r.right+8<=q.left||q.right+8<=r.left||r.bottom<=q.top||q.bottom<=r.top)})}
+function fit(){a.classList.remove('mini','top');if(a.parentNode!==inner)inner.appendChild(a);
+ if(window.innerWidth<768){a.classList.add('mini');return}
+ if(!hits())return;a.classList.add('mini');if(!hits())return;
+ if(top){a.classList.remove('mini');a.classList.add('top');top.insertBefore(a,top.firstChild)}}
 fit();window.addEventListener('resize',fit);window.addEventListener('load',fit);
 }
 if(document.readyState!=='loading')run();else document.addEventListener('DOMContentLoaded',run);
