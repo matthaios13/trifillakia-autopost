@@ -279,7 +279,7 @@ def about_pao(title, body, title_only=False):
 YOUTH_RE = re.compile(r"(?<![a-zα-ω])(κ|u)-?1[0-9](?![0-9])|νεων|ακαδημ|εφηβ|παιδ|παμπαιδ|κορασ|γυναικ|πρασινες|βολει|πολο|futsal|χαντμπολ")
 
 
-def slider_ok(category, title, tags=()):
+def slider_ok(category, title, tags=(), known=()):
     """«Appear on Slider?» για άρθρα bala24/totalbasket (15/11, κανόνας χρήστη): ΜΟΝΟ Παναθηναϊκός,
     ποδόσφαιρο ανδρών και μπάσκετ ανδρών, και η είδηση να αφορά τον Παναθηναϊκό, όχι αντίπαλο
     (π.χ. «Σπανούλης: …δύσκολο να κερδίσεις Ολυμπιακό και Παναθηναϊκό» = όχι)."""
@@ -305,8 +305,8 @@ def slider_ok(category, title, tags=()):
     pos = pao_at(t)
     if pos < 0:
         # «Ναν: «Φυσικά και είμαι κουρασμένος…»»: δήλωση παίκτη του ΠΑΟ χωρίς το όνομα της ομάδας στον τίτλο
-        return bool(head) and pao_tag and not other_tag
-    if head and pao_at(head) < 0 and not is_match and not (pao_tag and not other_tag):
+        return bool(head) and ((pao_tag and not other_tag) or _plain(head)[:6] in known)
+    if head and pao_at(head) < 0 and not is_match and not (pao_tag and not other_tag) and _plain(head)[:6] not in known:
         return False
     # «Ο Ολυμπιακός νίκησε τον Παναθηναϊκό…»: πρώτα αντίπαλος στον τίτλο, όχι αγώνας «Χ – Παναθηναϊκός»
     words = re.findall(r"(?<![0-9a-zα-ω])[a-zα-ω]+", t[:pos])
@@ -629,7 +629,7 @@ def update(state, now, log=print):
             names = [_tag_cache.get((base, i), "") for i in ids]
             if is_opponent(p["category"], p["title"], names, known):
                 p["category"] = "Αντίπαλοι"
-            p["feature"] = slider_ok(p["category"], p["title"], names)
+            p["feature"] = slider_ok(p["category"], p["title"], names, known)
             p["added"] = now
             state["items"].append(p)
             state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
