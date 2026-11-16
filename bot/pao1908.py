@@ -19,6 +19,7 @@ CATS = {1, 6, 7}  # Δελτία τύπου, ΝΕΑ, Ανακοινώσεις
 START = datetime(2026, 10, 31, 22, 0, tzinfo=timezone.utc).timestamp()  # 1/11/2026 00:00 ώρα Ελλάδας
 LOOKBACK = 7 * 86400
 PER_RUN = 5  # πόσα ξαναγράφονται ανά εκτέλεση (το backfill μπαίνει σταδιακά)
+MAX_FAILS = 3  # τόσες άκυρες απαντήσεις για το ίδιο άρθρο και σταματάμε (16/11: ένα άρθρο ξαναδοκιμαζόταν κάθε 5′ και έκαιγε credits)
 MODEL = "claude-sonnet-5-5"  # Haiku αντέστρεψε σκορ (43-44 → «νίκη 44-43») στις 6/11
 
 # Άθλημα του pao1908 → τμήμα (κατηγορία) του trifillakia, ονόματα όπως στο Drupal. Όλα τα άλλα → Ερασιτέχνης.
@@ -140,9 +141,9 @@ def rewrite(item, key, log=print):
             "subtitle": {"type": "string", "description": "Υπότιτλος, μία πρόταση"},
             "tags": {"type": "array", "items": {"type": "string"}, "description": "3-5 ετικέτες"}}}}
     try:
-        r = requests.post("https://api.anthropic.com/v1/messages", timeout=120, headers={
+        r = requests.post("https://api.anthropic.com/v1/messages", timeout=300, headers={
             "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json",
-        }, json={"model": MODEL, "max_tokens": 4000, "tools": [tool],
+        }, json={"model": MODEL, "max_tokens": 16000, "tools": [tool],
                  "tool_choice": {"type": "auto"},
                  "messages": [{"role": "user", "content": prompt}]})
     except requests.RequestException as e:
@@ -151,7 +152,11 @@ def rewrite(item, key, log=print):
     if r.status_code != 200:
         log(f"pao1908: Claude {r.status_code}", r.text[:200].replace("\n", " "))
         raise ApiError(r.status_code)
-    content = r.json().get("content", [])
+    resp = r.json()
+    if resp.get("stop_reason") == "max_tokens":  # κομμένη απάντηση (π.χ. μεγάλο πρόγραμμα αγώνων)
+        log("pao1908: κομμένη απάντηση Claude (max_tokens) για", item["orig_title"])
+        return None
+    content = resp.get("content", [])
     data = next((b.get("input") for b in content if b.get("type") == "tool_use"), None)
     if data is None:  # χωρίς εργαλείο: JSON μέσα στο κείμενο
         text = "".join(b.get("text", "") for b in content if b.get("type") == "text")
@@ -195,7 +200,7 @@ def checked_rewrite(item, key, log=print):
     return None
 
 
-def candidates(have, existing, same_story, log=print):
+def candidates(have, existing, same_story, log=print, fails=None):
     """Νέα άρθρα, ξαναγραμμένα (έως PER_RUN), έτοιμα για τη ροή. existing = άρθρα του trifillakia."""
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     posts = [p for p in fetch(log) if p["guid"] not in have]
@@ -205,8 +210,12 @@ def candidates(have, existing, same_story, log=print):
     if not key:
         log("pao1908: λείπει το ANTHROPIC_API_KEY, δεν μπαίνει τίποτα")
         return []
+    fails = {} if fails is None else fails
     out = []
     for p in posts:
+        if fails.get(p["guid"], 0) >= MAX_FAILS:
+            log(f"pao1908: παραλείπεται μετά από {MAX_FAILS} αποτυχίες →", p["orig_title"])
+            continue
         if len(out) >= PER_RUN:
             break
         near = [d for d in existing if not d["ts"] or abs(d["ts"] - p["ts"]) < 36 * 3600]
@@ -219,7 +228,10 @@ def candidates(have, existing, same_story, log=print):
         except ApiError:
             break  # σφάλμα API (κλειδί, μοντέλο, όριο): σταματάμε ως την επόμενη εκτέλεση
         if not res:
+            fails[p["guid"]] = fails.get(p["guid"], 0) + 1
+            log(f"pao1908: αποτυχία {fails[p['guid']]}/{MAX_FAILS} →", p["orig_title"])
             continue
+        fails.pop(p["guid"], None)
         title, body, sub, tags = res
         out.append({k: p[k] for k in ("guid", "source", "category", "link", "image", "ts")}
                    | {"title": title, "body": body, "subtitle": sub, "tags": tags})

@@ -575,7 +575,8 @@ def update(state, now, log=print):
     try:
         ours = {_plain(t) for t in state.get("done_titles", [])} | {_plain(i["title"]) for i in state["items"]}
         docs = [d for d in trifillakia_docs() if _plain(_bmp_plain(d["title"])) not in ours]
-        for p in pao1908.candidates(have, docs, same_story, log):
+        fails = state.setdefault("pao_fail", {})
+        for p in pao1908.candidates(have, docs, same_story, log, fails):
             if p.get("skip"):
                 state["done"].append(p["guid"])
                 continue
@@ -585,6 +586,7 @@ def update(state, now, log=print):
             state["done"].append(p["guid"])
             state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
             log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"])
+        state["pao_fail"] = dict(list(fails.items())[-50:])
     except Exception as e:  # noqa: BLE001
         log("Σφάλμα ροής pao1908", repr(e)[:200])
     # Τα 30 πιο πρόσφατα + όσα μπήκαν τις τελευταίες 6 ώρες (παλιά άρθρα του backfill, μέχρι να τα πάρει το Drupal).
