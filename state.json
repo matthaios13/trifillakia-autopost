@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25046,
+  "last": 25047,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11289,6 +11289,12 @@
    },
    "tries": 1
   },
+  "news:25047": {
+   "at": 1794851535.798747,
+   "claim": "43922524089",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13304,6 +13310,7 @@
     "feature": true,
     "guid": "bala24.gr:88446",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-88446.jpg",
+    "imported": 1794851421.9538627,
     "link": "https://bala24.gr/panathinaikos-roma-echoun-eisvallei-ston-choro-ergasion-tou-votanikou-pic/",
     "source": "bala24.gr",
     "subtitle": "Μεγάλο προβληματισμό και ερωτήματα προκαλούν φωτογραφίες από το νέο γήπεδο του Παναθηναϊκού στον Βοτανικό, που εξασφάλισε το olaprasina1908.gr.",
