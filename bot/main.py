@@ -148,6 +148,7 @@ def sync_state(st, message="state"):
         save_state(st)
         biolinks.write(st["news"]["recent"], st["yt"]["upcoming"])
         _git("add", "--ignore-removal", "state.json", "docs")  # ποτέ διαγραφές: αρχεία που ανέβηκαν στο μεταξύ (π.χ. player.html) έσβηναν
+        _git("add", "-A", "docs/img", "docs/img-blogs")  # εκτός από τον καθαρισμό παλιών εικόνων (syndicate/blogs)
         if _git("diff", "--cached", "--quiet").returncode == 0:
             _git("reset", "-q", "--mixed", "origin/main")
             return True
