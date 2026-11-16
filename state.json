@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25045,
+  "last": 25046,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11280,6 +11280,12 @@
    },
    "tries": 1
   },
+  "news:25046": {
+   "at": 1794849748.5135202,
+   "claim": "43917291989",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -12484,7 +12490,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "totalbasket.gr:65285",
    "bala24.gr:81436",
    "bala24.gr:81442",
    "bala24.gr:81435",
@@ -12883,7 +12888,8 @@
    "bala24.gr:88381",
    "bala24.gr:88398",
    "totalbasket.gr:70076",
-   "bala24.gr:88425"
+   "bala24.gr:88425",
+   "totalbasket.gr:70081"
   ],
   "done_titles": [
    "Ο Παναθηναϊκός λύγισε τη Μπασκόνια με 85-79 χάρη στα καθοριστικά τρίποντα",
@@ -13295,6 +13301,7 @@
     "feature": true,
     "guid": "bala24.gr:88425",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-88425.jpg",
+    "imported": 1794849634.449644,
     "link": "https://bala24.gr/stis-exedres-tis-leoforou-o-nistroup-gia-to-mats-tis-ethnikis-elpidon/",
     "source": "bala24.gr",
     "subtitle": "Στη Λεωφόρο βρέθηκε ο προπονητής του Παναθηναϊκού, Τζέικομπ Νίστρουπ, προκειμένου να παρακολουθήσει από κοντά την αναμέτρηση της Εθνικής Ελπίδων με την Ισλανδία.",
