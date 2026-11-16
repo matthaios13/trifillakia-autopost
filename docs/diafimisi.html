@@ -1,0 +1,105 @@
+<style>
+.tsad{--g:#8BD448;--d:#003a20;--m:#005833;font-family:Manrope,Arial,sans-serif;color:#fff;margin:0 0 30px}
+.page-content-wrap:has(.tsad){background:transparent!important;padding:0!important}
+.tsad *{box-sizing:border-box}
+.tsad a{text-decoration:none!important}
+.tsad-hero{position:relative;overflow:hidden;border-radius:22px;padding:46px 40px 40px;background:radial-gradient(circle at 85% 15%,rgba(139,212,72,.35),transparent 45%),linear-gradient(140deg,#006b3d,#003a20 70%);border:1px solid rgba(139,212,72,.35)}
+.tsad-hero:after{content:"";position:absolute;right:-60px;bottom:-60px;width:260px;height:260px;border-radius:50%;border:34px solid rgba(139,212,72,.12)}
+.tsad-kick{display:inline-block;padding:6px 12px;border-radius:999px;background:rgba(139,212,72,.16);border:1px solid rgba(139,212,72,.45);color:var(--g);font:900 11.5px Manrope,Arial,sans-serif;letter-spacing:1.2px}
+.tsad h2.tsad-h{margin:18px 0 14px!important;color:#fff!important;font:900 40px/1.12 Manrope,Arial,sans-serif!important;max-width:720px}
+.tsad h2.tsad-h em{font-style:normal;color:var(--g)}
+.tsad-lead{max-width:640px;margin:0 0 26px!important;color:rgba(255,255,255,.85)!important;font:600 17px/1.6 Manrope,Arial,sans-serif!important}
+.tsad-btns{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:12px}
+.tsad-btn{display:inline-flex;align-items:center;gap:10px;padding:15px 22px;border-radius:14px;font:900 15px Manrope,Arial,sans-serif;transition:transform .2s,box-shadow .2s}
+.tsad-btn:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(0,0,0,.3)}
+.tsad-btn.p{background:var(--g);color:var(--d)!important}
+.tsad-btn.s{background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.45);color:#fff!important}
+.tsad-btn svg{width:18px;height:18px}
+.tsad-stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:18px 0 6px}
+.tsad-stat{padding:18px 14px;border-radius:16px;background:#003a20;border:1px solid rgba(139,212,72,.25);text-align:center}
+.tsad-stat b{display:block;color:var(--g);font:900 30px/1 Manrope,Arial,sans-serif}
+.tsad-stat span{display:block;margin-top:8px;color:rgba(255,255,255,.8);font:700 12.5px/1.35 Manrope,Arial,sans-serif}
+.tsad-note{margin:0 0 30px!important;color:rgba(255,255,255,.55)!important;font:600 12px Manrope,Arial,sans-serif!important;text-align:right}
+.tsad h3.tsad-t{margin:34px 0 6px!important;color:#fff!important;font:900 26px/1.2 Manrope,Arial,sans-serif!important}
+.tsad-sub{margin:0 0 18px!important;color:rgba(255,255,255,.75)!important;font:600 15px/1.55 Manrope,Arial,sans-serif!important}
+.tsad-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.tsad-grid.c3{grid-template-columns:repeat(3,1fr)}
+.tsad-card{padding:20px;border-radius:16px;background:linear-gradient(150deg,#005833,#003a20 80%);border:1px solid rgba(139,212,72,.25)}
+.tsad-ic{display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin-bottom:12px;border-radius:12px;background:var(--g)}
+.tsad-ic svg{width:22px;height:22px;fill:none;stroke:#003a20;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.tsad-card h4{margin:0 0 6px!important;color:#fff!important;font:900 17px/1.3 Manrope,Arial,sans-serif!important}
+.tsad-card p{margin:0!important;color:rgba(255,255,255,.78)!important;font:600 14px/1.55 Manrope,Arial,sans-serif!important}
+.tsad-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;counter-reset:s}
+.tsad-step{position:relative;padding:20px 20px 20px 66px;border-radius:16px;background:#003a20;border:1px dashed rgba(139,212,72,.45)}
+.tsad-step:before{counter-increment:s;content:counter(s);position:absolute;left:18px;top:18px;width:34px;height:34px;border-radius:50%;background:var(--g);color:#003a20;font:900 16px/34px Manrope,Arial,sans-serif;text-align:center}
+.tsad-step h4{margin:0 0 4px!important;color:#fff!important;font:900 16px Manrope,Arial,sans-serif!important}
+.tsad-step p{margin:0!important;color:rgba(255,255,255,.75)!important;font:600 13.5px/1.5 Manrope,Arial,sans-serif!important}
+.tsad-cta{margin-top:34px;padding:34px;border-radius:22px;background:#fff;color:#003a20;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.tsad-cta .l{max-width:560px}
+.tsad-cta small{display:block;color:#006b3d;font:900 11.5px Manrope,Arial,sans-serif;letter-spacing:1.4px}
+.tsad-cta h3{margin:8px 0 8px!important;color:#003a20!important;font:900 26px/1.2 Manrope,Arial,sans-serif!important}
+.tsad-cta p{margin:0!important;color:#2b4a38!important;font:600 15px/1.55 Manrope,Arial,sans-serif!important}
+.tsad-cta .tsad-btn.p{background:#003a20;color:#fff!important}
+.tsad-cta .tsad-btn.s{border-color:#003a20;color:#003a20!important;background:transparent}
+.tsad-mail{margin:16px 0 0!important;color:rgba(255,255,255,.7)!important;font:600 13.5px Manrope,Arial,sans-serif!important;text-align:center}
+.tsad-mail a{color:var(--g)!important;font-weight:800}
+@media(max-width:991px){.tsad-stats{grid-template-columns:repeat(3,1fr)}.tsad-grid.c3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:767px){.tsad-hero{padding:30px 20px 26px;border-radius:18px}.tsad h2.tsad-h{font-size:28px!important}.tsad-lead{font-size:15.5px!important}.tsad-btn{width:100%;justify-content:center}.tsad-stats{grid-template-columns:repeat(2,1fr)}.tsad-stat b{font-size:26px}.tsad-grid,.tsad-grid.c3,.tsad-steps{grid-template-columns:1fr}.tsad h3.tsad-t{font-size:22px!important}.tsad-cta{padding:24px 20px}.tsad-cta h3{font-size:22px!important}.tsad-note{text-align:left}}
+</style>
+<div class="tsad">
+<section class="tsad-hero">
+<span class="tsad-kick">ΔΙΑΦΗΜΙΣΗ ΣΤΟ TRIFILLAKIA.GR</span>
+<h2 class="tsad-h">Το brand σου μπροστά στους <em>φιλάθλους του Παναθηναϊκού</em></h2>
+<p class="tsad-lead">Από το 2008 το Trifillakia.gr είναι το καθημερινό σημείο συνάντησης του πράσινου κόσμου. Ποδόσφαιρο, μπάσκετ, ερασιτέχνης, εκπομπές και live. Ένα κοινό που δεν διαβάζει απλώς, ζει την ομάδα του, και εκεί θα σε δει.</p>
+<div class="tsad-btns">
+<a class="tsad-btn p" href="https://totalsportsmedia.gr/diafimisi/" target="_blank" rel="noopener">Ζήτα πρόταση <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<a class="tsad-btn s" href="https://totalsportsmedia.gr/rantevou/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg> Κλείσε ραντεβού 30′</a>
+</div>
+</section>
+
+<div class="tsad-stats">
+<div class="tsad-stat"><b>2008</b><span>Στον αέρα από τότε, κάθε μέρα</span></div>
+<div class="tsad-stat"><b>3,3M</b><span>Προβολές Instagram σε 30 ημέρες</span></div>
+<div class="tsad-stat"><b>21</b><span>Εκπομπές στο YouTube</span></div>
+<div class="tsad-stat"><b>1.400+</b><span>Βίντεο στα κανάλια μας</span></div>
+<div class="tsad-stat"><b>8</b><span>Αθλητικά sites σε ένα δίκτυο</span></div>
+</div>
+<p class="tsad-note">Στοιχεία δικτύου TotalSports Media Group</p>
+
+<h3 class="tsad-t">Γιατί να διαφημιστείς εδώ</h3>
+<p class="tsad-sub">Δεν αγοράζεις απλώς ένα banner. Μπαίνεις σε μια κοινότητα που μας εμπιστεύεται εδώ και σχεδόν δύο δεκαετίες.</p>
+<div class="tsad-grid">
+<div class="tsad-card"><div class="tsad-ic"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.3-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.3 6c-2.3 4.6-9.3 9-9.3 9z"/></svg></div><h4>Αφοσιωμένο κοινό</h4><p>Οι αναγνώστες μας είναι φίλαθλοι που επιστρέφουν κάθε μέρα, πριν και μετά από κάθε ματς. Το μήνυμά σου το βλέπουν ξανά και ξανά.</p></div>
+<div class="tsad-card"><div class="tsad-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></div><h4>Όλα τα τμήματα</h4><p>Ποδόσφαιρο, μπάσκετ, βόλεϊ, πόλο, γυναικεία τμήματα και ερασιτέχνης. Στόχευση ανά ενότητα, εκεί που ταιριάζει το προϊόν σου.</p></div>
+<div class="tsad-card"><div class="tsad-ic"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z"/></svg></div><h4>Εκπομπές & live</h4><p>Οι εκπομπές του Trifillakia στο YouTube και τα live πριν και μετά τα παιχνίδια. Το όνομά σου μπορεί να γίνει μέρος της εκπομπής.</p></div>
+<div class="tsad-card"><div class="tsad-ic"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="2.5"/><circle cx="19" cy="5" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M7.3 10.9l9.4-4.8M7.3 13.1l9.4 4.8"/></svg></div><h4>Ένα δίκτυο, πολλά κοινά</h4><p>Μέσω της TotalSports Media Group επεκτείνεις την καμπάνια σε Bala24, TotalBasket, PAO Radio και ακόμα 4 sites, με μία συνεργασία.</p></div>
+</div>
+
+<h3 class="tsad-t">Τρόποι προβολής</h3>
+<p class="tsad-sub">Διάλεξε έναν ή συνδύασέ τους. Κάθε πακέτο φτιάχνεται στα μέτρα σου.</p>
+<div class="tsad-grid c3">
+<div class="tsad-card"><div class="tsad-ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div><h4>Banners</h4><p>Θέσεις σε desktop και κινητό, στην αρχική, στα άρθρα ή σε συγκεκριμένη ενότητα.</p></div>
+<div class="tsad-card"><div class="tsad-ic"><svg viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg></div><h4>Χορηγούμενα άρθρα</h4><p>Ιστορίες γραμμένες από την ομάδα μας, στο ύφος του site, με μόνιμη παρουσία στο Google.</p></div>
+<div class="tsad-card"><div class="tsad-ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></div><h4>Social media</h4><p>Collab posts, reels και stories στο Instagram, posts και βίντεο στο Facebook.</p></div>
+<div class="tsad-card"><div class="tsad-ic"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div><h4>Χορηγία εκπομπής</h4><p>«Εκπομπή powered by…»: logo σε intro, σκηνικό και thumbnails, αναφορές από τους παρουσιαστές.</p></div>
+<div class="tsad-card"><div class="tsad-ic"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></div><h4>Shorts & Reels</h4><p>Στιγμές από τις εκπομπές με το brand σου, σε YouTube, Instagram και TikTok.</p></div>
+<div class="tsad-card"><div class="tsad-ic"><svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8v13M3 12h18M12 8S10 3 7.5 3 5 6 7 8M12 8s2-5 4.5-5S19 6 17 8"/></svg></div><h4>Διαγωνισμοί</h4><p>Giveaways και δράσεις με το κοινό, που φέρνουν συμμετοχή και ακόλουθους.</p></div>
+</div>
+
+<h3 class="tsad-t">Πώς ξεκινάμε</h3>
+<p class="tsad-sub">Απλά, γρήγορα, χωρίς δέσμευση.</p>
+<div class="tsad-steps">
+<div class="tsad-step"><h4>Πες μας τι θέλεις</h4><p>Διάλεξε sites, τρόπους προβολής και διάρκεια στη σελίδα της TotalSports Media Group.</p></div>
+<div class="tsad-step"><h4>Παίρνεις πρόταση</h4><p>Σου απαντάμε μέσα σε 24 ώρες με πρόταση και τιμή για τη δική σου καμπάνια.</p></div>
+<div class="tsad-step"><h4>Βγαίνουμε στον αέρα</h4><p>Στήνουμε την καμπάνια και σου στέλνουμε αναφορά αποτελεσμάτων κάθε μήνα.</p></div>
+</div>
+
+<div class="tsad-cta">
+<div class="l"><small>ΔΙΑΦΗΜΙΣΗ ΜΕΣΩ TOTALSPORTS MEDIA GROUP</small><h3>Έτοιμος να σε δει ο πράσινος κόσμος;</h3><p>Η διαφήμιση στο Trifillakia.gr γίνεται μέσω της TotalSports Media Group. Φτιάξε το πακέτο σου online ή κλείσε ένα σύντομο ραντεβού 30 λεπτών με την ομάδα μας.</p></div>
+<div class="tsad-btns">
+<a class="tsad-btn p" href="https://totalsportsmedia.gr/diafimisi/" target="_blank" rel="noopener">Φτιάξε το πακέτο σου <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<a class="tsad-btn s" href="https://totalsportsmedia.gr/rantevou/" target="_blank" rel="noopener">Κλείσε ραντεβού</a>
+</div>
+</div>
+<p class="tsad-mail">Προτιμάς email; Γράψε μας στη <a href="/contact">φόρμα επικοινωνίας</a> με θέμα «Διαφήμιση».</p>
+</div>
