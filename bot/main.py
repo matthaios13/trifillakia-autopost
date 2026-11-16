@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, shows, standings, trending, ytall, syndicate, wpl, youtube
+from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, shows, standings, trending, ytall, syndicate, wpl, youtube, radio
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -387,6 +387,10 @@ def run(dry=False):
         trending.write(log)
     except Exception as e:  # noqa: BLE001
         log("Σφάλμα trending.json", e)
+    try:
+        radio.write(log)
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα radio.json", e)
 
     # MVP και βαθμολογίες που περιμένουν
     for key, p in list(st["pending"].items()):
