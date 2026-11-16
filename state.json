@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25041,
+  "last": 25042,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11253,6 +11253,12 @@
    },
    "tries": 1
   },
+  "news:25042": {
+   "at": 1794841645.4880245,
+   "claim": "43892578802",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13268,6 +13274,7 @@
     "feature": true,
     "guid": "bala24.gr:88381",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-88381.jpg",
+    "imported": 1794841520.89729,
     "link": "https://bala24.gr/panathinaikos-timise-ti-mnimi-tou-dimitri-sarantaki/",
     "source": "bala24.gr",
     "subtitle": "Ο Παναθηναϊκός τίμησε τη μνήμη του Δημήτρη Σαραντάκη, ο οποίος είχε χάσει τη ζωή του στην πρώτη εκδρομή της Θύρας 13.",
