@@ -4,7 +4,7 @@ function run(){
 var box=document.querySelector('.tsrd');if(!box||box.dataset.on)return;box.dataset.on=1;
 var SRC='https://raw.githubusercontent.com/matthaios13/trifillakia-autopost/main/docs/radio.json';
 var TZ='Europe/Athens',DN=['Κυριακή','Δευτέρα','Τρίτη','Τετάρτη','Πέμπτη','Παρασκευή','Σάββατο'];
-var css='.tsrd{font-family:Manrope,Arial,sans-serif;color:#fff;margin:0 0 30px}.tsrd *{box-sizing:border-box}'+
+var css='.tsrd [hidden]{display:none!important}.tsrd{font-family:Manrope,Arial,sans-serif;color:#fff;margin:0 0 30px}.tsrd *{box-sizing:border-box}'+
 '.page-content-wrap:has(.tsrd){background:transparent!important;padding:0!important}'+
 '.tsrd-hero{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:26px;align-items:center;padding:28px;border-radius:22px;background:radial-gradient(circle at 90% 10%,rgba(139,212,72,.3),transparent 45%),linear-gradient(140deg,#006b3d,#003a20 70%);border:1px solid rgba(139,212,72,.35)}'+
 '.tsrd-media{position:relative;border-radius:16px;overflow:hidden;background:#002414;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center}'+
