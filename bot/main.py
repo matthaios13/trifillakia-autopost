@@ -147,7 +147,7 @@ def sync_state(st, message="state"):
         merge_state(st, _remote_state())
         save_state(st)
         biolinks.write(st["news"]["recent"], st["yt"]["upcoming"])
-        _git("add", "state.json", "docs")
+        _git("add", "--ignore-removal", "state.json", "docs")  # ποτέ διαγραφές: αρχεία που ανέβηκαν στο μεταξύ (π.χ. player.html) έσβηναν
         if _git("diff", "--cached", "--quiet").returncode == 0:
             _git("reset", "-q", "--mixed", "origin/main")
             return True
