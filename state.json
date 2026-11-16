@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25049,
+  "last": 25050,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11298,6 +11298,12 @@
    },
    "tries": 1
   },
+  "news:25050": {
+   "at": 1794861451.1577733,
+   "claim": "43951301270",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13313,6 +13319,7 @@
     "feature": true,
     "guid": "bala24.gr:88520",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-88520.jpg",
+    "imported": 1794861316.5691965,
     "link": "https://bala24.gr/votanikos-kleismenes-kai-oi-72-souites-10-ekat-evro-ton-chrono-gia-tin-pae/",
     "source": "bala24.gr",
     "subtitle": "Sold-out και οι 72 σουίτες του νέου γηπέδου του Παναθηναϊκού στον Βοτανικό, με τη ζήτηση να ξεπερνά την προσφορά και να έχει ήδη δημιουργηθεί λίστα αναμονής.",
