@@ -33,7 +33,7 @@ SOURCES = [
     ("bala24.gr", "https://bala24.gr/wp-json/wp/v2/posts", ["categories=55", "tags=47"], "Ποδοσφαιρο"),
     ("totalbasket.gr", "https://totalbasket.gr/wp-json/wp/v2/posts", ["tags=137"], "Μπασκετ"),
 ]
-TRIFILLAKIA_FEEDS = [f"https://www.trifillakia.gr/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 299, 300, 301, 302, 5456)]
+TRIFILLAKIA_FEEDS = [f"https://www.trifillakia.gr/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 299, 300, 301, 302, 5456, 5496)]
 
 _s = requests.Session()
 _s.headers.update({"User-Agent": UA})
@@ -316,6 +316,29 @@ def slider_ok(category, title, tags=()):
     return True
 
 
+def is_opponent(category, title, tags=()):
+    """Είδηση αντιπάλου → κατηγορία «Αντίπαλοι» (16/11, κανόνας χρήστη): «ΟΦΗ: …ενόψει Παναθηναϊκού»,
+    «Σπανούλης: …». Δηλώσεις/νέα δικών μας (ετικέτα Παναθηναϊκός χωρίς άλλη ομάδα) μένουν στην ενότητά τους."""
+    if category not in ("Ποδοσφαιρο", "Μπασκετ"):
+        return False
+    t = _plain(title)
+    if YOUTH_RE.search(t):
+        return False
+    tg = [_plain(x) for x in tags]
+    pao_tag = any(any(w in x for w in PAO_WORDS) and "ακαδημ" not in x for x in tg)
+    has_pao = any(w in t for w in PAO_WORDS + PAO_PEOPLE) or _is_pao_abbr(title)
+    head = t.split(":", 1)[0] if ":" in t[:90] else ""
+    is_match = re.search(r"\s[-–]\s", head or t[:60]) is not None
+    if not has_pao and not pao_tag:
+        return True
+    if head and not is_match and not any(w in head for w in PAO_WORDS + PAO_PEOPLE) and not _is_pao_abbr(head):
+        first = re.findall(r"[a-zα-ω]+", head)
+        head_is_team = bool(first) and first[0][:5].startswith(TEAMS) and first[0] not in ("super", "league", "euroleague", "stoiximan", "gbl")
+        if head_is_team or not pao_tag:
+            return True
+    return False
+
+
 def fetch(source, since_ts, log=None):
     name, base, filters, category = source
     seen = {}
@@ -570,7 +593,10 @@ def update(state, now, log=print):
             p["subtitle"] = subtitle(p["link"])
             base, ids = p.pop("base", ""), p.pop("tag_ids", [])
             p["tags"] = post_tags(base, ids)
-            p["feature"] = slider_ok(p["category"], p["title"], [_tag_cache.get((base, i), "") for i in ids])
+            names = [_tag_cache.get((base, i), "") for i in ids]
+            if is_opponent(p["category"], p["title"], names):
+                p["category"] = "Αντίπαλοι"
+            p["feature"] = slider_ok(p["category"], p["title"], names)
             p["added"] = now
             state["items"].append(p)
             state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
