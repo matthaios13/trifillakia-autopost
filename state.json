@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25024,
+  "last": 25026,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -15,7 +15,9 @@
    "24900": 1794481518.2924283,
    "24901": 1794481518.2924283,
    "24902": 1794481518.2924283,
-   "24903": 1794481518.2924283
+   "24903": 1794481518.2924283,
+   "25025": 1794817518.0164618,
+   "25026": 1794817518.0164618
   },
   "recent": [
    {
@@ -13184,6 +13186,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:16845",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/pao1908-com-16845.jpg",
+    "imported": 1794817518.0164618,
     "link": "https://www.pao1908.com/nea/san-simera-to-1989-trifylloforoi-roki/",
     "source": "pao1908.com",
     "subtitle": "Οι Βασσάλος, Γ. Ιωαννίδης και Β. Ιωαννίδης ανέβηκαν στην κορυφή των κατηγοριών τους και έγραψαν τη δική τους ιστορία με τα «πράσινα».",
@@ -13203,6 +13206,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54228",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/pao1908-com-54228.jpg",
+    "imported": 1794817518.0164618,
     "link": "https://www.pao1908.com/deltia-typoy/to-prasino-programma-tis-evdomadas-156/",
     "source": "pao1908.com",
     "subtitle": "Από το LEN Champions League και τα προκριματικά του EuroBasket γυναικών μέχρι τη Volley League και την επιτραπέζια αντισφαίριση, το πλήρες πρόγραμμα της εβδομάδας.",
