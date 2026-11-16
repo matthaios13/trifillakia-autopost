@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25036,
+  "last": 25041,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11226,6 +11226,12 @@
    },
    "tries": 1
   },
+  "news:25038": {
+   "at": 1794840843.3358567,
+   "claim": "43889945834",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13799,25 +13805,6 @@
     ],
     "title": "Γιένσεν: «Όχι, δεν έχω μιλήσει με τον Τζέικομπ»",
     "ts": 1794675958.0
-   },
-   {
-    "added": 1794819024.2797523,
-    "body": "<p>Η <strong>Malachians Football Club</strong> είναι ημιεπαγγελματική (intermediate) ποδοσφαιρική ομάδα της Βόρειας Ιρλανδίας. Εδρεύει στο Βόρειο Μπέλφαστ και συμμετέχει στο σύστημα της <strong>Northern Amateur Football League (NAFL)</strong>.</p>\n<p>Ο σύλλογος ιδρύθηκε το 1963. Τα παραδοσιακά χρώματα της εμφάνισής του είναι το πράσινο και το λευκό (ριγέ).</p><p><em>Πηγή: <a href=\"https://www.pao1908.com/deltia-typoy/panathinaikos-kai-malachianc-fc-v-irlandias/\" target=\"_blank\" rel=\"noopener\">pao1908.com</a></em></p>",
-    "category": "Ερασιτεχνης",
-    "guid": "pao1908.com:54231",
-    "image": "https://www.pao1908.com/wp-content/uploads/2026/11/16/intermediate-cup-1st-round-image-gallery-man-of-the-match-peoples-in-action-2.jpeg",
-    "imported": 1794830127.7973099,
-    "link": "https://www.pao1908.com/deltia-typoy/panathinaikos-kai-malachianc-fc-v-irlandias/",
-    "source": "pao1908.com",
-    "subtitle": "Ο σύλλογος της Βόρειας Ιρλανδίας ιδρύθηκε το 1963 και αγωνίζεται στη Northern Amateur Football League (NAFL).",
-    "tags": [
-     "Malachians FC",
-     "Βόρεια Ιρλανδία",
-     "Μπέλφαστ",
-     "Northern Amateur Football League"
-    ],
-    "title": "Malachians FC: η ομάδα του Βορείου Μπέλφαστ με πράσινο και λευκό",
-    "ts": 1794559790.0
    }
   ],
   "pao_fail": {},
