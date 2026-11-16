@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_9.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25038,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_9.jpg",
+    "title": "ELABET: Ελλάδα-Σερβία για «Ενισχυμένη» αντίδραση και 0% γκανιότα στη μάχη του Βερολίνου",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25038/elabet-ellada-servia-gia-enishymeni-antidrasi-kai-0-gkaniota"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-c-ofi-crete-fc-v2.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25036,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/georgiadouuu.jpg",
     "title": "Χάλκινο μετάλλιο για τη Γεωργιάδου στο Παγκόσμιο Κύπελλο ξιφασκίας στο Κάιρο",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24986/halkino-metallio-gia-ti-georgiadoy-sto-pagkosmio-kypello-xifaskias-sto"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-14-at-14.21.02.jpeg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24985,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-14-at-14.21.02.jpeg",
-    "title": "Η Κ17 του Παναθηναϊκού νίκησε 2-8 την Ολυμπιάδα Υμηττού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24985/i-k17-toy-panathinaikoy-nikise-2-8-tin-olympiada-ymittoy"
    }
   ],
   "wait": {
@@ -11234,6 +11234,12 @@
     "igs": "18171492199475125"
    },
    "tries": 1
+  },
+  "news:25039": {
+   "at": 1794840893.4214969,
+   "claim": "43889945834",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
