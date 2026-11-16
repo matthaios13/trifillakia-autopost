@@ -279,6 +279,21 @@ def about_pao(title, body, title_only=False):
 YOUTH_RE = re.compile(r"(?<![a-zα-ω])(κ|u)-?1[0-9](?![0-9])|νεων|ακαδημ|εφηβ|παιδ|παμπαιδ|κορασ|γυναικ|πρασινες|βολει|πολο|futsal|χαντμπολ")
 
 
+STADIUM_BIG_RE = re.compile(r"συμφωνι|naming|novibet|σουιτ|εκατ|εργασι|στεγαστρ|αδει|χρηματοδοτ|εγκαιν|παραδοσ|"
+                            r"σχεδι|μακετ|χωρητικ|ολοκληρ|θεμελ|διπλη αναπλασ|καρεκλ|κερκιδ|deal|συμβασ|δημοπρατ|"
+                            r"υπογρα|κυα|νομοσχεδ|σιδηροδρομ|μετρο")
+STADIUM_SMALL_RE = re.compile(r"ρομα|εισβολ|εισεβαλ|κλοπ|κλεψ|επεισοδ|συλληψ|φωτια|πυρκαγ|διαμαρτυρ|καταγγελ|ατυχημ|"
+                              r"τραυματ|σκουπιδ|ποντικ|καταληψ")
+
+
+def stadium_slider_ok(title, body=""):
+    """Γηπεδικό στο slider (16/11, κανόνας χρήστη): μόνο τα σημαντικά (συμφωνίες, πρόοδος έργου, σουίτες,
+    άδειες, χρηματοδότηση, διπλή ανάπλαση…), όχι περιστατικά όπως «Ρομά στον χώρο εργασιών»."""
+    t = _plain(title)
+    lead = _plain(html.unescape(re.sub(r"<[^>]+>", " ", body or ""))[:300])
+    return bool(STADIUM_BIG_RE.search(t)) and not STADIUM_SMALL_RE.search(t + " " + lead)
+
+
 def slider_ok(category, title, tags=(), known=()):
     """«Appear on Slider?» για άρθρα bala24/totalbasket (15/11, κανόνας χρήστη): ΜΟΝΟ Παναθηναϊκός,
     ποδόσφαιρο ανδρών και μπάσκετ ανδρών, και η είδηση να αφορά τον Παναθηναϊκό, όχι αντίπαλο
@@ -673,7 +688,8 @@ def update(state, now, log=print):
                 p["category"] = "Γηπεδικό"
             elif is_opponent(p["category"], p["title"], names, known):
                 p["category"] = "Αντίπαλοι"
-            p["feature"] = slider_ok(p["category"], p["title"], names, known)
+            p["feature"] = (stadium_slider_ok(p["title"], p.get("body", "")) if p["category"] == "Γηπεδικό"
+                            else slider_ok(p["category"], p["title"], names, known))
             p["added"] = now
             state["items"].append(p)
             state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
