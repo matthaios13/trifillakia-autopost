@@ -399,13 +399,17 @@ def drupal_image(url, guid):
     """Φωτογραφία σε μορφή που δέχεται το Drupal. Ό,τι δεν είναι ήδη JPG (WebP, PNG, GIF) γίνεται JPG,
     αποθηκεύεται στο docs/img και σερβίρεται από το GitHub Pages. Οι PNG (συνήθως screenshots) είναι πολύ
     βαριές για το κεντρικό slider του trifillakia (1170x660)."""
-    if not url or os.path.splitext(url.split("?")[0])[1].lower() in (".jpg", ".jpeg"):
+    # JPG με ελληνικά ή κενά στο όνομα (π.χ. «Generic Πρόγραμμα ΑΟ - Copy.jpg» του pao1908) το Drupal δεν τα
+    # κατεβάζει: άρθρο χωρίς φωτογραφία (16/11). Αυτά περνούν κι αυτά από το docs/img.
+    plain = url.isascii() and " " not in url if url else True
+    if not url or (plain and os.path.splitext(url.split("?")[0])[1].lower() in (".jpg", ".jpeg")):
         return url
     name = re.sub(r"[^a-z0-9]+", "-", guid.lower()).strip("-") + ".jpg"
     path = os.path.join(IMG_DIR, name)
     if not os.path.exists(path):
         try:
-            r = _s.get(url, timeout=40)
+            r = _s.get(requests.utils.requote_uri(url), timeout=40)
+            r.raise_for_status()
             im = Image.open(io.BytesIO(r.content))
             if im.mode in ("RGBA", "LA", "P"):
                 im = im.convert("RGBA")
@@ -589,6 +593,9 @@ def update(state, now, log=print):
         state["pao_fail"] = dict(list(fails.items())[-50:])
     except Exception as e:  # noqa: BLE001
         log("Σφάλμα ροής pao1908", repr(e)[:200])
+    for i in state["items"]:  # και όσα μπήκαν ήδη με τέτοια εικόνα (ελληνικά/κενά στο όνομα)
+        if i.get("image") and not i["image"].startswith(PAGES):
+            i["image"] = drupal_image(i["image"], i["guid"])
     # Τα 30 πιο πρόσφατα + όσα μπήκαν τις τελευταίες 6 ώρες (παλιά άρθρα του backfill, μέχρι να τα πάρει το Drupal).
     newest = sorted(state["items"], key=lambda i: -i["ts"])
     recent = {i["guid"] for i in newest if now - i.get("added", 0) < 6 * 3600}
