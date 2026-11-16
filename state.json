@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-icelandfc-6b3712.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25039,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-icelandfc-6b3712.jpg",
+    "title": "ELABET: Ισλανδία – Λουξεμβούργο: Η πρωτιά περνά από το Ρέικιαβικ με ενισχυμένο στο 3.70!",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25039/elabet-islandia-loyxemvoyrgo-i-protia-perna-apo-to-reikiavik"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_9.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25038,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pavlos-dakoutros.jpg",
     "title": "Νικητής στην Αυστραλία ο Δακουτρός με 1503 βαθμούς",
     "url": "https://www.trifillakia.gr/erasitehnis/article/24987/nikitis-stin-aystralia-o-dakoytros-me-1503-vathmoys"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/georgiadouuu.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 24986,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/georgiadouuu.jpg",
-    "title": "Χάλκινο μετάλλιο για τη Γεωργιάδου στο Παγκόσμιο Κύπελλο ξιφασκίας στο Κάιρο",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/24986/halkino-metallio-gia-ti-georgiadoy-sto-pagkosmio-kypello-xifaskias-sto"
    }
   ],
   "wait": {
@@ -11243,6 +11243,12 @@
     "igs": "17968092035983099"
    },
    "tries": 1
+  },
+  "news:25041": {
+   "at": 1794840938.005499,
+   "claim": "43889945834",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
