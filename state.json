@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70383.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25073,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70383.jpg",
+    "title": "Παναθηναϊκός: Καταγγέλλει στη EuroLeague οπαδό της Βίρτους για ρατσιστική συμπεριφορά – «Αποκαλούσε ζώα τους παίκτες μας»",
+    "url": "https://www.trifillakia.gr/mpasket/article/25073/panathinaikos-kataggellei-sti-euroleague-opado-tis-virtoys-gia-ratsistiki"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70326.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25072,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54228.jpg",
     "title": "Οι αγώνες των τμημάτων του Παναθηναϊκού από 16 έως 22 Νοεμβρίου",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25026/oi-agones-ton-tmimaton-toy-panathinaikoy-apo-16-eos-22-noemvrioy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-16845.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25025,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-16845.jpg",
-    "title": "Σαν σήμερα το 1989: τρεις πρωταθλητές στην πυγμαχία του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25025/san-simera-to-1989-treis-protathlites-stin-pygmahia-toy-panathinaikoy"
    }
   ],
   "wait": {
@@ -11724,6 +11724,12 @@
     "igs": "18442012771183847"
    },
    "tries": 1
+  },
+  "news:25074": {
+   "at": 1794958456.236283,
+   "claim": "44199948481",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
