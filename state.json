@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bolognaitta.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25070,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bolognaitta.jpg",
+    "title": "Συνεχίζει να μην βλέπεται ο Παναθηναϊκός και νέα κακή ήττα στη Μπολόνια",
+    "url": "https://www.trifillakia.gr/mpasket/article/25070/synehizei-na-min-vlepetai-o-panathinaikos-kai-nea-kaki-itta-sti-mpolonia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5451958-1.jpg",
     "label": "ΠΟΛΟ",
     "nid": 25069,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-15-at-18.29.11-1.jpeg",
     "title": "Πανελλήνια νίκη και δύο τρίτες θέσεις για την πυγμαχία του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25023/panellinia-niki-kai-dyo-trites-theseis-gia-tin-pygmahia-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-69980.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25022,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-69980.jpg",
-    "title": "Σπανούλης: «Είναι πολύ δύσκολο να κερδίσεις Ολυμπιακό και Παναθηναϊκό, συγχαρητήρια σε παίχτες και κόσμο»",
-    "url": "https://www.trifillakia.gr/mpasket/article/25022/spanoylis-einai-poly-dyskolo-na-kerdiseis-olympiako-kai-panathinaiko"
    }
   ],
   "wait": {
@@ -5308,6 +5308,12 @@
     "igs": "18270701245307266"
    },
    "tries": 1
+  },
+  "mvp:CncRmqpm": {
+   "at": 1794953914.242161,
+   "claim": "44188200401",
+   "nets": {},
+   "tries": 0
   },
   "mvp:Es957u3N": {
    "at": 1791985793.189812,
