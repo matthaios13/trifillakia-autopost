@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-partizanbc-598db4.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25059,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-partizanbc-598db4.jpg",
+    "title": "ELABET: Παρτίζαν – Βαλένθια: «Ενισχυμένη» σύγκρουση άμυνας και επίθεσης",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25059/elabet-partizan-valenthia-enishymeni-sygkroysi-amynas-kai"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_11.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25058,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88088.jpg",
     "title": "ΑΕΚ Κ15 – Παναθηναϊκός Κ15 1-1: Ο Κάμπος έδωσε τον βαθμό στο φινάλε",
     "url": "https://www.trifillakia.gr/podosfairo/article/25007/aek-k15-panathinaikos-k15-1-1-o-kampos-edose-ton-vathmo-sto-finale"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/sloukas.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25006,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/sloukas.jpg",
-    "title": "200άρης ο Σλούκας με τον Παναθηναϊκό AKTOR",
-    "url": "https://www.trifillakia.gr/mpasket/article/25006/200aris-o-sloykas-me-ton-panathinaiko-aktor"
    }
   ],
   "wait": {
@@ -11438,6 +11438,12 @@
     "igs": "17895767247684373"
    },
    "tries": 1
+  },
+  "news:25060": {
+   "at": 1794931677.8525972,
+   "claim": "44121689510",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
