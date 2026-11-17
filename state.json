@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5450233-scaled.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25062,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5450233-scaled.jpg",
+    "title": "Βραβεύσεις αθλητών και προπονητών των τμημάτων ΑμεΑ του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25062/vraveyseis-athliton-kai-proponiton-ton-tmimaton-amea-toy-panathinaikoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-walesfc-3b74b5.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25061,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54190.jpg",
     "title": "Πρόκριση στο Πανελλήνιο Παίδων-Κορασίδων για το σκάκι του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25010/prokrisi-sto-panellinio-paidon-korasidon-gia-to-skaki-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/zotskolossos.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25009,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/zotskolossos.jpg?itok=rZIli_GO",
-    "title": "Ομπράντοβιτς μετά το Παναθηναϊκός – Κολοσσός: «Δεν θα σχολιάσω τα τελευταία πέντε λεπτά» – Οι παίκτες που ξεχώρισε",
-    "url": "https://www.trifillakia.gr/mpasket/article/25009/omprantovits-meta-to-panathinaikos-kolossos-den-tha-sholiaso-ta-teleytaia"
    }
   ],
   "wait": {
