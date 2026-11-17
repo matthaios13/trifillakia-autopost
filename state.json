@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-polandfc-2168f2.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25060,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-polandfc-2168f2.jpg",
+    "title": "ELABET: Πολωνία – Σουηδία: Παραμονή vs άνοδος με 0% γκανιότα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25060/elabet-polonia-soyidia-paramoni-vs-anodos-me-0-gkaniota"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-partizanbc-598db4.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25059,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/paokolo.jpg",
     "title": "Παναθηναϊκός – Κολοσσός 78-73: Νίκη με χαμηλή πτήση πριν από τη διαβολοβδομάδα – Ξεχώρισαν Ρογκαβόπουλος και Σλούκας",
     "url": "https://www.trifillakia.gr/mpasket/article/25008/panathinaikos-kolossos-78-73-niki-me-hamili-ptisi-prin-apo-ti-diavolovdomada"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88088.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25007,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88088.jpg",
-    "title": "ΑΕΚ Κ15 – Παναθηναϊκός Κ15 1-1: Ο Κάμπος έδωσε τον βαθμό στο φινάλε",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25007/aek-k15-panathinaikos-k15-1-1-o-kampos-edose-ton-vathmo-sto-finale"
    }
   ],
   "wait": {
@@ -11447,6 +11447,12 @@
     "igs": "18039045971662919"
    },
    "tries": 1
+  },
+  "news:25061": {
+   "at": 1794931714.7463448,
+   "claim": "44121689510",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
