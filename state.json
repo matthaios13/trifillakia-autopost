@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25069,
+  "last": 25070,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -520,6 +520,48 @@
     "tour_path": "/basketball/europe/euroleague/"
    },
    "since": 1792700832.7257392,
+   "team": "basketball"
+  },
+  "mvp:CncRmqpm": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "bqRyXX9C",
+    "away_score": 79,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-f1XTBdEd.png",
+    "home": "Βίρτους Μπολόνια",
+    "home_id": "YwDFycYd",
+    "home_score": 84,
+    "id": "CncRmqpm",
+    "info": "",
+    "periods": [
+     [
+      19,
+      20
+     ],
+     [
+      21,
+      23
+     ],
+     [
+      20,
+      13
+     ],
+     [
+      24,
+      23
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1794945600,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "since": 1794953725.0835786,
    "team": "basketball"
   },
   "mvp:KtOnzjt0": {
@@ -1469,6 +1511,50 @@
    "raw_round": "Αγωνιστική ημέρα: 7",
    "round": "7η Αγωνιστική",
    "since": 1792700832.7257392,
+   "team": "basketball"
+  },
+  "tb:CncRmqpm": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "bqRyXX9C",
+    "away_score": 79,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-f1XTBdEd.png",
+    "home": "Βίρτους Μπολόνια",
+    "home_id": "YwDFycYd",
+    "home_score": 84,
+    "id": "CncRmqpm",
+    "info": "",
+    "periods": [
+     [
+      19,
+      20
+     ],
+     [
+      21,
+      23
+     ],
+     [
+      20,
+      13
+     ],
+     [
+      24,
+      23
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1794945600,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 12",
+   "round": "12η Αγωνιστική",
+   "since": 1794953725.0835786,
    "team": "basketball"
   },
   "tb:Kbe1DeRi": {
@@ -11592,6 +11678,12 @@
     "igs": "18101410280436515"
    },
    "tries": 1
+  },
+  "news:25070": {
+   "at": 1794953863.9289658,
+   "claim": "44188200401",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
