@@ -12957,7 +12957,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "bala24.gr:81874",
    "bala24.gr:81901",
    "totalbasket.gr:65691",
    "totalbasket.gr:65700",
@@ -13356,7 +13355,8 @@
    "pao1908.com:54298",
    "totalbasket.gr:70344",
    "totalbasket.gr:70346",
-   "totalbasket.gr:70383"
+   "totalbasket.gr:70383",
+   "totalbasket.gr:70392"
   ],
   "done_titles": [
    "Παναθηναϊκός: Ο Νίστρουπ πήγε στον κόσμο μετά τη νίκη στον Βόλο και αποθεώθηκε! (vid)",
@@ -13787,6 +13787,7 @@
     "feature": true,
     "guid": "totalbasket.gr:70383",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-70383.jpg",
+    "imported": 1794958539.8469057,
     "link": "https://totalbasket.gr/panathinaikos-katangellei-sti-euroleague-opado-tis-virtous-gia-ratsistiki-syberifora-apokalouse-zoa-tous-paiktes-mas/",
     "source": "totalbasket.gr",
     "subtitle": "Οπαδός του Παναθηναϊκού κατήγγειλε προσβλητική συμπεριφορά από φιλάθλους της Βίρτους προς τους παίκτες, ενώ έκανε λόγο και για ειρωνική στάση των ανθρώπων ασφαλείας.",
@@ -13805,6 +13806,7 @@
     "feature": false,
     "guid": "totalbasket.gr:70346",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-70346.jpg",
+    "imported": 1794958539.8469057,
     "link": "https://totalbasket.gr/virtous-panathinaikos-84-79-nea-provlimatiki-emfanisi-kai-itta-sti-bolonia/",
     "source": "totalbasket.gr",
     "subtitle": "Ο Παναθηναϊκός δεν κατάφερε να περιορίσει τη δράση των ψηλών της Βίρτους και γνώρισε την ήττα με 84-79 στη Μπολόνια, παρουσιάζοντας ξανά προβληματική εικόνα.",
@@ -13823,6 +13825,7 @@
     "feature": true,
     "guid": "totalbasket.gr:70344",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-70344.jpg",
+    "imported": 1794958539.8469057,
     "link": "https://totalbasket.gr/obrantovits-itan-ena-paichnidi-pou-eprepe-na-paixoume-dynata/",
     "source": "totalbasket.gr",
     "subtitle": "Τα όσα δήλωσε ο Ζέλικο Ομπράντοβιτς μετά την εκτός έδρας ήττα του Παναθηναϊκού από τη Βίρτους Μπολόνια.",
