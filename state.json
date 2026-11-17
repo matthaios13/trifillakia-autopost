@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25062,
+  "last": 25063,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11466,6 +11466,12 @@
    },
    "tries": 1
   },
+  "news:25063": {
+   "at": 1794935488.2156065,
+   "claim": "44133976890",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13481,6 +13487,7 @@
     "feature": true,
     "guid": "bala24.gr:88728",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-88728.jpg",
+    "imported": 1794935442.5755448,
     "link": "https://bala24.gr/panathinaikos-gemato-90lepto-gia-ton-kangkoua-me-ti-zabia-pote-ensomatonetai-stis-proponiseis/",
     "source": "bala24.gr",
     "subtitle": "Ο Κινγκς Κάνγκουα επέστρεψε στις διεθνείς υποχρεώσεις, παίρνοντας φανέλα βασικού στην αναμέτρηση της Ζάμπια με το Μπουρούντι.",
