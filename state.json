@@ -179,6 +179,14 @@
     "url": "https://www.trifillakia.gr/erasitehnis/article/25027/malachians-fc-i-omada-toy-voreioy-mpelfast-me-prasino-kai-leyko"
    },
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-16845.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25025,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-16845.jpg",
+    "title": "Σαν σήμερα το 1989: τρεις πρωταθλητές στην πυγμαχία του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25025/san-simera-to-1989-treis-protathlites-stin-pygmahia-toy-panathinaikoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-15-at-23.12.33-2.jpeg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25024,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/paoosfpvolley.jpg",
     "title": "Παναθηναϊκός – Ολυμπιακός 10-0: Το απόλυτο σερί στα ντέρμπι, με τους «ερυθρόλευκους» να έχουν μεγαλύτερο μπάτζετ",
     "url": "https://www.trifillakia.gr/volei-andron/article/25000/panathinaikos-olympiakos-10-0-to-apolyto-seri-sta-ntermpi-me-toys"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arisbc-9f1511.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24999,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arisbc-9f1511.jpg",
-    "title": "ELABET: Άρης – Ολυμπιακός με «ερυθρόλευκο» combo στη Θεσσαλονίκη",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24999/elabet-aris-olympiakos-me-erythroleyko-combo-sti-thessaloniki"
    }
   ],
   "wait": {
@@ -11202,6 +11202,12 @@
     "igs": "18120794624594994"
    },
    "tries": 1
+  },
+  "news:25026": {
+   "at": 1794917766.537234,
+   "claim": "44081112313",
+   "nets": {},
+   "tries": 0
   },
   "news:25027": {
    "at": 1794821886.589276,
