@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/d0b0a644-df25-4e46-867f-43b49b7523e7.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25066,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/d0b0a644-df25-4e46-867f-43b49b7523e7.jpg",
+    "title": "Σαν σήμερα το 1995: ο Σαμπάνης στην κορυφή του κόσμου στα 59 κιλά",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25066/san-simera-to-1995-o-sampanis-stin-koryfi-toy-kosmoy-sta-59-kila"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5451298-1.jpg",
     "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
     "nid": 25065,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5446630-1.jpg",
     "title": "Νίκη με 0-3 στο Μαρκόπουλο για το βόλεϊ γυναικών του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/25017/niki-me-0-3-sto-markopoylo-gia-to-volei-gynaikon-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/907577797_3178092385720716_819847585769928592_n.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25015,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/907577797_3178092385720716_819847585769928592_n.jpg",
-    "title": "Πολλές νίκες για τους σκοπευτές του Παναθηναϊκού στον Βύρωνα",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25015/polles-nikes-gia-toys-skopeytes-toy-panathinaikoy-ston-vyrona"
    }
   ],
   "wait": {
@@ -11501,6 +11501,12 @@
     "igs": "18132761612487500"
    },
    "tries": 1
+  },
+  "news:25067": {
+   "at": 1794946059.883104,
+   "claim": "44164694458",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
