@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5452049-1-1.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25071,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5452049-1-1.jpg",
+    "title": "Η Δάφνη Π. Φαλήρου σταμάτησε το τριφύλλι στο futsal γυναικών",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25071/i-dafni-p-faliroy-stamatise-to-trifylli-sto-futsal-gynaikon"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bolognaitta.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25070,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-15-at-23.12.33-2.jpeg",
     "title": "Πρωταθλητής Ελλάδας στο τρίαθλο ο Παναθηναϊκός με νέο ρεκόρ βαθμών",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25024/protathlitis-elladas-sto-triathlo-o-panathinaikos-me-neo-rekor-vathmon"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-15-at-18.29.11-1.jpeg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25023,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-15-at-18.29.11-1.jpeg",
-    "title": "Πανελλήνια νίκη και δύο τρίτες θέσεις για την πυγμαχία του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25023/panellinia-niki-kai-dyo-trites-theseis-gia-tin-pygmahia-toy-panathinaikoy"
    }
   ],
   "wait": {
@@ -11706,6 +11706,12 @@
     "igs": "18179502301454448"
    },
    "tries": 1
+  },
+  "news:25072": {
+   "at": 1794955054.1281407,
+   "claim": "44191472048",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
