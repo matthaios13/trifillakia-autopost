@@ -83,6 +83,14 @@
     "url": "https://www.trifillakia.gr/podosfairo/article/25046/stis-exedres-tis-leoforoy-o-nistroyp-gia-to-mats-tis-ethnikis-elpidon"
    },
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/giampousele-panathinaikos.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25045,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/giampousele-panathinaikos.jpg",
+    "title": "Γιαμπουσέλε: «Η πιο ταλαντούχα ομάδα στην οποία έπαιξα ποτέ ο Παναθηναϊκός»",
+    "url": "https://www.trifillakia.gr/mpasket/article/25045/giampoysele-i-pio-talantoyha-omada-stin-opoia-epaixa-pote-o-panathinaikos"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88398.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25044,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88033.jpg",
     "title": "«FIFA Virus» σε αριθμούς: 42 διεθνείς, 280.000 χιλιόμετρα και η «παγίδα» της 11ης αγωνιστικής",
     "url": "https://www.trifillakia.gr/podosfairo/article/25003/fifa-virus-se-arithmoys-42-diethneis-280000-hiliometra-kai-i-pagida-tis"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-69882.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25002,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-69882.jpg",
-    "title": "Παναθηναϊκός: Χωρίς Λεσόρ και Μπάντιο κόντρα στον Κολοσσό, επιστρέφει ο Ρογκαβόπουλος",
-    "url": "https://www.trifillakia.gr/mpasket/article/25002/panathinaikos-horis-lesor-kai-mpantio-kontra-ston-kolosso-epistrefei-o"
    }
   ],
   "wait": {
