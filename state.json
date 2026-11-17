@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5451958-1.jpg",
+    "label": "ΠΟΛΟ",
+    "nid": 25069,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5451958-1.jpg",
+    "title": "Επικράτηση του Παναθηναϊκού με 14-12 επί της Μαρσέιγ",
+    "url": "https://www.trifillakia.gr/polo/article/25069/epikratisi-toy-panathinaikoy-me-14-12-epi-tis-marseig"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54288.jpg",
     "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
     "nid": 25068,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-69980.jpg",
     "title": "Σπανούλης: «Είναι πολύ δύσκολο να κερδίσεις Ολυμπιακό και Παναθηναϊκό, συγχαρητήρια σε παίχτες και κόσμο»",
     "url": "https://www.trifillakia.gr/mpasket/article/25022/spanoylis-einai-poly-dyskolo-na-kerdiseis-olympiako-kai-panathinaiko"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88118.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25021,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88118.jpg",
-    "title": "ΑΕΚ – Παναθηναϊκός Κ15: Η Ένωση διαμαρτύρεται για τρία πέναλτι και το φάουλ της ισοφάρισης",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25021/aek-panathinaikos-k15-i-enosi-diamartyretai-gia-tria-penalti-kai-to-faoyl"
    }
   ],
   "wait": {
