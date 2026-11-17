@@ -492,6 +492,10 @@ def run_news(st, now, dry):
         elif status == "hidden":
             misses = 0
             ns["wait"].setdefault(str(nid), now)
+        elif status == "error":
+            # ο server δεν απάντησε: σταματάμε εδώ και ξαναδοκιμάζουμε στην επόμενη εκτέλεση (όχι «δεν υπάρχει»)
+            log("Ειδήσεις: το site δεν απαντά στο άρθρο", nid, "- ξανά στην επόμενη εκτέλεση")
+            break
         else:
             misses += 1
         if nid > home + 200:
@@ -502,6 +506,9 @@ def run_news(st, now, dry):
             ns["wait"].pop(str(nid), None)
             continue
         status, url = news.probe(nid)
+        if status == "error":
+            ns["wait"].setdefault(str(nid), now)  # ξανά στην επόμενη εκτέλεση
+            continue
         if status != "ok":
             continue
         ns["wait"].pop(str(nid), None)

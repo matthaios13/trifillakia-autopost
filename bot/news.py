@@ -55,7 +55,9 @@ def probe(nid):
         # Με «?nc=…» παρακάμπτουμε την cache του site, που κρατά το 404 ενός νούμερου έως 1 ώρα.
         r = _s.get(f"{SITE}/node/{nid}", params={"nc": int(time.time())}, allow_redirects=False, timeout=20)
     except requests.RequestException:
-        return None, None
+        return "error", None  # timeout/σύνδεση: ΔΕΝ σημαίνει ότι δεν υπάρχει (17/11: χάθηκε το 25053 σε 524)
+    if r.status_code >= 500:
+        return "error", None
     if r.status_code in (301, 302) and "/article/" in r.headers.get("Location", ""):
         return "ok", r.headers["Location"].split("?", 1)[0]
     if r.status_code == 403:
