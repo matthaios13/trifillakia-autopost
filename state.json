@@ -12549,7 +12549,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "bala24.gr:81553",
    "totalbasket.gr:65525",
    "bala24.gr:81578",
    "bala24.gr:81562",
@@ -12948,7 +12947,8 @@
    "bala24.gr:88520",
    "pao1908.com:54252",
    "bala24.gr:88604",
-   "pao1908.com:54256"
+   "pao1908.com:54256",
+   "bala24.gr:88625"
   ],
   "done_titles": [
    "Παναθηναϊκός: Η αποστολή του Τριφυλλιού για το ματς με τον Βόλο",
@@ -13360,6 +13360,7 @@
     "feature": true,
     "guid": "bala24.gr:88625",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-88625.jpg",
+    "imported": 1794915417.7050457,
     "link": "https://bala24.gr/panathinaikos-me-proini-proponisi-synechistike-i-proetoimasia-gia-ton-ofi/",
     "source": "bala24.gr",
     "subtitle": "Ο Παναθηναϊκός συνέχισε την προετοιμασία του στο \"Γεώργιος Καλαφάτης\" ενόψει του αγώνα με τον ΟΦΗ για την 11η αγωνιστική της Stoiximan Super League. Ρεπό την Τετάρτη.",
@@ -13377,6 +13378,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54256",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/17/907812770_1486216487047093_3350261987231642267_n.jpg",
+    "imported": 1794915417.7050457,
     "link": "https://www.pao1908.com/nea/dynamika-trifyllia-sto-porets/",
     "source": "pao1908.com",
     "subtitle": "Οι Γιώργος Πλέας και Παναγιώτης Κωστούρος αγωνίστηκαν με τα χρώματα του Παναθηναϊκού, αλλά δεν πήραν τη νίκη στις μονομαχίες τους.",
