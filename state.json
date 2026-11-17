@@ -179,6 +179,14 @@
     "url": "https://www.trifillakia.gr/erasitehnis/article/25027/malachians-fc-i-omada-toy-voreioy-mpelfast-me-prasino-kai-leyko"
    },
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54228.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25026,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54228.jpg",
+    "title": "Οι αγώνες των τμημάτων του Παναθηναϊκού από 16 έως 22 Νοεμβρίου",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25026/oi-agones-ton-tmimaton-toy-panathinaikoy-apo-16-eos-22-noemvrioy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-16845.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25025,
@@ -329,14 +337,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-69882.jpg",
     "title": "Παναθηναϊκός: Χωρίς Λεσόρ και Μπάντιο κόντρα στον Κολοσσό, επιστρέφει ο Ρογκαβόπουλος",
     "url": "https://www.trifillakia.gr/mpasket/article/25002/panathinaikos-horis-lesor-kai-mpantio-kontra-ston-kolosso-epistrefei-o"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/paoosfpvolley.jpg",
-    "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
-    "nid": 25000,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/paoosfpvolley.jpg",
-    "title": "Παναθηναϊκός – Ολυμπιακός 10-0: Το απόλυτο σερί στα ντέρμπι, με τους «ερυθρόλευκους» να έχουν μεγαλύτερο μπάτζετ",
-    "url": "https://www.trifillakia.gr/volei-andron/article/25000/panathinaikos-olympiakos-10-0-to-apolyto-seri-sta-ntermpi-me-toys"
    }
   ],
   "wait": {
@@ -11319,6 +11319,12 @@
     "igs": "18020156267745619"
    },
    "tries": 1
+  },
+  "news:25045": {
+   "at": 1794917806.570893,
+   "claim": "44081112313",
+   "nets": {},
+   "tries": 0
   },
   "news:25046": {
    "at": 1794849774.0377102,
