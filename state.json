@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70346.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25074,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70346.jpg",
+    "title": "Βίρτους – Παναθηναϊκός 84-79: Νέα προβληματική εμφάνιση και ήττα στη Μπολόνια",
+    "url": "https://www.trifillakia.gr/mpasket/article/25074/virtoys-panathinaikos-84-79-nea-provlimatiki-emfanisi-kai-itta-sti-mpolonia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70383.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25073,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/intermediate-cup-1st-round-image-gallery-man-of-the-match-peoples-in-action-2.jpeg",
     "title": "Malachians FC: η ομάδα του Βορείου Μπέλφαστ με πράσινο και λευκό",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25027/malachians-fc-i-omada-toy-voreioy-mpelfast-me-prasino-kai-leyko"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54228.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25026,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54228.jpg",
-    "title": "Οι αγώνες των τμημάτων του Παναθηναϊκού από 16 έως 22 Νοεμβρίου",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25026/oi-agones-ton-tmimaton-toy-panathinaikoy-apo-16-eos-22-noemvrioy"
    }
   ],
   "wait": {
@@ -11733,6 +11733,12 @@
     "igs": "18219875041349231"
    },
    "tries": 1
+  },
+  "news:25075": {
+   "at": 1794958489.0982468,
+   "claim": "44199948481",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
