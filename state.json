@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25050,
+  "last": 25051,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11327,6 +11327,12 @@
    },
    "tries": 1
   },
+  "news:25051": {
+   "at": 1794910930.8574274,
+   "claim": "44063875982",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13341,6 +13347,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54252",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/17/WhatsApp-Image-2026-11-16-at-08.13.35.jpg",
+    "imported": 1794910823.4773142,
     "link": "https://www.pao1908.com/nea/trifylli-kai-ston-marathona-apo-ton-maxitiko-aggelokostopoulo/",
     "source": "pao1908.com",
     "subtitle": "Ο ποδηλάτης του Παναθηναϊκού τερμάτισε στην 9η θέση σε διαδρομή 95 χιλιομέτρων με 2.000 μέτρα θετικής υψομετρικής διαφοράς.",
