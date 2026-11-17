@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25070,
+  "last": 25072,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11698,6 +11698,12 @@
    },
    "tries": 1
   },
+  "news:25071": {
+   "at": 1794955022.1388042,
+   "claim": "44191472048",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -12912,7 +12918,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "totalbasket.gr:65558",
    "bala24.gr:81819",
    "totalbasket.gr:65666",
    "bala24.gr:81874",
@@ -13311,7 +13316,8 @@
    "bala24.gr:81685",
    "pao1908.com:54291",
    "totalbasket.gr:70326",
-   "pao1908.com:54298"
+   "pao1908.com:54298",
+   "totalbasket.gr:70344"
   ],
   "done_titles": [
    "Παναθηναϊκός: Από την αναζήτηση του γκολ στην επιθετική πολυφωνία – Οι αριθμοί λένε την ιστορία",
@@ -13739,6 +13745,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54298",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/17/5452049-1-1.jpg",
+    "imported": 1794954915.9851246,
     "link": "https://www.pao1908.com/nea/itta-apo-ti-dafni-p-falirou/",
     "source": "pao1908.com",
     "subtitle": "Η πρώτη απώλεια της σεζόν για την ομάδα του Τηλέμαχου Κοσμίδη, με γκολ των Μοσκοφίδου, Μωραΐτου και Αλεξοπούλου.",
@@ -13759,6 +13766,7 @@
     "feature": false,
     "guid": "totalbasket.gr:70326",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-70326.jpg",
+    "imported": 1794954915.9851246,
     "link": "https://totalbasket.gr/den-ta-katafere-oute-stin-bolonia-o-provlimatikos-xana-panathinaikos/",
     "source": "totalbasket.gr",
     "subtitle": "Ο Παναθηναϊκός γνώρισε την ήττα στην Μπολόνια με 84-79 απέναντι στην Βίρτους, με την ιταλική ομάδα να έχει τρομερά αποθέματα ενέργειας σε άμυνα και επίθεση, βάζοντας στα σχοινιά τους \"πράσινους\", με το σύνολο του Ζέλιμιρ Ομπράντοβιτς να υποχωρεί στο 8-4.",
