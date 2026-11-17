@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88625.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25054,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88625.jpg",
+    "title": "Παναθηναϊκός: Με πρωινή προπόνηση συνεχίστηκε η προετοιμασία για τον ΟΦΗ",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25054/panathinaikos-me-proini-proponisi-synehistike-i-proetoimasia-gia-ton-ofi"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88604.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25052,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-cyprusfc-04b801.jpg",
     "title": "ELABET: Αυλαία με σούπερ «combo» σκοραρίσματος στο Κύπρος – Μαυροβούνιο",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24997/elabet-aylaia-me-soyper-combo-skorarismatos-sto-kypros"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-croatiafc-8b7e9c.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 24996,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-croatiafc-8b7e9c.jpg",
-    "title": "ELABET: Η Κροατία έχει δυνατό «boost» σε ημίχρονα για τη σωτηρία της",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/24996/elabet-i-kroatia-ehei-dynato-boost-se-imihrona-gia-ti-sotiria"
    }
   ],
   "wait": {
@@ -11353,6 +11353,12 @@
     "igs": "17982339045139490"
    },
    "tries": 1
+  },
+  "news:25055": {
+   "at": 1794916332.7038581,
+   "claim": "44076840706",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
