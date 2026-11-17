@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25067,
+  "last": 25068,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11511,6 +11511,12 @@
    },
    "tries": 1
   },
+  "news:25068": {
+   "at": 1794947876.479601,
+   "claim": "44170845847",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13525,6 +13531,7 @@
     "category": "Μπάσκετ Γυναικών",
     "guid": "pao1908.com:54288",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/pao1908-com-54288.jpg",
+    "imported": 1794947720.6151788,
     "link": "https://www.pao1908.com/nea/dipsifia-i-forman/",
     "source": "pao1908.com",
     "subtitle": "Η γκαρντ των «πρασίνων» σημείωσε 12 πόντους, με 2 ριμπάουντ και 3 ασίστ σε 21:22 λεπτά συμμετοχής.",
