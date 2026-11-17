@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_11.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25058,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet-94453f_11.jpg",
+    "title": "ELABET: Διαβολοβδομάδα στη EuroLeague με «Ενισχυμένα» ειδικά για Ολυμπιακό & Παναθηναϊκό",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25058/elabet-diavolovdomada-sti-euroleague-me-enishymena-eidika-gia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5272980-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25057,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/sloukas.jpg",
     "title": "200άρης ο Σλούκας με τον Παναθηναϊκό AKTOR",
     "url": "https://www.trifillakia.gr/mpasket/article/25006/200aris-o-sloykas-me-ton-panathinaiko-aktor"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CF%80%CE%BF%CE%BB%CE%BF%20%CE%B5%CF%85.jpg",
-    "label": "ΠΟΛΟ",
-    "nid": 25005,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/%CF%80%CE%BF%CE%BB%CE%BF%20%CE%B5%CF%85.jpg?itok=mBbrRoXY",
-    "title": "1 συν 1 εισιτήριο με Μαρσέιγ",
-    "url": "https://www.trifillakia.gr/polo/article/25005/1-syn-1-eisitirio-me-marseig"
    }
   ],
   "wait": {
@@ -11429,6 +11429,12 @@
     "igs": "18639305692065351"
    },
    "tries": 1
+  },
+  "news:25059": {
+   "at": 1794931641.7750962,
+   "claim": "44121689510",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
