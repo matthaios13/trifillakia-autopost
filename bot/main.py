@@ -522,6 +522,7 @@ def run_news(st, now, dry):
             first = ns.setdefault("noimg", {}).setdefault(str(nid), now)
             if now - first < 3600:
                 log("Άρθρο χωρίς φωτογραφία, περιμένουμε:", nid)
+                ns["wait"].setdefault(str(nid), now)  # να ξαναελεγχθεί (αλλιώς χανόταν: 25025/25026, 16/11)
                 continue
         post(
             st,
