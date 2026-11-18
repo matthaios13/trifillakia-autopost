@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25075,
+  "last": 25076,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11743,6 +11743,12 @@
    },
    "tries": 1
   },
+  "news:25076": {
+   "at": 1794960417.201236,
+   "claim": "44204855344",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13768,6 +13774,7 @@
     "feature": true,
     "guid": "totalbasket.gr:70392",
     "image": "https://totalbasket.gr/wp-content/uploads/2026/11/el-news-e411b1f945e4f3d8.jpg",
+    "imported": 1794960318.3241253,
     "link": "https://totalbasket.gr/moubrou-i-niki-irthe-chari-stous-opadous/",
     "source": "totalbasket.gr",
     "subtitle": "Ο προπονητής των Ιταλών ανέλυσε τα κλειδιά της νίκης επί των «πράσινων»",
