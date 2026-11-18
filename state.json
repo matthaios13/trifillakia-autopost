@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-realmadridbc-b67c4b.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25083,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-realmadridbc-b67c4b.jpg",
+    "title": "ELABET με Bet Builder πόντων στο Μπεσίκτας – Ρεάλ Μαδρίτης:",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25083/elabet-me-bet-builder-ponton-sto-mpesiktas-real-madritis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/496857846_1314615453999630_2883182699220403450_n.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25082,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-estoniafc-861571.jpg",
     "title": "ELABET: Εσθονία – Βουλγαρία: Φινάλε στον όμιλο με δυνατό Bet Builder",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25041/elabet-esthonia-voylgaria-finale-ston-omilo-me-dynato-bet"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-icelandfc-6b3712.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25039,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-icelandfc-6b3712.jpg",
-    "title": "ELABET: Ισλανδία – Λουξεμβούργο: Η πρωτιά περνά από το Ρέικιαβικ με ενισχυμένο στο 3.70!",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25039/elabet-islandia-loyxemvoyrgo-i-protia-perna-apo-to-reikiavik"
    }
   ],
   "wait": {
@@ -11822,6 +11822,12 @@
     "vb": "6303781710321461059"
    },
    "tries": 1
+  },
+  "news:25084": {
+   "at": 1794996457.9632123,
+   "claim": "44281990013",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
