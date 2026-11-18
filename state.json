@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25100,
+  "last": 25102,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12037,6 +12037,12 @@
    },
    "tries": 1
   },
+  "news:25101": {
+   "at": 1795041410.930875,
+   "claim": "44412970266",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14099,6 +14105,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54337",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/18/0-02-0a-10d67f3e6392c678007d8045016a8d90fd4efda6562b09e157920a85937f511d_f63f946a3484796e.jpg",
+    "imported": 1795041321.5121434,
     "link": "https://www.pao1908.com/nea/thetiki-synexeia-gia-ta-esports/",
     "source": "pao1908.com",
     "subtitle": "Η ομάδα επικράτησε με 2-0 τόσο στο EA FC όσο και στο NBA 2K στη 2η αγωνιστική του Ultileague.",
@@ -14119,6 +14126,7 @@
     "feature": true,
     "guid": "bala24.gr:89069",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-89069.jpg",
+    "imported": 1795041321.5121434,
     "link": "https://bala24.gr/thelei-antino-i-briz-arneitai-o-panathinaikos/",
     "source": "bala24.gr",
     "subtitle": "«Δεν πωλείται» ξεκαθάρισαν οι «Πράσινοι»",
