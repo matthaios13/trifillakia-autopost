@@ -169,7 +169,17 @@ def same_story(title, doc, body=""):
     return False
 
 
+_DOCS = {}
+
+
 def trifillakia_docs():
+    """Μία φορά ανά εκτέλεση (18/11: καλούνταν 2 φορές = 24 αιτήματα κάθε 5′)."""
+    if "docs" not in _DOCS:
+        _DOCS["docs"] = _trifillakia_docs()
+    return _DOCS["docs"]
+
+
+def _trifillakia_docs():
     """{"title", "body", "ts"} των πρόσφατων άρθρων του trifillakia.gr (ροές κατηγοριών)."""
     docs = []
     for url in TRIFILLAKIA_FEEDS:

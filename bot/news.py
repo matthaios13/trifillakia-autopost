@@ -36,7 +36,7 @@ SECTIONS = {
 # Μεγάλα κενά (π.χ. 12 «καμένα» νούμερα από αποτυχημένες εισαγωγές του Feeds, 19/10) καλύπτονται ούτως ή άλλως,
 # γιατί ο έλεγχος συνεχίζει μέχρι το latest_nid() των ροών. Ήταν 40: 40 σελίδες 404 χωρίς cache κάθε 5′
 # βάραιναν το Drupal και καθυστερούσαν την αποθήκευση άρθρων (15/11).
-LOOKAHEAD = 8
+LOOKAHEAD = 3  # 18/11: ήταν 8 (8 uncached 404 κάθε 5′ βάραιναν τον server)
 
 _s = requests.Session()
 _s.headers.update({"User-Agent": UA})
@@ -45,9 +45,11 @@ _s.headers.update({"User-Agent": UA})
 def latest_nid():
     """Ο μεγαλύτερος αριθμός άρθρου στην αρχική και στις ροές των κατηγοριών (η αρχική μπορεί να είναι σε cache)."""
     ids = []
-    for url in [SITE + "/"] + [f"{SITE}/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 302)]:
+    # 18/11: ΧΩΡΙΣ «nc» και χωρίς την αρχική: τα uncached render (αρχική ~5″) κάθε 5′ γέμιζαν το shared hosting.
+    # Η cache σελίδων καθαρίζει σε κάθε αποθήκευση άρθρου (κανόνας Rules), άρα οι ροές είναι φρέσκιες.
+    for url in [f"{SITE}/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 302, 5419, 5456, 5524, 5525)]:
         try:
-            r = _s.get(url, params={"nc": int(time.time())}, timeout=30)
+            r = _s.get(url, timeout=30)
         except requests.RequestException:
             continue
         ids += [int(x) for x in re.findall(r"/article/(\d+)/", r.text)]
