@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5452767-1-1.jpg",
+    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
+    "nid": 25095,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5452767-1-1.jpg",
+    "title": "Νίκη με 3-1 σετ για το βόλεϊ γυναικών του Παναθηναϊκού, αλλά με τον τραυματισμό της Ρόγκα",
+    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25095/niki-me-3-1-set-gia-to-volei-gynaikon-toy-panathinaikoy-alla-me-ton"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/rogkaoff.png",
     "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
     "nid": 25094,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88625.jpg",
     "title": "Παναθηναϊκός: Με πρωινή προπόνηση συνεχίστηκε η προετοιμασία για τον ΟΦΗ",
     "url": "https://www.trifillakia.gr/podosfairo/article/25054/panathinaikos-me-proini-proponisi-synehistike-i-proetoimasia-gia-ton-ofi"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/paoleoforos.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25053,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/paoleoforos.jpg?itok=ET2VYogO",
-    "title": "Παναθηναϊκός – ΑΕΚ: Στην ιστορική Λεωφόρο το μεγάλο ντέρμπι!",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25053/panathinaikos-aek-stin-istoriki-leoforo-to-megalo-ntermpi"
    }
   ],
   "wait": {
@@ -11986,6 +11986,12 @@
     "vb": "6303894934363444978"
    },
    "tries": 1
+  },
+  "news:25096": {
+   "at": 1795023453.5013733,
+   "claim": "44360302726",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
