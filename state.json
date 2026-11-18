@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/0-02-0a-10d67f3e6392c678007d8045016a8d90fd4efda6562b09e157920a85937f511d_f63f946a3484796e.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25101,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/0-02-0a-10d67f3e6392c678007d8045016a8d90fd4efda6562b09e157920a85937f511d_f63f946a3484796e.jpg",
+    "title": "Δύο νίκες και πρόκριση στο LAN event για τα esports του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25101/dyo-nikes-kai-prokrisi-sto-lan-event-gia-ta-esports-toy-panathinaikoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70521.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25100,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-polandfc-2168f2.jpg",
     "title": "ELABET: Πολωνία – Σουηδία: Παραμονή vs άνοδος με 0% γκανιότα",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25060/elabet-polonia-soyidia-paramoni-vs-anodos-me-0-gkaniota"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-partizanbc-598db4.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25059,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-partizanbc-598db4.jpg",
-    "title": "ELABET: Παρτίζαν – Βαλένθια: «Ενισχυμένη» σύγκρουση άμυνας και επίθεσης",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25059/elabet-partizan-valenthia-enishymeni-sygkroysi-amynas-kai"
    }
   ],
   "wait": {
@@ -12046,6 +12046,12 @@
     "vb": "6303970408842972070"
    },
    "tries": 1
+  },
+  "news:25102": {
+   "at": 1795041447.3416972,
+   "claim": "44412970266",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
