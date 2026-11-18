@@ -160,6 +160,20 @@ def same_story(title, doc, body=""):
                 and opp in _plain(other) and "elabet" not in _plain(title + other[:80])
                 and RESULT_RE.search(_plain(other[:600])) and len(_body_names(mine) & _body_names(other)) >= 3):
             return True
+    # Ρεπορτάζ αγώνα με «ελεύθερο» τίτλο χωρίς σκορ/λέξη αποτελέσματος («Δεν τα κατάφερε ούτε στην Μπολόνια…»):
+    # το σκορ και η ήττα/νίκη φαίνονται στον υπότιτλο/στην αρχή του κειμένου. Ίδια είδηση αν το άλλο άρθρο
+    # γράφει το ίδιο σκορ, αποτέλεσμα και κοινό όνομα (αντίπαλος/πόλη/προπονητής) (18/11: Βίρτους ×3).
+    if not score and body and "«" not in title:
+        lead = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", body)))[:500]
+        sc = _score(lead)
+        if sc and RESULT_RE.search(_plain(lead)):
+            other = doc["title"] + " " + doc.get("body", "")[:1500]
+            ot = _plain(other).replace("–", "-").replace(" - ", "-")
+            a, b = sc.split("-")
+            if ((sc in ot or f"{b}-{a}" in ot) and RESULT_RE.search(ot[:800])
+                    and _markers(title + " " + lead[:300]) == _markers(other[:500])
+                    and _body_names(lead) & _body_names(other)):
+                return True
     if score:
         opp = _opponent(title)
         text = _plain(doc["title"] + " " + doc.get("body", "")[:1500])
@@ -687,10 +701,11 @@ def update(state, now, log=print):
             mine = by_src.get(p.get("source", ""), set())
             near = [d for d in existing if (not d["ts"] or abs(d["ts"] - p["ts"]) < WINDOW)
                     and _plain(_bmp_plain(d["title"])) not in mine]
-            if any(same_story(p["title"], d, p.get("body", "")) for d in near):
+            sub = subtitle(p["link"])
+            if any(same_story(p["title"], d, (sub + " " if sub else "") + p.get("body", "")) for d in near):
                 log("Ροή trifillakia: υπάρχει ήδη →", p["title"])
                 continue
-            p["subtitle"] = subtitle(p["link"]) or make_subtitle(p["title"], p.get("body", ""), log)
+            p["subtitle"] = sub or make_subtitle(p["title"], p.get("body", ""), log)
             base, ids = p.pop("base", ""), p.pop("tag_ids", [])
             p["tags"] = post_tags(base, ids)
             names = [_tag_cache.get((base, i), "") for i in ids]
