@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25102,
+  "last": 25103,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12057,6 +12057,12 @@
    },
    "tries": 1
   },
+  "news:25103": {
+   "at": 1795043194.6640635,
+   "claim": "44417588087",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14101,6 +14107,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54340",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/18/b39db9e1-6c5d-4e6d-8875-a41f4eaf84ff-1.jpg",
+    "imported": 1795043117.2126124,
     "link": "https://www.pao1908.com/deltia-typoy/oi-prasines-symmetoxes-sto-panellinio-arsis-varon/",
     "source": "pao1908.com",
     "subtitle": "Το πρόγραμμα των συμμετοχών του τμήματος άρσης βαρών, από την Πέμπτη με τους άνδρες και από το Σάββατο με τις γυναίκες.",
