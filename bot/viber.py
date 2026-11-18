@@ -64,3 +64,16 @@ def publish_news(a, done=None, log=print):
     if not d:  # χωρίς φωτογραφία ή αν απέτυχε η φωτογραφία: σκέτο κείμενο με link
         d = _call("post", {"from": frm, "type": "text", "text": text}, log)
     return {"vb": str(d.get("message_token"))} if d else {}
+
+
+def check(log=print):
+    """Έλεγχος σύνδεσης (χωρίς ανάρτηση): όνομα καναλιού, συνδρομητές, ποιος θα «υπογράφει»."""
+    if not configured():
+        log("Viber: λείπει το VIBER_TOKEN")
+        return
+    d = _call("get_account_info", {}, log)
+    if not d:
+        return
+    sa = [m.get("name") for m in d.get("members", []) if m.get("role") == "superadmin"]
+    log("Viber OK: κανάλι", d.get("name"), "| συνδρομητές", d.get("subscribers_count"),
+        "| superadmins", sa, "| webhook", bool(d.get("webhook")), "| uri", d.get("uri"))

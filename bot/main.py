@@ -634,6 +634,7 @@ def main():
         preview()
     elif cmd == "check":
         meta.check()
+        viber.check(log)
     elif cmd == "delete":
         meta.delete([x for x in sys.argv[2:] for x in x.replace(",", " ").split()])
     else:
