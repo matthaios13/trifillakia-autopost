@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/paostigmi.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25078,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/paostigmi.jpg",
+    "title": "Τα highlights από την ήττα στην Μπολόνια από τη Βίρτους (vid)",
+    "url": "https://www.trifillakia.gr/mpasket/article/25078/ta-highlights-apo-tin-itta-stin-mpolonia-apo-ti-virtoys-vid"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-e411b1f945e4f3d8.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25076,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/ticketmaster-tickets-800-x-538px_2.jpg",
     "title": "Στο ticketmaster τα εισιτήρια για το ματς με τον ΑΟ Θήρας",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/25034/sto-ticketmaster-ta-eisitiria-gia-to-mats-me-ton-ao-thiras"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88329.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25029,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88329.jpg",
-    "title": "Ο Παναθηναϊκός δούλεψε στην επίθεση ενόψει ΟΦΗ",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25029/o-panathinaikos-doylepse-stin-epithesi-enopsei-ofi"
    }
   ],
   "wait": {
