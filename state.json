@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-e411b1f945e4f3d8.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25076,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-e411b1f945e4f3d8.jpg",
+    "title": "Μουμπρού: «Η νίκη ήρθε χάρη στους οπαδούς»",
+    "url": "https://www.trifillakia.gr/mpasket/article/25076/moymproy-i-niki-irthe-hari-stoys-opadoys"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70344.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25075,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88329.jpg",
     "title": "Ο Παναθηναϊκός δούλεψε στην επίθεση ενόψει ΟΦΗ",
     "url": "https://www.trifillakia.gr/podosfairo/article/25029/o-panathinaikos-doylepse-stin-epithesi-enopsei-ofi"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikos_wrestling_dsc00803a-600x447-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25028,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikos_wrestling_dsc00803a-600x447-1.jpg",
-    "title": "Τμήμα πάλης: Οι 15 ομαδικοί τίτλοι του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25028/tmima-palis-oi-15-omadikoi-titloi-toy-panathinaikoy"
    }
   ],
   "wait": {
