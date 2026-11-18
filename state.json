@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25078,
+  "last": 25079,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11773,6 +11773,12 @@
    },
    "tries": 1
   },
+  "news:25079": {
+   "at": 1794989234.6392744,
+   "claim": "44263966672",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13798,6 +13804,7 @@
     "feature": true,
     "guid": "bala24.gr:88871",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-88871.jpg",
+    "imported": 1794989118.4564192,
     "link": "https://bala24.gr/giagkousits-gia-tin-katastasi-tou-ston-panathinaiko-stin-archi-ola-pigainan-kala-alla-tora-yparchei-mia-stasimotita/",
     "source": "bala24.gr",
     "subtitle": "Ο Αντριάνο Γιάγκουσιτς αγωνίστηκε βασικός στη φιλική νίκη της Κ21 της Κροατίας επί της Γερμανίας και μετά το τέλος της αναμέτρησης κλήθηκε να σχολιάσει την κατάστασή του στον Παναθηναϊκό, αναφορικά με τον χρόνο συμμετοχής του.",
