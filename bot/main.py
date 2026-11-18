@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, shows, standings, trending, ytall, syndicate, wpl, youtube, radio
+from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, shows, standings, trending, ytall, syndicate, wpl, youtube, radio, viber
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -531,7 +531,8 @@ def run_news(st, now, dry):
             captions.news_ig(a),
             dry,
             story_card=cards.news_story(a),
-            publisher=lambda f, sp, c, done, a=a: meta.publish_news(f, sp, c, a["url"], captions.news_fb(a), done=done),
+            publisher=lambda f, sp, c, done, a=a: {**meta.publish_news(f, sp, c, a["url"], captions.news_fb(a), done=done),
+                                                    **viber.publish_news(a, done=done, log=log)},
         )
         if not dry:
             ns["recent"] = [x for x in ns["recent"] if x["nid"] != nid]
