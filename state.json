@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25096,
+  "last": 25097,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11997,6 +11997,12 @@
    },
    "tries": 1
   },
+  "news:25097": {
+   "at": 1795030610.7236776,
+   "claim": "44381947821",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14042,6 +14048,7 @@
     "feature": true,
     "guid": "totalbasket.gr:70476",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-70476.jpg",
+    "imported": 1795030524.2005508,
     "link": "https://totalbasket.gr/panathinaikos-geniki-eisodos-10-evro-gia-tin-anametrisi-me-to-marousi/",
     "source": "totalbasket.gr",
     "subtitle": "Γενική είσοδο 10 ευρώ ανακοίνωσε η ΚΑΕ Παναθηναϊκός AKTOR για την εντός έδρας αναμέτρηση με το Μαρούσι, που θα διεξαχθεί το Σάββατο (21/11, 17:30) στο Telekom Center Athens, στο πλαίσιο της 8ης αγωνιστικής της Stoiximan GBL.",
