@@ -9,6 +9,7 @@ import os
 import requests
 
 API = "https://chatapi.viber.com/pa"
+WEBHOOK = "https://bala24.gr/feed/"
 _from = {}
 
 
@@ -38,6 +39,11 @@ def sender(log=print):
     """Το id του Superadmin (όποιος «υπογράφει» τις αναρτήσεις του καναλιού)."""
     if "id" not in _from:
         d = _call("get_account_info", {}, log) or {}
+        if d and not d.get("webhook"):
+            # Το Viber δεν δέχεται αναρτήσεις χωρίς webhook (webhookNotSet). Δεν χρειαζόμαστε ειδοποιήσεις:
+            # αρκεί μια δική μας διεύθυνση που απαντά 200 σε POST (το RSS του bala24).
+            w = _call("set_webhook", {"url": WEBHOOK, "send_name": False, "send_photo": False}, log)
+            log("Viber: webhook", "ορίστηκε" if w else "απέτυχε", WEBHOOK)
         admins = [m for m in d.get("members", []) if m.get("role") == "superadmin"] or d.get("members", [])
         _from["id"] = admins[0]["id"] if admins else ""
         if _from["id"]:
