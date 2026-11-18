@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25099,
+  "last": 25100,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12027,6 +12027,12 @@
    },
    "tries": 1
   },
+  "news:25100": {
+   "at": 1795034272.3352783,
+   "claim": "44392573710",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14072,6 +14078,7 @@
     "feature": true,
     "guid": "totalbasket.gr:70521",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-70521.jpg",
+    "imported": 1795034118.2784033,
     "link": "https://totalbasket.gr/obrantovits-oi-exypnoi-anthropoi-katalavainoun-echo-exypnous-anthropous-stin-omada-mou-tous-ebistevomai-kai-tha-synechiso-na-tous-ebistevomai/",
     "source": "totalbasket.gr",
     "subtitle": "Ο Παναθηναϊκός αντιμετωπίζει τη Ζάλγκιρις στο Κάουνας, για τη 13η αγωνιστική της EuroLeague, με τον Ζέλικο Ομπράντοβιτς να αναλύει τα σημεία στα οποία χρειάζεται βελτίωση η ομάδα του, προκειμένου να επιστρέψει στις νίκες.",
