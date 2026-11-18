@@ -9,9 +9,9 @@ on:
         description: "run = κανονικά, preview = κάρτες δείγματα, dry = δοκιμή χωρίς ανάρτηση, check = έλεγχος σύνδεσης Meta"
         default: run
         type: choice
-        options: [run, preview, dry, check, delete]
+        options: [run, preview, dry, check, delete, viber]
       ids:
-        description: "Μόνο για delete: IDs αναρτήσεων Facebook, χωρισμένα με κόμμα"
+        description: "delete: IDs αναρτήσεων Facebook · viber: nids άρθρων, χωρισμένα με κόμμα"
         default: ""
         type: string
 
@@ -54,6 +54,8 @@ jobs:
             python -m bot preview
           elif [ "${{ inputs.mode }}" = "check" ]; then
             python -m bot check
+          elif [ "${{ inputs.mode }}" = "viber" ]; then
+            python -m bot viber "${{ inputs.ids }}"
           elif [ "${{ inputs.mode }}" = "delete" ]; then
             python -m bot delete "${{ inputs.ids }}"
           else

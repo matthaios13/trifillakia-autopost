@@ -272,6 +272,30 @@ def post(st, key, card, caption, dry, story_card=None, publisher=None):
     sync_state(st, f"posted {key}")
 
 
+def viber_only(nids):
+    """Αποστολή ΜΟΝΟ στο Viber άρθρων που έχουν ήδη ανέβει σε Instagram/Facebook (π.χ. πριν μπει το token)."""
+    st = load_state()
+    for nid in nids:
+        key = f"news:{nid}"
+        rec = st["posts"].get(key)
+        if rec and rec.get("nets", {}).get("vb"):
+            log("Viber: ήδη σταλμένο", key)
+            continue
+        status, url = news.probe(int(nid))
+        if status != "ok":
+            log("Viber: δεν βρέθηκε το άρθρο", nid, status)
+            continue
+        a = news.article(int(nid), url)
+        if not a:
+            continue
+        a["thumb"] = news.thumb_url(a.get("image", ""))
+        got = viber.publish_news(a, log=log)
+        log("Viber:", key, got or "απέτυχε")
+        if got and rec:
+            rec.setdefault("nets", {}).update(got)
+    sync_state(st, "viber")
+
+
 def standings_rows(ev):
     rows = fs.standings(ev["tour_id"], ev["stage_id"])
     if not rows:
@@ -635,6 +659,8 @@ def main():
     elif cmd == "check":
         meta.check()
         viber.check(log)
+    elif cmd == "viber":
+        viber_only([x for x in sys.argv[2:] for x in x.replace(",", " ").split()])
     elif cmd == "delete":
         meta.delete([x for x in sys.argv[2:] for x in x.replace(",", " ").split()])
     else:
