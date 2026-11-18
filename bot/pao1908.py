@@ -33,6 +33,8 @@ def section(sport):
         return "Ποδόσφαιρο Γυναικών"
     if ("futsal" in t or "φουτσαλ" in t) and "γυναικ" in t:  # 18/11: δική του κατηγορία (tid 5524)
         return "Φούτσαλ Γυναικών"
+    if ("futsal" in t or "φουτσαλ" in t) and "ακαδημ" not in t:  # ανδρικό futsal (tid 5525)
+        return "Φούτσαλ Ανδρών"
     if "πολο" in t.split() or t.startswith("πολο"):
         return "Πόλο"
     return DEFAULT_CAT

@@ -27,6 +27,7 @@ SECTIONS = {
     "gipediko": "ΓΗΠΕΔΙΚΟ",
     "podosfairo-gynaikon": "ΠΟΔΟΣΦΑΙΡΟ ΓΥΝΑΙΚΩΝ",
     "futsal-gynaikon": "FUTSAL ΓΥΝΑΙΚΩΝ",
+    "futsal-andron": "FUTSAL ΑΝΔΡΩΝ",
 }
 # «antipaloi» (ειδήσεις αντιπάλων) σκόπιμα ΔΕΝ ανεβαίνουν στα social.
 # Ό,τι δεν είναι στη λίστα δεν ανεβαίνει.
