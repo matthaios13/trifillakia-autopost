@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25090,
+  "last": 25093,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11883,6 +11883,12 @@
    },
    "tries": 1
   },
+  "news:25091": {
+   "at": 1795018032.9992507,
+   "claim": "44343070732",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13907,6 +13913,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54323",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/18/a1-600x424-1.jpg",
+    "imported": 1795017920.4865654,
     "link": "https://www.pao1908.com/deltia-typoy/o-panathinaikos-stis-katadyseis/",
     "source": "pao1908.com",
     "subtitle": "Το τμήμα καταδύσεων του Παναθηναϊκού είναι ο μοναδικός σύλλογος που έχει καταγράψει αναλυτικά τους τίτλους του, με τον «Τριφυλλάκια» στο TOP4 στην κατηγορία ανδρών-γυναικών.",
@@ -13925,6 +13932,7 @@
     "category": "Ποδόσφαιρο Γυναικών",
     "guid": "pao1908.com:54320",
     "image": "https://www.pao1908.com/wp-content/uploads/2020/07/29/Generic_Anakoinoseis_1600x720.jpg",
+    "imported": 1795017920.4865654,
     "link": "https://www.pao1908.com/deltia-typoy/diapisteyseis-dimosiografon-fotografon-13/",
     "source": "pao1908.com",
     "subtitle": "Οι δημοσιογράφοι και οι φωτογράφοι που θέλουν να καλύψουν τον αγώνα πρέπει να δηλώσουν συμμετοχή έως την Παρασκευή (20/11) στις 4μ.μ.",
@@ -13942,6 +13950,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54317",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/18/Futsal-neoi.jpg",
+    "imported": 1795017920.4865654,
     "link": "https://www.pao1908.com/nea/ta-apotelesmata-ton-ypodomon-sto-futsal/",
     "source": "pao1908.com",
     "subtitle": "Η Κ12 έφτασε τις τρεις νίκες σε τρία παιχνίδια, ενώ η ομάδα Νέων έχασε από τους Τράχωνες.",
