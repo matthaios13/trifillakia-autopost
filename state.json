@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/generic_anakoinoseis_1600x720_1.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ ΓΥΝΑΙΚΩΝ",
+    "nid": 25092,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/generic_anakoinoseis_1600x720_1.jpg",
+    "title": "Ανοιχτές οι αιτήσεις διαπίστευσης για το ματς της ομάδας γυναικών",
+    "url": "https://www.trifillakia.gr/podosfairo-gynaikon/article/25092/anoihtes-oi-aitiseis-diapisteysis-gia-to-mats-tis-omadas-gynaikon"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/a1-600x424-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25091,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-16-at-08.13.35.jpg",
     "title": "Ένατος ο Αγγελοκωστόπουλος σε αγώνα gravel στον Μαραθώνα",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25051/enatos-o-aggelokostopoylos-se-agona-gravel-ston-marathona"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88520.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25050,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-88520.jpg?itok=6CaKF1rQ",
-    "title": "Βοτανικός: Κλεισμένες και οι 72 σουίτες, 10 εκατ. ευρώ τον χρόνο για την ΠΑΕ",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25050/votanikos-kleismenes-kai-oi-72-soyites-10-ekat-eyro-ton-hrono-gia-tin-pae"
    }
   ],
   "wait": {
@@ -11902,6 +11902,12 @@
     "vb": "6303872508163808086"
    },
    "tries": 1
+  },
+  "news:25093": {
+   "at": 1795018105.6819274,
+   "claim": "44343070732",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
