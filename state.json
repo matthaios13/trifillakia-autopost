@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25094,
+  "last": 25096,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11977,6 +11977,12 @@
    },
    "tries": 1
   },
+  "news:25095": {
+   "at": 1795023414.862234,
+   "claim": "44360302726",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14011,6 +14017,7 @@
     "category": "Βόλεϊ Γυναικών",
     "guid": "pao1908.com:54329",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/18/5452767-1-1.jpg",
+    "imported": 1795023319.254347,
     "link": "https://www.pao1908.com/deltia-typoy/me-to-myalo-sti-rogka/",
     "source": "pao1908.com",
     "subtitle": "Το τριφύλλι έφτασε το έξι στα έξι στη Volley League απέναντι στη Σαντορίνη, με την αρχηγό Πέννυ Ρόγκα να αποχωρεί τραυματίας στο δεύτερο σετ.",
@@ -14031,6 +14038,7 @@
     "feature": false,
     "guid": "totalbasket.gr:70470",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-70470.jpg",
+    "imported": 1795023319.254347,
     "link": "https://totalbasket.gr/i-blok-tou-ntiara-ston-nan-pou-egine-eikona-tis-nikis-tis-virtous/",
     "source": "totalbasket.gr",
     "subtitle": "Το μπλοκ στον Ναν σφράγισε τη νίκη που έκοψε το σερί πέντε ηττών της Μπολόνιας στη EuroLeague.",
