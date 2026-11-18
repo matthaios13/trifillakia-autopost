@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25087,
+  "last": 25089,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11863,6 +11863,12 @@
    },
    "tries": 1
   },
+  "news:25088": {
+   "at": 1795010910.377099,
+   "claim": "44320405897",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13887,6 +13893,7 @@
     "category": "Ποδόσφαιρο Γυναικών",
     "guid": "pao1908.com:54315",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/05/08/Ticketmaster-Tickets-800-X-538px.jpg",
+    "imported": 1795010793.3125772,
     "link": "https://www.pao1908.com/nea/ta-eisitiria-me-aek/",
     "source": "pao1908.com",
     "subtitle": "Το παιχνίδι θα διεξαχθεί στη Λεωφόρο την Κυριακή 22 Νοεμβρίου, στις 13:00.",
@@ -13907,6 +13914,7 @@
     "feature": true,
     "guid": "bala24.gr:88957",
     "image": "https://bala24.gr/wp-content/uploads/2026/11/antino.jpg",
+    "imported": 1795010793.3125772,
     "link": "https://bala24.gr/antino-apofasisa-grigora-na-ertho-ston-panathinaiko-ypirche-endiaferon-apo-ton-olybiako/",
     "source": "bala24.gr",
     "subtitle": "Ο Σαντίνο Αντίνο αποκάλυψε ότι γνώριζε για το ενδιαφέρον του Ολυμπιακού το καλοκαίρι του 2025 και εξήγησε πώς, λίγους μήνες αργότερα, αποφάσισε να συνεχίσει την καριέρα του στον Παναθηναϊκό.",
