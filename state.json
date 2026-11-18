@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25081,
+  "last": 25082,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -11803,6 +11803,12 @@
    },
    "tries": 1
   },
+  "news:25082": {
+   "at": 1794994663.0349176,
+   "claim": "44277291014",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -13827,6 +13833,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54309",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/18/496857846_1314615453999630_2883182699220403450_n.jpg",
+    "imported": 1794994520.0490034,
     "link": "https://www.pao1908.com/deltia-typoy/panathinaikos-kai-shamrock-ladies-v-irlandias/",
     "source": "pao1908.com",
     "subtitle": "Το γυναικείο τμήμα του Shamrocks GAA, που ιδρύθηκε το 2007, κατέκτησε το 2026 το πρωτάθλημα και το κύπελλο Κ14.",
