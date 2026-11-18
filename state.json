@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-kolossosbc-f8a906.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25084,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-kolossosbc-f8a906.jpg",
+    "title": "ELABET: Για την πρόκριση με «Ενισχύσεις» ο Κολοσσός Ρόδου",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25084/elabet-gia-tin-prokrisi-me-enishyseis-o-kolossos-rodoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-realmadridbc-b67c4b.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25083,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88381.jpg",
     "title": "Παναθηναϊκός: Τίμησε τη μνήμη του Δημήτρη Σαραντάκη",
     "url": "https://www.trifillakia.gr/podosfairo/article/25042/panathinaikos-timise-ti-mnimi-toy-dimitri-sarantaki"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-estoniafc-861571.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25041,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-estoniafc-861571.jpg",
-    "title": "ELABET: Εσθονία – Βουλγαρία: Φινάλε στον όμιλο με δυνατό Bet Builder",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25041/elabet-esthonia-voylgaria-finale-ston-omilo-me-dynato-bet"
    }
   ],
   "wait": {
@@ -11832,6 +11832,12 @@
     "vb": "6303781871401223091"
    },
    "tries": 1
+  },
+  "news:25085": {
+   "at": 1794996496.548636,
+   "claim": "44281990013",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
