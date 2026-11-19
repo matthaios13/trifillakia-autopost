@@ -2,7 +2,7 @@
 
 Το panathinaikanea βγάζει κάθε πρωί (~06:15) ένα άρθρο τύπου pn_history με slug san-simera-YYYY-MM-DD.
 Το παίρνουμε από το REST, μετατρέπουμε τα βίντεο (στο panathinaikanea παίζουν με JS) σε YouTube iframe
-και το δίνουμε στη ροή CSV όπως τα υπόλοιπα άρθρα. Κατηγορία = το άθλημα του πρώτου γεγονότος.
+και το δίνουμε στη ροή CSV όπως τα υπόλοιπα άρθρα. Κατηγορία «Σαν σήμερα» (tid 5553).
 """
 import html
 import re
@@ -16,6 +16,7 @@ from .flashscore import UA
 API = "https://panathinaikanea.gr/wp-json/wp/v2"
 TZ = ZoneInfo("Europe/Athens")
 FROM_HOUR = 6  # πριν από τις 06:00 δεν έχει βγει ακόμα
+CATEGORY = "Σαν σήμερα"  # κατηγορία tid 5553, /san-simera (19/11)
 
 _s = requests.Session()
 _s.headers.update({"User-Agent": UA})
@@ -63,8 +64,6 @@ def candidate(done, log=print, now=None):
         except (requests.RequestException, ValueError):
             pass
     content = p["content"]["rendered"]
-    first = re.search(r'id="otd-\d{4}-\d\d-\d\d-([a-z])"', content)
-    category = "Μπασκετ" if first and first.group(1) == "b" else "Ποδοσφαιρο"
     sub = html.unescape(re.sub(r"<[^>]+>", "", p["excerpt"]["rendered"])).strip()
     ts = datetime.fromisoformat(p["date_gmt"] + "+00:00").timestamp()
     return {
@@ -72,7 +71,7 @@ def candidate(done, log=print, now=None):
         "title": html.unescape(p["title"]["rendered"]),
         "body": clean(content),
         "subtitle": sub,
-        "category": category,
+        "category": CATEGORY,
         "tags": ["Σαν σήμερα", "Ιστορία"],
         "image": image,
         "ts": ts,

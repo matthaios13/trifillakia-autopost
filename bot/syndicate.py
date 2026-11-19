@@ -34,7 +34,7 @@ SOURCES = [
     ("bala24.gr", "https://bala24.gr/wp-json/wp/v2/posts", ["categories=55", "tags=47"], "Ποδοσφαιρο"),
     ("totalbasket.gr", "https://totalbasket.gr/wp-json/wp/v2/posts", ["tags=137"], "Μπασκετ"),
 ]
-TRIFILLAKIA_FEEDS = [f"https://www.trifillakia.gr/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 299, 300, 301, 302, 5456, 5496, 5419, 5524, 5525)]
+TRIFILLAKIA_FEEDS = [f"https://www.trifillakia.gr/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 299, 300, 301, 302, 5456, 5496, 5419, 5524, 5525, 5553)]
 
 _s = requests.Session()
 _s.headers.update({"User-Agent": UA})

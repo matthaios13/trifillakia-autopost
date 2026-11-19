@@ -18,6 +18,7 @@ SECTIONS = {
     "podosfairo": "ΠΟΔΟΣΦΑΙΡΟ",
     "mpasket": "ΜΠΑΣΚΕΤ",
     "erasitehnis": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "san-simera": "ΣΑΝ ΣΗΜΕΡΑ",
     "mpasket-gynaikon": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
     "polo": "ΠΟΛΟ",
     "volei-andron": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
@@ -47,7 +48,7 @@ def latest_nid():
     ids = []
     # 18/11: ΧΩΡΙΣ «nc» και χωρίς την αρχική: τα uncached render (αρχική ~5″) κάθε 5′ γέμιζαν το shared hosting.
     # Η cache σελίδων καθαρίζει σε κάθε αποθήκευση άρθρου (κανόνας Rules), άρα οι ροές είναι φρέσκιες.
-    for url in [f"{SITE}/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 302, 5419, 5456, 5524, 5525)]:
+    for url in [f"{SITE}/taxonomy/term/{t}/feed" for t in (1, 2, 4, 5, 302, 5419, 5456, 5524, 5525, 5553)]:
         try:
             r = _s.get(url, timeout=30)
         except requests.RequestException:
