@@ -419,6 +419,36 @@ def pao_people(items):
     return out
 
 
+INTL_CARD_RE = re.compile(r"/intl-\d+(-\d+x\d+)?\.(jpe?g|png|webp)$", re.I)
+_person_cache = {}
+
+
+def person_photo(base, title, own_id):
+    """Η φωτογραφία του πιο πρόσφατου άλλου άρθρου του ίδιου site με το ίδιο πρόσωπο στην αρχή του τίτλου
+    («Ντέσερς: …»), που δεν είναι κι αυτό κάρτα intl. Αλλιώς ""."""
+    head = title.split(":", 1)[0].strip() if ":" in title else ""
+    if not head or len(head.split()) > 4 or len(head) < 4:
+        return ""
+    key = (base, _plain(head))
+    if key in _person_cache:
+        return _person_cache[key]
+    url = ""
+    try:
+        r = _s.get(f"{base}?search={requests.utils.quote(head)}&per_page=10&_fields=id,title,featured_media", timeout=30)
+        for q in (r.json() if r.status_code == 200 else []):
+            t = html.unescape(re.sub(r"<[^>]+>", "", q["title"]["rendered"])).strip()
+            if q["id"] == own_id or not _plain(t).startswith(_plain(head)) or not q.get("featured_media"):
+                continue
+            u = _media_url(base, q["featured_media"])
+            if u and not INTL_CARD_RE.search(u):
+                url = u
+                break
+    except (requests.RequestException, ValueError, KeyError):
+        url = ""
+    _person_cache[key] = url
+    return url
+
+
 def fetch(source, since_ts, log=None):
     name, base, filters, category = source
     seen = {}
@@ -451,6 +481,14 @@ def fetch(source, since_ts, log=None):
             image = _media_url(base, p.get("featured_media"))
             if not image and p.get("featured_media"):
                 image = _og_image(p["link"])
+            if INTL_CARD_RE.search(image or ""):
+                # Κάρτα «BALA24» με σήμα (αυτόματα διεθνή νέα του bala24, intl-<id>.jpg): παίρνουμε τη φωτογραφία
+                # άλλου άρθρου του bala24 για το ίδιο πρόσωπο (19/11: Ντέσερς 89260 → nteserspaoo.png του 89244).
+                better = person_photo(base, title, p["id"])
+                if better:
+                    if log:
+                        log("Ροή trifillakia: κάρτα intl → φωτογραφία", better.rsplit("/", 1)[-1], "|", title[:60])
+                    image = better
             if ORIGIN_RE.search(image or ""):  # ήρθε από το trifillakia: όχι πίσω (ούτε μετατροπή φωτογραφίας)
                 seen[f"{name}:{p['id']}"] = {"guid": f"{name}:{p['id']}", "title": title, "image": "", "image_src": image, "ts": ts}
                 continue
