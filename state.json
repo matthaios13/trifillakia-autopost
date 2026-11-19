@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25126,
+  "last": 25127,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12416,6 +12416,12 @@
    },
    "tries": 1
   },
+  "news:25127": {
+   "at": 1795123033.2988925,
+   "claim": "44616892503",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14461,6 +14467,7 @@
     "feature": true,
     "guid": "totalbasket.gr:70693",
     "image": "https://totalbasket.gr/wp-content/uploads/2026/11/el-game-E2026-121.jpg",
+    "imported": 1795122927.526388,
     "link": "https://totalbasket.gr/zalgkiris-panathinaikos-72-87-prasino-diplo-me-nan-kai-cheis-nteivis-sto-kaounas/",
     "source": "totalbasket.gr",
     "subtitle": "Οι «πράσινοι» ξεκίνησαν δυνατά, κράτησαν τη Ζαλγκίρις στους 16 πόντους στην τρίτη περίοδο και έκλεισαν το ματς με 28-17 συνολικά στο τέλος.",
