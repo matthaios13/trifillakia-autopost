@@ -17,9 +17,18 @@
    "24902": 1794481518.2924283,
    "24903": 1794481518.2924283,
    "25025": 1794910421.6673028,
-   "25026": 1794910421.667305
+   "25026": 1794910421.667305,
+   "25124": 1795120237.768854
   },
   "recent": [
+   {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.24%E2%80%AF%CE%BC%CE%BC.png",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25123,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.24%E2%80%AF%CE%BC%CE%BC.png?itok=rzN6JxO7",
+    "title": "Η κριτική του Παναθηναϊκού στο Κάουνας: Ο Χέιζ-Ντέιβις άνοιξε τον δρόμο, ο Ναν έβαλε την υπογραφή",
+    "url": "https://www.trifillakia.gr/mpasket/article/25123/i-kritiki-toy-panathinaikoy-sto-kaoynas-o-heiz-nteivis-anoixe-ton-dromo-o-nan"
+   },
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/paokaunas.jpg",
     "label": "ΜΠΑΣΚΕΤ",
@@ -331,14 +340,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/496857846_1314615453999630_2883182699220403450_n.jpg",
     "title": "Shamrock Ladies: η ομάδα γαελικού ποδοσφαίρου από την κομητεία Offaly",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25082/shamrock-ladies-i-omada-gaelikoy-podosfairoy-apo-tin-komiteia-offaly"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/912055652_18111653708614476_1940534194633183789_n.jpg",
-    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
-    "nid": 25081,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/912055652_18111653708614476_1940534194633183789_n.jpg",
-    "title": "Επτά νίκες με 3-0 για τις ακαδημίες βόλεϊ του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25081/epta-nikes-me-3-0-gia-tis-akadimies-volei-toy-panathinaikoy"
    }
   ],
   "rss_floor": 25103,
@@ -348,7 +349,8 @@
    "25026": 1794917600.569778,
    "25045": 1794917600.569777,
    "25053": 1794916804.249151,
-   "25077": 1794988442.9442308
+   "25077": 1794988442.9442308,
+   "25124": 1795120237.768854
   }
  },
  "pending": {
@@ -12383,6 +12385,12 @@
     "vb": "6304301617188304843"
    },
    "tries": 1
+  },
+  "news:25125": {
+   "at": 1795120413.7475374,
+   "claim": "44609361427",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
