@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/san-simera-2026-11-19-retro.jpg",
+    "label": "ΣΑΝ ΣΗΜΕΡΑ",
+    "nid": 25109,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/san-simera-2026-11-19-retro.jpg?itok=ZPW8Ksgd",
+    "title": "Σαν σήμερα, 19 Νοεμβρίου: Ζάλγκιρις – Παναθηναϊκός 85-86 (2019)",
+    "url": "https://www.trifillakia.gr/san-simera/article/25109/san-simera-19-noemvrioy-zalgkiris-panathinaikos-85-86-2019"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89192.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25108,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54288.jpg",
     "title": "Στους 12 πόντους η Φόρμαν στο ματς του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/25068/stoys-12-pontoys-i-forman-sto-mats-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54284.jpg",
-    "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
-    "nid": 25067,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54284.jpg",
-    "title": "Με 16 πόντους η Κέιβ στον αγώνα της Κροατίας",
-    "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/25067/me-16-pontoys-i-keiv-ston-agona-tis-kroatias"
    }
   ],
   "rss_floor": 25103,
