@@ -43,6 +43,52 @@ _s = requests.Session()
 _s.headers.update({"User-Agent": UA})
 
 
+# 19/11: ο server του trifillakia στέλνει τα αυτόματα αιτήματα στο /node/N σε «Security Check» (από 18/11 22:38).
+# Τα δημόσια RSS περνάνε κανονικά και είναι σε cache (ελαφριά), οπότε όλα τα στοιχεία των άρθρων έρχονται από εκεί:
+# αριθμός (guid «N at …»), link, τίτλος, φωτογραφία και κείμενο (description), ημερομηνία.
+FEED_TERMS = (1, 2, 4, 5, 299, 300, 301, 302, 5419, 5456, 5524, 5525, 5553)
+FEED_URLS = [f"{SITE}/taxonomy/term/{t}/feed" for t in FEED_TERMS] + [f"{SITE}/blog/feed"]
+
+
+def _text(fragment):
+    t = html.unescape(re.sub(r"<[^>]+>", " ", fragment or ""))
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def feed_items():
+    """{nid: άρθρο} από όλα τα RSS (ίδια μορφή με article()). Τα αιτήματα που αποτυγχάνουν απλώς παραλείπονται."""
+    out = {}
+    for url in FEED_URLS:
+        try:
+            r = _s.get(url, timeout=30)
+        except requests.RequestException:
+            continue
+        if r.status_code != 200 or "<rss" not in r.text[:400]:
+            continue
+        for item in re.findall(r"<item>(.*?)</item>", r.text, re.S):
+            g = re.search(r"<guid[^>]*>\s*(\d+) at ", item)
+            link = re.search(r"<link>([^<]+)</link>", item)
+            if not g or not link:
+                continue
+            nid = int(g.group(1))
+            if nid in out:
+                continue
+            title = html.unescape(re.search(r"<title>(.*?)</title>", item, re.S).group(1)).strip()
+            desc = html.unescape((re.search(r"<description>(.*?)</description>", item, re.S) or [None, ""])[1] or "")
+            img = re.search(r'field-name-field-image.*?<img[^>]+src="([^"]+)"', desc, re.S)
+            thumb = html.unescape(img.group(1)) if img else ""
+            image = re.sub(r"/styles/[^/]+/public/", "/", thumb).split("?", 1)[0] if thumb else ""
+            body = re.search(r'field-name-body.*?<div class="field-item[^"]*">(.*?)</div>\s*</div>\s*</div>', desc, re.S)
+            text = _text(body.group(1) if body else "")
+            if len(text) > 300:
+                text = text[:300].rsplit(" ", 1)[0] + "…"
+            link_url = link.group(1).strip()
+            sec = section_of(link_url)
+            out[nid] = {"nid": nid, "url": link_url, "title": title, "description": text, "image": image,
+                        "thumb": thumb, "section": sec, "label": SECTIONS.get(sec, "")}
+    return out
+
+
 def latest_nid():
     """Ο μεγαλύτερος αριθμός άρθρου στην αρχική και στις ροές των κατηγοριών (η αρχική μπορεί να είναι σε cache)."""
     ids = []

@@ -281,14 +281,10 @@ def viber_only(nids):
         if rec and rec.get("nets", {}).get("vb"):
             log("Viber: ήδη σταλμένο", key)
             continue
-        status, url = news.probe(int(nid))
-        if status != "ok":
-            log("Viber: δεν βρέθηκε το άρθρο", nid, status)
-            continue
-        a = news.article(int(nid), url)
+        a = news.feed_items().get(int(nid))  # 19/11: από τα RSS (το /node/N δίνει «Security Check»)
         if not a:
+            log("Viber: δεν βρέθηκε το άρθρο στις ροές", nid)
             continue
-        a["thumb"] = news.thumb_url(a.get("image", ""))
         got = viber.publish_news(a, log=log)
         log("Viber:", key, got or "απέτυχε")
         if got and rec:
@@ -502,47 +498,23 @@ def run_news(st, now, dry):
                 if a and a["title"]:
                     ns["recent"].append({k: a[k] for k in ("nid", "url", "title", "image", "label")})
         return
-    # Άρθρα που ήταν κρυφά (403) ξαναελέγχονται για 2 ημέρες.
-    candidates = [int(n) for n in ns["wait"] if now - ns["wait"][n] < 2 * 86400]
-    ns["wait"] = {k: v for k, v in ns["wait"].items() if now - v < 2 * 86400}
-    misses, nid = 0, ns["last"]
-    while misses < news.LOOKAHEAD or nid < home:
-        nid += 1
-        status, url = news.probe(nid)
-        if status == "ok":
-            misses = 0
-            ns["last"] = nid
-            candidates.append(nid)
-        elif status == "hidden":
-            misses = 0
-            ns["wait"].setdefault(str(nid), now)
-        elif status == "error":
-            # ο server δεν απάντησε: σταματάμε εδώ και ξαναδοκιμάζουμε στην επόμενη εκτέλεση (όχι «δεν υπάρχει»)
-            log("Ειδήσεις: το site δεν απαντά στο άρθρο", nid, "- ξανά στην επόμενη εκτέλεση")
-            break
-        else:
-            misses += 1
-        if nid > home + 200:
-            break
-    if news.LAST_MISS and ns["last"] < home:
-        log("Ειδήσεις: last", ns["last"], "home", home, "| αποτυχίες:", "; ".join(f"{k}: {v}" for k, v in list(news.LAST_MISS.items())[:4]))
-    for nid in sorted(set(candidates)):
+    # 19/11: όλα από τα RSS (το /node/N δίνει «Security Check» στο GitHub). Ανεβαίνει κάθε άρθρο των ροών με αριθμό
+    # μεγαλύτερο από το rss_floor που δεν έχει ανέβει ήδη (και όσα δημοσιεύτηκαν αργότερα με μικρότερο αριθμό).
+    items = news.feed_items()
+    if not items:
+        log("Ειδήσεις: τα RSS δεν απάντησαν, ξανά στην επόμενη εκτέλεση")
+        return
+    floor = ns.setdefault("rss_floor", ns["last"])
+    ns["last"] = max(ns["last"], max(items))
+    for nid in sorted(n for n in items if n > floor):
         key = f"news:{nid}"
         if is_done(st, key):
             ns["wait"].pop(str(nid), None)
             continue
-        status, url = news.probe(nid)
-        if status == "error":
-            ns["wait"].setdefault(str(nid), now)  # ξανά στην επόμενη εκτέλεση
-            continue
-        if status != "ok":
+        a = items[nid]
+        if not news.wanted(a["url"]) or not a["title"]:
             continue
         ns["wait"].pop(str(nid), None)
-        if not news.wanted(url):
-            continue
-        a = news.article(nid, url)
-        if not a or not a["title"]:
-            continue
         # Χωρίς φωτογραφία: περιμένουμε έως 1 ώρα μήπως μπει (π.χ. διόρθωση από τον συντάκτη), μετά ανεβαίνει έτσι.
         if not a.get("image"):
             first = ns.setdefault("noimg", {}).setdefault(str(nid), now)
@@ -573,7 +545,7 @@ def run_news(st, now, dry):
         if not dry:
             ns["recent"] = [x for x in ns["recent"] if x["nid"] != nid]
             item = {k: a[k] for k in ("nid", "url", "title", "image", "label")}
-            item["thumb"] = news.thumb_url(a["image"])
+            item["thumb"] = a.get("thumb") or news.thumb_url(a["image"])
             ns["recent"].insert(0, item)
             ns["recent"] = ns["recent"][:40]
 
