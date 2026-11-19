@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/htr_0.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25104,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/htr_0.jpg?itok=Zk0whxqu",
+    "title": "Η Θύρα 13 συμπληρώνει 60 χρόνια ζωής",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25104/i-thyra-13-symplironei-60-hronia-zois"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/b39db9e1-6c5d-4e6d-8875-a41f4eaf84ff-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25103,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-88728.jpg",
     "title": "Παναθηναϊκός: Γεμάτο 90λεπτο για τον Κάνγκουα με τη Ζάμπια – Πότε ενσωματώνεται στις προπονήσεις",
     "url": "https://www.trifillakia.gr/podosfairo/article/25063/panathinaikos-gemato-90lepto-gia-ton-kangkoya-me-ti-zampia-pote"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5450233-scaled.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25062,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5450233-scaled.jpg",
-    "title": "Βραβεύσεις αθλητών και προπονητών των τμημάτων ΑμεΑ του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25062/vraveyseis-athliton-kai-proponiton-ton-tmimaton-amea-toy-panathinaikoy"
    }
   ],
   "rss_floor": 25103,
@@ -12087,6 +12087,12 @@
     "vb": "6304166049886865302"
    },
    "tries": 1
+  },
+  "news:25105": {
+   "at": 1795088090.987133,
+   "claim": "44515466681",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
