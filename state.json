@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25103,
+  "last": 25109,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -341,6 +341,7 @@
     "url": "https://www.trifillakia.gr/erasitehnis/article/25062/vraveyseis-athliton-kai-proponiton-ton-tmimaton-amea-toy-panathinaikoy"
    }
   ],
+  "rss_floor": 25103,
   "wait": {
    "24367": 1792399241.4600399,
    "25025": 1794917600.569778,
@@ -12076,6 +12077,12 @@
     "vb": "6303977924318795605"
    },
    "tries": 1
+  },
+  "news:25104": {
+   "at": 1795088056.0315354,
+   "claim": "44515466681",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
