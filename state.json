@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89254.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25111,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89254.jpg?itok=KU-5Ym5O",
+    "title": "Παναθηναϊκός: Επιστροφή στις προπονήσεις ενόψει ΟΦΗ – Πότε ενσωματώνονται οι Κάνγκουα και Πελίστρι",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25111/panathinaikos-epistrofi-stis-proponiseis-enopsei-ofi-pote-ensomatonontai-oi"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/intl-89260.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25110,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/bolognaitta.jpg",
     "title": "Συνεχίζει να μην βλέπεται ο Παναθηναϊκός και νέα κακή ήττα στη Μπολόνια",
     "url": "https://www.trifillakia.gr/mpasket/article/25070/synehizei-na-min-vlepetai-o-panathinaikos-kai-nea-kaki-itta-sti-mpolonia"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5451958-1.jpg",
-    "label": "ΠΟΛΟ",
-    "nid": 25069,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5451958-1.jpg",
-    "title": "Επικράτηση του Παναθηναϊκού με 14-12 επί της Μαρσέιγ",
-    "url": "https://www.trifillakia.gr/polo/article/25069/epikratisi-toy-panathinaikoy-me-14-12-epi-tis-marseig"
    }
   ],
   "rss_floor": 25103,
@@ -12157,6 +12157,12 @@
     "vb": "6304192169831534659"
    },
    "tries": 1
+  },
+  "news:25112": {
+   "at": 1795094318.5552917,
+   "claim": "44531624497",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
