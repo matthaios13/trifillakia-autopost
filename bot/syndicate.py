@@ -22,6 +22,7 @@ from PIL import Image
 from .cards import ROOT
 from .flashscore import UA
 from . import pao1908
+from . import sansimera
 
 FEED = os.path.join(ROOT, "docs", "pao-feed.xml")
 CSV_FEED = os.path.join(ROOT, "docs", "pao-feed.csv")  # importer «PAO news CSV»: υπότιτλος + ετικέτες (από 13/11)
@@ -719,6 +720,18 @@ def update(state, now, log=print):
             state["items"].append(p)
             state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
             log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"], "| υπότιτλος:", bool(p["subtitle"]), "| ετικέτες:", ", ".join(p["tags"]))
+    # «Σαν σήμερα» του panathinaikanea.gr, μία φορά τη μέρα (19/11).
+    try:
+        p = sansimera.candidate(set(state["done"]), log)
+        if p:
+            p["image"] = drupal_image(p["image"], p["guid"])
+            p["added"] = now
+            state["items"].append(p)
+            state["done"].append(p["guid"])
+            state["done_titles"] = (state.get("done_titles") or [])[-399:] + [_bmp_plain(p["title"])]
+            log("Ροή trifillakia: νέο άρθρο ←", p["source"], p["title"])
+    except Exception as e:  # noqa: BLE001
+        log("Σφάλμα «Σαν σήμερα»", repr(e)[:200])
     # Ερασιτέχνης: pao1908.com, ξαναγραμμένα (έως 5 ανά εκτέλεση, ώστε το backfill από 1/11 να μπαίνει σταδιακά).
     try:
         ours = {_plain(t) for t in state.get("done_titles", [])} | {_plain(i["title"]) for i in state["items"]}
