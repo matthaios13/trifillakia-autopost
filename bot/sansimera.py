@@ -38,6 +38,40 @@ def clean(content):
     return c.strip()
 
 
+def events(content):
+    """[{"year", "label", "yt"}] για κάθε γεγονός (h2/h3 id="otd-…"), με τη σειρά του άρθρου (πρώτο = κύριο)."""
+    out = []
+    heads = list(re.finditer(r'<h[23] id="otd-(\d{4})-\d\d-\d\d-([a-z])">(.*?)</h[23]>', content, re.S))
+    for n, m in enumerate(heads):
+        part = content[m.end(): heads[n + 1].start() if n + 1 < len(heads) else len(content)]
+        yt = re.search(r'data-yt="([\w-]{6,20})"', part)
+        full = html.unescape(re.sub(r"<[^>]+>", "", m.group(3))).split("·", 1)[-1].strip()
+        out.append({"year": int(m.group(1)), "sport": m.group(2), "full": full,
+                    "label": full.replace("Παναθηναϊκός", "ΠΑΟ"), "yt": yt.group(1) if yt else None})
+    return out
+
+
+MONTHS_GEN = ["ιανουαριου", "φεβρουαριου", "μαρτιου", "απριλιου", "μαιου", "ιουνιου", "ιουλιου", "αυγουστου",
+              "σεπτεμβριου", "οκτωβριου", "νοεμβριου", "δεκεμβριου"]
+
+
+def events_for_title(title):
+    """(γεγονότα, μέρα, μήνας) από τίτλο «Σαν σήμερα, 19 Νοεμβρίου: …» (για τις κάρτες Instagram)."""
+    import unicodedata
+    t = "".join(c for c in unicodedata.normalize("NFD", title.lower()) if unicodedata.category(c) != "Mn")
+    m = re.search(r"σαν σημερα,?\s+(\d{1,2})\s+([α-ω]+)", t)
+    if not m or m.group(2) not in MONTHS_GEN:
+        return None
+    day, month = int(m.group(1)), MONTHS_GEN.index(m.group(2)) + 1
+    year = datetime.now(TZ).year
+    try:
+        r = _s.get(f"{API}/pn_history", params={"slug": f"san-simera-{year}-{month:02d}-{day:02d}", "_fields": "content"}, timeout=30)
+        posts = r.json() if r.status_code == 200 else []
+    except (requests.RequestException, ValueError):
+        return None
+    return (events(posts[0]["content"]["rendered"]), day, month) if posts else None
+
+
 def candidate(done, log=print, now=None):
     """Το σημερινό «Σαν σήμερα» ως άρθρο για τη ροή, ή None (δεν βγήκε ακόμα / το πήραμε ήδη)."""
     today = datetime.now(TZ) if now is None else datetime.fromtimestamp(now, TZ)
@@ -78,4 +112,7 @@ def candidate(done, log=print, now=None):
         "link": p["link"],
         "source": "panathinaikanea.gr",
         "feature": False,
+        "events": events(content),
+        "day": today.day,
+        "month": today.month,
     }

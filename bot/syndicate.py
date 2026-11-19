@@ -23,6 +23,7 @@ from .cards import ROOT
 from .flashscore import UA
 from . import pao1908
 from . import sansimera
+from . import sansimera_cover
 
 FEED = os.path.join(ROOT, "docs", "pao-feed.xml")
 CSV_FEED = os.path.join(ROOT, "docs", "pao-feed.csv")  # importer «PAO news CSV»: υπότιτλος + ετικέτες (από 13/11)
@@ -724,6 +725,15 @@ def update(state, now, log=print):
     try:
         p = sansimera.candidate(set(state["done"]), log)
         if p:
+            evs, day, month = p.pop("events", []), p.pop("day", 0), p.pop("month", 0)
+            name = re.sub(r"[^a-z0-9]+", "-", p["guid"].lower()).strip("-") + "-retro.jpg"
+            try:  # ρετρό εξώφυλλο με καρτ ποστάλ (19/11)
+                if evs:
+                    os.makedirs(IMG_DIR, exist_ok=True)
+                    sansimera_cover.cover(sansimera_cover.with_images(evs), day, month, os.path.join(IMG_DIR, name))
+                    p["image"] = PAGES + "img/" + name
+            except Exception as e:  # noqa: BLE001
+                log("Σαν σήμερα: σφάλμα εξωφύλλου", repr(e)[:200])
             p["image"] = drupal_image(p["image"], p["guid"])
             p["added"] = now
             state["items"].append(p)

@@ -13,7 +13,7 @@ import sys
 import time
 from datetime import datetime, timedelta
 
-from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, shows, standings, trending, ytall, syndicate, wpl, youtube, radio, viber
+from . import basket, biolinks, blogs, captions, cards, elabet, flashscore as fs, meta, news, shows, standings, trending, ytall, syndicate, wpl, youtube, radio, viber, sansimera, sansimera_cover
 from .config import (
     COMP_NAMES,
     FULLTIME_MAX_AGE_H,
@@ -548,13 +548,23 @@ def run_news(st, now, dry):
                 log("Άρθρο χωρίς φωτογραφία, περιμένουμε:", nid)
                 ns["wait"].setdefault(str(nid), now)  # να ξαναελεγχθεί (αλλιώς χανόταν: 25025/25026, 16/11)
                 continue
+        feed_card, story_card = None, None
+        if a.get("section") == "san-simera":  # ρετρό κάρτες «Σαν σήμερα» (19/11)
+            try:
+                got = sansimera.events_for_title(a["title"])
+                if got and got[0]:
+                    evs = sansimera_cover.with_images(got[0])
+                    feed_card = sansimera_cover.post(evs, got[1], got[2])
+                    story_card = sansimera_cover.story(evs, got[1], got[2])
+            except Exception as e:  # noqa: BLE001
+                log("Σαν σήμερα: σφάλμα κάρτας", repr(e)[:200])
         post(
             st,
             key,
-            cards.news_card(a),
+            feed_card or cards.news_card(a),
             captions.news_ig(a),
             dry,
-            story_card=cards.news_story(a),
+            story_card=story_card or cards.news_story(a),
             publisher=lambda f, sp, c, done, a=a: {**meta.publish_news(f, sp, c, a["url"], captions.news_fb(a), done=done),
                                                     **viber.publish_news(a, done=done, log=log)},
         )
