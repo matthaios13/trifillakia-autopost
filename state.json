@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/intl-89260.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25110,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/intl-89260.jpg?itok=JGUx2uZU",
+    "title": "Ντέσερς: Το «καρφί» που τον στοιχειώνει από τη Ρέιντζερς και το όνειρο του τίτλου με τον Παναθηναϊκό",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25110/ntesers-to-karfi-poy-ton-stoiheionei-apo-ti-reintzers-kai-to-oneiro-toy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/san-simera-2026-11-19-retro.jpg",
     "label": "ΣΑΝ ΣΗΜΕΡΑ",
     "nid": 25109,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/5451958-1.jpg",
     "title": "Επικράτηση του Παναθηναϊκού με 14-12 επί της Μαρσέιγ",
     "url": "https://www.trifillakia.gr/polo/article/25069/epikratisi-toy-panathinaikoy-me-14-12-epi-tis-marseig"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54288.jpg",
-    "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
-    "nid": 25068,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54288.jpg",
-    "title": "Στους 12 πόντους η Φόρμαν στο ματς του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/25068/stoys-12-pontoys-i-forman-sto-mats-toy-panathinaikoy"
    }
   ],
   "rss_floor": 25103,
@@ -12147,6 +12147,12 @@
     "vb": "6304191999529315280"
    },
    "tries": 1
+  },
+  "news:25111": {
+   "at": 1795094278.3065555,
+   "claim": "44531624497",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
