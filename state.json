@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25121,
+  "last": 25122,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -774,6 +774,48 @@
     "tour_path": "/basketball/europe/euroleague/"
    },
    "since": 1794605720.1989226,
+   "team": "basketball"
+  },
+  "mvp:hQbsp1qC": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "bqRyXX9C",
+    "away_score": 87,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-f1XTBdEd.png",
+    "home": "Ζαλγκίρις Κάουνας",
+    "home_id": "6JbDYvUs",
+    "home_score": 72,
+    "id": "hQbsp1qC",
+    "info": "",
+    "periods": [
+     [
+      17,
+      28
+     ],
+     [
+      22,
+      19
+     ],
+     [
+      16,
+      12
+     ],
+     [
+      17,
+      28
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1795111200,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "since": 1795118719.706979,
    "team": "basketball"
   },
   "mvp:n9umnKz0": {
@@ -2478,6 +2520,50 @@
    "round": "5η Αγωνιστική",
    "since": 1793545249.0808816,
    "team": "football_w"
+  },
+  "tb:hQbsp1qC": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "bqRyXX9C",
+    "away_score": 87,
+    "comp": "Ευρωλίγκα",
+    "comp_full": "ΕΥΡΩΠΗ: Ευρωλίγκα",
+    "comp_logo": "https://static.flashscore.com/res/image/data/QNKV5cSp-f1XTBdEd.png",
+    "home": "Ζαλγκίρις Κάουνας",
+    "home_id": "6JbDYvUs",
+    "home_score": 72,
+    "id": "hQbsp1qC",
+    "info": "",
+    "periods": [
+     [
+      17,
+      28
+     ],
+     [
+      22,
+      19
+     ],
+     [
+      16,
+      12
+     ],
+     [
+      17,
+      28
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "xMnfgrm4",
+    "start": 1795111200,
+    "status": "3",
+    "tour_id": "YJaj0Opm",
+    "tour_path": "/basketball/europe/euroleague/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 13",
+   "round": "13η Αγωνιστική",
+   "since": 1795118719.706979,
+   "team": "basketball"
   },
   "tb:hlVZ0Vy3": {
    "ev": {
@@ -12267,6 +12353,12 @@
     "vb": "6304267567914442641"
    },
    "tries": 1
+  },
+  "news:25122": {
+   "at": 1795118898.7572432,
+   "claim": "44604991942",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
