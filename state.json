@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-bayernbc-348596.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25118,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-bayernbc-348596.jpg?itok=alBFMGgp",
+    "title": "ELABET: Η Μπάγερν «Ενισχυμένη» για την πρώτη εντός νίκη στη Euroleague",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25118/elabet-i-mpagern-enishymeni-gia-tin-proti-entos-niki-sti"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_1.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25117,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-e411b1f945e4f3d8.jpg",
     "title": "Μουμπρού: «Η νίκη ήρθε χάρη στους οπαδούς»",
     "url": "https://www.trifillakia.gr/mpasket/article/25076/moymproy-i-niki-irthe-hari-stoys-opadoys"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70344.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25075,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70344.jpg",
-    "title": "Ομπράντοβιτς: «Ήταν ένα παιχνίδι που έπρεπε να παίξουμε δυνατά»",
-    "url": "https://www.trifillakia.gr/mpasket/article/25075/omprantovits-itan-ena-paihnidi-poy-eprepe-na-paixoyme-dynata"
    }
   ],
   "rss_floor": 25103,
@@ -12227,6 +12227,12 @@
     "vb": "6304237638570496557"
    },
    "tries": 1
+  },
+  "news:25119": {
+   "at": 1795105159.922387,
+   "claim": "44563980135",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
