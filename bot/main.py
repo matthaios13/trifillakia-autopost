@@ -524,6 +524,8 @@ def run_news(st, now, dry):
             misses += 1
         if nid > home + 200:
             break
+    if news.LAST_MISS and ns["last"] < home:
+        log("Ειδήσεις: last", ns["last"], "home", home, "| αποτυχίες:", "; ".join(f"{k}: {v}" for k, v in list(news.LAST_MISS.items())[:4]))
     for nid in sorted(set(candidates)):
         key = f"news:{nid}"
         if is_done(st, key):

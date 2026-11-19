@@ -57,6 +57,9 @@ def latest_nid():
     return max(ids) if ids else 0
 
 
+LAST_MISS = {}
+
+
 def probe(nid):
     """'ok' + URL αν το άρθρο υπάρχει και είναι δημοσιευμένο, 'hidden' αν δεν είναι ακόμα δημόσιο, αλλιώς None."""
     try:
@@ -70,6 +73,7 @@ def probe(nid):
         return "ok", r.headers["Location"].split("?", 1)[0]
     if r.status_code == 403:
         return "hidden", None
+    LAST_MISS[nid] = f"{r.status_code} {r.headers.get('Location', '')[:80]} {r.headers.get('cf-cache-status', '')} {r.headers.get('server', '')}"
     return None, None
 
 
