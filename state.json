@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-maccabibc-d54432.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25116,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-maccabibc-d54432.jpg?itok=oY0upHx0",
+    "title": "ELABET: Bet Builder πόντων στο Μακάμπι – Ντουμπάι",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25116/elabet-bet-builder-ponton-sto-makampi-ntoympai"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89298.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25115,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70346.jpg",
     "title": "Βίρτους – Παναθηναϊκός 84-79: Νέα προβληματική εμφάνιση και ήττα στη Μπολόνια",
     "url": "https://www.trifillakia.gr/mpasket/article/25074/virtoys-panathinaikos-84-79-nea-provlimatiki-emfanisi-kai-itta-sti-mpolonia"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70383.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25073,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70383.jpg",
-    "title": "Παναθηναϊκός: Καταγγέλλει στη EuroLeague οπαδό της Βίρτους για ρατσιστική συμπεριφορά – «Αποκαλούσε ζώα τους παίκτες μας»",
-    "url": "https://www.trifillakia.gr/mpasket/article/25073/panathinaikos-kataggellei-sti-euroleague-opado-tis-virtoys-gia-ratsistiki"
    }
   ],
   "rss_floor": 25103,
@@ -12207,6 +12207,12 @@
     "vb": "6304237344345113154"
    },
    "tries": 1
+  },
+  "news:25117": {
+   "at": 1795105089.6030076,
+   "claim": "44563980135",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
