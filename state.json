@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_1.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25117,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-ela-94453f_1.jpg?itok=YVeHD2tG",
+    "title": "ELABET: Αντίδραση με 0% γκανιότα ο Παναθηναϊκός στο Κάουνας – Bet Builder… απόδρασης για τη Φενέρ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25117/elabet-antidrasi-me-0-gkaniota-o-panathinaikos-sto-kaoynas-bet"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-maccabibc-d54432.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25116,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70344.jpg",
     "title": "Ομπράντοβιτς: «Ήταν ένα παιχνίδι που έπρεπε να παίξουμε δυνατά»",
     "url": "https://www.trifillakia.gr/mpasket/article/25075/omprantovits-itan-ena-paihnidi-poy-eprepe-na-paixoyme-dynata"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70346.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25074,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70346.jpg",
-    "title": "Βίρτους – Παναθηναϊκός 84-79: Νέα προβληματική εμφάνιση και ήττα στη Μπολόνια",
-    "url": "https://www.trifillakia.gr/mpasket/article/25074/virtoys-panathinaikos-84-79-nea-provlimatiki-emfanisi-kai-itta-sti-mpolonia"
    }
   ],
   "rss_floor": 25103,
@@ -12217,6 +12217,12 @@
     "vb": "6304237492268404749"
    },
    "tries": 1
+  },
+  "news:25118": {
+   "at": 1795105125.2270532,
+   "claim": "44563980135",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
