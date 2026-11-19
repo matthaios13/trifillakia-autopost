@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25120,
+  "last": 25121,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12248,6 +12248,12 @@
    },
    "tries": 1
   },
+  "news:25121": {
+   "at": 1795112257.465707,
+   "claim": "44585827893",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14293,6 +14299,7 @@
     "feature": false,
     "guid": "totalbasket.gr:70671",
     "image": "https://totalbasket.gr/wp-content/uploads/2026/11/braxtonkey-scaled.jpg",
+    "imported": 1795112126.5901957,
     "link": "https://totalbasket.gr/injury-report-evroligkas-oi-apousies-sta-exi-mats-tis-13is-agonistikis/",
     "source": "totalbasket.gr",
     "subtitle": "Ποιοι λείπουν και ποιοι είναι αμφίβολοι στα έξι πρώτα παιχνίδια του γύρου, με τον Παναθηναϊκό χωρίς απουσίες",
