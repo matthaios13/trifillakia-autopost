@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25115,
+  "last": 25120,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12198,6 +12198,12 @@
    },
    "tries": 2
   },
+  "news:25116": {
+   "at": 1795105044.464576,
+   "claim": "44563980135",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14242,6 +14248,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54359",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/19/Haruna-Ojio.jpg",
+    "imported": 1795104927.254845,
     "link": "https://www.pao1908.com/nea/ston-panathinaiko-i-haruna-ojio/",
     "source": "pao1908.com",
     "subtitle": "Η Haruna Ojio, χρυσή στο Παγκόσμιο Πρωτάθλημα Νέων U18 το 2024, θα αγωνιστεί με τα πράσινα.",
