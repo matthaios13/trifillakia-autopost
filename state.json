@@ -21,6 +21,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-valenciabc-41795f.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25119,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-valenciabc-41795f.jpg?itok=V-3KD0Zd",
+    "title": "ELABET: Με «Ενισχύσεις» κορυφής η Βαλένθια υποδέχεται τη Βίρτους",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25119/elabet-me-enishyseis-koryfis-i-valenthia-ypodehetai-ti-virtoys"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-bayernbc-348596.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25118,
@@ -331,14 +339,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/paostigmi.jpg",
     "title": "Τα highlights από την ήττα στην Μπολόνια από τη Βίρτους (vid)",
     "url": "https://www.trifillakia.gr/mpasket/article/25078/ta-highlights-apo-tin-itta-stin-mpolonia-apo-ti-virtoys-vid"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-e411b1f945e4f3d8.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25076,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-e411b1f945e4f3d8.jpg",
-    "title": "Μουμπρού: «Η νίκη ήρθε χάρη στους οπαδούς»",
-    "url": "https://www.trifillakia.gr/mpasket/article/25076/moymproy-i-niki-irthe-hari-stoys-opadoys"
    }
   ],
   "rss_floor": 25103,
@@ -12237,6 +12237,12 @@
     "vb": "6304237779183964401"
    },
    "tries": 1
+  },
+  "news:25120": {
+   "at": 1795105193.259247,
+   "claim": "44563980135",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
