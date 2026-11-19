@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25113,
+  "last": 25115,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12188,6 +12188,12 @@
    },
    "tries": 1
   },
+  "news:25115": {
+   "at": 1795101501.7859693,
+   "claim": "44552693211",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14232,6 +14238,7 @@
     "category": "Φούτσαλ Ανδρών",
     "guid": "pao1908.com:54354",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/pao1908-com-54354.jpg",
+    "imported": 1795101327.7809405,
     "link": "https://www.pao1908.com/nea/ksana-sto-trifylli-o-karavidas/",
     "source": "pao1908.com",
     "subtitle": "Ο έμπειρος παίκτης του ποδοσφαίρου σάλας, με έξι πρωταθλήματα Ελλάδος στη διαδρομή του, ξαναφορά τη φανέλα του τμήματος futsal ανδρών.",
@@ -14252,6 +14259,7 @@
     "feature": true,
     "guid": "bala24.gr:89298",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-89298.jpg",
+    "imported": 1795101327.7809405,
     "link": "https://bala24.gr/thelei-al-chamlaoui-o-panathinaikos-sto-kadro-kai-o-olybiakos/",
     "source": "bala24.gr",
     "subtitle": "Μάχη «αιωνίων» για την υπογραφή του Παλαιστίνιου επιθετικού",
