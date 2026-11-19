@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25127,
+  "last": 25128,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12426,6 +12426,12 @@
    },
    "tries": 1
   },
+  "news:25128": {
+   "at": 1795126642.7858496,
+   "claim": "44626830709",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14471,6 +14477,7 @@
     "feature": true,
     "guid": "totalbasket.gr:70714",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-70714.jpg",
+    "imported": 1795126525.6577334,
     "link": "https://totalbasket.gr/ta-highlghts-tis-apodrasis-tou-panathinaikou-apo-to-kaounas-vid/",
     "source": "totalbasket.gr",
     "subtitle": "Ο Παναθηναϊκός επικράτησε με 87-72 της Ζάλγκιρις στο Κάουνας, επέστρεψε στις νίκες στην Euroleague κι έδωσε απαντήσεις μετά την κακή του εμφάνιση στην Μπολόνια κόντρα στην Βίρτους.",
