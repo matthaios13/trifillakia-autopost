@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5445068-1.jpg",
+    "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
+    "nid": 25142,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5445068-1.jpg?itok=EsqH_dAf",
+    "title": "Βουλκίδης και Χανδρινός στην κορυφαία ομάδα της 4ης αγωνιστικής",
+    "url": "https://www.trifillakia.gr/volei-andron/article/25142/voylkidis-kai-handrinos-stin-koryfaia-omada-tis-4is-agonistikis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5446600-1.jpg",
     "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
     "nid": 25141,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/0-02-0a-10d67f3e6392c678007d8045016a8d90fd4efda6562b09e157920a85937f511d_f63f946a3484796e.jpg",
     "title": "Δύο νίκες και πρόκριση στο LAN event για τα esports του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25101/dyo-nikes-kai-prokrisi-sto-lan-event-gia-ta-esports-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70521.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25100,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70521.jpg",
-    "title": "Ομπράντοβιτς: «Οι έξυπνοι άνθρωποι καταλαβαίνουν, έχω έξυπνους ανθρώπους στην ομάδα μου, τους εμπιστεύομαι και θα συνεχίσω να τους εμπιστεύομαι»",
-    "url": "https://www.trifillakia.gr/mpasket/article/25100/omprantovits-oi-exypnoi-anthropoi-katalavainoyn-eho-exypnoys-anthropoys-stin"
    }
   ],
   "rss_floor": 25103,
@@ -12581,6 +12581,12 @@
     "vb": "6304585900587875767"
    },
    "tries": 1
+  },
+  "news:25144": {
+   "at": 1795188191.5492542,
+   "claim": "44762251516",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
