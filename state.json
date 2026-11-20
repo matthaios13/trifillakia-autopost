@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25130,
+  "last": 25131,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -354,7 +354,7 @@
    "25077": 1794988442.9442308,
    "25124": 1795120237.768854,
    "25129": 1795140922.6418822,
-   "25130": 1795151424.59453
+   "25130": 1795151723.503956
   }
  },
  "pending": {
@@ -12450,6 +12450,12 @@
    },
    "tries": 1
   },
+  "news:25131": {
+   "at": 1795151807.9325752,
+   "claim": "44679785544",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14495,6 +14501,7 @@
     "feature": false,
     "guid": "panathinaikanea.gr:san-simera-2026-11-20",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/panathinaikanea-gr-san-simera-2026-11-20-retro.jpg",
+    "imported": 1795151723.503956,
     "link": "https://panathinaikanea.gr/san-simera/san-simera-2026-11-20/",
     "source": "panathinaikanea.gr",
     "subtitle": "Στις 20 Νοεμβρίου 2025 οι «πράσινοι» επικράτησαν με 103-82 κόντρα στην Ντουμπάι εντός έδρας, για την EuroLeague, 12η αγωνιστική.",
