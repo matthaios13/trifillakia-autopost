@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-partizanbc-98ce3f.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25144,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-partizanbc-98ce3f.jpg?itok=gfNg6ZDZ",
+    "title": "ELABET: Παρτιζάν – Μπεσίκτας με δυνατό Bet Builder αντίδρασης",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25144/elabet-partizan-mpesiktas-me-dynato-bet-builder-antidrasis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5445068-1.jpg",
     "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
     "nid": 25142,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/bala24-gr-89069.jpg?itok=yGrMlJvq",
     "title": "Θέλει Αντίνο η Μπριζ, αρνείται ο Παναθηναϊκός",
     "url": "https://www.trifillakia.gr/podosfairo/article/25102/thelei-antino-i-mpriz-arneitai-o-panathinaikos"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/0-02-0a-10d67f3e6392c678007d8045016a8d90fd4efda6562b09e157920a85937f511d_f63f946a3484796e.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25101,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/0-02-0a-10d67f3e6392c678007d8045016a8d90fd4efda6562b09e157920a85937f511d_f63f946a3484796e.jpg",
-    "title": "Δύο νίκες και πρόκριση στο LAN event για τα esports του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25101/dyo-nikes-kai-prokrisi-sto-lan-event-gia-ta-esports-toy-panathinaikoy"
    }
   ],
   "rss_floor": 25103,
@@ -12591,6 +12591,12 @@
     "vb": "6304586029476180557"
    },
    "tries": 1
+  },
+  "news:25145": {
+   "at": 1795188222.196345,
+   "claim": "44762251516",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
