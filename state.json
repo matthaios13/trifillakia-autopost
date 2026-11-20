@@ -24,6 +24,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/cbsmpuspetebg8z3ocl5vz_t3.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25132,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/cbsmpuspetebg8z3ocl5vz_t3.jpg?itok=Vcm03YI_",
+    "title": "Το ASV Berlin και η σχέση του με το τριφύλλι",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25132/to-asv-berlin-kai-i-shesi-toy-me-to-trifylli"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikanea-gr-san-simera-2026-11-20-retro.jpg",
     "label": "ΣΑΝ ΣΗΜΕΡΑ",
     "nid": 25131,
@@ -334,14 +342,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/generic_anakoinoseis_1600x720_1.jpg",
     "title": "Ανοιχτές οι αιτήσεις διαπίστευσης για το ματς της ομάδας γυναικών",
     "url": "https://www.trifillakia.gr/podosfairo-gynaikon/article/25092/anoihtes-oi-aitiseis-diapisteysis-gia-to-mats-tis-omadas-gynaikon"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/a1-600x424-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25091,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/a1-600x424-1.jpg",
-    "title": "Στους 57 οι επίσημοι ομαδικοί τίτλοι του Παναθηναϊκού στις καταδύσεις",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25091/stoys-57-oi-episimoi-omadikoi-titloi-toy-panathinaikoy-stis-katadyseis"
    }
   ],
   "rss_floor": 25103,
@@ -12489,6 +12489,12 @@
     "vb": "6304478884243469318"
    },
    "tries": 1
+  },
+  "news:25133": {
+   "at": 1795162677.4551885,
+   "claim": "44701061032",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
