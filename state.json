@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-efesbc-298cc3.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25146,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-efesbc-298cc3.jpg?itok=zfmnYn69",
+    "title": "ELABET: Αναντολού Εφές – Βιλερμπάν: «Ενισχυμένη» μάχη για επιστροφής στις νίκες",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25146/elabet-anantoloy-efes-vilermpan-enishymeni-mahi-gia-epistrofis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_2.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25145,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/htr_0.jpg?itok=Zk0whxqu",
     "title": "Η Θύρα 13 συμπληρώνει 60 χρόνια ζωής",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25104/i-thyra-13-symplironei-60-hronia-zois"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/b39db9e1-6c5d-4e6d-8875-a41f4eaf84ff-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25103,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/b39db9e1-6c5d-4e6d-8875-a41f4eaf84ff-1.jpg",
-    "title": "Πανελλήνιο Πρωτάθλημα άρσης βαρών: Οι αθλητές και οι αθλήτριες του Παναθηναϊκού στη Νίκαια",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25103/panellinio-protathlima-arsis-varon-oi-athlites-kai-oi-athlitries-toy"
    }
   ],
   "rss_floor": 25103,
@@ -12611,6 +12611,12 @@
     "vb": "6304586287301953610"
    },
    "tries": 1
+  },
+  "news:25147": {
+   "at": 1795188283.5043037,
+   "claim": "44762251516",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
