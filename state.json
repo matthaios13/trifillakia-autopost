@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25138,
+  "last": 25139,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12542,6 +12542,12 @@
    },
    "tries": 1
   },
+  "news:25139": {
+   "at": 1795180924.520558,
+   "claim": "44743425161",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14587,6 +14593,7 @@
     "feature": true,
     "guid": "bala24.gr:89564",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-89564.jpg",
+    "imported": 1795180830.0456805,
     "link": "https://bala24.gr/treis-ypopsifioi-gia-dyo-theseis-ston-panathinaiko-to-provadisma-tou-taborda/",
     "source": "bala24.gr",
     "subtitle": "Οι σκέψεις του Τζέικομπ Νίστρουπ για την ενδεκάδα του Παναθηναϊκού ενόψει της αναμέτρησης με τον ΟΦΗ.",
