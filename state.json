@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25140,
+  "last": 25147,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12562,6 +12562,12 @@
    },
    "tries": 1
   },
+  "news:25141": {
+   "at": 1795188125.8075473,
+   "claim": "44762251516",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14606,6 +14612,7 @@
     "category": "Βόλεϊ Γυναικών",
     "guid": "pao1908.com:54417",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/20/5446600-1.jpg",
+    "imported": 1795188027.4950645,
     "link": "https://www.pao1908.com/nea/me-mikagia-gouait-i-koryfaia-omada-tis-pemptis-agonistikis/",
     "source": "pao1908.com",
     "subtitle": "Η ακραία του Παναθηναϊκού ολοκλήρωσε το ματς στο Μαρκόπουλο με 21 πόντους, 5 μπλοκ και 32% ποσοστό υποδοχής.",
@@ -14624,6 +14631,7 @@
     "category": "Βολεϊ Ανδρών",
     "guid": "pao1908.com:54412",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/20/5445068-1.jpg",
+    "imported": 1795188027.4950645,
     "link": "https://www.pao1908.com/nea/o-thodoris-voulkidis-mvp-tis-tetartis-agonistikis/",
     "source": "pao1908.com",
     "subtitle": "Ο διεθνής κεντρικός του Παναθηναϊκού αναδείχθηκε MVP μετά τη νίκη επί του Ολυμπιακού με 3-2 σετ στο κλειστό του Μετς.",
@@ -14644,6 +14652,7 @@
     "feature": false,
     "guid": "bala24.gr:89605",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-89605.jpg",
+    "imported": 1795188027.4950645,
     "link": "https://bala24.gr/ofi-bikan-christogeorgos-kai-apostolakis-prin-apo-ton-panathinaiko/",
     "source": "bala24.gr",
     "subtitle": "Ο Νίκος Χριστογεώργος και ο Γιάννης Αποστολάκης επέστρεψαν στο κανονικό πρόγραμμα του ΟΦΗ, δύο ημέρες πριν από την εκτός έδρας αναμέτρηση με τον Παναθηναϊκό στο ΟΑΚΑ (22/11, 17:30).",
