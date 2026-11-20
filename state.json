@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25148,
+  "last": 25149,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12632,6 +12632,12 @@
    },
    "tries": 1
   },
+  "news:25149": {
+   "at": 1795206126.7141817,
+   "claim": "44810432895",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14687,6 +14693,7 @@
     "feature": false,
     "guid": "bala24.gr:89786",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-89786.jpg",
+    "imported": 1795206028.1766562,
     "link": "https://bala24.gr/kotsolis-kai-fyssas-apo-to-katar-stochos-mas-na-doume-paidia-tis-akadimias-stin-proti-omada/",
     "source": "bala24.gr",
     "subtitle": "Οι Τάκης Φύσσας και Στέφανος Κοτσόλης βρέθηκαν στο Κατάρ για τους αγώνες του Μουντιάλ Παίδων στο οποίο το «τριφύλλι» εκπροσωπείται από πέντε ποδοσφαιριστές.",
