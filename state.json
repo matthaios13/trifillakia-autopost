@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25131,
+  "last": 25133,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12480,6 +12480,12 @@
    },
    "tries": 1
   },
+  "news:25132": {
+   "at": 1795162640.3005521,
+   "claim": "44701061032",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14524,6 +14530,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54391",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/20/cbSMpuSPeTeBG8z3OCL5vz_t3.jpg",
+    "imported": 1795162526.9077778,
     "link": "https://www.pao1908.com/deltia-typoy/panathinaikos-kai-asv-berlin/",
     "source": "pao1908.com",
     "subtitle": "Πολυαθλητικός σύλλογος από το Μόαμπιτ του Βερολίνου, με πράσινα και λευκά χρώματα και έμβλημα το τριφύλλι, που είναι γνωστός κυρίως για το ποδοσφαιρικό του τμήμα.",
@@ -14543,6 +14550,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:29120",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/pao1908-com-29120.jpg",
+    "imported": 1795162526.9077778,
     "link": "https://www.pao1908.com/deltia-typoy/kalo-taksidi-manouso/",
     "source": "pao1908.com",
     "subtitle": "Λιγότερο γνωστή πτυχή του γνωστού δημιουργού του ελληνικού κινηματογράφου και της τηλεόρασης είναι οι διακρίσεις του στην κολύμβηση με τα χρώματα του Παναθηναϊκού.",
