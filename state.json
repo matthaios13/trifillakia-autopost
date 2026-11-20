@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5446600-1.jpg",
+    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
+    "nid": 25141,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5446600-1.jpg?itok=2B-Dyf-O",
+    "title": "Η Γουάιτ στην κορυφαία εξάδα της 5ης αγωνιστικής",
+    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25141/i-goyait-stin-koryfaia-exada-tis-5is-agonistikis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89592.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25140,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-70521.jpg",
     "title": "Ομπράντοβιτς: «Οι έξυπνοι άνθρωποι καταλαβαίνουν, έχω έξυπνους ανθρώπους στην ομάδα μου, τους εμπιστεύομαι και θα συνεχίσω να τους εμπιστεύομαι»",
     "url": "https://www.trifillakia.gr/mpasket/article/25100/omprantovits-oi-exypnoi-anthropoi-katalavainoyn-eho-exypnoys-anthropoys-stin"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/sloykass_0.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25099,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/image_320x320/public/field/image/sloykass_0.jpg?itok=EABE6oEf",
-    "title": "Αρχηγική παρέμβαση Σλούκα: «Δεν είμαστε εκεί που θέλουμε – Προβληματιζόμαστε για να βελτιωθούμε»",
-    "url": "https://www.trifillakia.gr/mpasket/article/25099/arhigiki-paremvasi-sloyka-den-eimaste-ekei-poy-theloyme-provlimatizomaste-gia"
    }
   ],
   "rss_floor": 25103,
@@ -12571,6 +12571,12 @@
     "vb": "6304585765878990541"
    },
    "tries": 1
+  },
+  "news:25142": {
+   "at": 1795188159.42265,
+   "claim": "44762251516",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
