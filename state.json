@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/dpggg_3.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25148,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/dpggg_3.jpg?itok=DkD1kHsN",
+    "title": "Νέο μήνυμα Γιαννακόπουλου για τις εκλογές της ΕΟΚ",
+    "url": "https://www.trifillakia.gr/mpasket/article/25148/neo-minyma-giannakopoyloy-gia-tis-ekloges-tis-eok"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-bilbaofc-c25e33.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25147,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikos_11.jpg?itok=TW9vWPGO",
     "title": "Παναθηναϊκός: Η παράδοση μετά τις διακοπές και το στοίχημα της συνέχειας απέναντι στον ΟΦΗ",
     "url": "https://www.trifillakia.gr/podosfairo/article/25106/panathinaikos-i-paradosi-meta-tis-diakopes-kai-to-stoihima-tis-syneheias"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89168.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25105,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89168.jpg?itok=_NeGm996",
-    "title": "Θύρα 13: Ειδική επετειακή έκδοση «ΠΑΝΑΘΗΝΑΪΚΟΝ» για τα 60 χρόνια",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25105/thyra-13-eidiki-epeteiaki-ekdosi-panathinaikon-gia-ta-60-hronia"
    }
   ],
   "rss_floor": 25103,
