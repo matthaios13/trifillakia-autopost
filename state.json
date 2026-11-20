@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25137,
+  "last": 25138,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12532,6 +12532,12 @@
    },
    "tries": 1
   },
+  "news:25138": {
+   "at": 1795177288.593636,
+   "claim": "44734942346",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14577,6 +14583,7 @@
     "feature": true,
     "guid": "bala24.gr:89555",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-89555.jpg",
+    "imported": 1795177247.7915792,
     "link": "https://bala24.gr/panathinaikos-proponithike-o-kristiansen-ensomatothikan-kangkoua-kai-pelistri/",
     "source": "bala24.gr",
     "subtitle": "Επιστροφή στις προπονήσεις για τους Κινγκς Κάνγκουα και Φακούντο Πελίστρι στο «Γεώργιος Καλαφάτης», με τους Πάλμερ-Μπράουν και Σαλάχ-Εντίν να απουσιάζουν λόγω ασθένειας, χωρίς ωστόσο να υπάρχει λόγος ανησυχίας.",
