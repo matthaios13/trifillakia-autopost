@@ -137,6 +137,16 @@ def _body_names(text):
     return out
 
 
+QUOTE_RE = re.compile(r"^\s*([^:«»]{3,40}):\s*«([^»]+)»")
+RATING_RE = re.compile(r"βαθμολογιε|κριτικη|αξιολογηση|ατομικη αποδοση")
+
+
+def _title_names(text):
+    """Κύρια ονόματα τίτλου (κεφαλαίο αρχικό, ≥5 γράμματα), χωρίς ΠΑΟ: «Κάουνας», «Ζαλγκίρις»."""
+    return {_plain(w)[:6] for w in re.findall(r"(?<![\w])[Α-ΩΆ-ΏA-Z][^\W\d_]{4,}", text)
+            if not any(x in _plain(w) for x in PAO_WORDS)}
+
+
 RESULT_RE = re.compile(r"νικ|ηττ|επικρατ|ισοπαλ|εχασε|λυγισε|υπεταξε|κερδισε|απωλει|βαθμο|προκρι|αποκλει")
 
 
@@ -149,6 +159,19 @@ def same_story(title, doc, body=""):
        αλλά όχι οι δηλώσεις ενός προσώπου σκέτες (Ομπράντοβιτς για Ναν ≠ «Επιστρέφει ο Ναν»)."""
     if similar(title, doc["title"]):
         return True
+    t1, t2 = html.unescape(title), html.unescape(doc["title"])
+    # Δηλώσεις του ίδιου προσώπου με κοινά λόγια (20/11: Ομπράντοβιτς «Μπήκαμε δυναμικά και παίξαμε έξυπνα»
+    # του totalbasket = «Ξεκινήσαμε αποφασιστικά και παίξαμε έξυπνα στην επίθεση» του συντάκτη).
+    q1, q2 = QUOTE_RE.match(t1), QUOTE_RE.match(t2)
+    if q1 and q2 and _plain(q1.group(1)) == _plain(q2.group(1)):
+        w1, w2 = _norm_words(q1.group(2)), _norm_words(q2.group(2))
+        if len(w1 & w2) >= 2:
+            return True
+    # Βαθμολογίες/κριτική παικτών για τον ίδιο αγώνα (20/11: «Οι βαθμολογίες του Παναθηναϊκού στο Κάουνας» =
+    # «Η κριτική του Παναθηναϊκού στο Κάουνας»): και οι δύο τίτλοι τέτοιοι και κοινό όνομα τόπου/αντιπάλου.
+    if RATING_RE.search(_plain(t1)) and RATING_RE.search(_plain(t2)):
+        if _markers(t1) == _markers(t2) and _title_names(t1) & _title_names(t2):
+            return True
     # Ο κανόνας του σκορ μόνο για τίτλους ρεπορτάζ (σκορ πριν από την «:»), όχι για άρθρα που απλώς
     # αναφέρουν το αποτέλεσμα (π.χ. «Παναθηναϊκός: 26 τελικές και 5,72 xGoals στο 5-1» = στατιστικά).
     score = _score(re.split(r":", html.unescape(title))[0])
@@ -484,9 +507,10 @@ def fetch(source, since_ts, log=None):
             if INTL_CARD_RE.search(image or ""):
                 # Κάρτα «BALA24» με σήμα (αυτόματα διεθνή νέα του bala24, intl-<id>.jpg): παίρνουμε τη φωτογραφία
                 # άλλου άρθρου του bala24 για το ίδιο πρόσωπο (19/11: Ντέσερς 89260 → nteserspaoo.png του 89244).
+                fresh = (base, _plain(title.split(":", 1)[0])) not in _person_cache
                 better = person_photo(base, title, p["id"])
                 if better:
-                    if log:
+                    if log and fresh:
                         log("Ροή trifillakia: κάρτα intl → φωτογραφία", better.rsplit("/", 1)[-1], "|", title[:60])
                     image = better
             if ORIGIN_RE.search(image or ""):  # ήρθε από το trifillakia: όχι πίσω (ούτε μετατροπή φωτογραφίας)
@@ -729,6 +753,11 @@ def update(state, now, log=print):
         for i in state["items"]:
             by_src.setdefault(i.get("source", ""), set()).add(_plain(_bmp_plain(i["title"])))
         existing = trifillakia_docs()
+        if len(existing) < 10:
+            # Οι ροές του trifillakia δεν απάντησαν: χωρίς αυτές δεν ξέρουμε τι υπάρχει ήδη → τίποτα νέο αυτή τη φορά
+            # (αλλιώς περνούν διπλά, 20/11). Τα άρθρα μένουν υποψήφια για την επόμενη εκτέλεση.
+            log("Ροή trifillakia: οι ροές του site έδωσαν", len(existing), "άρθρα — αναβολή εισαγωγής")
+            candidates = []
         # Χωρίς φωτογραφία: περιμένουμε έως 30 λεπτά (ο συντάκτης συχνά τη βάζει λίγο μετά τη δημοσίευση).
     # Άρθρα που πήρε το totalbasket/bala24 ΑΠΟ το trifillakia (φωτογραφία «pao-<nid>.jpg») δεν ξαναγυρίζουν
     # εδώ με άλλον τίτλο (13/11: Γιαννακόπουλος 24940→24955, ΠΑΟ–Μπαρτσελόνα 24938→24956).
@@ -736,7 +765,15 @@ def update(state, now, log=print):
         log("Ροή trifillakia: προέρχεται από το trifillakia →", p["title"])
         state["done"].append(p["guid"])
     candidates = [p for p in candidates if not ORIGIN_RE.search(p.get("image_src") or p.get("image") or "")]
-    candidates = [p for p in candidates if p["image"] or now - p["ts"] > 1800]
+    # Χωρίς φωτογραφία (20/11: totalbasket 70724/70725 χωρίς featured image → σήμα στο site): πρώτα φωτογραφία
+    # άλλου άρθρου του ίδιου site για το ίδιο πρόσωπο, αλλιώς περιμένουμε έως 3 ώρες μήπως μπει.
+    for p in candidates:
+        if not p["image"] and p.get("base"):
+            better = person_photo(p["base"], p["title"], int(p["guid"].rsplit(":", 1)[-1]))
+            if better:
+                log("Ροή trifillakia: χωρίς φωτογραφία → φωτογραφία προσώπου", better.rsplit("/", 1)[-1], "|", p["title"][:60])
+                p["image"] = drupal_image(better, p["guid"])
+    candidates = [p for p in candidates if p["image"] or now - p["ts"] > 3 * 3600]
     for p in sorted(candidates, key=lambda p: p["ts"]):
             mine = by_src.get(p.get("source", ""), set())
             near = [d for d in existing if (not d["ts"] or abs(d["ts"] - p["ts"]) < WINDOW)
