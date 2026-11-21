@@ -53,6 +53,19 @@ _s = requests.Session()
 _s.headers.update({"User-Agent": UA})
 
 
+def real_image(url):
+    """Η φωτογραφία του άρθρου ή "" όταν το pao1908 δίνει το placeholder του θέματος
+    (/wp-content/themes/whsk_paoac/common/imgs/default.jpg, σχετικό URL): συμβαίνει όταν η φωτογραφία
+    μπαίνει λίγο μετά τη δημοσίευση (21/11: «Ρεκόρ τίτλων…», node 25169 ανέβηκε χωρίς φωτογραφία)."""
+    url = (url or "").strip()
+    if not url.startswith("http") or "/uploads/" not in url or "/themes/" in url or "default." in url.rsplit("/", 1)[-1]:
+        return ""
+    return url
+
+
+WAIT_IMAGE = 3 * 3600  # χωρίς φωτογραφία: περιμένουμε έως 3 ώρες, μετά ανεβαίνει χωρίς
+
+
 def fetch(log=print):
     """Τα άρθρα των 3 κατηγοριών από 1/11 (ή της τελευταίας εβδομάδας), πιο παλιά πρώτα."""
     since = max(START, datetime.now(timezone.utc).timestamp() - LOOKBACK)
@@ -89,7 +102,7 @@ def fetch(log=print):
             "orig_body": p["content"]["rendered"],
             "sport": sport,
             "link": p["link"],
-            "image": p.get("cwp_featured_full") or "",
+            "image": real_image(p.get("cwp_featured_full")),
             "ts": datetime.fromisoformat(p["date_gmt"]).replace(tzinfo=timezone.utc).timestamp(),
         })
     return sorted(out, key=lambda i: i["ts"])
@@ -222,6 +235,9 @@ def candidates(have, existing, same_story, log=print, fails=None):
             continue
         if len(out) >= PER_RUN:
             break
+        if not p["image"] and datetime.now(timezone.utc).timestamp() - p["ts"] < WAIT_IMAGE:
+            log("pao1908: χωρίς φωτογραφία ακόμα, περιμένω →", p["orig_title"])
+            continue
         near = [d for d in existing if not d["ts"] or abs(d["ts"] - p["ts"]) < 36 * 3600]
         if any(same_story(p["orig_title"], d) for d in near):
             log("Ροή trifillakia: υπάρχει ήδη →", p["orig_title"])
