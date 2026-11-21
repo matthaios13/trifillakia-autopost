@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25156,
+  "last": 25157,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12810,6 +12810,12 @@
    },
    "tries": 1
   },
+  "news:25157": {
+   "at": 1795253206.1614406,
+   "claim": "44889496021",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14865,6 +14871,7 @@
     "feature": true,
     "guid": "bala24.gr:89922",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-89922.jpg",
+    "imported": 1795253120.9124994,
     "link": "https://bala24.gr/poso-kostise-o-antino-stous-prasinous-kai-poies-omades-ton-echoun-sti-lista-tous/",
     "source": "bala24.gr",
     "subtitle": "Το ενδιαφέρον πέντε ευρωπαϊκών ομάδων για τον Σαντίνο Αντίνο φέρνει ξανά στο προσκήνιο τα οικονομικά δεδομένα της μεταγραφής του στον Παναθηναϊκό.",
