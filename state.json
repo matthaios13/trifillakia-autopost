@@ -3116,6 +3116,50 @@
    "since": 1794143117.060743,
    "team": "basketball"
   },
+  "tb:rVaC2F0K": {
+   "ev": {
+    "away": "Παναθηναϊκός",
+    "away_id": "plqPE4do",
+    "away_score": 69,
+    "comp": "WBL1 Γυναίκες",
+    "comp_full": "ΕΛΛΑΔΑ: WBL1 Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/SlpLdpW1-2Nr2qbEt.png",
+    "home": "Αθηναϊκός",
+    "home_id": "CvwqYeQe",
+    "home_score": 83,
+    "id": "rVaC2F0K",
+    "info": "",
+    "periods": [
+     [
+      16,
+      28
+     ],
+     [
+      20,
+      10
+     ],
+     [
+      21,
+      17
+     ],
+     [
+      26,
+      14
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "h4wjf39b",
+    "start": 1795273200,
+    "status": "3",
+    "tour_id": "dMKU41qj",
+    "tour_path": "/basketball/greece/wbl1-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 7",
+   "round": "7η Αγωνιστική",
+   "since": 1795300832.5322034,
+   "team": "basketball_w"
+  },
   "tb:vPF044re": {
    "ev": {
     "away": "Παναθηναϊκός",
