@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet_sb-4e77f1.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25155,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-elabet_sb-4e77f1.jpg?itok=rQMmLZBf",
+    "title": "ELABET: Σούπερ «Ενισχυμένη» η ΑΕΚ στη Νίκαια – ντερμπάρα ΠΑΟΚ – Άρης με δυνατό «combo»",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25155/elabet-soyper-enishymeni-i-aek-sti-nikaia-ntermpara-paok-aris"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-realfc-074175.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25154,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/generic_anakoinoseis_1600x720_3.jpg?itok=NkB-snEK",
     "title": "Ντέρμπι με την ΑΕΚ στη Λεωφόρο για το ποδόσφαιρο γυναικών",
     "url": "https://www.trifillakia.gr/podosfairo-gynaikon/article/25113/ntermpi-me-tin-aek-sti-leoforo-gia-to-podosfairo-gynaikon"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89249.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25112,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89249.jpg?itok=nDPGlldh",
-    "title": "Παναθηναϊκός: Τιμά τους Αϊτόρ και Χατζηγιοβάνη πριν από την αναμέτρηση με τον ΟΦΗ",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25112/panathinaikos-tima-toys-aitor-kai-hatzigiovani-prin-apo-tin-anametrisi-me"
    }
   ],
   "rss_floor": 25103,
@@ -12759,6 +12759,12 @@
     "vb": "6304829158073456627"
    },
    "tries": 1
+  },
+  "news:25156": {
+   "at": 1795246188.875898,
+   "claim": "44880164782",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
