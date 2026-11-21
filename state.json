@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89988.jpg",
+    "label": "ΓΗΠΕΔΙΚΟ",
+    "nid": 25159,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89988.jpg?itok=Zoo_g8yy",
+    "title": "Συνεργασία με τον αθλητικό οδοντίατρο Θάνο Στάμο για τον Παναθηναϊκό",
+    "url": "https://www.trifillakia.gr/gipediko/article/25159/synergasia-me-ton-athlitiko-odontiatro-thano-stamo-gia-ton-panathinaiko"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89978.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25158,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-bayernbc-348596.jpg?itok=alBFMGgp",
     "title": "ELABET: Η Μπάγερν «Ενισχυμένη» για την πρώτη εντός νίκη στη Euroleague",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25118/elabet-i-mpagern-enishymeni-gia-tin-proti-entos-niki-sti"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_1.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25117,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-ela-94453f_1.jpg?itok=YVeHD2tG",
-    "title": "ELABET: Αντίδραση με 0% γκανιότα ο Παναθηναϊκός στο Κάουνας – Bet Builder… απόδρασης για τη Φενέρ",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25117/elabet-antidrasi-me-0-gkaniota-o-panathinaikos-sto-kaoynas-bet"
    }
   ],
   "rss_floor": 25103,
@@ -12839,6 +12839,12 @@
     "vb": "6304889088217761214"
    },
    "tries": 1
+  },
+  "news:25160": {
+   "at": 1795260477.4780462,
+   "claim": "44899014795",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
