@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5457211-scaled.jpg",
+    "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
+    "nid": 25167,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5457211-scaled.jpg?itok=a9Gd30b5",
+    "title": "Ο Παναθηναϊκός γνώρισε ήττα 83-69 από τον Αθηναϊκό",
+    "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/25167/o-panathinaikos-gnorise-itta-83-69-apo-ton-athinaiko"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/wknxrtofr004.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25166,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.25%E2%80%AF%CE%BC%CE%BC%20%281%29.png?itok=FUMrqFd7",
     "title": "Ναν: «Ο Νάιτζελ μάς κράτησε στο πρώτο μισό, στην τέταρτη περίοδο ανέλαβα εγώ»",
     "url": "https://www.trifillakia.gr/mpasket/article/25126/nan-o-naitzel-mas-kratise-sto-proto-miso-stin-tetarti-periodo-anelava-ego"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.25%E2%80%AF%CE%BC%CE%BC.png",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25125,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.25%E2%80%AF%CE%BC%CE%BC.png?itok=WB1MIt6-",
-    "title": "Ομπράντοβιτς: «Ξεκινήσαμε αποφασιστικά και παίξαμε έξυπνα στην επίθεση»",
-    "url": "https://www.trifillakia.gr/mpasket/article/25125/omprantovits-xekinisame-apofasistika-kai-paixame-exypna-stin-epithesi"
    }
   ],
   "rss_floor": 25103,
@@ -12973,6 +12973,12 @@
     "vb": "6304979653024421941"
    },
    "tries": 1
+  },
+  "news:25168": {
+   "at": 1795282070.058552,
+   "claim": "44929937272",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
