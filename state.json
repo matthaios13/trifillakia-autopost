@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25161,
+  "last": 25163,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12860,6 +12860,12 @@
    },
    "tries": 1
   },
+  "news:25162": {
+   "at": 1795267631.7189426,
+   "claim": "44908764113",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14915,6 +14921,7 @@
     "feature": false,
     "guid": "bala24.gr:90046",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90046.jpg",
+    "imported": 1795267521.3617384,
     "link": "https://bala24.gr/i-apostoli-tou-ofi-gia-to-mats-me-ton-panathinaiko/",
     "source": "bala24.gr",
     "subtitle": "Οι επιλογές του Χρήστου Κόντη",
@@ -14931,6 +14938,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54429",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/21/5455722-1.jpg",
+    "imported": 1795267521.3617384,
     "link": "https://www.pao1908.com/nea/yperprotathlites-elladas-oi-leventes-me-kardia/",
     "source": "pao1908.com",
     "subtitle": "Το τριφύλλι ήταν πίσω 5-12 στην αρχή, αλλά πήρε τον τίτλο με 72-40 και έφτασε τους 1901 τίτλους για τον Σύλλογο.",
