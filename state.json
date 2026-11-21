@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25160,
+  "last": 25161,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12850,6 +12850,12 @@
    },
    "tries": 1
   },
+  "news:25161": {
+   "at": 1795263971.3810213,
+   "claim": "44903800921",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14905,6 +14911,7 @@
     "feature": true,
     "guid": "bala24.gr:90032",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90032.jpg",
+    "imported": 1795263929.59838,
     "link": "https://bala24.gr/i-apostoli-tou-panathinaikou-me-ofi/",
     "source": "bala24.gr",
     "subtitle": "Οι επιλογές του Νίστρουπ",
