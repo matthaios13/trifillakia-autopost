@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25170,
+  "last": 25172,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13102,6 +13102,12 @@
    },
    "tries": 1
   },
+  "news:25172": {
+   "at": 1795289204.7953732,
+   "claim": "44940833359",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15156,6 +15162,7 @@
     "category": "Φούτσαλ Ανδρών",
     "guid": "pao1908.com:54462",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/21/5457769-1.jpg",
+    "imported": 1795289123.3624084,
     "link": "https://www.pao1908.com/nea/den-ta-katafere-kontra-ston-ermi/",
     "source": "pao1908.com",
     "subtitle": "Η ομάδα futsal ανδρών του Παναθηναϊκού μείωσε δύο φορές με Κολέντζο και Νέρες, αλλά οι γηπεδούχοι πέτυχαν δύο γκολ στην τελική ευθεία.",
@@ -15176,6 +15183,7 @@
     "feature": true,
     "guid": "totalbasket.gr:70971",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-70971.jpg",
+    "imported": 1795289123.3624084,
     "link": "https://totalbasket.gr/obrantovits-sevastikame-to-marousi-eimai-charoumenos-gia-osous-den-echoun-polla-lepta-stin-euroleague-giati-palevoun/",
     "source": "totalbasket.gr",
     "subtitle": "Ο Ζέλικο Ομπράντοβιτς εξέφρασε την ικανοποίησή του για τον τρόπο με τον οποίο οι παίκτες του Παναθηναϊκού προσέγγισαν το παιχνίδι με το Μαρούσι για να φτάσουν στη νίκη.",
