@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-realfc-074175.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25154,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-realfc-074175.jpg?itok=LGLZGbMY",
+    "title": "ELABET: Ρεάλ – Θέλτα με «boost» σε γκολ και τρελή φόρμα Εμπαπέ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25154/elabet-real-thelta-me-boost-se-gkol-kai-treli-forma-empape"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-romafc-7f5ed7.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25153,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89249.jpg?itok=nDPGlldh",
     "title": "Παναθηναϊκός: Τιμά τους Αϊτόρ και Χατζηγιοβάνη πριν από την αναμέτρηση με τον ΟΦΗ",
     "url": "https://www.trifillakia.gr/podosfairo/article/25112/panathinaikos-tima-toys-aitor-kai-hatzigiovani-prin-apo-tin-anametrisi-me"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89254.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25111,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89254.jpg?itok=KU-5Ym5O",
-    "title": "Παναθηναϊκός: Επιστροφή στις προπονήσεις ενόψει ΟΦΗ – Πότε ενσωματώνονται οι Κάνγκουα και Πελίστρι",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25111/panathinaikos-epistrofi-stis-proponiseis-enopsei-ofi-pote-ensomatonontai-oi"
    }
   ],
   "rss_floor": 25103,
@@ -12749,6 +12749,12 @@
     "vb": "6304828992754964470"
    },
    "tries": 1
+  },
+  "news:25155": {
+   "at": 1795246149.8106983,
+   "claim": "44880164782",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
