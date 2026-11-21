@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/8w8bagx3ugdjqe3oa4axr0_t3.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25164,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/8w8bagx3ugdjqe3oa4axr0_t3.jpg?itok=F-zSM-Ts",
+    "title": "Η SV Bossendorf 1955 και το τριφύλλι στο έμβλημά της",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25164/i-sv-bossendorf-1955-kai-to-trifylli-sto-emvlima-tis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5455722-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25163,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.24%E2%80%AF%CE%BC%CE%BC.png?itok=rzN6JxO7",
     "title": "Η κριτική του Παναθηναϊκού στο Κάουνας: Ο Χέιζ-Ντέιβις άνοιξε τον δρόμο, ο Ναν έβαλε την υπογραφή",
     "url": "https://www.trifillakia.gr/mpasket/article/25123/i-kritiki-toy-panathinaikoy-sto-kaoynas-o-heiz-nteivis-anoixe-ton-dromo-o-nan"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/paokaunas.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25122,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/paokaunas.jpg?itok=fmcjBjez",
-    "title": "Έπαιξε σαν Παναθηναϊκός και πέρασε αέρα από το Κάουνας!",
-    "url": "https://www.trifillakia.gr/mpasket/article/25122/epaixe-san-panathinaikos-kai-perase-aera-apo-to-kaoynas"
    }
   ],
   "rss_floor": 25103,
@@ -12889,6 +12889,12 @@
     "vb": "6304964734306125873"
    },
    "tries": 1
+  },
+  "news:25165": {
+   "at": 1795278512.5068498,
+   "claim": "44924470494",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
