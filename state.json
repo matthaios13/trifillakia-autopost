@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25175,
+  "last": 25176,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13196,6 +13196,12 @@
    },
    "tries": 1
   },
+  "news:25176": {
+   "at": 1795300063.9369237,
+   "claim": "44955777153",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15250,6 +15256,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54482",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/21/Ping-pong-men.jpg",
+    "imported": 1795299330.078911,
     "link": "https://www.pao1908.com/nea/paramenoun-aittitoi-oi-andres/",
     "source": "pao1908.com",
     "subtitle": "Ο Παναθηναϊκός έμεινε αήττητος μετά από τέσσερις αγωνιστικές στην Α1, με ντεμπούτο του Αντρέα Πούπο.",
