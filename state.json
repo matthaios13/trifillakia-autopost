@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25166,
+  "last": 25169,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12964,6 +12964,12 @@
    },
    "tries": 1
   },
+  "news:25167": {
+   "at": 1795282025.7064707,
+   "claim": "44929937272",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15018,6 +15024,7 @@
     "category": "Μπάσκετ Γυναικών",
     "guid": "pao1908.com:54458",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/21/5457211-scaled.jpg",
+    "imported": 1795281921.2093253,
     "link": "https://www.pao1908.com/nea/itta-ston-vyrona/",
     "source": "pao1908.com",
     "subtitle": "Η ομάδα μπάσκετ γυναικών προηγήθηκε 0-15 στην αρχή, αλλά ο Αθηναϊκός Qualco πήρε το παιχνίδι στην τελευταία περίοδο.",
@@ -15037,6 +15044,7 @@
     "category": "Πόλο",
     "guid": "pao1908.com:54453",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/21/5456448-1.jpg",
+    "imported": 1795281921.2093253,
     "link": "https://www.pao1908.com/nea/perase-apo-ti-nea-smyrni/",
     "source": "pao1908.com",
     "subtitle": "Η ομάδα του Δημήτρη Μάζη πήρε το ματς στη Νέα Σμύρνη λίγες ημέρες μετά την ευρωπαϊκή επικράτηση επί της Μαρσέιγ.",
@@ -15056,6 +15064,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54436",
     "image": "/wp-content/themes/whsk_paoac/common/imgs/default.jpg",
+    "imported": 1795281921.2093253,
     "link": "https://www.pao1908.com/deltia-typoy/istoriko-orosimo-59-titlon-to-2026/",
     "source": "pao1908.com",
     "subtitle": "Η λίστα με όλους τους επίσημους τίτλους των τμημάτων του Παναθηναϊκού μέσα στη χρονιά, από το βόλεϊ μέχρι τη σκοποβολή και το τρίαθλο.",
