@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/ojio.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25174,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/ojio.jpg?itok=vhyuISCV",
+    "title": "Δύο νίκες με 4-0 για τον Παναθηναϊκό στην Α1 πινγκ πονγκ γυναικών",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25174/dyo-nikes-me-4-0-gia-ton-panathinaiko-stin-a1-pingk-pongk-gynaikon"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/915603572_1180596704394607_5875127263451963388_n-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25173,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/cbsmpuspetebg8z3ocl5vz_t3.jpg?itok=Vcm03YI_",
     "title": "Το ASV Berlin και η σχέση του με το τριφύλλι",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25132/to-asv-berlin-kai-i-shesi-toy-me-to-trifylli"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikanea-gr-san-simera-2026-11-20-retro.jpg",
-    "label": "ΣΑΝ ΣΗΜΕΡΑ",
-    "nid": 25131,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikanea-gr-san-simera-2026-11-20-retro.jpg?itok=xVXdKoYG",
-    "title": "Σαν σήμερα, 20 Νοεμβρίου: Παναθηναϊκός – Ντουμπάι 103-82 (2025)",
-    "url": "https://www.trifillakia.gr/san-simera/article/25131/san-simera-20-noemvrioy-panathinaikos-ntoympai-103-82-2025"
    }
   ],
   "rss_floor": 25103,
@@ -13185,6 +13185,12 @@
     "vb": "6305040018590884276"
    },
    "tries": 1
+  },
+  "news:25175": {
+   "at": 1795296461.2591243,
+   "claim": "44951437645",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
