@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25158,
+  "last": 25160,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12830,6 +12830,12 @@
    },
    "tries": 1
   },
+  "news:25159": {
+   "at": 1795260437.8694222,
+   "claim": "44899014795",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14885,6 +14891,7 @@
     "feature": true,
     "guid": "bala24.gr:89988",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-89988.jpg",
+    "imported": 1795260325.8707104,
     "link": "https://bala24.gr/synergasia-me-ton-athlitiko-odontiatro-thano-stamo-gia-ton-panathinaiko/",
     "source": "bala24.gr",
     "subtitle": "Σπουδαία πρωτοτυπία από το «Τριφύλλι»",
@@ -14902,6 +14909,7 @@
     "feature": true,
     "guid": "bala24.gr:89984",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-89984.jpg",
+    "imported": 1795260325.8707104,
     "link": "https://bala24.gr/panathinaikos-to-xechoristo-minyma-gia-tin-yiothesia-adespoton-zoon/",
     "source": "bala24.gr",
     "subtitle": "Ο Παναθηναϊκός προχώρησε σε μια ξεχωριστή κοινωνική πρωτοβουλία, στέλνοντας μέσω των social media το δικό του μήνυμα υπέρ της υιοθεσίας αδέσποτων ζώων.",
