@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/d4e4917f-ebfe-4193-a370-cfb480893578.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25165,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/d4e4917f-ebfe-4193-a370-cfb480893578.jpg?itok=f6i08Sme",
+    "title": "Δεύτερη θέση για τη Βουρλούμη στο Γκραν Πρι της Αλεξάνδρειας",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25165/deyteri-thesi-gia-ti-voyrloymi-sto-gkran-pri-tis-alexandreias"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/8w8bagx3ugdjqe3oa4axr0_t3.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25164,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.25%E2%80%AF%CE%BC%CE%BC%20%281%29_0.png?itok=o2UFfGE3",
     "title": "Χέιζ-Ντέιβις: «Παίξαμε πιο σκληρά από τη Ζαλγκίρις»",
     "url": "https://www.trifillakia.gr/mpasket/article/25124/heiz-nteivis-paixame-pio-sklira-apo-ti-zalgkiris"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.24%E2%80%AF%CE%BC%CE%BC.png",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25123,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.24%E2%80%AF%CE%BC%CE%BC.png?itok=rzN6JxO7",
-    "title": "Η κριτική του Παναθηναϊκού στο Κάουνας: Ο Χέιζ-Ντέιβις άνοιξε τον δρόμο, ο Ναν έβαλε την υπογραφή",
-    "url": "https://www.trifillakia.gr/mpasket/article/25123/i-kritiki-toy-panathinaikoy-sto-kaoynas-o-heiz-nteivis-anoixe-ton-dromo-o-nan"
    }
   ],
   "rss_floor": 25103,
@@ -12899,6 +12899,12 @@
     "vb": "6304964852656397283"
    },
    "tries": 1
+  },
+  "news:25166": {
+   "at": 1795278540.770305,
+   "claim": "44924470494",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
