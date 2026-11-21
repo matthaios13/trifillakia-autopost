@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25151,
+  "last": 25156,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12720,6 +12720,12 @@
    },
    "tries": 1
   },
+  "news:25152": {
+   "at": 1795246031.1110854,
+   "claim": "44880164782",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14775,6 +14781,7 @@
     "feature": false,
     "guid": "bala24.gr:89885",
     "image": "https://bala24.gr/wp-content/uploads/2026/11/antino.jpg",
+    "imported": 1795245922.7160268,
     "link": "https://bala24.gr/sto-metagrafiko-proskinio-o-antino-endiaferon-apo-tesseris-chores/",
     "source": "bala24.gr",
     "subtitle": "Ο Σαντίνο Αντίνο έχει προσελκύσει το ενδιαφέρον πέντε ευρωπαϊκών συλλόγων, με την Μπενφίκα να βρίσκεται ανάμεσα στις ομάδες που παρακολουθούν στενά την περίπτωσή του.",
