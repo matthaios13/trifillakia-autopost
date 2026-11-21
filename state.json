@@ -21,9 +21,18 @@
    "25124": 1795120237.768854,
    "25129": 1795137434.8803408,
    "25130": 1795148124.9995854,
-   "25134": 1795169726.0996425
+   "25134": 1795169726.0996425,
+   "25169": 1795281921.2093253
   },
   "recent": [
+   {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5456448-1.jpg",
+    "label": "ΠΟΛΟ",
+    "nid": 25168,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5456448-1.jpg?itok=C5vqzZ_L",
+    "title": "Νίκη με 12-13 επί του Πανιωνίου για το πόλο του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/polo/article/25168/niki-me-12-13-epi-toy-panionioy-gia-to-polo-toy-panathinaikoy"
+   },
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5457211-scaled.jpg",
     "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
@@ -335,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/el-game-e2026-121.jpg?itok=1tSNSfw6",
     "title": "Ζαλγκίρις – Παναθηναϊκός 72-87: Πράσινο διπλό με Ναν και Χέις-Ντέιβις στο Κάουνας",
     "url": "https://www.trifillakia.gr/mpasket/article/25127/zalgkiris-panathinaikos-72-87-prasino-diplo-me-nan-kai-heis-nteivis-sto"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.25%E2%80%AF%CE%BC%CE%BC%20%281%29.png",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25126,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2019-11-26%2C%2010.25%E2%80%AF%CE%BC%CE%BC%20%281%29.png?itok=FUMrqFd7",
-    "title": "Ναν: «Ο Νάιτζελ μάς κράτησε στο πρώτο μισό, στην τέταρτη περίοδο ανέλαβα εγώ»",
-    "url": "https://www.trifillakia.gr/mpasket/article/25126/nan-o-naitzel-mas-kratise-sto-proto-miso-stin-tetarti-periodo-anelava-ego"
    }
   ],
   "rss_floor": 25103,
@@ -356,7 +357,8 @@
    "25124": 1795120237.768854,
    "25129": 1795140922.6418822,
    "25130": 1795151723.503956,
-   "25134": 1795170921.0775483
+   "25134": 1795170921.0775483,
+   "25169": 1795281921.2093253
   }
  },
  "pending": {
