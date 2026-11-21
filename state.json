@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25150,
+  "last": 25151,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -12710,6 +12710,12 @@
    },
    "tries": 1
   },
+  "news:25151": {
+   "at": 1795234966.9419029,
+   "claim": "44865606130",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14765,6 +14771,7 @@
     "feature": false,
     "guid": "panathinaikanea.gr:san-simera-2026-11-21",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/panathinaikanea-gr-san-simera-2026-11-21-retro.jpg",
+    "imported": 1795234833.223195,
     "link": "https://panathinaikanea.gr/san-simera/san-simera-2026-11-21/",
     "source": "panathinaikanea.gr",
     "subtitle": "Στις 21 Νοεμβρίου 1999 ο Παναθηναϊκός νίκησε τον Ολυμπιακό με 2-0 εντός έδρας, για την Α΄ Εθνική.",
