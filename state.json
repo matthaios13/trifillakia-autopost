@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25173,
+  "last": 25175,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13176,6 +13176,12 @@
    },
    "tries": 1
   },
+  "news:25174": {
+   "at": 1795296416.3475728,
+   "claim": "44951437645",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15230,6 +15236,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54476",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/21/ojio.jpg",
+    "imported": 1795296319.5191565,
     "link": "https://www.pao1908.com/nea/synexizoun-stin-proti-thesi-oi-protathlitries/",
     "source": "pao1908.com",
     "subtitle": "Το τριφύλλι επικράτησε του Ίφιτου Πατρών και των Ταταύλων και παραμένει στην κορυφή με 10 βαθμούς, ενώ την Κυριακή αντιμετωπίζει τον Ολυμπιακό.",
@@ -15249,6 +15256,7 @@
     "category": "Βόλεϊ Γυναικών",
     "guid": "pao1908.com:54474",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/21/5457822-1.jpg",
+    "imported": 1795296319.5191565,
     "link": "https://www.pao1908.com/nea/diplo-kontra-sti-thetida/",
     "source": "pao1908.com",
     "subtitle": "Η ομάδα του Αλεσάντρο Κιαπίνι παραμένει αήττητη στο πρωτάθλημα και ετοιμάζεται για την Κορόνα Μπρασόφ στη φάση των «32» του Challenge Cup.",
