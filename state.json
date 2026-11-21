@@ -25,6 +25,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arsenalfc-adc3eb.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25152,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-arsenalfc-adc3eb.jpg?itok=vqt1BCv8",
+    "title": "ELABET: Η Άρσεναλ έχει δυνατό Bet Builder ημιχρόνων για απόδραση από το Νιούκαστλ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25152/elabet-i-arsenal-ehei-dynato-bet-builder-imihronon-gia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikanea-gr-san-simera-2026-11-21-retro.jpg",
     "label": "ΣΑΝ ΣΗΜΕΡΑ",
     "nid": 25151,
@@ -335,14 +343,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-nteserspaoo.jpg?itok=E8Ql2ix5",
     "title": "Ντέσερς: Το «καρφί» που τον στοιχειώνει από τη Ρέιντζερς και το όνειρο του τίτλου με τον Παναθηναϊκό",
     "url": "https://www.trifillakia.gr/podosfairo/article/25110/ntesers-to-karfi-poy-ton-stoiheionei-apo-ti-reintzers-kai-to-oneiro-toy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/san-simera-2026-11-19-retro.jpg",
-    "label": "ΣΑΝ ΣΗΜΕΡΑ",
-    "nid": 25109,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/san-simera-2026-11-19-retro.jpg?itok=ZPW8Ksgd",
-    "title": "Σαν σήμερα, 19 Νοεμβρίου: Ζάλγκιρις – Παναθηναϊκός 85-86 (2019)",
-    "url": "https://www.trifillakia.gr/san-simera/article/25109/san-simera-19-noemvrioy-zalgkiris-panathinaikos-85-86-2019"
    }
   ],
   "rss_floor": 25103,
@@ -12729,6 +12729,12 @@
     "vb": "6304828693951732306"
    },
    "tries": 1
+  },
+  "news:25153": {
+   "at": 1795246078.1391718,
+   "claim": "44880164782",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
