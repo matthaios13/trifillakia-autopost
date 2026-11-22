@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pitino1.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25207,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/pitino1.jpg?itok=d2ibC8S_",
+    "title": "Πιτίνο: «Τα δύο καλύτερα χρόνια της ζωής μου ήταν στον Παναθηναϊκό»",
+    "url": "https://www.trifillakia.gr/mpasket/article/25207/pitino-ta-dyo-kalytera-hronia-tis-zois-moy-itan-ston-panathinaiko"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90444.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25206,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/8w8bagx3ugdjqe3oa4axr0_t3.jpg?itok=F-zSM-Ts",
     "title": "Η SV Bossendorf 1955 και το τριφύλλι στο έμβλημά της",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25164/i-sv-bossendorf-1955-kai-to-trifylli-sto-emvlima-tis"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5455722-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25163,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5455722-1.jpg?itok=v0DLht1Y",
-    "title": "Υπερπρωταθλητής Ελλάδας ο Παναθηναϊκός στο μπάσκετ με αμαξίδιο",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25163/yperprotathlitis-elladas-o-panathinaikos-sto-mpasket-me-amaxidio"
    }
   ],
   "rss_floor": 25103,
