@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikos_polo_0.jpg",
+    "label": "ΠΟΛΟ",
+    "nid": 25212,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikos_polo_0.jpg?itok=NiSSl39D",
+    "title": "Τα 13 επίσημα ομαδικά τρόπαια του Παναθηναϊκού στο πόλο",
+    "url": "https://www.trifillakia.gr/polo/article/25212/ta-13-episima-omadika-tropaia-toy-panathinaikoy-sto-polo"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/yre.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25211,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/rekor-titlon-pao-2026.jpg?itok=5gLPgI95",
     "title": "Ρεκόρ τίτλων για τον Παναθηναϊκό το 2026",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25169/rekor-titlon-gia-ton-panathinaiko-to-2026"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5456448-1.jpg",
-    "label": "ΠΟΛΟ",
-    "nid": 25168,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5456448-1.jpg?itok=C5vqzZ_L",
-    "title": "Νίκη με 12-13 επί του Πανιωνίου για το πόλο του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/polo/article/25168/niki-me-12-13-epi-toy-panionioy-gia-to-polo-toy-panathinaikoy"
    }
   ],
   "rss_floor": 25103,
