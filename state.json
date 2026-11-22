@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet_sb-4e77f1_0.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25180,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-elabet_sb-4e77f1_0.jpg?itok=hu5FPqBY",
+    "title": "ELABET: Παναθηναϊκός – ΟΦΗ με πράσινο «boost» και 0% γκανιότα στο ντέρμπι του «Άνφιλντ»",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25180/elabet-panathinaikos-ofi-me-prasino-boost-kai-0-gkaniota-sto"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-volosfc-28b815.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25179,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89555.jpg?itok=wwk_ADMx",
     "title": "Παναθηναϊκός: Προπονήθηκε ο Κρίστιανσεν – Ενσωματώθηκαν Κάνγκουα και Πελίστρι",
     "url": "https://www.trifillakia.gr/podosfairo/article/25138/panathinaikos-proponithike-o-kristiansen-ensomatothikan-kangkoya-kai"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/dpgggeok.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25137,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/dpgggeok.jpg?itok=Yafj0-76",
-    "title": "Γιαννακόπουλος: Νέα παρέμβαση για την ΕΟΚ – «Ποιος υποψήφιος συναντήθηκε με GM ομάδας;»",
-    "url": "https://www.trifillakia.gr/mpasket/article/25137/giannakopoylos-nea-paremvasi-gia-tin-eok-poios-ypopsifios-synantithike-me-gm"
    }
   ],
   "rss_floor": 25103,
@@ -13289,6 +13289,12 @@
     "vb": "6305191025617024810"
    },
    "tries": 1
+  },
+  "news:25181": {
+   "at": 1795332464.4821365,
+   "claim": "44998145122",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
