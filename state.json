@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/uhwlsb6sbdiy3rlbr120da_t3.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25204,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/uhwlsb6sbdiy3rlbr120da_t3.jpg?itok=JopFTfye",
+    "title": "Ο VfR Heisfelde, ο γερμανικός σύλλογος με το τριφύλλι",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25204/o-vfr-heisfelde-o-germanikos-syllogos-me-to-trifylli"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90452.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25203,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90032.jpg?itok=-0-ZEK52",
     "title": "Η αποστολή του Παναθηναϊκού με ΟΦΗ",
     "url": "https://www.trifillakia.gr/podosfairo/article/25161/i-apostoli-toy-panathinaikoy-me-ofi"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89984.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25160,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89984.jpg?itok=xWZav094",
-    "title": "Παναθηναϊκός: Το ξεχωριστό μήνυμα για την υιοθεσία αδέσποτων ζώων",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25160/panathinaikos-to-xehoristo-minyma-gia-tin-yiothesia-adespoton-zoon"
    }
   ],
   "rss_floor": 25103,
@@ -13613,6 +13613,12 @@
     "vb": "6305397735308248039"
    },
    "tries": 1
+  },
+  "news:25205": {
+   "at": 1795381748.1452103,
+   "claim": "45070070365",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
