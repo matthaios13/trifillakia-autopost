@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-volosfc-28b815.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25179,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-volosfc-28b815.jpg?itok=y45cMSHA",
+    "title": "ELABET: Παναιτωλικός – Βόλος ELABET με «boost» στο θεσσαλικό… ρόδι",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25179/elabet-panaitolikos-volos-elabet-me-boost-sto-thessaliko-rodi"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikanea-gr-san-simera-2026-11-22-retro.jpg",
     "label": "ΣΑΝ ΣΗΜΕΡΑ",
     "nid": 25177,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/dpgggeok.jpg?itok=Yafj0-76",
     "title": "Γιαννακόπουλος: Νέα παρέμβαση για την ΕΟΚ – «Ποιος υποψήφιος συναντήθηκε με GM ομάδας;»",
     "url": "https://www.trifillakia.gr/mpasket/article/25137/giannakopoylos-nea-paremvasi-gia-tin-eok-poios-ypopsifios-synantithike-me-gm"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-welcome-boost_1200x628_big-4-3f36be.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25136,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-welcome-boost_1200x628_big-4-3f36be.jpg?itok=T2o78h7s",
-    "title": "ELABET: ΑΠΙΣΤΕΥΤΗ Aπόδοση στις νίκες του Big 4!",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25136/elabet-apisteyti-apodosi-stis-nikes-toy-big-4"
    }
   ],
   "rss_floor": 25103,
@@ -13279,6 +13279,12 @@
     "vb": "6305190876032952664"
    },
    "tries": 1
+  },
+  "news:25180": {
+   "at": 1795332429.0796869,
+   "claim": "44998145122",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
