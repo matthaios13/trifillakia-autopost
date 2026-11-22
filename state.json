@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25201,
+  "last": 25206,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13584,6 +13584,12 @@
    },
    "tries": 1
   },
+  "news:25202": {
+   "at": 1795381644.0326948,
+   "claim": "45070070365",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -14878,7 +14884,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "bala24.gr:83981",
    "bala24.gr:84013",
    "bala24.gr:84052",
    "bala24.gr:84076",
@@ -15277,7 +15282,8 @@
    "bala24.gr:90444",
    "pao1908.com:54523",
    "pao1908.com:54526",
-   "bala24.gr:90452"
+   "bala24.gr:90452",
+   "bala24.gr:90447"
   ],
   "done_titles": [
    "Παναθηναϊκός: Η αποστολή για την αναμέτρηση με την ΤΣΣΚΑ Σόφιας – Οι επιλογές του Νίστρουπ",
@@ -15689,6 +15695,7 @@
     "feature": false,
     "guid": "bala24.gr:90447",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90447.jpg",
+    "imported": 1795381522.3544397,
     "link": "https://bala24.gr/i-vathmologia-tou-protathlimatos-meta-tis-nikes-olybiakou-panathinaikou-paok/",
     "source": "bala24.gr",
     "subtitle": "Η κατάσταση στον βαθμολογικό πίνακα, μετά τις νίκες των «αιώνιων» και του δικεφάλου",
@@ -15705,6 +15712,7 @@
     "feature": true,
     "guid": "bala24.gr:90452",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90452.jpg",
+    "imported": 1795381522.3544397,
     "link": "https://bala24.gr/penia-chairomai-pou-apekrousa-to-penalti-me-ponaei-o-travmatismos-tou-antino/",
     "source": "bala24.gr",
     "subtitle": "Ο Ινιάκι Πένια μίλησε για την απόκρουση του πέναλτι του Φούντα στη νίκη του Παναθηναϊκού επί του ΟΦΗ και τον τραυματισμό του Αντίνο.",
@@ -15722,6 +15730,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54526",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/uHWlsb6SBDiY3rLBR120Da_t3.jpg",
+    "imported": 1795381522.3544397,
     "link": "https://www.pao1908.com/deltia-typoy/panathinaikos-kai-vfr-heisfelde-germanias/",
     "source": "pao1908.com",
     "subtitle": "Ο ερασιτεχνικός σύλλογος από το Leer της Κάτω Σαξονίας έχει ως έμβλημα το τριφύλλι και χρώματα το πράσινο και το άσπρο.",
@@ -15741,6 +15750,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54523",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/32d59548-e8ee-4252-bb34-dcab17aefeb8-1.jpg",
+    "imported": 1795381522.3544397,
     "link": "https://www.pao1908.com/nea/pemptos-titlos-sti-seira-gia-ton-xoutsisvili-deyteri-thesi-oi-gynaikes/",
     "source": "pao1908.com",
     "subtitle": "Ο Γαβριήλ Χουτσισβίλι σήκωσε 137 κιλά στο αρασέ και 160 στο ζετέ στα 110 κιλά, ενώ η γυναικεία ομάδα έχασε την πρωτιά μετά από τρία χρόνια κυριαρχίας.",
@@ -15761,6 +15771,7 @@
     "feature": true,
     "guid": "bala24.gr:90444",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90444.jpg",
+    "imported": 1795381522.3544397,
     "link": "https://bala24.gr/panathinaikos-na-synithisoun-stin-idea-tis-prasinis-koryfis/",
     "source": "bala24.gr",
     "subtitle": "Ο Παναθηναϊκός δεν άφησε αναπάντητες τις δηλώσεις του Κώστα Καραπαπά απαντώντας, πως θα πρέπει να γίνει συνήθεια η ιδέα της πράσινης κορυφής.",
