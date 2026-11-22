@@ -1701,6 +1701,38 @@
    "since": 1794953725.0835786,
    "team": "basketball"
   },
+  "tb:IVUplIRb": {
+   "ev": {
+    "away": "ΑΕΚ",
+    "away_id": "jB4ajij7",
+    "away_score": 0,
+    "comp": "Α Κατηγορία Γυναίκες",
+    "comp_full": "ΕΛΛΑΔΑ: Α Κατηγορία Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/23Uj7yU1-GtRBqEeI.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "U133kB5D",
+    "home_score": 1,
+    "id": "IVUplIRb",
+    "info": "",
+    "periods": [
+     [
+      0,
+      0
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "QXBBUtBt",
+    "start": 1795345200,
+    "status": "3",
+    "tour_id": "2i9trvQh",
+    "tour_path": "/football/greece/division-a-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 8",
+   "round": "8η Αγωνιστική",
+   "since": 1795352455.395876,
+   "team": "football_w"
+  },
   "tb:Kbe1DeRi": {
    "ev": {
     "away": "Ολυμπιακός",
