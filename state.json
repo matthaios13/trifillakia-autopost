@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet_sb-4e77f1_1.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25181,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-elabet_sb-4e77f1_1.jpg?itok=qpqymUvi",
+    "title": "ELABET: Η Ίντερ έχει δυνατό «combo» από… ημίχρονο στο Μπέργκαμο",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25181/elabet-i-inter-ehei-dynato-combo-apo-imihrono-sto-mpergkamo"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet_sb-4e77f1_0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25180,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89564.jpg?itok=zVoctuia",
     "title": "Τρεις υποψήφιοι για δύο θέσεις στον Παναθηναϊκό – Το προβάδισμα του Ταμπόρδα",
     "url": "https://www.trifillakia.gr/podosfairo/article/25139/treis-ypopsifioi-gia-dyo-theseis-ston-panathinaiko-to-provadisma-toy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89555.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25138,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89555.jpg?itok=wwk_ADMx",
-    "title": "Παναθηναϊκός: Προπονήθηκε ο Κρίστιανσεν – Ενσωματώθηκαν Κάνγκουα και Πελίστρι",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25138/panathinaikos-proponithike-o-kristiansen-ensomatothikan-kangkoya-kai"
    }
   ],
   "rss_floor": 25103,
@@ -13299,6 +13299,12 @@
     "vb": "6305191168451438853"
    },
    "tries": 1
+  },
+  "news:25182": {
+   "at": 1795332498.1329606,
+   "claim": "44998145122",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
