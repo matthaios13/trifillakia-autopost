@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25183,
+  "last": 25185,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13340,6 +13340,12 @@
    },
    "tries": 1
   },
+  "news:25185": {
+   "at": 1795346824.8416255,
+   "claim": "45017226914",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15414,6 +15420,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54485",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/918896143_2200479230860640_1278938297649576322_n-1.jpg",
+    "imported": 1795346721.8492663,
     "link": "https://www.pao1908.com/nea/entyposiakes-emfaniseis-kai-koryfaies-diakriseis-gia-ti-skopovoli-tou-panathinaikou/",
     "source": "pao1908.com",
     "subtitle": "Μιχελάκη, Κανιούρης και Εμμανουέλα Μιχελάκη ήταν πρώτοι, ενώ Καρβουνιάρη και Σόβολος τερμάτισαν δεύτεροι.",
