@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25195,
+  "last": 25196,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13524,6 +13524,12 @@
    },
    "tries": 1
   },
+  "news:25196": {
+   "at": 1795372326.2670367,
+   "claim": "45055461161",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15628,6 +15634,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54500",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/fencing.jpg",
+    "imported": 1795372242.5793438,
     "link": "https://www.pao1908.com/nea/prasines-epityxies-sto-kypello-veteranon/",
     "source": "pao1908.com",
     "subtitle": "Ασημένιο για την Καλλιόπη Ιωαννίδου και χάλκινο για τον Γιάννη Καλαντζάκη στο ξίφος μονομαχίας, στην κατηγορία 60-70.",
