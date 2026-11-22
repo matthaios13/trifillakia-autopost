@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25211,
+  "last": 25212,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13684,6 +13684,12 @@
    },
    "tries": 1
   },
+  "news:25212": {
+   "at": 1795390341.8116403,
+   "claim": "45083606603",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15788,6 +15794,7 @@
     "category": "Πόλο",
     "guid": "pao1908.com:54539",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/panathinaikos_polo_0.jpg",
+    "imported": 1795390236.3919065,
     "link": "https://www.pao1908.com/deltia-typoy/o-panathinaikos-sto-polo/",
     "source": "pao1908.com",
     "subtitle": "Οι τίτλοι των τμημάτων Νέων, Εφήβων, Παίδων και Μίνι Παίδων, με τις χρονιές κατάκτησής τους.",
