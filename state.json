@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/livaitri.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25194,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/livaitri.jpg?itok=PNpmuojv",
+    "title": "Παναθηναϊκός – ΟΦΗ 2-0: Καθάρισε με Γκαρσία και Γιάγκουσιτς, αγωνία για Αντίνο!",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25194/panathinaikos-ofi-2-0-katharise-me-gkarsia-kai-giagkoysits-agonia-gia"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/ntarzanou.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ ΓΥΝΑΙΚΩΝ",
     "nid": 25193,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikanea-gr-san-simera-2026-11-21-retro.jpg?itok=6hUynQKl",
     "title": "Σαν σήμερα, 21 Νοεμβρίου: Παναθηναϊκός – Ολυμπιακός 2-0 (1999)",
     "url": "https://www.trifillakia.gr/san-simera/article/25151/san-simera-21-noemvrioy-panathinaikos-olympiakos-2-0-1999"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5455064-1.jpg",
-    "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
-    "nid": 25150,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5455064-1.jpg?itok=l2Pj_SE6",
-    "title": "Ανατροπή του Παναθηναϊκού στον Φλοίσβο με 2-3 σετ",
-    "url": "https://www.trifillakia.gr/volei-andron/article/25150/anatropi-toy-panathinaikoy-ston-floisvo-me-2-3-set"
    }
   ],
   "rss_floor": 25103,
