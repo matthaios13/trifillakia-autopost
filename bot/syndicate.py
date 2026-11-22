@@ -389,6 +389,20 @@ def is_stadium(title, tags=(), body=""):
     return bool(STADIUM_RE.search(_plain(" ".join([title, " ".join(tags), lead]))))
 
 
+OPP_SIDE = re.compile(r"(?:\bμε\s+(?:τον|το|την|τους)|κοντρα\s+(?:στον|στο|στους)|απεναντι\s+(?:στον|στο|στους)|ενοψει|εναντιον|κατα\s+του)\s+(?:\S+\s+)?(?:παναθηναικ|πρασιν|τριφυλλ)")
+
+
+def opponent_first(t):
+    """«Η αποστολή του ΟΦΗ για το ματς με τον Παναθηναϊκό» (22/11): ο αντίπαλος είναι το θέμα και ο
+    Παναθηναϊκός εμφανίζεται μόνο ως ο άλλος της αναμέτρησης («με τον / κόντρα στον / ενόψει …»)."""
+    words = re.findall(r"[a-zα-ω0-9]+", t)
+    pao_i = next((i for i, w in enumerate(words) if any(x in w for x in PAO_WORDS)), None)
+    if pao_i is None or not OPP_SIDE.search(t):
+        return False
+    return any(w[:5].startswith(TEAMS) and len(w) >= 3 and w not in ("super", "league", "euroleague", "stoiximan", "gbl")
+               for w in words[:pao_i])
+
+
 def is_opponent(category, title, tags=(), known=()):
     """Είδηση αντιπάλου → κατηγορία «Αντίπαλοι» (16/11, κανόνας χρήστη): «ΟΦΗ: …ενόψει Παναθηναϊκού»,
     «Σπανούλης: …». Δηλώσεις/νέα δικών μας (ετικέτα Παναθηναϊκός χωρίς άλλη ομάδα) μένουν στην ενότητά τους."""
@@ -408,6 +422,8 @@ def is_opponent(category, title, tags=(), known=()):
     if known and not has_pao and not pao_tag and _body_names(title) & set(known):
         return False
     if not has_pao and not pao_tag:
+        return True
+    if not head and opponent_first(t):
         return True
     if head and not is_match and not any(w in head for w in PAO_WORDS + PAO_PEOPLE) and not _is_pao_abbr(head):
         first = re.findall(r"[a-zα-ω]+", head)
