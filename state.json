@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/sampanis.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25201,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/sampanis.jpg?itok=dnGQUk8A",
+    "title": "Σαν σήμερα το 1999: Ο Σαμπάνης επιβεβαίωσε τη φόρμα του πριν το Σίδνεϊ",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25201/san-simera-to-1999-o-sampanis-epivevaiose-ti-forma-toy-prin-to-sidnei"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/modern-pentathlon.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25200,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89978.jpg?itok=uymce5eC",
     "title": "Παναθηναϊκός: Αναζητά λύση για τα άκρα της επίθεσης ενόψει της χειμερινής μεταγραφικής περιόδου",
     "url": "https://www.trifillakia.gr/podosfairo/article/25158/panathinaikos-anazita-lysi-gia-ta-akra-tis-epithesis-enopsei-tis-heimerinis"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-89922.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25157,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-89922.jpg?itok=BhnTNDZ3",
-    "title": "Πόσο κόστισε ο Αντίνο στους «πράσινους» και ποιες ομάδες τον έχουν στη λίστα τους",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25157/poso-kostise-o-antino-stoys-prasinoys-kai-poies-omades-ton-ehoyn-sti-lista"
    }
   ],
   "rss_floor": 25103,
