@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90481.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25209,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90481.jpg?itok=HhXcjkaq",
+    "title": "Λιβάι Γκαρσία: «Είμαι χαρούμενος για το γκολ – Η καρδιά και το μυαλό μου είναι στον Αντίνο»",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25209/livai-gkarsia-eimai-haroymenos-gia-to-gkol-i-kardia-kai-to-myalo-moy-einai"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/karagiorgos_xristos_8.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25208,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/wknxrtofr004.jpg?itok=UIXFsgf3",
     "title": "Θυμόμαστε τον Αντώνη Χριστοφορίδη, τον πυγμάχο που αγωνίστηκε μπροστά στον Χίτλερ",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25166/thymomaste-ton-antoni-hristoforidi-ton-pygmaho-poy-agonistike-mprosta-ston"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/d4e4917f-ebfe-4193-a370-cfb480893578.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25165,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/d4e4917f-ebfe-4193-a370-cfb480893578.jpg?itok=f6i08Sme",
-    "title": "Δεύτερη θέση για τη Βουρλούμη στο Γκραν Πρι της Αλεξάνδρειας",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25165/deyteri-thesi-gia-ti-voyrloymi-sto-gkran-pri-tis-alexandreias"
    }
   ],
   "rss_floor": 25103,
@@ -13663,6 +13663,12 @@
     "vb": "6305418976784439079"
    },
    "tries": 1
+  },
+  "news:25210": {
+   "at": 1795386812.2576213,
+   "claim": "45078087021",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
