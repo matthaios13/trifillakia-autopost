@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/whatsapp-image-2026-11-22-at-20.56.43.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25210,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/whatsapp-image-2026-11-22-at-20.56.43.jpg?itok=eUgmuKf9",
+    "title": "Δύο νίκες για τον Παναθηναϊκό στην Α1 πινγκ πονγκ ανδρών",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25210/dyo-nikes-gia-ton-panathinaiko-stin-a1-pingk-pongk-andron"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90481.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25209,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5457211-scaled.jpg?itok=a9Gd30b5",
     "title": "Ο Παναθηναϊκός γνώρισε ήττα 83-69 από τον Αθηναϊκό",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/25167/o-panathinaikos-gnorise-itta-83-69-apo-ton-athinaiko"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/wknxrtofr004.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25166,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/wknxrtofr004.jpg?itok=UIXFsgf3",
-    "title": "Θυμόμαστε τον Αντώνη Χριστοφορίδη, τον πυγμάχο που αγωνίστηκε μπροστά στον Χίτλερ",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25166/thymomaste-ton-antoni-hristoforidi-ton-pygmaho-poy-agonistike-mprosta-ston"
    }
   ],
   "rss_floor": 25103,
@@ -13673,6 +13673,12 @@
     "vb": "6305419102965880815"
    },
    "tries": 1
+  },
+  "news:25211": {
+   "at": 1795386842.3759356,
+   "claim": "45078087021",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
