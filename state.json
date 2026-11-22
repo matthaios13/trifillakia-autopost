@@ -14514,7 +14514,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "bala24.gr:83668",
    "bala24.gr:83676",
    "bala24.gr:83784",
    "bala24.gr:83788",
@@ -14913,7 +14912,8 @@
    "totalbasket.gr:66893",
    "pao1908.com:54476",
    "pao1908.com:54482",
-   "panathinaikanea.gr:san-simera-2026-11-22"
+   "panathinaikanea.gr:san-simera-2026-11-22",
+   "bala24.gr:90185"
   ],
   "done_titles": [
    "Άρης: Η παρακάμερα της νίκης επί του Παναθηναϊκού (vid)",
@@ -15325,6 +15325,7 @@
     "feature": false,
     "guid": "bala24.gr:90185",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90185.jpg",
+    "imported": 1795328730.1205516,
     "link": "https://bala24.gr/stoiximan-super-league-pou-tha-deite-olybiakos-iraklis-panathinaikos-ofi-paok-kifisia-kai-oli-ti-drasi-tis-11is-agonistikis/",
     "source": "bala24.gr",
     "subtitle": "Η δράση στη Stoiximan Super League συνεχίζεται σήμερα (22/11) με έξι αναμετρήσεις για την 11η αγωνιστική.",
