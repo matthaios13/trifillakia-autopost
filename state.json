@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25190,
+  "last": 25193,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13432,6 +13432,12 @@
    },
    "tries": 1
   },
+  "news:25191": {
+   "at": 1795368788.2598257,
+   "claim": "45049815566",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15527,6 +15533,7 @@
     "feature": false,
     "guid": "bala24.gr:90391",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90391.jpg",
+    "imported": 1795368635.0935495,
     "link": "https://bala24.gr/fonoi-gia-zimia-sto-gonato-tou-antino-sto-nosokomeio-o-argentinos/",
     "source": "bala24.gr",
     "subtitle": "Φόβοι για σοβαρό τραυματισμό του εξτρέμ του «Τριφυλλιού»",
@@ -15545,6 +15552,7 @@
     "feature": true,
     "guid": "bala24.gr:90383",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90383.jpg",
+    "imported": 1795368635.0935495,
     "link": "https://bala24.gr/panathinaikos-agonia-gia-ton-antino-ti-deftera-i-magnitiki-sto-gonato/",
     "source": "bala24.gr",
     "subtitle": "Αγωνία στον Παναθηναϊκό για τον τραυματισμό του Σαντίνο Αντίνο στο γόνατο. Τη Δευτέρα θα υποβληθεί σε μαγνητική τομογραφία.",
@@ -15563,6 +15571,7 @@
     "category": "Ποδόσφαιρο Γυναικών",
     "guid": "pao1908.com:54496",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/Ntarzanou.jpg",
+    "imported": 1795368635.0935495,
     "link": "https://www.pao1908.com/nea/monadiki-stigmi-to-gkol-sti-leoforo-o-kosmos-o-12os-paiktis-mas/",
     "source": "pao1908.com",
     "subtitle": "Η σκόρερ του Παναθηναϊκού μίλησε για το ντέρμπι της 8ης αγωνιστικής και για τη στήριξη των οπαδών, με στόχο Κύπελλο και πρωτάθλημα.",
