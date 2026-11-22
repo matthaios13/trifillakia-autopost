@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25207,
+  "last": 25211,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13644,6 +13644,12 @@
    },
    "tries": 1
   },
+  "news:25208": {
+   "at": 1795386736.151605,
+   "claim": "45078087021",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15748,6 +15754,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:17061",
     "image": "https://www.pao1908.com/wp-content/uploads/2023/11/23/karagiorgos_xristos_8.jpg",
+    "imported": 1795386634.9701817,
     "link": "https://www.pao1908.com/deltia-typoy/san-simera-to-1981-vadise-sto-pagkosmio-rekor/",
     "source": "pao1908.com",
     "subtitle": "Στις 23/11/1981 ο Χρήστος Καραγιώργος σημείωσε χρόνο 47.12.0, με τον αδερφό του Άρη να τερματίζει δύο δέκατα του δευτερολέπτου πίσω του.",
@@ -15768,6 +15775,7 @@
     "feature": true,
     "guid": "bala24.gr:90481",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90481.jpg",
+    "imported": 1795386634.9701817,
     "link": "https://bala24.gr/livai-gkarsia-eimai-charoumenos-gia-to-gkol-i-kardia-kai-to-myalo-mou-einai-ston-antino/",
     "source": "bala24.gr",
     "subtitle": "Ο Λιβάι Γκαρσία μίλησε μετά τη νίκη του Παναθηναϊκού με 2-0 επί του ΟΦΗ, στην οποία πέτυχε το πρώτο του γκολ στη Stoiximan Super League.",
@@ -15784,6 +15792,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54536",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/WhatsApp-Image-2026-11-22-at-20.56.43.jpg",
+    "imported": 1795386634.9701817,
     "link": "https://www.pao1908.com/nea/synexizoun-akathektoi-oi-andres/",
     "source": "pao1908.com",
     "subtitle": "Η ομάδα του Λευτέρη Μάκρα s νίκησε 4-0 τον ΑΟ Ταταύλα και 4-1 τον ΔΑΟ Ταύρου και έχει 12 βαθμούς σε έξι αγώνες.",
@@ -15803,6 +15812,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54530",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/yre.jpg",
+    "imported": 1795386634.9701817,
     "link": "https://www.pao1908.com/deltia-typoy/panathinaikos-kai-sg-sportfreunde-johannisthal-1930-e-v-germanias/",
     "source": "pao1908.com",
     "subtitle": "Ο ερασιτεχνικός σύλλογος του Βερολίνου, που ιδρύθηκε το 1930, επέστρεψε το καλοκαίρι του 2026 στη Berlin-Liga και έχει τριφύλλι στο έμβλημά του.",
