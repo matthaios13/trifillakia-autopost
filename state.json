@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25193,
+  "last": 25194,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -1288,6 +1288,38 @@
    "round": "7η Αγωνιστική",
    "since": 1794747916.8120904,
    "team": "basketball"
+  },
+  "tb:6Tv5UjWN": {
+   "ev": {
+    "away": "ΟΦΗ",
+    "away_id": "bTObIPJB",
+    "away_score": 0,
+    "comp": "Stoiximan Super League",
+    "comp_full": "ΕΛΛΑΔΑ: Stoiximan Super League",
+    "comp_logo": "https://static.flashscore.com/res/image/data/UyLJdoW1-OrtkLuwK.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "SENMmweG",
+    "home_score": 2,
+    "id": "6Tv5UjWN",
+    "info": "",
+    "periods": [
+     [
+      2,
+      0
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "MNJDddac",
+    "start": 1795361400,
+    "status": "3",
+    "tour_id": "d2pwJFHI",
+    "tour_path": "/football/greece/super-league/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 11",
+   "round": "11η Αγωνιστική",
+   "since": 1795369824.324721,
+   "team": "football"
   },
   "tb:6knqhUie": {
    "ev": {
@@ -13472,6 +13504,12 @@
    },
    "tries": 1
   },
+  "news:25194": {
+   "at": 1795369933.9792726,
+   "claim": "45051663030",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16160,9 +16198,11 @@
    "αργεντ",
    "βοτανι",
    "βουλη",
+   "γιαγκο",
    "γιαμπο",
    "γιαννα",
    "γιενσε",
+   "γκαρσι",
    "δημητρ",
    "ενωση",
    "ευρωλι",
@@ -16182,6 +16222,7 @@
    "κρυονε",
    "κυπελλ",
    "λεσορ",
+   "λιβαι",
    "λουζα",
    "μαδριτ",
    "μαροκο",
