@@ -14392,6 +14392,12 @@
    },
    "tries": 1
   },
+  "yt:M3VKWMbQ9QU": {
+   "at": 1795337841.0057049,
+   "claim": "45005037017",
+   "nets": {},
+   "tries": 0
+  },
   "yt:TzIwykAFI8k": {
    "at": 1794643402.996653,
    "nets": {
@@ -16029,6 +16035,15 @@
   "xml_done": []
  },
  "yt": {
-  "upcoming": []
+  "upcoming": [
+   {
+    "id": "M3VKWMbQ9QU",
+    "image": "https://i.ytimg.com/vi/M3VKWMbQ9QU/maxresdefault.jpg",
+    "show": "PITCH TALK",
+    "start": 1795338600,
+    "topic": "Επικίνδυνο παιχνίδι κόντρα στον ΟΦΗ, 1/2 στην διαβολοβδομάδα και... Βοτανικός",
+    "url": "https://www.youtube.com/watch?v=M3VKWMbQ9QU"
+   }
+  ]
  }
 }
