@@ -14583,7 +14583,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "bala24.gr:83676",
    "bala24.gr:83784",
    "bala24.gr:83788",
    "totalbasket.gr:67128",
@@ -14982,7 +14981,8 @@
    "pao1908.com:54476",
    "pao1908.com:54482",
    "panathinaikanea.gr:san-simera-2026-11-22",
-   "bala24.gr:90185"
+   "bala24.gr:90185",
+   "totalbasket.gr:71016"
   ],
   "done_titles": [
    "Οι ποινές που περιμένουν τον Κάνγκουα μετά την αποβολή του στο Αθηναϊκό ντέρμπι",
@@ -16037,15 +16037,6 @@
   "xml_done": []
  },
  "yt": {
-  "upcoming": [
-   {
-    "id": "M3VKWMbQ9QU",
-    "image": "https://i.ytimg.com/vi/M3VKWMbQ9QU/maxresdefault.jpg",
-    "show": "PITCH TALK",
-    "start": 1795338600,
-    "topic": "Επικίνδυνο παιχνίδι κόντρα στον ΟΦΗ, 1/2 στην διαβολοβδομάδα και... Βοτανικός",
-    "url": "https://www.youtube.com/watch?v=M3VKWMbQ9QU"
-   }
-  ]
+  "upcoming": []
  }
 }
