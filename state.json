@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5459857-1-1.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25199,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5459857-1-1.jpg?itok=3iZqB6QJ",
+    "title": "Αήττητος παραμένει ο Παναθηναϊκός μετά τη νίκη επί του Ολυμπιακού",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25199/aittitos-paramenei-o-panathinaikos-meta-ti-niki-epi-toy-olympiakoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2022-11-26%2C%208.37%E2%80%AF%CE%BC%CE%BC.png",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25198,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/antino_1.jpg?itok=zaqYZPv4",
     "title": "Στο μεταγραφικό προσκήνιο ο Αντίνο – Ενδιαφέρον από τέσσερις χώρες",
     "url": "https://www.trifillakia.gr/podosfairo/article/25156/sto-metagrafiko-proskinio-o-antino-endiaferon-apo-tesseris-hores"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-elabet_sb-4e77f1.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25155,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-elabet_sb-4e77f1.jpg?itok=rQMmLZBf",
-    "title": "ELABET: Σούπερ «Ενισχυμένη» η ΑΕΚ στη Νίκαια – ντερμπάρα ΠΑΟΚ – Άρης με δυνατό «combo»",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25155/elabet-soyper-enishymeni-i-aek-sti-nikaia-ntermpara-paok-aris"
    }
   ],
   "rss_floor": 25103,
@@ -13563,6 +13563,12 @@
     "vb": "6305373593071945861"
    },
    "tries": 1
+  },
+  "news:25200": {
+   "at": 1795375991.8627813,
+   "claim": "45061126642",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
