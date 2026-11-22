@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90318.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25188,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90318.jpg?itok=QdDOusuq",
+    "title": "Παναθηναϊκός: Με Κάνγκουα και Λούζα απέναντι στον ΟΦΗ – Άκρως ευρηματική η παρουσίαση από την ΠΑΕ",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25188/panathinaikos-me-kangkoya-kai-loyza-apenanti-ston-ofi-akros-eyrimatiki-i"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5458599.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ ΓΥΝΑΙΚΩΝ",
     "nid": 25186,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-ela-94453f_2.jpg?itok=dylBD0XQ",
     "title": "ELABET: Ολυμπιακός-Ρεάλ Μαδρίτης με 0% γκανιότα και Bet Builder πόντων στη Βαρκελώνη",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25145/elabet-olympiakos-real-madritis-me-0-gkaniota-kai-bet-builder"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-partizanbc-98ce3f.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25144,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-partizanbc-98ce3f.jpg?itok=gfNg6ZDZ",
-    "title": "ELABET: Παρτιζάν – Μπεσίκτας με δυνατό Bet Builder αντίδρασης",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25144/elabet-partizan-mpesiktas-me-dynato-bet-builder-antidrasis"
    }
   ],
   "rss_floor": 25103,
@@ -13411,6 +13411,12 @@
     "vb": "6305311808914622576"
    },
    "tries": 1
+  },
+  "news:25189": {
+   "at": 1795361261.5073764,
+   "claim": "45038208148",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
