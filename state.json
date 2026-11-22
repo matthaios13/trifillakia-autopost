@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25198,
+  "last": 25200,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13554,6 +13554,12 @@
    },
    "tries": 1
   },
+  "news:25199": {
+   "at": 1795375956.2123187,
+   "claim": "45061126642",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15658,6 +15664,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54508",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/5459857-1-1.jpg",
+    "imported": 1795375834.7864606,
     "link": "https://www.pao1908.com/nea/nikise-ton-olympiako-kai-synexizei-aittitos/",
     "source": "pao1908.com",
     "subtitle": "Το 1-4 στον Ολυμπιακό διατηρεί τον Παναθηναϊκό στην κορυφή της Α1 με 12 βαθμούς, ισόβαθμο με την ΑΕΚ μετά από 6 αγωνιστικές.",
@@ -15677,6 +15684,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54503",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/Modern-pentathlon.jpg",
+    "imported": 1795375834.7864606,
     "link": "https://www.pao1908.com/nea/xrysos-protathlitis-ellados-o-xristos-kyriakos/",
     "source": "pao1908.com",
     "subtitle": "Ο νεαρός αθλητής του Παναθηναϊκού πήρε τις πρώτες θέσεις σε κολύμβηση και ξιφασκία και τις δεύτερες σε εμπόδια και στο συνδυαστικό.",
