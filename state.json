@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25176,
+  "last": 25177,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13260,6 +13260,12 @@
    },
    "tries": 1
   },
+  "news:25177": {
+   "at": 1795321642.3375177,
+   "claim": "44984964782",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15315,6 +15321,7 @@
     "feature": false,
     "guid": "panathinaikanea.gr:san-simera-2026-11-22",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/panathinaikanea-gr-san-simera-2026-11-22-retro.jpg",
+    "imported": 1795321522.809994,
     "link": "https://panathinaikanea.gr/san-simera/san-simera-2026-11-22/",
     "source": "panathinaikanea.gr",
     "subtitle": "Νίκη με 2-0 για τον Παναθηναϊκό απέναντι στην Ααλμποργκ εντός έδρας, στις 22 Νοεμβρίου 1995 (Champions League, φάση ομίλων). Τα γκολ των «πρασίνων»: Αλεξούδης 1′, Γεωργιάδης 38′. Στις εξέδρες βρέθηκαν 32.532 θεατές.",
