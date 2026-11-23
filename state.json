@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/ticketmaster-tickets-800-x-538px_4.jpg",
+    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
+    "nid": 25222,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/ticketmaster-tickets-800-x-538px_4.jpg?itok=MTM1WNoa",
+    "title": "Ανοιχτά τα εισιτήρια για το ματς με την Κορόνα Μπρασόφ",
+    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25222/anoihta-ta-eisitiria-gia-to-mats-me-tin-korona-mprasof"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90487.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25220,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-volosfc-28b815.jpg?itok=y45cMSHA",
     "title": "ELABET: Παναιτωλικός – Βόλος ELABET με «boost» στο θεσσαλικό… ρόδι",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25179/elabet-panaitolikos-volos-elabet-me-boost-sto-thessaliko-rodi"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikanea-gr-san-simera-2026-11-22-retro.jpg",
-    "label": "ΣΑΝ ΣΗΜΕΡΑ",
-    "nid": 25177,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikanea-gr-san-simera-2026-11-22-retro.jpg?itok=cSWwxvMZ",
-    "title": "Σαν σήμερα, 22 Νοεμβρίου: Παναθηναϊκός – Ααλμποργκ 2-0 (1995)",
-    "url": "https://www.trifillakia.gr/san-simera/article/25177/san-simera-22-noemvrioy-panathinaikos-aalmporgk-2-0-1995"
    }
   ],
   "rss_floor": 25103,
@@ -13775,6 +13775,12 @@
     "vb": "6305585200796562478"
    },
    "tries": 1
+  },
+  "news:25223": {
+   "at": 1795426443.8598502,
+   "claim": "45147643479",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
