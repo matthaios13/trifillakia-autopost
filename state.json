@@ -15475,7 +15475,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "totalbasket.gr:68278",
    "totalbasket.gr:68252",
    "totalbasket.gr:68280",
    "totalbasket.gr:68289",
@@ -15874,11 +15873,10 @@
    "bala24.gr:90734",
    "bala24.gr:90749",
    "totalbasket.gr:71136",
-   "bala24.gr:90770"
+   "bala24.gr:90770",
+   "totalbasket.gr:71161"
   ],
   "done_titles": [
-   "Παναθηναϊκός: Χωρίς τον κόσμο του στο Καυτατζόγλειο κόντρα στον Ηρακλή",
-   "Παναθηναϊκός: Απαγορεύτηκε η μετακίνηση οπαδών του στο Καυτανζόγλειο",
    "Παναθηναϊκός: Η πρόταση προς της ΠΑΕ για την επόμενη μέρα της Λεωφόρου",
    "Ο Αλαφούζος κινεί τις διαδικασίες για την αναβάθμιση του χλοοτάπητα στο ΟΑΚΑ",
    "Παναθηναϊκός: Πρωινή προπόνηση μετά τη νίκη επί της ΤΣΣΚΑ Σόφιας",
@@ -16276,7 +16274,9 @@
    "Ομπράντοβιτς: «Θέλουμε να ελέγξουμε τον αγώνα, σκοράρει πολύ στον αιφνιδιασμό η Βαλένθια»",
    "Ενδιαφέρον από τρεις Ελληνικές ομάδες για Μόρο",
    "Βαλένθια: Εκτός οι Ρίβερς και Ριβέρο για τη μάχη με τον Παναθηναϊκό",
-   "Παναθηναϊκός – Μπράιτον ο τελικός του Conference League σύμφωνα με τον «υπερυπολογιστή»"
+   "Παναθηναϊκός – Μπράιτον ο τελικός του Conference League σύμφωνα με τον «υπερυπολογιστή»",
+   "Εύκολο απόγευμα για τον Παναθηναϊκό κόντρα στο Μαρούσι",
+   "Χωρίς Σλούκα στη Βαλένθια ο Παναθηναϊκός"
   ],
   "items": [
    {
@@ -16297,13 +16297,30 @@
     "ts": 1795462219.0
    },
    {
+    "added": 1795463579.9908082,
+    "body": "\n<p class=\"wp-block-paragraph\">Ο Έλληνας γκαρντ δεν θα βρίσκεται στη διάθεση του προπονητικού επιτελείου για το αυριανό παιχνίδι, καθώς αποφασίστηκε να προφυλαχθεί στο πλαίσιο της διαχείρισης του αγωνιστικού του φορτίου.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Σύμφωνα με την ενημέρωση που υπάρχει, ο αρχηγός των «πράσινων» δεν αντιμετωπίζει κάποιον τραυματισμό. Υπενθυμίζεται ότι είχε πραγματοποιήσει σημαντική εμφάνιση στη νίκη του Παναθηναϊκού επί της Ζαλγκίρις στο Κάουνας, όπου αγωνίστηκε για περίπου 20 λεπτά, ενώ δεν συμμετείχε στο παιχνίδι πρωταθλήματος με το Μαρούσι.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Με την απουσία του Σλούκα, το βάρος στην οργάνωση του παιχνιδιού αναμένεται να πέσει στους Σιλβέν Φρανσίσκο, Μπράνκου Μπάντιο και Τζέριαν Γκραντ, οι οποίοι θα κληθούν να καλύψουν το κενό του αρχηγού στην περιφέρεια.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ο Παναθηναϊκός καλείται πλέον να αντιμετωπίσει τη Βαλένθια χωρίς έναν από τους βασικούς δημιουργούς του, σε μία σημαντική εκτός έδρας δοκιμασία για την EuroLeague.</p>\n",
+    "category": "Μπασκετ",
+    "feature": false,
+    "guid": "totalbasket.gr:71142",
+    "image": "https://totalbasket.gr/wp-content/uploads/2026/10/sloukasssss.jpg",
+    "link": "https://totalbasket.gr/choris-slouka-sti-valenthia-o-panathinaikos/",
+    "source": "totalbasket.gr",
+    "subtitle": "Χωρίς τον αρχηγό του, Κώστα Σλούκα, θα ταξιδέψει ο Παναθηναϊκός στην Ισπανία για την αναμέτρηση με τη Βαλένθια (24/11, 21:30), στο πλαίσιο της 14ης αγωνιστικής της EuroLeague.",
+    "tags": [
+     "Euroleague",
+     "Παναθηναϊκός"
+    ],
+    "title": "Χωρίς Σλούκα στη Βαλένθια ο Παναθηναϊκός",
+    "ts": 1795460251.0
+   },
+   {
     "added": 1795459928.8351634,
     "body": "\n<p class=\"wp-block-paragraph\">Επανήλθε το ενδιαφέρον για το 6αρι της Μπολόνια, Νίκολα Μόρο, με τρεις Ελληνικές ομάδες να ενδιαφέρονται για τον Κροάτη μέσο.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Επρόκειτο φυσικά για τους Ολυμπιακό, Παναθηναϊκό, αλλά και την ΑΕΚ, η οποία έφτασε κοντά στην απόκτηση του το καλοκαίρι, αλλά τελικά δεν κατάφερε να ολοκληρώσει την συμφωνία.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ο Κροάτης, έχει μόλις πέντε συμμετοχές με την Μπολόνια φέτος, κάτι που μπορεί να κάνει πιο ευνοϊκή την υπόθεση για όποια ομάδα κάνει πρόταση για εκείνον.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">🚨 𝐍𝐄𝐖: Nikola Moro is attracting interest from three Greek giants amid his lack of playing time at Bologna.<br><br>Olympiacos, AEK Athens and Panathinaikos are all reportedly monitoring the 28-year-old Croatian midfielder ahead of a potential January move.<br><br>Moro has made just five… <a href=\"https://t.co/JSKEUoG9G3\">pic.twitter.com/JSKEUoG9G3</a></p>&mdash; Croatian Football  (@CroatiaFooty) <a href=\"https://x.com/CroatiaFooty/status/2124910398633590921?ref_src=twsrc%5Etfw\">November 23, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script>\n</div></figure>\n",
     "category": "Ποδοσφαιρο",
     "feature": false,
     "guid": "bala24.gr:90770",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90770.jpg",
-    "imported": 1795463408.9644032,
+    "imported": 1795462691.7839632,
     "link": "https://bala24.gr/endiaferon-apo-treis-ellinikes-omades-gia-moro/",
     "source": "bala24.gr",
     "subtitle": "Νέο ενδιαφέρον για τον Κροάτη",
@@ -16324,7 +16341,7 @@
     "feature": true,
     "guid": "totalbasket.gr:71136",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-71136.jpg",
-    "imported": 1795463408.9644032,
+    "imported": 1795462691.7839632,
     "link": "https://totalbasket.gr/obrantovits-theloume-na-elegxoume-ton-agona-skorarei-poly-ston-aifnidiasmo-i-valenthia/",
     "source": "totalbasket.gr",
     "subtitle": "Οι δηλώσεις του Ζέλικο Ομπράντοβιτς ενόψει του εκτός έδρας αγώνα του Παναθηναϊκού με τη Βαλένθια (24/11, 21:30).",
@@ -16826,24 +16843,21 @@
     "ts": 1795384314.0
    },
    {
-    "added": 1795383631.4027693,
-    "body": "<p>Η <strong>SG Sportfreunde Johannisthal 1930 e.V.</strong> είναι γερμανικός ερασιτεχνικός ποδοσφαιρικός σύλλογος και εδρεύει στη συνοικία Johannisthal (Treptow-Köpenick) του Βερολίνου. Αφορά τον ΠΑΝΑΘΗΝΑΪΚΟΣ, καθώς διατηρεί στο έμβλημά του το χαρακτηριστικό τριφύλλι.</p>\n<p>Η ομάδα ιδρύθηκε τον Ιούνιο του 1930 στο ιστορικό εστιατόριο «Fliegerheim» του Βερολίνου. Η αρχική της ονομασία ήταν <strong>Sportfreunde Schöneweide–Johannisthal</strong> και τα χρώματά της το πράσινο και το λευκό. Την ίδια χρονιά εντάχθηκε στην Ποδοσφαιρική Ένωση Βερολίνου (VBB) και ξεκίνησε να αγωνίζεται στις τοπικές κατηγορίες.</p>\n<p>Μετά την επανένωση της Γερμανίας καθιερώθηκε ως ένας από τους σημαντικότερους ερασιτεχνικούς συλλόγους της νοτιοανατολικής πλευράς του Βερολίνου. Έχει έντονη κοινωνική δράση και δίνει έμφαση στις ακαδημίες, κάτι που το 2007 της έφερε το βραβείο <strong>Sepp-Herberger-Preis</strong> από τη Γερμανική Ποδοσφαιρική Ομοσπονδία (DFB).</p>\n<p>Σε αγωνιστικό επίπεδο, ο σύλλογος έχει καταγράψει αρκετές ανόδους στη <strong>Berlin-Liga</strong> (6η κατηγορία). Η πιο πρόσφατη επιστροφή του σε αυτήν ήρθε το καλοκαίρι του 2026, ενώ μέχρι σήμερα τιμά την παράδοση του τριφυλλιού στο έμβλημά του.</p><p><em>Πηγή: <a href=\"https://www.pao1908.com/deltia-typoy/panathinaikos-kai-sg-sportfreunde-johannisthal-1930-e-v-germanias/\" target=\"_blank\" rel=\"noopener\">pao1908.com</a></em></p>",
-    "category": "Ερασιτεχνης",
-    "guid": "pao1908.com:54530",
-    "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/yre.jpg",
-    "imported": 1795386634.9701817,
-    "link": "https://www.pao1908.com/deltia-typoy/panathinaikos-kai-sg-sportfreunde-johannisthal-1930-e-v-germanias/",
-    "source": "pao1908.com",
-    "subtitle": "Ο ερασιτεχνικός σύλλογος του Βερολίνου, που ιδρύθηκε το 1930, επέστρεψε το καλοκαίρι του 2026 στη Berlin-Liga και έχει τριφύλλι στο έμβλημά του.",
+    "added": 1795463579.9908082,
+    "body": "\n<p class=\"wp-block-paragraph\">Χωρίς να πιάσει ιδιαίτερα υψηλά επίπεδα απόδοσης, ο Παναθηναϊκός επιβλήθηκε με ευκολία του Αμαρουσίου (85-72) με στο “T-Center”, στο πλαίσιο της 8ης αγωνιστικής της GBL.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ο Ζέλικο Ομπράντοβιτς άνοιξε το ροτέισον και πήρε πολλά πράγματα από τον ελληνικό κορμό του, με τους Μήτογλου (14 πόντοι, 6 ριμπάουντ), Ρογκαβόπουλο (15 πόντοι, 4 ριμπάουντ, 4 ασίστ) και Μωραΐτη (11 πόντοι)&nbsp;να πραγματοποιούν καλές εμφανίσεις. Για τους φιλοξενούμενους, ο Ντε Σόουζα είχε 18 πόντους και 7 ριμπάουντ, με τον Ντρέσελ να προσθέτει 15 πόντους.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Τα δεκάλεπτα</strong>: 23-20, 46-36, 68-55, 85-72.</p>\n",
+    "category": "Μπασκετ",
+    "feature": true,
+    "guid": "totalbasket.gr:70968",
+    "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-70968.jpg",
+    "link": "https://totalbasket.gr/efkolo-apogevma-gia-ton-panathinaiko-kontra-sto-marousi/",
+    "source": "totalbasket.gr",
+    "subtitle": "Ο Παναθηναϊκός AKTOR επιβλήθηκε με 85-72 του Αμαρουσίου για την 8η αγωνιστική.",
     "tags": [
-     "Παναθηναϊκός",
-     "SG Sportfreunde Johannisthal",
-     "Βερολίνο",
-     "Berlin-Liga",
-     "Ποδόσφαιρο"
+     "Basket League",
+     "Παναθηναϊκός"
     ],
-    "title": "Η γερμανική Sportfreunde Johannisthal και η σύνδεσή της με το τριφύλλι",
-    "ts": 1795383618.0
+    "title": "Εύκολο απόγευμα για τον Παναθηναϊκό κόντρα στο Μαρούσι",
+    "ts": 1795284808.0
    }
   ],
   "pao_fail": {},
