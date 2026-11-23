@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25237,
+  "last": 25238,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13897,7 +13897,8 @@
    "tries": 3
   },
   "news:25236": {
-   "at": 1795444053.0808568,
+   "at": 1795444359.9593961,
+   "claim": "45194940583",
    "nets": {
     "fb": "349363601832677_1766112095515555",
     "ig": "error: {'message': 'User is performing too many actions', 'code': 9, 'type': 'OAuthException', 'error_subcode': 2207042, 'is_transient': False, 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'error_user_title': 'Media publish limit exceeded', 'fbtrace_id': 'ABCXZmq10Acd56HTjBXEaTL'}",
@@ -16075,6 +16076,7 @@
     "feature": true,
     "guid": "bala24.gr:90698",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90698.jpg",
+    "imported": 1795444238.4874604,
     "link": "https://bala24.gr/panathinaikos-exetazei-tin-periptosi-tou-mateo-kovasits-symfona-me-xeno-dimosievma/",
     "source": "bala24.gr",
     "subtitle": "Ρωσικό δημοσίευμα εμπλέκει την περίπρωση του Ματέ Κόβασιτς με τον ΠαναθηναΊκό.",
