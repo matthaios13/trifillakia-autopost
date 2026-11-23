@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90706.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25239,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90706.jpg?itok=TcZgALXB",
+    "title": "Παναθηναϊκός: Επιβεβαιώθηκαν τα χειρότερα, χάνει τη σεζόν ο Αντίνο",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25239/panathinaikos-epivevaiothikan-ta-heirotera-hanei-ti-sezon-o-antino"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90698.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25238,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2022-11-26%2C%208.32%E2%80%AF%CE%BC%CE%BC.png?itok=oVPEkURY",
     "title": "Νίστρουπ: «Μάλλον χάσαμε τον Αντίνο για το υπόλοιπο της σεζόν»",
     "url": "https://www.trifillakia.gr/podosfairo/article/25197/nistroyp-mallon-hasame-ton-antino-gia-to-ypoloipo-tis-sezon"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/fencing_0.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25196,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/fencing_0.jpg?itok=CW5HSNM4",
-    "title": "Μετάλλια για τον Παναθηναϊκό στο Κύπελλο Βετεράνων ξιφασκίας",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25196/metallia-gia-ton-panathinaiko-sto-kypello-veteranon-xifaskias"
    }
   ],
   "rss_floor": 25103,
@@ -13955,6 +13955,12 @@
     "vb": "6305675498889227144"
    },
    "tries": 1
+  },
+  "news:25240": {
+   "at": 1795447972.5303802,
+   "claim": "45205996512",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
