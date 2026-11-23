@@ -14017,7 +14017,8 @@
    "tries": 2
   },
   "news:25246": {
-   "at": 1795451667.0840101,
+   "at": 1795451974.1211193,
+   "claim": "45218163316",
    "nets": {
     "fb": "349363601832677_1766241458835952",
     "ig": "error: {'message': 'User is performing too many actions', 'code': 9, 'type': 'OAuthException', 'error_subcode': 2207042, 'is_transient': False, 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'error_user_title': 'Media publish limit exceeded', 'fbtrace_id': 'AH6X88NuQv_1QNfGgYSVvU0'}",
