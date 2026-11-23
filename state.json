@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_3.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25243,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-ela-94453f_3.jpg?itok=c-bHHY8m",
+    "title": "ELABET: Black Week γεμάτη εκπλήξεις! Η Elabet μοιράζει 305 δώρα χωρίς κατάθεση* σε Στοίχημα & Live Casino!",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25243/elabet-black-week-gemati-ekplixeis-i-elabet-moirazei-305-dora"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/paokosmos.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25242,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/sampanis.jpg?itok=dnGQUk8A",
     "title": "Σαν σήμερα το 1999: Ο Σαμπάνης επιβεβαίωσε τη φόρμα του πριν το Σίδνεϊ",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25201/san-simera-to-1999-o-sampanis-epivevaiose-ti-forma-toy-prin-to-sidnei"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/modern-pentathlon.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25200,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/modern-pentathlon.jpg?itok=1QEIwoSN",
-    "title": "Πρωταθλητής Ελλάδας Κ17 στο Μοντέρνο Πένταθλο ο Χρήστος Κυριάκος",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25200/protathlitis-elladas-k17-sto-monterno-pentathlo-o-hristos-kyriakos"
    }
   ],
   "rss_floor": 25103,
@@ -13995,6 +13995,12 @@
     "vb": "6305690588508239870"
    },
    "tries": 1
+  },
+  "news:25244": {
+   "at": 1795451569.8570838,
+   "claim": "45217280099",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
