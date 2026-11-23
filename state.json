@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/sloukasssss_0.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25255,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/sloukasssss_0.jpg?itok=38CduMfz",
+    "title": "Χωρίς Σλούκα στη Βαλένθια ο Παναθηναϊκός",
+    "url": "https://www.trifillakia.gr/mpasket/article/25255/horis-sloyka-sti-valenthia-o-panathinaikos"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-71136.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25253,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikos_polo_0.jpg?itok=NiSSl39D",
     "title": "Τα 13 επίσημα ομαδικά τρόπαια του Παναθηναϊκού στο πόλο",
     "url": "https://www.trifillakia.gr/polo/article/25212/ta-13-episima-omadika-tropaia-toy-panathinaikoy-sto-polo"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/yre.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25211,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/yre.jpg?itok=rR86kinN",
-    "title": "Η γερμανική Sportfreunde Johannisthal και η σύνδεσή της με το τριφύλλι",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25211/i-germaniki-sportfreunde-johannisthal-kai-i-syndesi-tis-me-to-trifylli"
    }
   ],
   "rss_floor": 25103,
@@ -14105,6 +14105,12 @@
     "vb": "6305754996539543016"
    },
    "tries": 1
+  },
+  "news:25256": {
+   "at": 1795466925.7855563,
+   "claim": "45260893862",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
