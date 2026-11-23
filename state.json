@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25223,
+  "last": 25224,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13796,6 +13796,12 @@
    },
    "tries": 1
   },
+  "news:25224": {
+   "at": 1795430086.92577,
+   "claim": "45156710147",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15954,6 +15960,7 @@
     "category": "Μπάσκετ Γυναικών",
     "guid": "pao1908.com:54555",
     "image": "https://www.pao1908.com/wp-content/uploads/2020/07/29/Generic_Anakoinoseis_1600x720.jpg",
+    "imported": 1795429834.692299,
     "link": "https://www.pao1908.com/nea/diapisteyseis-dimosiografon-fotografon-15/",
     "source": "pao1908.com",
     "subtitle": "Οι ενδιαφερόμενοι δημοσιογράφοι και φωτογράφοι πρέπει να στείλουν mail μέχρι την Τρίτη (24/11) στις 16:00.",
