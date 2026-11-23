@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25256,
+  "last": 25258,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14116,6 +14116,12 @@
    },
    "tries": 1
   },
+  "news:25258": {
+   "at": 1795474308.4455512,
+   "claim": "45283425294",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16306,6 +16312,7 @@
     "feature": false,
     "guid": "bala24.gr:90810",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90810.jpg",
+    "imported": 1795474229.4975955,
     "link": "https://bala24.gr/ofi-to-minyma-stirixis-tou-aitor-ston-antino-meta-ti-rixi-chiastou/",
     "source": "bala24.gr",
     "subtitle": "Ο Αϊτόρ έστειλε μήνυμα στήριξης στον Σαντίνο Αντίνο μετά τη ρήξη χιαστού που υπέστη ο Αργεντινός εξτρέμ του Παναθηναϊκού.",
@@ -16326,6 +16333,7 @@
     "feature": true,
     "guid": "bala24.gr:90803",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90803.jpg",
+    "imported": 1795474229.4975955,
     "link": "https://bala24.gr/panathinaikos-tesseris-metagrafes-ton-ianouario-dyo-extrem-chaf-kai-stoper-sto-plano/",
     "source": "bala24.gr",
     "subtitle": "Ο Παναθηναϊκός σχεδιάζει τέσσερις μεταγραφές τον Ιανουάριο μετά τα νέα δεδομένα με τον Αντίνο. Δύο εξτρέμ, ένας χαφ και ένας στόπερ στο πλάνο",
