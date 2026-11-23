@@ -13887,7 +13887,8 @@
    "tries": 1
   },
   "news:25235": {
-   "at": 1795443444.9484365,
+   "at": 1795443691.1850755,
+   "claim": "45193112091",
    "nets": {
     "fb": "349363601832677_1766096078850490",
     "ig": "error: {'message': 'User is performing too many actions', 'code': 9, 'type': 'OAuthException', 'error_subcode': 2207042, 'is_transient': False, 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'error_user_title': 'Media publish limit exceeded', 'fbtrace_id': 'A2XSarpp5dOaCPNrnOvLzGe'}",
@@ -15244,7 +15245,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "bala24.gr:84719",
    "bala24.gr:84767",
    "bala24.gr:84766",
    "totalbasket.gr:68193",
@@ -15643,7 +15643,8 @@
    "bala24.gr:90666",
    "pao1908.com:54558",
    "pao1908.com:54563",
-   "pao1908.com:54569"
+   "pao1908.com:54569",
+   "bala24.gr:90698"
   ],
   "done_titles": [
    "Ήττα για τη Νόρντζελαντ πριν από τον Παναθηναϊκό, έχασε και η Πάφος",
