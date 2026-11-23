@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25232,
+  "last": 25234,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13866,6 +13866,12 @@
    },
    "tries": 1
   },
+  "news:25233": {
+   "at": 1795440770.9937766,
+   "claim": "45184591096",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16024,6 +16030,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54569",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/23/5459865-1-1.jpg",
+    "imported": 1795440639.2905533,
     "link": "https://www.pao1908.com/nea/xaroumeni-pou-mou-dothike-i-eykairia-na-agonisto-ston-panathinaiko/",
     "source": "pao1908.com",
     "subtitle": "Η Ιαπωνέζα αθλήτρια του πινγκ πονγκ έγινε η πρώτη από τη χώρα της που αγωνίστηκε στην Α1 γυναικών στην Ελλάδα.",
@@ -16043,6 +16050,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54563",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/23/ec6644b1-8d4e-4227-8bca-8cb4818b6d94.jpg",
+    "imported": 1795440639.2905533,
     "link": "https://www.pao1908.com/deltia-typoy/vraveythike-i-kyriaki-galani-gia-tin-prosfora-tis-ston-athlitismo-kai-tin-arsi-varon/",
     "source": "pao1908.com",
     "subtitle": "Ο Δήμος και η Διεύθυνση Αθλητισμού αναγνώρισαν την πολυετή και πολυδιάστατη πορεία της στο άθλημα, ως αθλήτρια, κριτής και προπονήτρια.",
