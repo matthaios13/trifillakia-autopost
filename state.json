@@ -15877,7 +15877,6 @@
    "bala24.gr:90770"
   ],
   "done_titles": [
-   "Παναθηναϊκός: Διοργανώνει το 1ο OPEN TALENT DAY",
    "Παναθηναϊκός: Χωρίς τον κόσμο του στο Καυτατζόγλειο κόντρα στον Ηρακλή",
    "Παναθηναϊκός: Απαγορεύτηκε η μετακίνηση οπαδών του στο Καυτανζόγλειο",
    "Παναθηναϊκός: Η πρόταση προς της ΠΑΕ για την επόμενη μέρα της Λεωφόρου",
@@ -16276,7 +16275,8 @@
    "Με κόσμο ο Παναθηναϊκός στο Περιστέρι",
    "Ομπράντοβιτς: «Θέλουμε να ελέγξουμε τον αγώνα, σκοράρει πολύ στον αιφνιδιασμό η Βαλένθια»",
    "Ενδιαφέρον από τρεις Ελληνικές ομάδες για Μόρο",
-   "Βαλένθια: Εκτός οι Ρίβερς και Ριβέρο για τη μάχη με τον Παναθηναϊκό"
+   "Βαλένθια: Εκτός οι Ρίβερς και Ριβέρο για τη μάχη με τον Παναθηναϊκό",
+   "Παναθηναϊκός – Μπράιτον ο τελικός του Conference League σύμφωνα με τον «υπερυπολογιστή»"
   ],
   "items": [
    {
@@ -16303,7 +16303,7 @@
     "feature": false,
     "guid": "bala24.gr:90770",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90770.jpg",
-    "imported": 1795462691.7839632,
+    "imported": 1795463408.9644032,
     "link": "https://bala24.gr/endiaferon-apo-treis-ellinikes-omades-gia-moro/",
     "source": "bala24.gr",
     "subtitle": "Νέο ενδιαφέρον για τον Κροάτη",
@@ -16324,7 +16324,7 @@
     "feature": true,
     "guid": "totalbasket.gr:71136",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-71136.jpg",
-    "imported": 1795462691.7839632,
+    "imported": 1795463408.9644032,
     "link": "https://totalbasket.gr/obrantovits-theloume-na-elegxoume-ton-agona-skorarei-poly-ston-aifnidiasmo-i-valenthia/",
     "source": "totalbasket.gr",
     "subtitle": "Οι δηλώσεις του Ζέλικο Ομπράντοβιτς ενόψει του εκτός έδρας αγώνα του Παναθηναϊκού με τη Βαλένθια (24/11, 21:30).",
