@@ -22,9 +22,18 @@
    "25129": 1795137434.8803408,
    "25130": 1795148124.9995854,
    "25134": 1795169726.0996425,
-   "25169": 1795281921.2093253
+   "25169": 1795281921.2093253,
+   "25221": 1795422647.3728569
   },
   "recent": [
+   {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90487.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25220,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90487.jpg?itok=WABhUQCv",
+    "title": "Νόρντζελαντ: «Πεντάρα» στην Κοπεγχάγη πριν από τη μάχη με τον Παναθηναϊκό στο Conference League",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25220/norntzelant-pentara-stin-kopeghagi-prin-apo-ti-mahi-me-ton-panathinaiko-sto"
+   },
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90529.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
@@ -336,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikanea-gr-san-simera-2026-11-22-retro.jpg?itok=cSWwxvMZ",
     "title": "Σαν σήμερα, 22 Νοεμβρίου: Παναθηναϊκός – Ααλμποργκ 2-0 (1995)",
     "url": "https://www.trifillakia.gr/san-simera/article/25177/san-simera-22-noemvrioy-panathinaikos-aalmporgk-2-0-1995"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/ping-pong-men.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25176,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/ping-pong-men.jpg?itok=dkYb_-99",
-    "title": "Νίκη με 4-2 επί του Πέρα για το πινγκ πονγκ ανδρών",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25176/niki-me-4-2-epi-toy-pera-gia-to-pingk-pongk-andron"
    }
   ],
   "rss_floor": 25103,
@@ -358,7 +359,8 @@
    "25129": 1795140922.6418822,
    "25130": 1795151723.503956,
    "25134": 1795170921.0775483,
-   "25169": 1795283425.1898327
+   "25169": 1795283425.1898327,
+   "25221": 1795422647.3728569
   }
  },
  "pending": {
