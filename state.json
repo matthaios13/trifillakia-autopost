@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/timi-max-elsnik-trifillakia.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25248,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/timi-max-elsnik-trifillakia.jpg?itok=qeE7OyKO",
+    "title": "Ερυθρός Αστέρας: Πουλάει τον Έλσνικ, τον θέλει ο Παναθηναϊκός",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25248/erythros-asteras-poylaei-ton-elsnik-ton-thelei-o-panathinaikos"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_5.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25247,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90444.jpg?itok=QWy_lh6B",
     "title": "Παναθηναϊκός: «Να συνηθίσουν στην ιδέα της πράσινης κορυφής»",
     "url": "https://www.trifillakia.gr/podosfairo/article/25206/panathinaikos-na-synithisoyn-stin-idea-tis-prasinis-koryfis"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/32d59548-e8ee-4252-bb34-dcab17aefeb8-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25205,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/32d59548-e8ee-4252-bb34-dcab17aefeb8-1.jpg?itok=nXd-CyVe",
-    "title": "Πέμπτη συνεχόμενη κορυφή για τον Χουτσισβίλι, δεύτερες οι γυναίκες του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25205/pempti-synehomeni-koryfi-gia-ton-hoytsisvili-deyteres-oi-gynaikes-toy"
    }
   ],
   "rss_floor": 25103,
@@ -14727,7 +14727,8 @@
    "tries": 1
   },
   "tb:fZ0YNkuo": {
-   "at": 1795451756.0653934,
+   "at": 1795452059.7506654,
+   "claim": "45218163316",
    "nets": {
     "fb": "349363601832677_1766242988835799",
     "fbs": "2407571063381750",
