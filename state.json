@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-fiorentinafc-0b1fa2.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25244,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-fiorentinafc-0b1fa2.jpg?itok=RnlkVZrT",
+    "title": "ELABET: Μόντσα – Φιορεντίνα: Bet Builder σε επιθέσεις χωρίς φρένο",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25244/elabet-montsa-fiorentina-bet-builder-se-epitheseis-horis-freno"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_3.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25243,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90447.jpg?itok=lXOlIwdZ",
     "title": "Η βαθμολογία του πρωταθλήματος μετά τις νίκες Ολυμπιακού, Παναθηναϊκού, ΠΑΟΚ",
     "url": "https://www.trifillakia.gr/podosfairo/article/25202/i-vathmologia-toy-protathlimatos-meta-tis-nikes-olympiakoy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/sampanis.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25201,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/sampanis.jpg?itok=dnGQUk8A",
-    "title": "Σαν σήμερα το 1999: Ο Σαμπάνης επιβεβαίωσε τη φόρμα του πριν το Σίδνεϊ",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25201/san-simera-to-1999-o-sampanis-epivevaiose-ti-forma-toy-prin-to-sidnei"
    }
   ],
   "rss_floor": 25103,
@@ -14005,6 +14005,12 @@
     "vb": "6305690712089212695"
    },
    "tries": 1
+  },
+  "news:25245": {
+   "at": 1795451599.5146387,
+   "claim": "45217280099",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
