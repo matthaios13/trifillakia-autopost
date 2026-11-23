@@ -135,6 +135,19 @@ def _show_when(v):
     return (f"{rel}, {day}" if rel else day), hour
 
 
+def show_viber(v):
+    """Κείμενο για το κανάλι Viber: εκπομπή, θέμα, πότε, (τηλέφωνο αν έχει ανοιχτές γραμμές) και το link."""
+    day, hour = _show_when(v)
+    lines = [f"🔴 ΖΩΝΤΑΝΑ | {v['show'] or 'Trifillakia'} ☘️", ""]
+    if v.get("topic"):
+        lines += [v["topic"], ""]
+    lines += [f"🗓 {day} ⏰ {hour}"]
+    if re.search(r"ανοι[χκ]τ[εέ]ς\s+γραμμ|roi\s*mat", f"{v.get('show','')} {v.get('topic','')}", re.I):
+        lines += ["📞 Ανοιχτές γραμμές: 210 3000 891 (αστική χρέωση)"]
+    lines += ["", "📺 Δείτε ζωντανά στο YouTube:", v["url"]]
+    return "\n".join(lines)
+
+
 def show_ig(v):
     day, hour = _show_when(v)
     lines = [f"🔴 ΖΩΝΤΑΝΑ | {v['show'] or 'Trifillakia'} ☘️", ""]

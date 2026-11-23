@@ -601,6 +601,16 @@ def run_shows(st, dry):
             story_card=cards.show_story(v),
             publisher=lambda f, sp, c, done, v=v: meta.publish_news(f, sp, c, v["url"], captions.show_fb(v), done=done),
         )
+    # Viber (23/11): κάθε προγραμματισμένη εκπομπή και στο κανάλι, μία φορά (δικό της κλειδί, ώστε να
+    # πηγαίνουν και όσες είχαν ήδη ανέβει σε IG/FB).
+    for v in shows:
+        k = f"vb:yt:{v['id']}"
+        p = st["posts"].get(k) or {}
+        if p.get("nets", {}).get("vb") or p.get("tries", 0) >= 3 or dry or not viber.configured():
+            continue
+        got = viber.publish_show(v, captions.show_viber(v), log=log)
+        st["posts"][k] = {"at": time.time(), "nets": got, "tries": p.get("tries", 0) + 1}
+        log("Viber εκπομπή", v["id"], v.get("show"), "ok" if got else "απέτυχε")
 
 
 def preview():

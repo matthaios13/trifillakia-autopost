@@ -72,6 +72,20 @@ def publish_news(a, done=None, log=print):
     return {"vb": str(d.get("message_token"))} if d else {}
 
 
+def publish_show(v, text, log=print):
+    """Προγραμματισμένη εκπομπή στο YouTube (23/11): thumbnail + κείμενο με το link. {'vb': token} ή {}."""
+    if not configured():
+        return {}
+    frm = sender(log)
+    if not frm:
+        return {}
+    text = text.strip()[:760]
+    d = _call("post", {"from": frm, "type": "picture", "text": text, "media": v["image"], "thumbnail": v["image"]}, log) if v.get("image") else None
+    if not d:
+        d = _call("post", {"from": frm, "type": "text", "text": text}, log)
+    return {"vb": str(d.get("message_token"))} if d else {}
+
+
 def check(log=print):
     """Έλεγχος σύνδεσης (χωρίς ανάρτηση): όνομα καναλιού, συνδρομητές, ποιος θα «υπογράφει»."""
     if not configured():
