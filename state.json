@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25248,
+  "last": 25249,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14046,6 +14046,12 @@
    },
    "tries": 3
   },
+  "news:25249": {
+   "at": 1795455144.43945,
+   "claim": "45228401524",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16236,6 +16242,7 @@
     "feature": false,
     "guid": "bala24.gr:90734",
     "image": "https://bala24.gr/wp-content/uploads/2026/11/IMG_20261123_182031.jpg",
+    "imported": 1795455037.7174814,
     "link": "https://bala24.gr/ti-simainei-to-minyma-krata-ton-elegcho-pou-eidame-stis-faneles-ton-omadon-aftin-tin-evdomada/",
     "source": "bala24.gr",
     "subtitle": "Ο συμβολισμός της φράσης που είδαμε στις φανέλες των ομάδων αυτών",
