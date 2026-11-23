@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/antinooff.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25235,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/antinooff.jpg?itok=j1S44coR",
+    "title": "Σοκ με Αντίνο – Ολική ρήξη πρόσθιου χιαστού, χάνει το υπόλοιπο της σεζόν!",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25235/sok-me-antino-oliki-rixi-prosthioy-hiastoy-hanei-to-ypoloipo-tis-sezon"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/ec6644b1-8d4e-4227-8bca-8cb4818b6d94.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25234,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/ntarzanou.jpg?itok=abcUh5Rw",
     "title": "Νταρζάνου: «Μοναδική στιγμή το γκολ στη Λεωφόρο",
     "url": "https://www.trifillakia.gr/podosfairo-gynaikon/article/25193/ntarzanoy-monadiki-stigmi-to-gkol-sti-leoforo"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90383.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25192,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90383.jpg?itok=J83luQuD",
-    "title": "Παναθηναϊκός: Αγωνία για τον Αντίνο – Τη Δευτέρα η μαγνητική στο γόνατο",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25192/panathinaikos-agonia-gia-ton-antino-ti-deytera-i-magnitiki-sto-gonato"
    }
   ],
   "rss_floor": 25103,
