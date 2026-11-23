@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25242,
+  "last": 25247,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13977,7 +13977,8 @@
    "tries": 3
   },
   "news:25242": {
-   "at": 1795451219.0777264,
+   "at": 1795451501.7054021,
+   "claim": "45217280099",
    "nets": {
     "fb": "349363601832677_1766233228836775",
     "ig": "error: {'message': 'User is performing too many actions', 'code': 9, 'type': 'OAuthException', 'error_subcode': 2207042, 'is_transient': False, 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'error_user_title': 'Media publish limit exceeded', 'fbtrace_id': 'AL9dhyPgioiTfat7vQTTYRz'}",
