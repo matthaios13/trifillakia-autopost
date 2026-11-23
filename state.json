@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-levantefc-b6209b.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25246,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-levantefc-b6209b.jpg?itok=gSFOUa9P",
+    "title": "ELABET: Λεβάντε – Έλτσε: Bet Builder μάχης επιβίωσης",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25246/elabet-levante-eltse-bet-builder-mahis-epiviosis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_4.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25245,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/uhwlsb6sbdiy3rlbr120da_t3.jpg?itok=JopFTfye",
     "title": "Ο VfR Heisfelde, ο γερμανικός σύλλογος με το τριφύλλι",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25204/o-vfr-heisfelde-o-germanikos-syllogos-me-to-trifylli"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90452.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25203,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90452.jpg?itok=qcbiKVkH",
-    "title": "Πένια: «Χαίρομαι που απέκρουσα το πέναλτι – Με πονάει ο τραυματισμός του Αντίνο»",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25203/penia-hairomai-poy-apekroysa-to-penalti-me-ponaei-o-traymatismos-toy-antino"
    }
   ],
   "rss_floor": 25103,
@@ -14025,6 +14025,12 @@
     "vb": "6305691010229846252"
    },
    "tries": 1
+  },
+  "news:25247": {
+   "at": 1795451670.4726772,
+   "claim": "45217280099",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
