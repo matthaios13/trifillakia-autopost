@@ -43,10 +43,10 @@
     "url": "https://www.trifillakia.gr/mpasket/article/25237/horis-sloyka-taxideyei-sti-valenthia-o-panathinaikos"
    },
    {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/obradovic-valencia-pao.jpg",
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/obradovic-valencia-pao2.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25236,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/obradovic-valencia-pao.jpg?itok=PImg74dQ",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/obradovic-valencia-pao2.jpg?itok=zJ0tEmjc",
     "title": "Ομπράντοβιτς πριν από τη Βαλένθια: «Να ελέγξουμε τον ρυθμό – Ο δρόμος είναι μακρύς»",
     "url": "https://www.trifillakia.gr/mpasket/article/25236/omprantovits-prin-apo-ti-valenthia-na-elegxoyme-ton-rythmo-o-dromos-einai"
    },
@@ -13915,6 +13915,12 @@
     "vb": "6305659074916173369"
    },
    "tries": 2
+  },
+  "news:25237": {
+   "at": 1795445228.072663,
+   "claim": "45197385095",
+   "nets": {},
+   "tries": 0
   },
   "news:25237:old-sdna": {
    "at": 1795444662.9198408,
