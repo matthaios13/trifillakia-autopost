@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90489.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25217,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90489.jpg?itok=5NQW2Lxg",
+    "title": "Παναθηναϊκός: Οι παίκτες φωτογραφήθηκαν με το πανό για τα 60 χρόνια της Θύρας 13",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25217/panathinaikos-oi-paiktes-fotografithikan-me-to-pano-gia-ta-60-hronia-tis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikanea-gr-san-simera-2026-11-23-retro.jpg",
     "label": "ΣΑΝ ΣΗΜΕΡΑ",
     "nid": 25216,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5457822-1.jpg?itok=9mPVbaiM",
     "title": "Νίκη του Παναθηναϊκού επί της Θέτιδας σε τέσσερα σετ",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/25175/niki-toy-panathinaikoy-epi-tis-thetidas-se-tessera-set"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/ojio.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25174,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/ojio.jpg?itok=vhyuISCV",
-    "title": "Δύο νίκες με 4-0 για τον Παναθηναϊκό στην Α1 πινγκ πονγκ γυναικών",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25174/dyo-nikes-me-4-0-gia-ton-panathinaiko-stin-a1-pingk-pongk-gynaikon"
    }
   ],
   "rss_floor": 25103,
@@ -13743,6 +13743,12 @@
     "vb": "6305554728845997639"
    },
    "tries": 1
+  },
+  "news:25218": {
+   "at": 1795419178.4032314,
+   "claim": "45131590056",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
