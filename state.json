@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_5.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25247,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-ela-94453f_5.jpg?itok=UkcudWhW",
+    "title": "ELABET: Αστέρας Τρίπολης-Άρης με 0% γκανιότα και «Ενισχύσεις» στο σκοράρισμα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25247/elabet-asteras-tripolis-aris-me-0-gkaniota-kai-enishyseis-sto"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-levantefc-b6209b.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25246,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/32d59548-e8ee-4252-bb34-dcab17aefeb8-1.jpg?itok=nXd-CyVe",
     "title": "Πέμπτη συνεχόμενη κορυφή για τον Χουτσισβίλι, δεύτερες οι γυναίκες του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25205/pempti-synehomeni-koryfi-gia-ton-hoytsisvili-deyteres-oi-gynaikes-toy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/uhwlsb6sbdiy3rlbr120da_t3.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25204,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/uhwlsb6sbdiy3rlbr120da_t3.jpg?itok=JopFTfye",
-    "title": "Ο VfR Heisfelde, ο γερμανικός σύλλογος με το τριφύλλι",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25204/o-vfr-heisfelde-o-germanikos-syllogos-me-to-trifylli"
    }
   ],
   "rss_floor": 25103,
@@ -14715,6 +14715,12 @@
     "igs": "17915492295533647"
    },
    "tries": 1
+  },
+  "tb:fZ0YNkuo": {
+   "at": 1795451724.6997416,
+   "claim": "45217280099",
+   "nets": {},
+   "tries": 0
   },
   "tb:fss2DYXg": {
    "at": 1791985793.189812,
