@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25215,
+  "last": 25216,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13724,6 +13724,12 @@
    },
    "tries": 1
   },
+  "news:25216": {
+   "at": 1795408328.0243044,
+   "claim": "45112257556",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15829,6 +15835,7 @@
     "feature": false,
     "guid": "panathinaikanea.gr:san-simera-2026-11-23",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/panathinaikanea-gr-san-simera-2026-11-23-retro.jpg",
+    "imported": 1795408234.5339682,
     "link": "https://panathinaikanea.gr/san-simera/san-simera-2026-11-23/",
     "source": "panathinaikanea.gr",
     "subtitle": "Νίκη με 88-85 για τον Παναθηναϊκό απέναντι στη Βίρτους Μπολόνια εντός έδρας, στις 23 Νοεμβρίου 2022 (EuroLeague, 9η αγωνιστική). Ο αγώνας κρίθηκε στην παράταση.",
