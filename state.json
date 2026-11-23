@@ -13967,15 +13967,14 @@
    "tries": 1
   },
   "news:25241": {
-   "at": 1795450334.930202,
-   "claim": "45213448234",
+   "at": 1795450355.5661356,
    "nets": {
     "fb": "349363601832677_1766204178839680",
-    "ig": "error: {'message': 'User is performing too many actions', 'code': 9, 'type': 'OAuthException', 'error_subcode': 2207042, 'is_transient': False, 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'error_user_title': 'Media publish limit exceeded', 'fbtrace_id': 'AHmr3liG2xdwPc5XjdMYzkm'}",
-    "igs": "error: {'message': 'User is performing too many actions', 'code': 9, 'type': 'OAuthException', 'error_subcode': 2207042, 'is_transient': False, 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'error_user_title': 'Media publish limit exceeded', 'fbtrace_id': 'A4YOiBC9KgClbQqvRx01RCo'}",
+    "ig": "error: {'message': 'User is performing too many actions', 'code': 9, 'type': 'OAuthException', 'error_subcode': 2207042, 'is_transient': False, 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'error_user_title': 'Media publish limit exceeded', 'fbtrace_id': 'A8LKg57cldq2eTdCQwyr2j7'}",
+    "igs": "error: {'message': 'User is performing too many actions', 'code': 9, 'type': 'OAuthException', 'error_subcode': 2207042, 'is_transient': False, 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'error_user_title': 'Media publish limit exceeded', 'fbtrace_id': 'A8PAVDcZ1J2PUsCCiBg9dUX'}",
     "vb": "6305681747138365060"
    },
-   "tries": 2
+   "tries": 3
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
