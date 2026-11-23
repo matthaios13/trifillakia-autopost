@@ -14882,6 +14882,12 @@
    },
    "tries": 1
   },
+  "yt:k01iQpt57BA": {
+   "at": 1795420346.3352952,
+   "claim": "45133994883",
+   "nets": {},
+   "tries": 0
+  },
   "yt:wGgi0yl2DkI": {
    "at": 1794391383.6889863,
    "nets": {
@@ -16511,6 +16517,15 @@
   "xml_done": []
  },
  "yt": {
-  "upcoming": []
+  "upcoming": [
+   {
+    "id": "k01iQpt57BA",
+    "image": "https://i.ytimg.com/vi/k01iQpt57BA/maxresdefault.jpg",
+    "show": "ROI MAT SHOW",
+    "start": 1795428000,
+    "topic": "Ο ΠΑΟ έχει σκορπίσει ΤΡΟΜΟ & τρώει ΚΑΤΑΡΕΣ & ΠΡΟΠΑΓΑΝΔΑ – Ανοικτές Γραμμές",
+    "url": "https://www.youtube.com/watch?v=k01iQpt57BA"
+   }
+  ]
  }
 }
