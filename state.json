@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/918399331_1379513724119849_619189634895344095_n-1.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25214,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/918399331_1379513724119849_619189634895344095_n-1.jpg?itok=-f5cWEeO",
+    "title": "Στην 54η θέση ανάμεσα σε 212 αθλήτριες η Παυλοπούλου στη Βουδαπέστη",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25214/stin-54i-thesi-anamesa-se-212-athlitries-i-paylopoyloy-sti-voydapesti"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54548.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25213,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/totalbasket-gr-70971.jpg?itok=8w5p4npC",
     "title": "Ομπράντοβιτς: «Σεβαστήκαμε το Μαρούσι, είμαι χαρούμενος για όσους δεν έχουν πολλά λεπτά στην EuroLeague γιατί παλεύουν»",
     "url": "https://www.trifillakia.gr/mpasket/article/25172/omprantovits-sevastikame-to-maroysi-eimai-haroymenos-gia-osoys-den-ehoyn-polla"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/paomarousi.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25170,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/paomarousi.jpg?itok=VJy-zbdK",
-    "title": "Παναθηναϊκός – Μαρούσι 85-72: Επαγγελματική νίκη με Ρογκαβόπουλο πρωταγωνιστή",
-    "url": "https://www.trifillakia.gr/mpasket/article/25170/panathinaikos-maroysi-85-72-epaggelmatiki-niki-me-rogkavopoylo-protagonisti"
    }
   ],
   "rss_floor": 25103,
@@ -13713,6 +13713,12 @@
     "vb": "6305449396744381833"
    },
    "tries": 1
+  },
+  "news:25215": {
+   "at": 1795394065.5701554,
+   "claim": "45089171126",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
