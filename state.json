@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/sloukas-valencia-pao.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25237,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/sloukas-valencia-pao.jpg?itok=OnNF9jJc",
+    "title": "Χωρίς Σλούκα ταξιδεύει στη Βαλένθια ο Παναθηναϊκός",
+    "url": "https://www.trifillakia.gr/mpasket/article/25237/horis-sloyka-taxideyei-sti-valenthia-o-panathinaikos"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/obradovic-valencia-pao.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25236,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/paocritiki.jpg?itok=-LQF3xIR",
     "title": "Γιάγκουσιτς σε πρώτο πλάνο, Λιβάι σε ρόλο πρωταγωνιστή – Οι βαθμολογίες των «πράσινων»!",
     "url": "https://www.trifillakia.gr/podosfairo/article/25195/giagkoysits-se-proto-plano-livai-se-rolo-protagonisti-oi-vathmologies-ton"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/livaitri.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25194,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/livaitri.jpg?itok=PNpmuojv",
-    "title": "Παναθηναϊκός – ΟΦΗ 2-0: Καθάρισε με Γκαρσία και Γιάγκουσιτς, αγωνία για Αντίνο!",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25194/panathinaikos-ofi-2-0-katharise-me-gkarsia-kai-giagkoysits-agonia-gia"
    }
   ],
   "rss_floor": 25103,
