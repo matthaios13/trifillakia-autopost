@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25221,
+  "last": 25223,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -360,7 +360,7 @@
    "25130": 1795151723.503956,
    "25134": 1795170921.0775483,
    "25169": 1795283425.1898327,
-   "25221": 1795425930.166924
+   "25221": 1795426236.2358775
   }
  },
  "pending": {
@@ -13766,6 +13766,12 @@
    },
    "tries": 1
   },
+  "news:25222": {
+   "at": 1795426411.8677242,
+   "claim": "45147643479",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15886,6 +15892,7 @@
     "category": "Βόλεϊ Γυναικών",
     "guid": "pao1908.com:54552",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/05/08/Ticketmaster-Tickets-800-X-538px.jpg",
+    "imported": 1795426236.2358775,
     "link": "https://www.pao1908.com/nea/ta-eisitiria-me-korona-mprasof/",
     "source": "pao1908.com",
     "subtitle": "Η αναμέτρηση της ομάδας βόλεϊ γυναικών θα γίνει στο κλειστό του Μετς την Τετάρτη 25 Νοεμβρίου.",
@@ -15904,6 +15911,7 @@
     "category": "Βόλεϊ Γυναικών",
     "guid": "pao1908.com:54550",
     "image": "https://www.pao1908.com/wp-content/uploads/2022/11/10/Generic_Anakoinoseis_1600x720.jpg",
+    "imported": 1795426236.2358775,
     "link": "https://www.pao1908.com/deltia-typoy/diapisteyseis-dimosiografon-fotografon-14/",
     "source": "pao1908.com",
     "subtitle": "Οι ενδιαφερόμενοι δημοσιογράφοι και φωτογράφοι πρέπει να στείλουν mail μέχρι την Τρίτη (24/11) στις 16:00.",
