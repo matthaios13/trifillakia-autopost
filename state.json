@@ -15455,7 +15455,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "totalbasket.gr:68267",
    "totalbasket.gr:68278",
    "totalbasket.gr:68252",
    "totalbasket.gr:68280",
@@ -15854,7 +15853,8 @@
    "bala24.gr:90706",
    "bala24.gr:90734",
    "bala24.gr:90749",
-   "totalbasket.gr:71136"
+   "totalbasket.gr:71136",
+   "bala24.gr:90770"
   ],
   "done_titles": [
    "Παναθηναϊκός – Μπράιτον ο τελικός του Conference League σύμφωνα με τον «υπερυπολογιστή»",
@@ -16260,7 +16260,7 @@
   ],
   "items": [
    {
-    "added": 1795459928.8351634,
+    "added": 1795459776.5649714,
     "body": "\n<p class=\"wp-block-paragraph\">Επανήλθε το ενδιαφέρον για το 6αρι της Μπολόνια, Νίκολα Μόρο, με τρεις Ελληνικές ομάδες να ενδιαφέρονται για τον Κροάτη μέσο.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Επρόκειτο φυσικά για τους Ολυμπιακό, Παναθηναϊκό, αλλά και την ΑΕΚ, η οποία έφτασε κοντά στην απόκτηση του το καλοκαίρι, αλλά τελικά δεν κατάφερε να ολοκληρώσει την συμφωνία.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ο Κροάτης, έχει μόλις πέντε συμμετοχές με την Μπολόνια φέτος, κάτι που μπορεί να κάνει πιο ευνοϊκή την υπόθεση για όποια ομάδα κάνει πρόταση για εκείνον.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">🚨 𝐍𝐄𝐖: Nikola Moro is attracting interest from three Greek giants amid his lack of playing time at Bologna.<br><br>Olympiacos, AEK Athens and Panathinaikos are all reportedly monitoring the 28-year-old Croatian midfielder ahead of a potential January move.<br><br>Moro has made just five… <a href=\"https://t.co/JSKEUoG9G3\">pic.twitter.com/JSKEUoG9G3</a></p>&mdash; Croatian Football  (@CroatiaFooty) <a href=\"https://x.com/CroatiaFooty/status/2124910398633590921?ref_src=twsrc%5Etfw\">November 23, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script>\n</div></figure>\n",
     "category": "Ποδοσφαιρο",
     "feature": false,
@@ -16280,7 +16280,7 @@
     "ts": 1795459409.0
    },
    {
-    "added": 1795458946.2470078,
+    "added": 1795459776.5649714,
     "body": "\n<p class=\"wp-block-paragraph\"><strong>Αναλυτικά όσα είπε ο Ζέλιμιρ Ομπράντοβιτς:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>«Θέλουμε να ελέγξουμε τον αγώνα, σκοράρει πολύ στον αιφνιδιασμό η Βαλένθια, οπότε δεν πρέπει να τους δώσουμε ευκαιρίες για να τρέξουν. Μόνο έτσι θα κάνουμε καλή εμφάνιση απέναντί τους. Όλοι ξέρουν πόσο σημαντικός είναι για εμάς ο Σλούκας, αλλά τι να κάνουμε; Έχουμε άλλους έτοιμους γι’ αυτό το παιχνίδι.</em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Δεν κάναμε κανονική προετοιμασία, είχαμε τραυματίες, οπότε πρέπει να καταλάβουμε πόσο σημαντικό είναι να τους έχουμε όλους πίσω στις προπονήσεις και στους αγώνες.</em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Ο Σορτς είναι σημαντικός παίκτης, σίγουρα. Καταλαβαίνει το παιχνίδι, αλλά δεν παίζει μόνος. Είναι καλή ομάδα. Όλοι οι αγώνες είναι ίδιοι. Στο τελευταίο ματς, το Σάββατο, παίξαμε με απουσίες και ξεκουράσαμε κάποιους. Μοιράσαμε τον χρόνο, οπότε πρέπει όλοι να είναι έτοιμοι για να παίξουν. Πρέπει να καταλάβουμε ότι κάθε αγώνας θα είναι σημαντικός. Πάμε με αργά βήματα, θέλουμε να είμαστε υγιείς, να βελτιωνόμαστε και να φτάσουμε στο σημείο για να παίξουμε το καλύτερό μας μπάσκετ».</em></p>\n",
     "category": "Μπασκετ",
     "feature": true,
@@ -16303,7 +16303,7 @@
     "feature": true,
     "guid": "bala24.gr:90749",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90749.jpg",
-    "imported": 1795458946.2470078,
+    "imported": 1795459776.5649714,
     "link": "https://bala24.gr/me-kosmo-o-panathinaikos-sto-peristeri/",
     "source": "bala24.gr",
     "subtitle": "Με 550 φιλάθλους της στο Περιστέρι η ομάδα του Νίστρουπ",
