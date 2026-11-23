@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25212,
+  "last": 25215,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13694,6 +13694,12 @@
    },
    "tries": 1
   },
+  "news:25213": {
+   "at": 1795393972.0447872,
+   "claim": "45089171126",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15798,6 +15804,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54548",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/pao1908-com-54548.jpg",
+    "imported": 1795393838.2906897,
     "link": "https://www.pao1908.com/deltia-typoy/to-prasino-programma-tis-evdomadas-157/",
     "source": "pao1908.com",
     "subtitle": "Από το μπάσκετ και το βόλεϊ μέχρι την κολύμβηση, το υδατόσφαιρα και το φούτσαλ, αναλυτικά το εβδομαδιαίο πρόγραμμα των «πράσινων» τμημάτων.",
@@ -15817,6 +15824,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54545",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/918399331_1379513724119849_619189634895344095_n-1.jpg",
+    "imported": 1795393838.2906897,
     "link": "https://www.pao1908.com/nea/ta-edose-ola-sti-voudapesti-i-paylopoulou/",
     "source": "pao1908.com",
     "subtitle": "Η νεαρή ξιφομάχος της ακαδημίας ξιφασκίας του Παναθηναϊκού ξεκίνησε με νίκη 15-2, αλλά στο ταμπλό των «64» αντιμετώπισε πρόβλημα τραυματισμού.",
@@ -15856,6 +15864,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54542",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/22/f16935f0-51d7-433f-a369-426761045af2-1.jpg",
+    "imported": 1795393838.2906897,
     "link": "https://www.pao1908.com/nea/niki-gia-tis-prasines-psyxares/",
     "source": "pao1908.com",
     "subtitle": "Το τμήμα μπάσκετ ΑμεΑ του Παναθηναϊκού πέτυχε τη νίκη στη δεύτερη αγωνιστική του πρωταθλήματος.",
