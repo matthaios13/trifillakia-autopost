@@ -35,10 +35,10 @@
     "url": "https://www.trifillakia.gr/podosfairo/article/25238/panathinaikos-exetazei-tin-periptosi-toy-mateo-kovasits-symfona-me-xeno"
    },
    {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/sloukas-valencia-pao.jpg",
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/sloukas-valencia-pao2.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25237,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/sloukas-valencia-pao.jpg?itok=OnNF9jJc",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/sloukas-valencia-pao2.jpg?itok=if4Jfhix",
     "title": "Χωρίς Σλούκα ταξιδεύει στη Βαλένθια ο Παναθηναϊκός",
     "url": "https://www.trifillakia.gr/mpasket/article/25237/horis-sloyka-taxideyei-sti-valenthia-o-panathinaikos"
    },
@@ -13917,7 +13917,8 @@
    "tries": 3
   },
   "news:25238": {
-   "at": 1795444442.9761703,
+   "at": 1795444666.0310667,
+   "claim": "45195788231",
    "nets": {
     "fb": "349363601832677_1766118572181574",
     "ig": "error: {'message': 'User is performing too many actions', 'code': 9, 'type': 'OAuthException', 'error_subcode': 2207042, 'is_transient': False, 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'error_user_title': 'Media publish limit exceeded', 'fbtrace_id': 'ARfZPBkw9Luxl6ePB-haMVI'}",
