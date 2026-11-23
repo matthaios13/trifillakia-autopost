@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90770.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25252,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90770.jpg?itok=gj78RNFZ",
+    "title": "Ενδιαφέρον από τρεις Ελληνικές ομάδες για Μόρο",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25252/endiaferon-apo-treis-ellinikes-omades-gia-moro"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90749.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25251,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/whatsapp-image-2026-11-22-at-20.56.43.jpg?itok=eUgmuKf9",
     "title": "Δύο νίκες για τον Παναθηναϊκό στην Α1 πινγκ πονγκ ανδρών",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25210/dyo-nikes-gia-ton-panathinaiko-stin-a1-pingk-pongk-andron"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90481.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25209,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90481.jpg?itok=HhXcjkaq",
-    "title": "Λιβάι Γκαρσία: «Είμαι χαρούμενος για το γκολ – Η καρδιά και το μυαλό μου είναι στον Αντίνο»",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25209/livai-gkarsia-eimai-haroymenos-gia-to-gkol-i-kardia-kai-to-myalo-moy-einai"
    }
   ],
   "rss_floor": 25103,
@@ -14085,6 +14085,12 @@
     "vb": "6305739894837740545"
    },
    "tries": 1
+  },
+  "news:25253": {
+   "at": 1795463325.7171156,
+   "claim": "45250469689",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
