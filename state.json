@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25238,
+  "last": 25240,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13946,6 +13946,12 @@
    },
    "tries": 3
   },
+  "news:25239": {
+   "at": 1795447941.6604123,
+   "claim": "45205996512",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16125,6 +16131,7 @@
     "feature": true,
     "guid": "bala24.gr:90706",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90706.jpg",
+    "imported": 1795447840.5313923,
     "link": "https://bala24.gr/panathinaikos-epivevaiothikan-ta-cheirotera-chanei-ti-sezon-o-antino/",
     "source": "bala24.gr",
     "subtitle": "Επιβεβαιώθηκαν οι φόβοι των ανθρώπων του Παναθηναϊκού, καθώς ο Σαντίνο Αντίνο υπέστη ολική ρήξη πρόσθιου χιαστού και θα χάσει το υπόλοιπο της σεζόν.",
@@ -16141,6 +16148,7 @@
     "category": "Βόλεϊ Γυναικών",
     "guid": "pao1908.com:54573",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/23/DSC_0483-1-1.jpg",
+    "imported": 1795447840.5313923,
     "link": "https://www.pao1908.com/nea/stin-koryfaia-omada-tis-ektis-agonistikis-i-papageorgiou/",
     "source": "pao1908.com",
     "subtitle": "Η διεθνής κεντρική του Παναθηναϊκού ολοκλήρωσε το 3-0 επί του ΑΟ Θήρας με 13 πόντους, τρεις από τους οποίους μέσω μπλοκ.",
