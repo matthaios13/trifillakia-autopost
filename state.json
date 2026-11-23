@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90749.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25251,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90749.jpg?itok=EHDpQPtJ",
+    "title": "Με κόσμο ο Παναθηναϊκός στο Περιστέρι",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25251/me-kosmo-o-panathinaikos-sto-peristeri"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/basketgate-kinita-liolios-mavraganis.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25250,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90481.jpg?itok=HhXcjkaq",
     "title": "Λιβάι Γκαρσία: «Είμαι χαρούμενος για το γκολ – Η καρδιά και το μυαλό μου είναι στον Αντίνο»",
     "url": "https://www.trifillakia.gr/podosfairo/article/25209/livai-gkarsia-eimai-haroymenos-gia-to-gkol-i-kardia-kai-to-myalo-moy-einai"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/karagiorgos_xristos_8.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25208,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/karagiorgos_xristos_8.jpg?itok=b3SuRvov",
-    "title": "Το παγκόσμιο ρεκόρ του Χρήστου Καραγιώργου στα 7 μίλια βάδην",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25208/to-pagkosmio-rekor-toy-hristoy-karagiorgoy-sta-7-milia-vadin"
    }
   ],
   "rss_floor": 25103,
