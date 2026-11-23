@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25218,
+  "last": 25221,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -13754,6 +13754,12 @@
    },
    "tries": 1
   },
+  "news:25220": {
+   "at": 1795422734.495693,
+   "claim": "45139172614",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -15875,6 +15881,7 @@
     "feature": true,
     "guid": "bala24.gr:90506",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90506.jpg",
+    "imported": 1795422647.3728569,
     "link": "https://bala24.gr/panathinaikos-min-koitas-poios-fonazei-koita-pou-pigaineis-as-tous-na-lene/",
     "source": "bala24.gr",
     "subtitle": "Ο Παναθηναϊκός νίκησε τον ΟΦΗ σε ένα σκληρό παιχνίδι και συνεχίζει την πορεία του. Σε κάθε διαγωνισμό εντυπώσεων, το Τριφύλλι οφείλει να κοιτάζει μπροστά. Γράφει η Σοφία Τζιούβελη",
@@ -15893,6 +15900,7 @@
     "feature": true,
     "guid": "bala24.gr:90487",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90487.jpg",
+    "imported": 1795422647.3728569,
     "link": "https://bala24.gr/norntzelant-pentara-stin-kopegchagi-prin-apo-ti-machi-me-ton-panathinaiko-sto-conference-league/",
     "source": "bala24.gr",
     "subtitle": "Η Νόρντζελαντ διέλυσε με 5-0 την Κοπεγχάγη πριν από την αναμέτρηση με τον Παναθηναϊκό για τη League Phase του Conference League.",
