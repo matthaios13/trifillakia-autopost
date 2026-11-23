@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/basketgate-kinita-liolios-mavraganis.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25250,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/basketgate-kinita-liolios-mavraganis.jpg?itok=JtJ2f4Ym",
+    "title": "Basketgate: Ανοίγουν τα κινητά των εμπλεκομένων με απόφαση του Δικαστικού Συμβουλίου",
+    "url": "https://www.trifillakia.gr/mpasket/article/25250/basketgate-anoigoyn-ta-kinita-ton-emplekomenon-me-apofasi-toy-dikastikoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/img_20261123_182031.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25249,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/karagiorgos_xristos_8.jpg?itok=b3SuRvov",
     "title": "Το παγκόσμιο ρεκόρ του Χρήστου Καραγιώργου στα 7 μίλια βάδην",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25208/to-pagkosmio-rekor-toy-hristoy-karagiorgoy-sta-7-milia-vadin"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pitino1.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25207,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/pitino1.jpg?itok=d2ibC8S_",
-    "title": "Πιτίνο: «Τα δύο καλύτερα χρόνια της ζωής μου ήταν στον Παναθηναϊκό»",
-    "url": "https://www.trifillakia.gr/mpasket/article/25207/pitino-ta-dyo-kalytera-hronia-tis-zois-moy-itan-ston-panathinaiko"
    }
   ],
   "rss_floor": 25103,
@@ -14065,6 +14065,12 @@
     "vb": "6305724698627915913"
    },
    "tries": 1
+  },
+  "news:25251": {
+   "at": 1795459702.9266038,
+   "claim": "45239960729",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
