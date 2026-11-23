@@ -43,10 +43,10 @@
     "url": "https://www.trifillakia.gr/mpasket/article/25237/horis-sloyka-taxideyei-sti-valenthia-o-panathinaikos"
    },
    {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/obradovic-valencia-pao2.jpg",
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/obradovic-valencia-pao.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25236,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/obradovic-valencia-pao2.jpg?itok=zJ0tEmjc",
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/obradovic-valencia-pao.jpg?itok=PImg74dQ",
     "title": "Ομπράντοβιτς πριν από τη Βαλένθια: «Να ελέγξουμε τον ρυθμό – Ο δρόμος είναι μακρύς»",
     "url": "https://www.trifillakia.gr/mpasket/article/25236/omprantovits-prin-apo-ti-valenthia-na-elegxoyme-ton-rythmo-o-dromos-einai"
    },
@@ -13897,7 +13897,8 @@
    "tries": 3
   },
   "news:25236": {
-   "at": 1795445224.5618827,
+   "at": 1795445448.0988991,
+   "claim": "45197577095",
    "nets": {
     "fb": "349363601832677_1766131748846923",
     "ig": "error: {'message': 'User is performing too many actions', 'code': 9, 'type': 'OAuthException', 'error_subcode': 2207042, 'is_transient': False, 'error_user_msg': 'You reached the maximum number of posts that is allowed to be published by Content Publishing API.', 'error_user_title': 'Media publish limit exceeded', 'fbtrace_id': 'Auf-_ku9l1PVX_dqulBJGKr'}",
