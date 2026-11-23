@@ -26,6 +26,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54548.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25213,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/pao1908-com-54548.jpg?itok=QUAjo1F6",
+    "title": "Αγώνες και διοργανώσεις των τμημάτων του Παναθηναϊκού από 23 έως 29 Νοεμβρίου",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25213/agones-kai-diorganoseis-ton-tmimaton-toy-panathinaikoy-apo-23-eos-29"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikos_polo_0.jpg",
     "label": "ΠΟΛΟ",
     "nid": 25212,
@@ -336,14 +344,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/paomarousi.jpg?itok=VJy-zbdK",
     "title": "Παναθηναϊκός – Μαρούσι 85-72: Επαγγελματική νίκη με Ρογκαβόπουλο πρωταγωνιστή",
     "url": "https://www.trifillakia.gr/mpasket/article/25170/panathinaikos-maroysi-85-72-epaggelmatiki-niki-me-rogkavopoylo-protagonisti"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/rekor-titlon-pao-2026.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25169,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/rekor-titlon-pao-2026.jpg?itok=5gLPgI95",
-    "title": "Ρεκόρ τίτλων για τον Παναθηναϊκό το 2026",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25169/rekor-titlon-gia-ton-panathinaiko-to-2026"
    }
   ],
   "rss_floor": 25103,
@@ -13703,6 +13703,12 @@
     "vb": "6305449194406134736"
    },
    "tries": 1
+  },
+  "news:25214": {
+   "at": 1795394017.66695,
+   "claim": "45089171126",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
