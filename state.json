@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25277,
+  "last": 25279,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -362,7 +362,7 @@
    "25134": 1795170921.0775483,
    "25169": 1795283425.1898327,
    "25221": 1795426236.2358775,
-   "25277": 1795557030.3134155
+   "25277": 1795557320.4895442
   }
  },
  "pending": {
@@ -14424,6 +14424,12 @@
    },
    "tries": 1
   },
+  "news:25278": {
+   "at": 1795557425.3892293,
+   "claim": "45495854499",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16614,6 +16620,7 @@
     "feature": false,
     "guid": "totalbasket.gr:71305",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-71305.jpg",
+    "imported": 1795557320.4895442,
     "link": "https://totalbasket.gr/to-apithano-buzzer-beater-tou-naitzel-cheiz-nteivis-pou-pagose-ti-valenthia-vid/",
     "source": "totalbasket.gr",
     "subtitle": "Ο Νάιτζελ Χέιζ-Ντέιβις χτύπησε ξανά στο φινάλε, χαρίζοντας στον Παναθηναϊκό τη μεγάλη νίκη με 86-83 απέναντι στη Βαλένθια με ένα εντυπωσιακό σουτ στην εκπνοή.",
@@ -16633,6 +16640,7 @@
     "feature": true,
     "guid": "totalbasket.gr:71302",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-71302.jpg",
+    "imported": 1795557320.4895442,
     "link": "https://totalbasket.gr/valenthia-panathinaikos-83-86-o-cheiz-nteivis-chtypise-xana-stin-ekpnoi-kai-ypegrapse-ena-terastio-diplo/",
     "source": "totalbasket.gr",
     "subtitle": "Ο Παναθηναϊκός απέδρασε με σπουδαία νίκη από τη Roig Arena, επικρατώντας της Βαλένθια με 86-83, με τον Νάιτζελ Χέιζ-Ντέιβις να αναδεικνύεται σε καθοριστικό πρωταγωνιστή.",
