@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25258,
+  "last": 25259,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14126,6 +14126,12 @@
    },
    "tries": 1
   },
+  "news:25259": {
+   "at": 1795485123.6292803,
+   "claim": "45307980963",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16316,6 +16322,7 @@
     "feature": true,
     "guid": "totalbasket.gr:71196",
     "image": "https://totalbasket.gr/wp-content/uploads/2026/11/el-news-0c7814ca037b2ad7.jpg",
+    "imported": 1795485030.2626116,
     "link": "https://totalbasket.gr/albert-echoume-oli-tin-ebistosyni-tou-kosmou-prin-apo-ton-panathinaiko/",
     "source": "totalbasket.gr",
     "subtitle": "Οι Αλμπέρτ και Σάκο μίλησαν για τις απουσίες στους ψηλούς και τη μάχη με το φαβορί της EuroLeague.",
