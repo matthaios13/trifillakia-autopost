@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25275,
+  "last": 25277,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14306,6 +14306,12 @@
    },
    "tries": 1
   },
+  "news:25276": {
+   "at": 1795553775.8541846,
+   "claim": "45485751092",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16496,6 +16502,7 @@
     "feature": false,
     "guid": "bala24.gr:91070",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91070.jpg",
+    "imported": 1795553731.9392774,
     "link": "https://bala24.gr/panathinaikos-to-oaka-i-defteri-edra-tis-sezon-2027-28/",
     "source": "bala24.gr",
     "subtitle": "Στο ΟΑΚΑ που πρόκειται να δηλώσει ως δεύτερη έδρα θα εκκινήσει τη νέα αγωνιστική σεζόν ο Παναθηναϊκός εάν αυτό κριθεί αναγκαίο πριν την είσοδό του στο Βοτανικό.",
@@ -16514,6 +16521,7 @@
     "feature": true,
     "guid": "totalbasket.gr:71280",
     "image": "",
+    "imported": 1795553731.9392774,
     "link": "https://totalbasket.gr/to-asead-gyrise-tous-dyo-vathmous-ston-panathinaiko-kai-akyrose-to-prostimo/",
     "source": "totalbasket.gr",
     "subtitle": "Η απόφαση βασίστηκε στην αθώωση των Γκραντ και Λεσόρ για τη φερόμενη συμπλοκή με τα ΜΑΤ στο ΣΕΦ, ενώ η ποινή του Ολυμπιακού κρίθηκε αμετάκλητη.",
