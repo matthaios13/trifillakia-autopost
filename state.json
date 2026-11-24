@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25274,
+  "last": 25275,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14296,6 +14296,12 @@
    },
    "tries": 1
   },
+  "news:25275": {
+   "at": 1795539139.6218672,
+   "claim": "45441738890",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16485,6 +16491,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54599",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/05/08/Ticketmaster-Tickets-800-X-538px.jpg",
+    "imported": 1795539030.927416,
     "link": "https://www.pao1908.com/deltia-typoy/ta-eisitiria-gia-tous-agones-tou-savvatokyriakou-2/",
     "source": "pao1908.com",
     "subtitle": "Τρία εντός έδρας παιχνίδια έχει το Σαββατοκύριακο 28 και 29 Νοεμβρίου ο Παναθηναϊκός σε υδατοσφαίριση, βόλεϊ και μπάσκετ.",
