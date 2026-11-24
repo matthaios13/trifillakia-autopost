@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25262,
+  "last": 25264,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14176,6 +14176,12 @@
    },
    "tries": 1
   },
+  "news:25263": {
+   "at": 1795517550.4571157,
+   "claim": "45378538574",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16365,6 +16371,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54588",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/24/gtrtrg.jpg",
+    "imported": 1795517429.0467925,
     "link": "https://www.pao1908.com/deltia-typoy/o-panathinaikos-sti-skopovoli/",
     "source": "pao1908.com",
     "subtitle": "Αναλυτική καταγραφή των τίτλων του τμήματος σκοποβολής, σε σταθερό και πήλινο στόχο, καθώς και της σκοποβολής ΑμεΑ που ιδρύθηκε το 2019.",
@@ -16385,6 +16392,7 @@
     "feature": true,
     "guid": "bala24.gr:90881",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90881.jpg",
+    "imported": 1795517429.0467925,
     "link": "https://bala24.gr/norntzelant-panathinaikos-diaititis-apo-tin-afstria-stin-anametrisi-tou-trifylliou-gia-to-conference-league/",
     "source": "bala24.gr",
     "subtitle": "Ο Αυστριακός Γιούλιαν Βαινμπεργκερ θα σφυρίξει την αναμέτρηση του Παναθηναϊκού με την Νόρντζελαντ στη Δανία (26/11, 22:00), για την 4η αγωνιστική της League Phase του Conference League.",
