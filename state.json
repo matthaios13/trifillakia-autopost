@@ -23,9 +23,18 @@
    "25130": 1795148124.9995854,
    "25134": 1795169726.0996425,
    "25169": 1795281921.2093253,
-   "25221": 1795422647.3728569
+   "25221": 1795422647.3728569,
+   "25277": 1795553731.9392774
   },
   "recent": [
+   {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91070.jpg",
+    "label": "ΓΗΠΕΔΙΚΟ",
+    "nid": 25276,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91070.jpg?itok=3sajJxc9",
+    "title": "Παναθηναϊκός: Το ΟΑΚΑ η δεύτερη έδρα της σεζόν 2027- 28",
+    "url": "https://www.trifillakia.gr/gipediko/article/25276/panathinaikos-to-oaka-i-deyteri-edra-tis-sezon-2027-28"
+   },
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/ticketmaster-tickets-800-x-538px_5.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
@@ -337,14 +346,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/antinooff.jpg?itok=j1S44coR",
     "title": "Σοκ με Αντίνο – Ολική ρήξη πρόσθιου χιαστού, χάνει το υπόλοιπο της σεζόν!",
     "url": "https://www.trifillakia.gr/podosfairo/article/25235/sok-me-antino-oliki-rixi-prosthioy-hiastoy-hanei-to-ypoloipo-tis-sezon"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/ec6644b1-8d4e-4227-8bca-8cb4818b6d94.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25234,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/ec6644b1-8d4e-4227-8bca-8cb4818b6d94.jpg?itok=8Vm50v_r",
-    "title": "Τιμήθηκε η Κυριακή Γαλάνη για τη διαδρομή της στην άρση βαρών",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25234/timithike-i-kyriaki-galani-gia-ti-diadromi-tis-stin-arsi-varon"
    }
   ],
   "rss_floor": 25103,
@@ -360,7 +361,8 @@
    "25130": 1795151723.503956,
    "25134": 1795170921.0775483,
    "25169": 1795283425.1898327,
-   "25221": 1795426236.2358775
+   "25221": 1795426236.2358775,
+   "25277": 1795553731.9392774
   }
  },
  "pending": {
