@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25281,
+  "last": 25282,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14474,6 +14474,12 @@
    },
    "tries": 1
   },
+  "news:25282": {
+   "at": 1795564656.4536526,
+   "claim": "45513932227",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16664,6 +16670,7 @@
     "feature": true,
     "guid": "totalbasket.gr:71326",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-71326.jpg",
+    "imported": 1795564521.751818,
     "link": "https://totalbasket.gr/i-vathmologia-tis-euroleague-meta-ti-niki-tou-panathinaikou-sti-valenthia/",
     "source": "totalbasket.gr",
     "subtitle": "Ο Παναθηναϊκός κέρδισε τη Βαλένθια και μένει στην τριάδα, με τον Ολυμπιακό στην κορυφή.",
