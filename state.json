@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikanea-gr-san-simera-2026-11-24-retro.jpg",
+    "label": "ΣΑΝ ΣΗΜΕΡΑ",
+    "nid": 25260,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikanea-gr-san-simera-2026-11-24-retro.jpg?itok=ya12XqGx",
+    "title": "Σαν σήμερα, 24 Νοεμβρίου: Παναθηναϊκός – Απόλλων Σμύρνης 5-1 (2018)",
+    "url": "https://www.trifillakia.gr/san-simera/article/25260/san-simera-24-noemvrioy-panathinaikos-apollon-smyrnis-5-1-2018"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/el-news-0c7814ca037b2ad7.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25259,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikanea-gr-san-simera-2026-11-23-retro.jpg?itok=TZwKHBmr",
     "title": "Σαν σήμερα, 23 Νοεμβρίου: Παναθηναϊκός – Βίρτους Μπολόνια 88-85 (2022)",
     "url": "https://www.trifillakia.gr/san-simera/article/25216/san-simera-23-noemvrioy-panathinaikos-virtoys-mpolonia-88-85-2022"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/f16935f0-51d7-433f-a369-426761045af2-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25215,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/f16935f0-51d7-433f-a369-426761045af2-1.jpg?itok=rPY0nVQA",
-    "title": "Νίκη 59-38 του Παναθηναϊκού ΑμεΑ επί της ΑΕΟ Ανάδρασης",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25215/niki-59-38-toy-panathinaikoy-amea-epi-tis-aeo-anadrasis"
    }
   ],
   "rss_floor": 25103,
