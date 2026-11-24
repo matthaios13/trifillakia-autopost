@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/gtrtrg.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25263,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/gtrtrg.jpg?itok=t29qKpqt",
+    "title": "Σκοποβολή: 216 επίσημοι ομαδικοί τίτλοι για τον Παναθηναϊκό",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25263/skopovoli-216-episimoi-omadikoi-titloi-gia-ton-panathinaiko"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/fv_kleeblatt_5-1800x1200-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25262,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90487.jpg?itok=WABhUQCv",
     "title": "Νόρντζελαντ: «Πεντάρα» στην Κοπεγχάγη πριν από τη μάχη με τον Παναθηναϊκό στο Conference League",
     "url": "https://www.trifillakia.gr/podosfairo/article/25220/norntzelant-pentara-stin-kopeghagi-prin-apo-ti-mahi-me-ton-panathinaiko-sto"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90529.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25218,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90529.jpg?itok=G75x0g0Y",
-    "title": "Ο Λιβάι Γκαρσία απογειώθηκε – Το εντυπωσιακό άλμα του (video)",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25218/o-livai-gkarsia-apogeiothike-to-entyposiako-alma-toy-video"
    }
   ],
   "rss_floor": 25103,
@@ -14185,6 +14185,12 @@
     "vb": "6305967463500595373"
    },
    "tries": 1
+  },
+  "news:25264": {
+   "at": 1795517581.631286,
+   "claim": "45378538574",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
