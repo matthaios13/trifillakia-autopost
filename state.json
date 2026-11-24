@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25260,
+  "last": 25261,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14156,6 +14156,12 @@
    },
    "tries": 1
   },
+  "news:25261": {
+   "at": 1795510326.1295235,
+   "claim": "45359608543",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16345,6 +16351,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:17092",
     "image": "https://www.pao1908.com/wp-content/uploads/2023/11/23/sanantara.jpg",
+    "imported": 1795510234.953088,
     "link": "https://www.pao1908.com/deltia-typoy/san-simera-to-1963-i-megalyteri-niki-epi-osfp/",
     "source": "pao1908.com",
     "subtitle": "Η διαφορά των 42 πόντων στο τουρνουά Μαντέλου παραμένει η μεγαλύτερη στα παιχνίδια των δύο ομάδων.",
