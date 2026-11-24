@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25273,
+  "last": 25274,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14286,6 +14286,12 @@
    },
    "tries": 1
   },
+  "news:25274": {
+   "at": 1795528332.3559673,
+   "claim": "45407566877",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16476,6 +16482,7 @@
     "feature": false,
     "guid": "totalbasket.gr:71266",
     "image": "https://totalbasket.gr/wp-content/uploads/2024/10/sloukas_fener1.jpg",
+    "imported": 1795528227.2112331,
     "link": "https://totalbasket.gr/injury-report-evroligkas-oi-apousies-sta-exi-mats-tis-14is-agonistikis/",
     "source": "totalbasket.gr",
     "subtitle": "Όλες οι απουσίες και τα ερωτηματικά στα έξι παιχνίδια της 14ης αγωνιστικής.",
