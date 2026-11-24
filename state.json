@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikos-gynaikes-erntem-telos.jpg",
+    "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
+    "nid": 25266,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikos-gynaikes-erntem-telos.jpg?itok=j6jzpH6R",
+    "title": "Τέλος η Σελέν Ερντέμ από τον πάγκο των γυναικών του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/25266/telos-i-selen-erntem-apo-ton-pagko-ton-gynaikon-toy-panathinaikoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikos-asead-dikaiosi-2-vathmoi.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25265,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/generic_anakoinoseis_1600x720_4.jpg?itok=xX4NK06y",
     "title": "Πώς θα γίνουν οι διαπιστεύσεις για τον αγώνα στο κλειστό του Μετς",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/25223/pos-tha-ginoyn-oi-diapisteyseis-gia-ton-agona-sto-kleisto-toy-mets"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/ticketmaster-tickets-800-x-538px_4.jpg",
-    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
-    "nid": 25222,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/ticketmaster-tickets-800-x-538px_4.jpg?itok=MTM1WNoa",
-    "title": "Ανοιχτά τα εισιτήρια για το ματς με την Κορόνα Μπρασόφ",
-    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25222/anoihta-ta-eisitiria-gia-to-mats-me-tin-korona-mprasof"
    }
   ],
   "rss_floor": 25103,
