@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/generic_anakoinoseis_1600x720_0_0.jpg",
+    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
+    "nid": 25267,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/generic_anakoinoseis_1600x720_0_0.jpg?itok=ZAuofFds",
+    "title": "Νέες ώρες για Παναθηναϊκό - Πανιώνιο και Παναθηναϊκό - ΠΑΣ Γιάννινα στις γυναίκες",
+    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25267/nees-ores-gia-panathinaiko-panionio-kai-panathinaiko-pas-giannina-stis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikos-gynaikes-erntem-telos.jpg",
     "label": "ΜΠΑΣΚΕΤ ΓΥΝΑΙΚΩΝ",
     "nid": 25266,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/generic_anakoinoseis_1600x720_5.jpg?itok=FIIqKSGW",
     "title": "Διαπιστεύσεις για τον αγώνα της ομάδας μπάσκετ γυναικών στον Χολαργό",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/25224/diapisteyseis-gia-ton-agona-tis-omadas-mpasket-gynaikon-ston-holargo"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/generic_anakoinoseis_1600x720_4.jpg",
-    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
-    "nid": 25223,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/generic_anakoinoseis_1600x720_4.jpg?itok=xX4NK06y",
-    "title": "Πώς θα γίνουν οι διαπιστεύσεις για τον αγώνα στο κλειστό του Μετς",
-    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25223/pos-tha-ginoyn-oi-diapisteyseis-gia-ton-agona-sto-kleisto-toy-mets"
    }
   ],
   "rss_floor": 25103,
@@ -14225,6 +14225,12 @@
     "vb": "6305982535148089070"
    },
    "tries": 1
+  },
+  "news:25268": {
+   "at": 1795521175.0379965,
+   "claim": "45387829822",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
