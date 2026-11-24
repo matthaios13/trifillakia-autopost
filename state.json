@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25261,
+  "last": 25262,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14166,6 +14166,12 @@
    },
    "tries": 1
   },
+  "news:25262": {
+   "at": 1795513914.4595985,
+   "claim": "45368971430",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16355,6 +16361,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54581",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/24/FV_Kleeblatt_5-1800x1200-1.jpg",
+    "imported": 1795513826.9204493,
     "link": "https://www.pao1908.com/deltia-typoy/panathinaikos-kai-sv-kleeblatt-germanias/",
     "source": "pao1908.com",
     "subtitle": "Ερασιτεχνικός ποδοσφαιρικός σύλλογος της Βαυαρίας, ιδρύθηκε το 1999 και αγωνίζεται στην περιφέρεια Mittelfranken.",
