@@ -27,6 +27,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-arsenalfc-e34f2d.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25270,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-arsenalfc-e34f2d.jpg?itok=jBeKI8mh",
+    "title": "ELABET: Το Άρσεναλ – Ντόρτμουντ έχει Bet Builder με σουτ Τζόλη",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25270/elabet-to-arsenal-ntortmoynt-ehei-bet-builder-me-soyt-tzoli"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-aek_pao_europeanfootball-3a7010.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25269,
@@ -337,14 +345,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90461.jpg?itok=4rhMfbW0",
     "title": "Νίστρουπ: «Πιθανότατα χάνουμε τον Αντίνο για το υπόλοιπο της σεζόν» – Η αναφορά στον Ουναΐ και το 10/10 στις μεταγραφές",
     "url": "https://www.trifillakia.gr/podosfairo/article/25229/nistroyp-pithanotata-hanoyme-ton-antino-gia-to-ypoloipo-tis-sezon-i-anafora"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90654.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25228,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90654.jpg?itok=NJV_ojr5",
-    "title": "Παναθηναϊκός: Ο Αντριάνο Γιάγκουσιτς ετοιμάζεται για την ευκαιρία του",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25228/panathinaikos-o-antriano-giagkoysits-etoimazetai-gia-tin-eykairia-toy"
    }
   ],
   "rss_floor": 25103,
@@ -14255,6 +14255,12 @@
     "vb": "6305997694374887222"
    },
    "tries": 1
+  },
+  "news:25271": {
+   "at": 1795524789.3943038,
+   "claim": "45397380496",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
