@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25266,
+  "last": 25268,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14216,6 +14216,12 @@
    },
    "tries": 1
   },
+  "news:25267": {
+   "at": 1795521126.5353498,
+   "claim": "45387829822",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16405,6 +16411,7 @@
     "category": "Βόλεϊ Γυναικών",
     "guid": "pao1908.com:54593",
     "image": "https://www.pao1908.com/wp-content/uploads/2023/01/27/Generic_Anakoinoseis_1600x720_0.jpg",
+    "imported": 1795521027.5373688,
     "link": "https://www.pao1908.com/deltia-typoy/allagi-oras-se-volei-kai-mpasket-gynaikon/",
     "source": "pao1908.com",
     "subtitle": "Οι αγώνες βόλεϊ και μπάσκετ γυναικών της Κυριακής 29 Νοεμβρίου θα μεταδοθούν από τον ΣΠΟΡ FM TV.",
@@ -16424,6 +16431,7 @@
     "category": "Μπάσκετ Γυναικών",
     "guid": "pao1908.com:54591",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/24/5456382-1.jpg",
+    "imported": 1795521027.5373688,
     "link": "https://www.pao1908.com/nea/se-eyxaristoume-gia-ola-koouts/",
     "source": "pao1908.com",
     "subtitle": "Η Τουρκάλα προπονήτρια είχε οδηγήσει τον Παναθηναϊκό στους τελικούς του πρωταθλήματος και στα προημιτελικά του EuroCup.",
