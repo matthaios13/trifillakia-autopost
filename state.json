@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25305,
+  "last": 25306,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14760,6 +14760,12 @@
    },
    "tries": 1
   },
+  "news:25306": {
+   "at": 1795636976.5323591,
+   "claim": "45690753313",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16960,6 +16966,7 @@
     "feature": true,
     "guid": "bala24.gr:91350",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91350.jpg",
+    "imported": 1795636846.389128,
     "link": "https://bala24.gr/kyriakopoulos-ta-mats-pou-anamenetai-na-chasei/",
     "source": "bala24.gr",
     "subtitle": "Ο Γιώργος Κυριακόπουλος υπέστη μυϊκό τραυματισμό και θα μείνει εκτός δράσης για δύο εβδομάδες. Τα ματς που αναμένεται να χάσει ο Έλληνας μπακ.",
