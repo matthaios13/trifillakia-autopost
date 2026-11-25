@@ -25,9 +25,19 @@
    "25169": 1795281921.2093253,
    "25221": 1795422647.3728569,
    "25277": 1795553731.9392774,
-   "25285": 1795592727.3403678
+   "25285": 1795592727.3403678,
+   "25292": 1795604131.8777792,
+   "25293": 1795604131.8777792
   },
   "recent": [
+   {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-liverpoolfc-a80dc6.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25291,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-liverpoolfc-a80dc6.jpg?itok=xB_5CsHN",
+    "title": "ELABET: Ισορροπημένο combo και πολλά γκολ στο Κλαμπ Μπριζ – Λίβερπουλ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25291/elabet-isorropimeno-combo-kai-polla-gkol-sto-klamp-mpriz"
+   },
    {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91208.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
@@ -339,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/img_20261123_182031.jpg?itok=mPrWDlwx",
     "title": "Τι σημαίνει το μήνυμα «κράτα τον έλεγχο» που είδαμε στις φανέλες των ομάδων αυτήν την εβδομάδα",
     "url": "https://www.trifillakia.gr/podosfairo/article/25249/ti-simainei-to-minyma-krata-ton-elegho-poy-eidame-stis-faneles-ton-omadon"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/timi-max-elsnik-trifillakia.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25248,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/timi-max-elsnik-trifillakia.jpg?itok=qeE7OyKO",
-    "title": "Ερυθρός Αστέρας: Πουλάει τον Έλσνικ, τον θέλει ο Παναθηναϊκός",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25248/erythros-asteras-poylaei-ton-elsnik-ton-thelei-o-panathinaikos"
    }
   ],
   "rss_floor": 25103,
@@ -364,7 +366,9 @@
    "25169": 1795283425.1898327,
    "25221": 1795426236.2358775,
    "25277": 1795557320.4895442,
-   "25285": 1795596030.6897757
+   "25285": 1795596030.6897757,
+   "25292": 1795604131.8777792,
+   "25293": 1795604131.8777792
   }
  },
  "pending": {
@@ -14585,6 +14589,12 @@
     "vb": "6306331442000899273"
    },
    "tries": 1
+  },
+  "news:25294": {
+   "at": 1795604361.39395,
+   "claim": "45599530624",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
