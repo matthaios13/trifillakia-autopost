@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25282,
+  "last": 25283,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14484,6 +14484,12 @@
    },
    "tries": 1
   },
+  "news:25283": {
+   "at": 1795582603.3122637,
+   "claim": "45550004366",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16674,6 +16680,7 @@
     "feature": false,
     "guid": "panathinaikanea.gr:san-simera-2026-11-25",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/panathinaikanea-gr-san-simera-2026-11-25-retro.jpg",
+    "imported": 1795582521.0710213,
     "link": "https://panathinaikanea.gr/san-simera/san-simera-2026-11-25/",
     "source": "panathinaikanea.gr",
     "subtitle": "Στις 25 Νοεμβρίου 2022 ο Παναθηναϊκός νίκησε τη Βιλερμπάν με 77-58 εντός έδρας, για την EuroLeague, 10η αγωνιστική.",
