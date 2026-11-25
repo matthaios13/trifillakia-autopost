@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25285,
+  "last": 25287,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14526,6 +14526,12 @@
    },
    "tries": 1
   },
+  "news:25286": {
+   "at": 1795597005.851563,
+   "claim": "45580530665",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16715,6 +16721,7 @@
     "category": "Μπάσκετ Γυναικών",
     "guid": "pao1908.com:54603",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/pao1908-com-54603.jpg",
+    "imported": 1795596921.7744286,
     "link": "https://www.pao1908.com/nea/ston-panathinaiko-o-karol-kovalefski/",
     "source": "pao1908.com",
     "subtitle": "Ο Πολωνός τεχνικός, πρώην ομοσπονδιακός προπονητής της Πολωνίας, έχει κατακτήσει Πρωτάθλημα και Κύπελλο στη χώρα του και δηλώνει ότι η ταυτότητά του ξεκινά από την άμυνα.",
@@ -16735,6 +16742,7 @@
     "feature": true,
     "guid": "bala24.gr:91180",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91180.jpg",
+    "imported": 1795596921.7744286,
     "link": "https://bala24.gr/panathinaikos-ofi-i-ked-dikaiose-papapetrou-kai-poulikidi-gia-tis-epimaches-faseis/",
     "source": "bala24.gr",
     "subtitle": "Σωστές θεωρούνται από την ΚΕΔ οι αποφάσεις των Παπαπέτρου και Πουλικίδη στην αναμέτρηση του Παναθηναϊκού με τον ΟΦΗ, αναφορικά με τις φάσεις των Νους και Ταμπόρδα.",
