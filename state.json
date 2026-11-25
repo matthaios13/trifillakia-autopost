@@ -55,6 +55,14 @@
     "url": "https://www.trifillakia.gr/mpasket/article/25294/tessera-dipla-poy-myrizoyn-pleonektima-edras"
    },
    {
+    "image": "",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25292,
+    "thumb": "",
+    "title": "ELABET: Ίντερ – Στουτγκάρδη με Bet Builder σε… νερατζούρο γκολ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25292/elabet-inter-stoytgkardi-me-bet-builder-se-neratzoyro-gkol"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-liverpoolfc-a80dc6.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25291,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/totalbasket-gr-71136.jpg?itok=mvOv5g8d",
     "title": "Ομπράντοβιτς: «Θέλουμε να ελέγξουμε τον αγώνα, σκοράρει πολύ στον αιφνιδιασμό η Βαλένθια»",
     "url": "https://www.trifillakia.gr/mpasket/article/25253/omprantovits-theloyme-na-elegxoyme-ton-agona-skorarei-poly-ston-aifnidiasmo-i"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-90770.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25252,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-90770.jpg?itok=gj78RNFZ",
-    "title": "Ενδιαφέρον από τρεις Ελληνικές ομάδες για Μόρο",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25252/endiaferon-apo-treis-ellinikes-omades-gia-moro"
    }
   ],
   "rss_floor": 25103,
@@ -14599,6 +14599,12 @@
     "vb": "6306347698852601428"
    },
    "tries": 1
+  },
+  "news:25293": {
+   "at": 1795608236.0390277,
+   "claim": "45609674850",
+   "nets": {},
+   "tries": 0
   },
   "news:25294": {
    "at": 1795604394.4924076,
