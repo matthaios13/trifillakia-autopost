@@ -1785,6 +1785,46 @@
    "since": 1794953725.0835786,
    "team": "basketball"
   },
+  "tb:IJdfnsIr": {
+   "ev": {
+    "away": "Μπρασόφ",
+    "away_id": "nsxPnl27",
+    "away_score": 0,
+    "comp": "Τσάλεντζ Καπ Γυναίκες",
+    "comp_full": "ΕΥΡΩΠΗ: Τσάλεντζ Καπ Γυναίκες",
+    "comp_logo": "https://static.flashscore.com/res/image/data/MB51Sdmd-hQADRwd3.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "QN7ZELZa",
+    "home_score": 3,
+    "id": "IJdfnsIr",
+    "info": "",
+    "periods": [
+     [
+      25,
+      12
+     ],
+     [
+      25,
+      15
+     ],
+     [
+      25,
+      13
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "02pvxVBE",
+    "start": 1795622400,
+    "status": "3",
+    "tour_id": "lGALDDtR",
+    "tour_path": "/volleyball/europe/challenge-cup-women/"
+   },
+   "raw_round": "1/16-Τελικά",
+   "round": "1/16-Τελικά",
+   "since": 1795628120.1610188,
+   "team": "volley_w"
+  },
   "tb:IVUplIRb": {
    "ev": {
     "away": "ΑΕΚ",
