@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-71385.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25294,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/totalbasket-gr-71385.jpg?itok=j19SYUK0",
+    "title": "Τέσσερα διπλά που μυρίζουν πλεονέκτημα έδρας",
+    "url": "https://www.trifillakia.gr/mpasket/article/25294/tessera-dipla-poy-myrizoyn-pleonektima-edras"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-liverpoolfc-a80dc6.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25291,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/basketgate-kinita-liolios-mavraganis.jpg?itok=JtJ2f4Ym",
     "title": "Basketgate: Ανοίγουν τα κινητά των εμπλεκομένων με απόφαση του Δικαστικού Συμβουλίου",
     "url": "https://www.trifillakia.gr/mpasket/article/25250/basketgate-anoigoyn-ta-kinita-ton-emplekomenon-me-apofasi-toy-dikastikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/img_20261123_182031.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25249,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/img_20261123_182031.jpg?itok=mPrWDlwx",
-    "title": "Τι σημαίνει το μήνυμα «κράτα τον έλεγχο» που είδαμε στις φανέλες των ομάδων αυτήν την εβδομάδα",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25249/ti-simainei-to-minyma-krata-ton-elegho-poy-eidame-stis-faneles-ton-omadon"
    }
   ],
   "rss_floor": 25103,
@@ -14599,6 +14599,12 @@
     "vb": "6306331595371577340"
    },
    "tries": 1
+  },
+  "news:25295": {
+   "at": 1795604398.7261977,
+   "claim": "45599530624",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
