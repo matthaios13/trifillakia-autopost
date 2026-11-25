@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25287,
+  "last": 25288,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14546,6 +14546,12 @@
    },
    "tries": 1
   },
+  "news:25288": {
+   "at": 1795600628.028548,
+   "claim": "45589971991",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16736,6 +16742,7 @@
     "feature": true,
     "guid": "totalbasket.gr:71366",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/totalbasket-gr-71366.jpg",
+    "imported": 1795600523.4670334,
     "link": "https://totalbasket.gr/ta-highlights-apo-ti-niki-tou-panathinaikou-sti-valenthia-vid/",
     "source": "totalbasket.gr",
     "subtitle": "Δείτε τα highlights από τη νίκη του Παναθηναϊκού με σκορ 86-83 επί της Βαλένθια.",
