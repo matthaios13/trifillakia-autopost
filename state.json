@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5464661-1-1.jpg",
+    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
+    "nid": 25303,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5464661-1-1.jpg?itok=3UU5clDJ",
+    "title": "Εύκολο 3-0 επί της Κορόνα Μπρασόφ για το βόλεϊ του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25303/eykolo-3-0-epi-tis-korona-mprasof-gia-to-volei-toy-panathinaikoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/heiz-nteivis-buzzer-beater-treis-glosses.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25302,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/sanantara.jpg?itok=H07QwHCN",
     "title": "Το 90-48 επί του ΟΣΦΠ το 1963, η μεγαλύτερη νίκη στις μεταξύ τους αναμετρήσεις",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25261/to-90-48-epi-toy-osfp-to-1963-i-megalyteri-niki-stis-metaxy-toys"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikanea-gr-san-simera-2026-11-24-retro.jpg",
-    "label": "ΣΑΝ ΣΗΜΕΡΑ",
-    "nid": 25260,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikanea-gr-san-simera-2026-11-24-retro.jpg?itok=ya12XqGx",
-    "title": "Σαν σήμερα, 24 Νοεμβρίου: Παναθηναϊκός – Απόλλων Σμύρνης 5-1 (2018)",
-    "url": "https://www.trifillakia.gr/san-simera/article/25260/san-simera-24-noemvrioy-panathinaikos-apollon-smyrnis-5-1-2018"
    }
   ],
   "rss_floor": 25103,
@@ -14739,6 +14739,12 @@
     "vb": "6306438126836235654"
    },
    "tries": 1
+  },
+  "news:25304": {
+   "at": 1795629797.3148384,
+   "claim": "45670682397",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
