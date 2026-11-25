@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25306,
+  "last": 25307,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14770,6 +14770,12 @@
    },
    "tries": 1
   },
+  "news:25307": {
+   "at": 1795640564.2542877,
+   "claim": "45700319136",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16989,6 +16995,7 @@
     "feature": true,
     "guid": "bala24.gr:91365",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91365.jpg",
+    "imported": 1795640450.2446363,
     "link": "https://bala24.gr/sti-dania-oloklirothike-i-proetoimasia-tou-panathinaikou/",
     "source": "bala24.gr",
     "subtitle": "Με ασκήσεις κυκλοφορίας και έμφαση στην τακτική προσέγγιση ολοκληρώθηκε η τελευταία προπόνηση του «τριφυλλιού» στο Φάρουμ της Δανίας.",
