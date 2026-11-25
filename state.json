@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25297,
+  "last": 25299,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14640,6 +14640,12 @@
    },
    "tries": 1
   },
+  "news:25299": {
+   "at": 1795619042.192808,
+   "claim": "45640311903",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16829,6 +16835,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:29262",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/pao1908-com-29262.jpg",
+    "imported": 1795618855.9974658,
     "link": "https://www.pao1908.com/deltia-typoy/san-simera-to-1964-o-prasinos-xrysos-olympionikis-sto-skaki/",
     "source": "pao1908.com",
     "subtitle": "Ο σκακιστής του Παναθηναϊκού και συνταγματάρχης του ελληνικού στρατού αναδείχθηκε παμψηφεί πρώτος στην 16η Ολυμπιάδα του Τελ Αβίβ.",
