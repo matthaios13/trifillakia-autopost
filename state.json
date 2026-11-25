@@ -29,6 +29,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-romafc-5ac8a6_0.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25289,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-romafc-5ac8a6_0.jpg?itok=1F3wOM_8",
+    "title": "ELABET: «Ενισχύσεις» με πολλά γκολ στο Παρί – Ρόμα",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25289/elabet-enishyseis-me-polla-gkol-sto-pari-roma"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-71366.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25288,
@@ -339,14 +347,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-ela-94453f_5.jpg?itok=UkcudWhW",
     "title": "ELABET: Αστέρας Τρίπολης-Άρης με 0% γκανιότα και «Ενισχύσεις» στο σκοράρισμα",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25247/elabet-asteras-tripolis-aris-me-0-gkaniota-kai-enishyseis-sto"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-levantefc-b6209b.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25246,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-levantefc-b6209b.jpg?itok=gSFOUa9P",
-    "title": "ELABET: Λεβάντε – Έλτσε: Bet Builder μάχης επιβίωσης",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25246/elabet-levante-eltse-bet-builder-mahis-epiviosis"
    }
   ],
   "rss_floor": 25103,
@@ -14565,6 +14565,12 @@
     "vb": "6306331158773113323"
    },
    "tries": 1
+  },
+  "news:25290": {
+   "at": 1795604294.4922152,
+   "claim": "45599530624",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
