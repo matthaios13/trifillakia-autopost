@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25302,
+  "last": 25304,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14730,6 +14730,12 @@
    },
    "tries": 1
   },
+  "news:25303": {
+   "at": 1795629760.896916,
+   "claim": "45670682397",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16919,6 +16925,7 @@
     "category": "Βόλεϊ Γυναικών",
     "guid": "pao1908.com:54681",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/25/5464661-1-1.jpg",
+    "imported": 1795629648.3089757,
     "link": "https://www.pao1908.com/nea/kyriarxos-sto-mets/",
     "source": "pao1908.com",
     "subtitle": "Η ομάδα του Αλεσάντρο Κιαπίνι επικράτησε με 3-0 σετ σε 73′ και έκανε το πρώτο βήμα για την πρόκριση στους «16», με το ρεβάνς στις 2 Δεκεμβρίου.",
@@ -16939,6 +16946,7 @@
     "feature": true,
     "guid": "bala24.gr:91278",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91278.jpg",
+    "imported": 1795629648.3089757,
     "link": "https://bala24.gr/nistroup-poly-charoumenos-pou-gyrisa-omos-gia-avrio-den-yparchoun-synaisthimata/",
     "source": "bala24.gr",
     "subtitle": "Οι δηλώσεις του προπονητή των «Πρασίνων» ενόψει Νόρτζελαντ",
