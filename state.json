@@ -16039,7 +16039,6 @@
    "totalbasket.gr:65040"
   ],
   "done": [
-   "pao1908.com:1407",
    "pao1908.com:53676",
    "pao1908.com:53679",
    "pao1908.com:53703",
@@ -16438,10 +16437,10 @@
    "bala24.gr:90475",
    "bala24.gr:90298",
    "pao1908.com:29262",
-   "pao1908.com:54673"
+   "pao1908.com:54673",
+   "pao1908.com:54678"
   ],
   "done_titles": [
-   "Στη φάση των «16» της Ολυμπιάδας Νέων οι Μαργαριτοπούλου και Χαρισσάκη",
    "Στην έβδομη θέση του κόσμου ο Κυριάκος στο Mix Relay",
    "Στους «8» του beach volley στους Ολυμπιακούς Αγώνες Νέων Μαργαριτοπούλου και Χαρισσάκη",
    "Ο Παναθηναϊκός στην κορυφή των Ελλήνων υποψηφίων για τη Χρυσή Μπάλα",
@@ -16840,9 +16839,29 @@
    "Παναθηναϊκός – ΟΦΗ 2-0: Ο Γιάγκουσιτς υπέγραψε τη νίκη, σκόραρε ο Λιβάι Γκαρσία (vids)",
    "Παναθηναϊκός – ΟΦΗ 2-0: Τα γκολ των Λιβάι Γκαρσία και Γιάγκουσιτς, η απόκρουση πέναλτι του Πένια και τα highlights (vid)",
    "Θυμόμαστε τον Σταύρο Ιατρίδη, χρυσό στην Ολυμπιάδα Σκακιού του 1964",
-   "Με ανατροπή απέναντι στον Τσούα προκρίθηκε ο Γκιώνης στο Feeder του Ντίσελντορφ"
+   "Με ανατροπή απέναντι στον Τσούα προκρίθηκε ο Γκιώνης στο Feeder του Ντίσελντορφ",
+   "Στον δεύτερο όμιλο της Waterpolo League 2 το πόλο γυναικών του Παναθηναϊκού"
   ],
   "items": [
+   {
+    "added": 1795624831.313636,
+    "body": "<p>Η κλήρωση της Waterpolo League 2 γυναικών ολοκληρώθηκε και η ομάδα πόλο γυναικών του Παναθηναϊκού τοποθετήθηκε στον δεύτερο όμιλο. Αντίπαλοί της θα είναι οι ΟΦΘ, ΑΟ Καστέλας, ΝΟ Πατρών και Ηρακλής.</p>\n<p>Οι αγώνες θα διεξαχθούν από τις 31 Ιανουαρίου μέχρι τις 9 Μαΐου 2027.</p>\n<p><strong>2ος ΟΜΙΛΟΣ:</strong></p>\n<p>1. ΠΑΝΑΘΗΝΑΪΚΟΣ ΑΟ<br />2. ΟΦΘ<br />3. ΑΟ ΚΑΣΤΕΛΑΣ<br />4. ΝΟ ΠΑΤΡΩΝ<br />5. ΗΡΑΚΛΗΣ</p><p><em>Πηγή: <a href=\"https://www.pao1908.com/nea/i-klirosi-tou-panathinaikou-sti-waterpolo-league-2-gynaikon/\" target=\"_blank\" rel=\"noopener\">pao1908.com</a></em></p>",
+    "category": "Πόλο",
+    "guid": "pao1908.com:54678",
+    "image": "https://www.pao1908.com/wp-content/uploads/2026/11/25/5321738-1.jpg",
+    "link": "https://www.pao1908.com/nea/i-klirosi-tou-panathinaikou-sti-waterpolo-league-2-gynaikon/",
+    "source": "pao1908.com",
+    "subtitle": "Οι αγώνες του πρωταθλήματος θα διεξαχθούν από 31 Ιανουαρίου μέχρι 9 Μαΐου 2027.",
+    "tags": [
+     "Παναθηναϊκός",
+     "Πόλο Γυναικών",
+     "Waterpolo League 2",
+     "ΟΦΘ",
+     "Ηρακλής"
+    ],
+    "title": "Στον δεύτερο όμιλο της Waterpolo League 2 το πόλο γυναικών του Παναθηναϊκού",
+    "ts": 1795624799.0
+   },
    {
     "added": 1795620323.4409833,
     "body": "<p>Στη φάση των «32» του Feeder του Ντίσελντορφ προκρίθηκε ο Γκιώνης του τμήματος πινγκ πονγκ ανδρών του Παναθηναϊκού.</p><p>Στον 1ο γύρο ο Έλληνας αθλητής είχε δύσκολο έργο απέναντι στον Τζος Τσούα από τη Σιγκαπούρη. Βρέθηκε να χάνει με 2-0 στα σετ, όμως κατάφερε να πετύχει την ανατροπή και να επικρατήσει με 3-2 σετ.</p><p>Ο επόμενος αντίπαλός του είναι ο Κροάτης Φιλίπ Ζέλικο. Η αναμέτρηση θα γίνει σήμερα 25/11 στις 20:25 ώρα Ελλάδας.</p><p><em>Πηγή: <a href=\"https://www.pao1908.com/nea/stous-32-tou-feeder-tou-ntiselntorf-o-gkionis/\" target=\"_blank\" rel=\"noopener\">pao1908.com</a></em></p>",
@@ -17407,27 +17426,6 @@
     ],
     "title": "Χωρίς Σλούκα στη Βαλένθια ο Παναθηναϊκός",
     "ts": 1795460251.0
-   },
-   {
-    "added": 1795459928.8351634,
-    "body": "\n<p class=\"wp-block-paragraph\">Επανήλθε το ενδιαφέρον για το 6αρι της Μπολόνια, Νίκολα Μόρο, με τρεις Ελληνικές ομάδες να ενδιαφέρονται για τον Κροάτη μέσο.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Επρόκειτο φυσικά για τους Ολυμπιακό, Παναθηναϊκό, αλλά και την ΑΕΚ, η οποία έφτασε κοντά στην απόκτηση του το καλοκαίρι, αλλά τελικά δεν κατάφερε να ολοκληρώσει την συμφωνία.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ο Κροάτης, έχει μόλις πέντε συμμετοχές με την Μπολόνια φέτος, κάτι που μπορεί να κάνει πιο ευνοϊκή την υπόθεση για όποια ομάδα κάνει πρόταση για εκείνον.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-x wp-block-embed-x\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">🚨 𝐍𝐄𝐖: Nikola Moro is attracting interest from three Greek giants amid his lack of playing time at Bologna.<br><br>Olympiacos, AEK Athens and Panathinaikos are all reportedly monitoring the 28-year-old Croatian midfielder ahead of a potential January move.<br><br>Moro has made just five… <a href=\"https://t.co/JSKEUoG9G3\">pic.twitter.com/JSKEUoG9G3</a></p>&mdash; Croatian Football  (@CroatiaFooty) <a href=\"https://x.com/CroatiaFooty/status/2124910398633590921?ref_src=twsrc%5Etfw\">November 23, 2026</a></blockquote><script async src=\"https://platform.x.com/widgets.js\" charset=\"utf-8\"></script>\n</div></figure>\n",
-    "category": "Ποδοσφαιρο",
-    "feature": false,
-    "guid": "bala24.gr:90770",
-    "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-90770.jpg",
-    "imported": 1795463408.9644032,
-    "link": "https://bala24.gr/endiaferon-apo-treis-ellinikes-omades-gia-moro/",
-    "source": "bala24.gr",
-    "subtitle": "Νέο ενδιαφέρον για τον Κροάτη",
-    "tags": [
-     "BALA3",
-     "ΑΕΚ",
-     "Νίκολα Μόρο",
-     "ΟΛΥΜΠΙΑΚΟΣ",
-     "Παναθηναϊκός"
-    ],
-    "title": "Ενδιαφέρον από τρεις Ελληνικές ομάδες για Μόρο",
-    "ts": 1795459409.0
    },
    {
     "added": 1795604131.8777792,
