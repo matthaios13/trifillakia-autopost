@@ -29,6 +29,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91208.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25290,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91208.jpg?itok=2azkVmty",
+    "title": "Ολυμπιακός–Παναθηναϊκός: Τα εισιτήρια για το ντέρμπι Κυπέλλου",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25290/olympiakos-panathinaikos-ta-eisitiria-gia-to-ntermpi-kypelloy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-romafc-5ac8a6_0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25289,
@@ -339,14 +347,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/timi-max-elsnik-trifillakia.jpg?itok=qeE7OyKO",
     "title": "Ερυθρός Αστέρας: Πουλάει τον Έλσνικ, τον θέλει ο Παναθηναϊκός",
     "url": "https://www.trifillakia.gr/podosfairo/article/25248/erythros-asteras-poylaei-ton-elsnik-ton-thelei-o-panathinaikos"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_5.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25247,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-ela-94453f_5.jpg?itok=UkcudWhW",
-    "title": "ELABET: Αστέρας Τρίπολης-Άρης με 0% γκανιότα και «Ενισχύσεις» στο σκοράρισμα",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25247/elabet-asteras-tripolis-aris-me-0-gkaniota-kai-enishyseis-sto"
    }
   ],
   "rss_floor": 25103,
@@ -14575,6 +14575,12 @@
     "vb": "6306331312326093104"
    },
    "tries": 1
+  },
+  "news:25291": {
+   "at": 1795604330.7243667,
+   "claim": "45599530624",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
