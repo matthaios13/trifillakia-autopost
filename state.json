@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25334,
+  "last": 25337,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -15094,6 +15094,12 @@
    },
    "tries": 1
   },
+  "news:25335": {
+   "at": 1795723436.6522202,
+   "claim": "45887835161",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17321,6 +17327,7 @@
     "feature": false,
     "guid": "bala24.gr:91590",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91590.jpg",
+    "imported": 1795723246.0210462,
     "link": "https://bala24.gr/egkrithike-i-chrisimopoiisi-tou-oaka-apo-ton-olybiako-gia-tin-epomeni-sezon/",
     "source": "bala24.gr",
     "subtitle": "Ενδεχόμενο συγκατοίκησης με τον Παναθηναϊκό για την σεζόν 2027/28, αν δεν ολοκληρωθεί ο Βοτανικός μέχρι τότε",
@@ -17339,6 +17346,7 @@
     "feature": true,
     "guid": "bala24.gr:91617",
     "image": "https://bala24.gr/wp-content/uploads/2026/11/photo_2026-11-26_21-04-03.jpg",
+    "imported": 1795723246.0210462,
     "link": "https://bala24.gr/panathinaikos-oi-filoi-tou-trifylliou-dinoun-prasino-chroma-sto-right-to-dream-park-vid/",
     "source": "bala24.gr",
     "subtitle": "Πράσινη απόβαση στο Right to Dream Park",
@@ -17359,6 +17367,7 @@
     "feature": true,
     "guid": "bala24.gr:91601",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91601.jpg",
+    "imported": 1795723246.0210462,
     "link": "https://bala24.gr/panathinaikos-me-pelistri-kai-giagkousits-apenanti-sti-nortzelant/",
     "source": "bala24.gr",
     "subtitle": "Η ενδεκάδα του Νίστρουπ για το ματς με τη Νόρντζελαντ",
