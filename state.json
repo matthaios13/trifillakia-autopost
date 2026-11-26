@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91522.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25329,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91522.jpg?itok=9z5M0GKA",
+    "title": "Ηρακλής: Δεν κινδυνεύει με τιμωρία από τη ΔΕΑΒ για την παρουσία οπαδών του Παναθηναϊκού στο Καυτανζόγλειο",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25329/iraklis-den-kindyneyei-me-timoria-apo-ti-deav-gia-tin-paroysia-opadon-toy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5173750-600x400-1.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25328,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/pao1908-com-54603.jpg?itok=rKGuTEON",
     "title": "Συνεργασία του Παναθηναϊκού με τον Κάρολ Κοβαλέφσκι",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/25286/synergasia-toy-panathinaikoy-me-ton-karol-kovalefski"
-   },
-   {
-    "image": "",
-    "label": "BLOG",
-    "nid": 25285,
-    "thumb": "",
-    "title": "Από τον \"τουρίστα\" με αγάπη ξανά!",
-    "url": "https://www.trifillakia.gr/blogs/mat/25285/apo-ton-toyrista-me-agapi-xana"
    }
   ],
   "rss_floor": 25103,
@@ -17927,6 +17927,15 @@
   "xml_done": []
  },
  "yt": {
-  "upcoming": []
+  "upcoming": [
+   {
+    "id": "PcjD-PqIGrA",
+    "image": "https://i.ytimg.com/vi/PcjD-PqIGrA/maxresdefault.jpg",
+    "show": "PAO INSIDE",
+    "start": 1795713300,
+    "topic": "Ο ΠΑΝΑΘΗΝΑΪΚΟΣ για το 4/4 στη Νόρτζελαντ – Ο Χέιζ-Ντέιβις ΞΕΡΑΝΕ τη Βαλένθια!",
+    "url": "https://www.youtube.com/watch?v=PcjD-PqIGrA"
+   }
+  ]
  }
 }
