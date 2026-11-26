@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54740.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25338,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/pao1908-com-54740.jpg?itok=z4GGEWxt",
+    "title": "Νίκη με 4-2 επί του Νέου Ψυχικού για το σκάκι του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25338/niki-me-4-2-epi-toy-neoy-psyhikoy-gia-to-skaki-toy-panathinaikoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91601.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25337,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/totalbasket-gr-71385.jpg?itok=j19SYUK0",
     "title": "Τέσσερα διπλά που μυρίζουν πλεονέκτημα έδρας",
     "url": "https://www.trifillakia.gr/mpasket/article/25294/tessera-dipla-poy-myrizoyn-pleonektima-edras"
-   },
-   {
-    "image": "",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25293,
-    "thumb": "",
-    "title": "ELABET: Ολυμπιακός – Χάποελ με 0% γκανιότα και «Ενισχύσεις» στους πόντους της Ρεάλ με τη Ζάλγκιρις",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25293/elabet-olympiakos-hapoel-me-0-gkaniota-kai-enishyseis-stoys"
    }
   ],
   "rss_floor": 25103,
@@ -15175,6 +15175,12 @@
     "vb": "6306862013997260439"
    },
    "tries": 1
+  },
+  "news:25339": {
+   "at": 1795730858.6744924,
+   "claim": "45902454184",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
