@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25316,
+  "last": 25319,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14890,6 +14890,12 @@
    },
    "tries": 1
   },
+  "news:25317": {
+   "at": 1795694549.7692304,
+   "claim": "45815666839",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17089,6 +17095,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54703",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/26/928925409_1140352305623830_4387024931562617789_n.jpg",
+    "imported": 1795694448.221717,
     "link": "https://www.pao1908.com/nea/stin-tetrada-tou-diplou-sto-ntiselntorf-o-gkionis/",
     "source": "pao1908.com",
     "subtitle": "Το ελληνο-ιαπωνικό δίδυμο του Παναθηναϊκού νίκησε με 3-1 σετ τους Ισπανούς Τάουλερ και Παντόχα και θα παίξει με τους Βέλγους Ράσενφοους και Αλέγκρο.",
@@ -17108,6 +17115,7 @@
     "category": "Βόλεϊ Γυναικών",
     "guid": "pao1908.com:54699",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/26/911032723_18111653765614476_5760941837805069567_n.jpg",
+    "imported": 1795694448.221717,
     "link": "https://www.pao1908.com/nea/ta-apotelesmata-ton-akadimion-volei-9/",
     "source": "pao1908.com",
     "subtitle": "Από το 3-2 επί του ΣΑ Κολλεγίου Αθηνών στους Εφήβους μέχρι το 0-3 στα Σπάτα για τους Νέους άνδρες, τα αποτελέσματα των ομάδων.",
@@ -17128,6 +17136,7 @@
     "feature": true,
     "guid": "bala24.gr:91467",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91467.jpg",
+    "imported": 1795694448.221717,
     "link": "https://bala24.gr/nistroup-i-dipsa-tou-panathinaikou-gia-protathlima-kai-i-zoi-stin-athina/",
     "source": "bala24.gr",
     "subtitle": "Ο Τζέικομπ Νίστρουπ μίλησε για τους πρώτους μήνες της παρουσίας του στον Παναθηναϊκό, την πίεση για την κατάκτηση του πρωταθλήματος, την αγάπη των φιλάθλων και την αποχώρησή του από την Κοπεγχάγη.",
