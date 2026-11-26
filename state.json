@@ -3316,6 +3316,50 @@
    "since": 1794143117.060743,
    "team": "basketball"
   },
+  "tb:rPQ7KcUO": {
+   "ev": {
+    "away": "Σαν Τζιοβάνι",
+    "away_id": "pGl6MicA",
+    "away_score": 73,
+    "comp": "ΓιούροΚαπ Γυναικών",
+    "comp_full": "ΕΥΡΩΠΗ: ΓιούροΚαπ Γυναικών",
+    "comp_logo": "https://static.flashscore.com/res/image/data/nNGrhrld-dljyQRdr.png",
+    "home": "Παναθηναϊκός",
+    "home_id": "plqPE4do",
+    "home_score": 78,
+    "id": "rPQ7KcUO",
+    "info": "",
+    "periods": [
+     [
+      15,
+      28
+     ],
+     [
+      31,
+      16
+     ],
+     [
+      11,
+      13
+     ],
+     [
+      21,
+      16
+     ]
+    ],
+    "round": "",
+    "stage": "3",
+    "stage_id": "nJngW0jD",
+    "start": 1795710600,
+    "status": "3",
+    "tour_id": "CzuvKU4J",
+    "tour_path": "/basketball/europe/eurocup-women/"
+   },
+   "raw_round": "Αγωνιστική ημέρα: 5",
+   "round": "5η Αγωνιστική",
+   "since": 1795717840.6287303,
+   "team": "basketball_w"
+  },
   "tb:rVaC2F0K": {
    "ev": {
     "away": "Παναθηναϊκός",
