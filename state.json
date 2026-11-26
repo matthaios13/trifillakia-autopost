@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/photo_2026-11-26_21-04-03.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25336,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/photo_2026-11-26_21-04-03.jpg?itok=68ehObTd",
+    "title": "Παναθηναϊκός: Οι φίλοι του “τριφυλλιού” δίνουν πράσινο χρώμα στο Right to Dream Park (vid)",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25336/panathinaikos-oi-filoi-toy-trifyllioy-dinoyn-prasino-hroma-sto-right-to"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91590.jpg",
     "label": "ΓΗΠΕΔΙΚΟ",
     "nid": 25335,
@@ -341,14 +349,6 @@
     "thumb": "",
     "title": "ELABET: Ίντερ – Στουτγκάρδη με Bet Builder σε… νερατζούρο γκολ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25292/elabet-inter-stoytgkardi-me-bet-builder-se-neratzoyro-gkol"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-liverpoolfc-a80dc6.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25291,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-liverpoolfc-a80dc6.jpg?itok=xB_5CsHN",
-    "title": "ELABET: Ισορροπημένο combo και πολλά γκολ στο Κλαμπ Μπριζ – Λίβερπουλ",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25291/elabet-isorropimeno-combo-kai-polla-gkol-sto-klamp-mpriz"
    }
   ],
   "rss_floor": 25103,
@@ -15113,6 +15113,12 @@
     "vb": "6306831189481617978"
    },
    "tries": 1
+  },
+  "news:25337": {
+   "at": 1795723510.873297,
+   "claim": "45887835161",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
