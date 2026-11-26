@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25308,
+  "last": 25309,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14790,6 +14790,12 @@
    },
    "tries": 1
   },
+  "news:25309": {
+   "at": 1795669333.8392196,
+   "claim": "45758764703",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -16990,6 +16996,7 @@
     "feature": false,
     "guid": "panathinaikanea.gr:san-simera-2026-11-26",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/panathinaikanea-gr-san-simera-2026-11-26-retro.jpg",
+    "imported": 1795669246.4445431,
     "link": "https://panathinaikanea.gr/san-simera/san-simera-2026-11-26/",
     "source": "panathinaikanea.gr",
     "subtitle": "Νίκη με 1-0 για τον Παναθηναϊκό απέναντι στην Ίντερ εκτός έδρας, στις 26 Νοεμβρίου 2008 (Champions League, φάση ομίλων). Το γκολ των «πρασίνων»: Σαριέγκι 69′. Στις εξέδρες βρέθηκαν 34.955 θεατές.",
