@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25323,
+  "last": 25326,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14950,6 +14950,12 @@
    },
    "tries": 1
   },
+  "news:25324": {
+   "at": 1795701849.6052663,
+   "claim": "45834697420",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17165,6 +17171,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54719",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/26/Anna-Ntountounaki.jpg",
+    "imported": 1795701649.4044693,
     "link": "https://www.pao1908.com/nea/ypopsifia-gia-koryfaia-athlitria-psat-i-ntountounaki/",
     "source": "pao1908.com",
     "subtitle": "Η κολυμβήτρια του Παναθηναϊκού διεκδικεί τον τίτλο της κορυφαίας αθλήτριας απέναντι στις Ελένη Ιακωβάκη και Βασιλική Πλευρίτου.",
@@ -17184,6 +17191,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54714",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/26/Panagiotis-Gkionis.jpg",
+    "imported": 1795701649.4044693,
     "link": "https://www.pao1908.com/nea/entyposiakos-gkionis-sto-ntiselntorf/",
     "source": "pao1908.com",
     "subtitle": "Ο Παναγιώτης Γκιώνης επικράτησε με 3-0 σετ του Τσόι Τζίβουκ και θα παίξει στη συνέχεια με τον Ισπανό Χουάν Πέρεθ.",
@@ -17203,6 +17211,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54715",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/26/Pre-war_Panathinaikos_cycling_team.jpg",
+    "imported": 1795701649.4044693,
     "link": "https://www.pao1908.com/deltia-typoy/o-panathinaikos-stin-podilasia/",
     "source": "pao1908.com",
     "subtitle": "Το τμήμα ποδηλασίας του Παναθηναϊκού έχει 164 επίσημους ομαδικούς τίτλους, με αναλυτική καταγραφή ανά κατηγορία και χρονιά.",
