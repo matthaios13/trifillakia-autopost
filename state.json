@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/panagiotis-gkionis.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25325,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panagiotis-gkionis.jpg?itok=UH1Iijlo",
+    "title": "Στους οκτώ του WTT Feeder στο Ντίσελντορφ ο Γκιώνης",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25325/stoys-okto-toy-wtt-feeder-sto-ntiselntorf-o-gkionis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/anna-ntountounaki.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25324,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panathinaikanea-gr-san-simera-2026-11-25-retro.jpg?itok=tnsZYZ9R",
     "title": "Σαν σήμερα, 25 Νοεμβρίου: Παναθηναϊκός – Βιλερμπάν 77-58 (2022)",
     "url": "https://www.trifillakia.gr/san-simera/article/25283/san-simera-25-noemvrioy-panathinaikos-vilermpan-77-58-2022"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-71326.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25282,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/totalbasket-gr-71326.jpg?itok=0p9kbNA3",
-    "title": "Η βαθμολογία της EuroLeague μετά τη νίκη του Παναθηναϊκού στη Βαλένθια",
-    "url": "https://www.trifillakia.gr/mpasket/article/25282/i-vathmologia-tis-euroleague-meta-ti-niki-toy-panathinaikoy-sti-valenthia"
    }
   ],
   "rss_floor": 25103,
@@ -14969,6 +14969,12 @@
     "vb": "6306740619558056040"
    },
    "tries": 1
+  },
+  "news:25326": {
+   "at": 1795701916.442537,
+   "claim": "45834697420",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
