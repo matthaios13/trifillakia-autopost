@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/928925409_1140352305623830_4387024931562617789_n.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25317,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/928925409_1140352305623830_4387024931562617789_n.jpg?itok=e8_xhv80",
+    "title": "Ο Γκιώνης και ο Άιντα προκρίθηκαν στους ημιτελικούς του διπλού στο Ντίσελντορφ",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25317/o-gkionis-kai-o-ainta-prokrithikan-stoys-imitelikoys-toy-diploy-sto"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/229502572_1594577918_v16_9_1200.jpeg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25316,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/ticketmaster-tickets-800-x-538px_5.jpg?itok=9DmPWhO_",
     "title": "Διαθέσιμα τα εισιτήρια για Εθνικό, Πανιώνιο και ΠΑΣ Γιάννινα",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25275/diathesima-ta-eisitiria-gia-ethniko-panionio-kai-pas-giannina"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/sloukas_fener1.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25274,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/sloukas_fener1.jpg?itok=ZiL-04gM",
-    "title": "Injury report Ευρωλίγκας: Οι απουσίες στα έξι ματς της 14ης αγωνιστικής",
-    "url": "https://www.trifillakia.gr/mpasket/article/25274/injury-report-eyroligkas-oi-apoysies-sta-exi-mats-tis-14is-agonistikis"
    }
   ],
   "rss_floor": 25103,
@@ -14899,6 +14899,12 @@
     "vb": "6306709874337663936"
    },
    "tries": 1
+  },
+  "news:25318": {
+   "at": 1795694586.1027,
+   "claim": "45815666839",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
