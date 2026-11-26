@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/conference-league-panathinaikos.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25314,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/conference-league-panathinaikos.jpg?itok=4kUFwZws",
+    "title": "Conference League: Στη Δανία ο Παναθηναϊκός – Το σημερινό πρόγραμμα της 4ης αγωνιστικής",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25314/conference-league-sti-dania-o-panathinaikos-to-simerino-programma-tis-4is"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/%CE%95%CE%B9%CE%BA%CE%BF%CC%81%CE%BD%CE%B1%2026-11-26%2C%2011.43%E2%80%AF%CF%80%CE%BC.png",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25313,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-napolifc-ef0b45.jpg?itok=2WGgAezw",
     "title": "ELABET: Μαν. Σίτι – Νάπολι με boost στο πέμπτο διαδοχικό του Χάαλαντ",
     "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25272/elabet-man-siti-napoli-me-boost-sto-pempto-diadohiko-toy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-realmadridfc-271a5e.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25271,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-realmadridfc-271a5e.jpg?itok=cagzQxny",
-    "title": "ELABET: Ρεάλ Μαδρίτης – Αϊντχόφεν: «Ενισχυμένο» ραντεβού 37 χρόνια μετά",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25271/elabet-real-madritis-ainthofen-enishymeno-rantevoy-37-hronia"
    }
   ],
   "rss_floor": 25103,
@@ -14869,6 +14869,12 @@
     "vb": "6306679698780054699"
    },
    "tries": 1
+  },
+  "news:25315": {
+   "at": 1795687392.0425568,
+   "claim": "45797261696",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
