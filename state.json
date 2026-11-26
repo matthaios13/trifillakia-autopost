@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/917345996_1839930037050364_1185038604968146042_n.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25339,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/917345996_1839930037050364_1185038604968146042_n.jpg?itok=RuGlTvRx",
+    "title": "Ο Γκιώνης προκρίθηκε στους τέσσερις του απλού",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25339/o-gkionis-prokrithike-stoys-tesseris-toy-aploy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54740.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25338,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/snapinsta.to_911789991_18112517123350073_7062450865834743432_n-1.jpg?itok=ZdFcdmhd",
     "title": "Τρεις νίκες για τις ακαδημίες μπάσκετ του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25295/treis-nikes-gia-tis-akadimies-mpasket-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/totalbasket-gr-71385.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25294,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/totalbasket-gr-71385.jpg?itok=j19SYUK0",
-    "title": "Τέσσερα διπλά που μυρίζουν πλεονέκτημα έδρας",
-    "url": "https://www.trifillakia.gr/mpasket/article/25294/tessera-dipla-poy-myrizoyn-pleonektima-edras"
    }
   ],
   "rss_floor": 25103,
@@ -15185,6 +15185,12 @@
     "vb": "6306862171883445930"
    },
    "tries": 1
+  },
+  "news:25340": {
+   "at": 1795730896.7270267,
+   "claim": "45902454184",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
