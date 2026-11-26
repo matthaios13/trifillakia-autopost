@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54688.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25310,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/pao1908-com-54688.jpg?itok=0GY8YeNq",
+    "title": "Θυμόμαστε το διπλό του Παναθηναϊκού επί της Ίντερ στο Μεάτσα",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25310/thymomaste-to-diplo-toy-panathinaikoy-epi-tis-inter-sto-meatsa"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikanea-gr-san-simera-2026-11-26-retro.jpg",
     "label": "ΣΑΝ ΣΗΜΕΡΑ",
     "nid": 25309,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5456382-1.jpg?itok=oFw8sDn2",
     "title": "Αποχώρησε η Σελέν Ερντέμ από την ομάδα μπάσκετ γυναικών",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/25268/apohorise-i-selen-erntem-apo-tin-omada-mpasket-gynaikon"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/generic_anakoinoseis_1600x720_0_0.jpg",
-    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
-    "nid": 25267,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/generic_anakoinoseis_1600x720_0_0.jpg?itok=ZAuofFds",
-    "title": "Νέες ώρες για Παναθηναϊκό - Πανιώνιο και Παναθηναϊκό - ΠΑΣ Γιάννινα στις γυναίκες",
-    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25267/nees-ores-gia-panathinaiko-panionio-kai-panathinaiko-pas-giannina-stis"
    }
   ],
   "rss_floor": 25103,
@@ -14829,6 +14829,12 @@
     "vb": "6306664703316999482"
    },
    "tries": 1
+  },
+  "news:25311": {
+   "at": 1795683817.3096511,
+   "claim": "45788026005",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
