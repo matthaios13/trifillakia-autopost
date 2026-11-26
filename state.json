@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/911032723_18111653765614476_5760941837805069567_n.jpg",
+    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
+    "nid": 25318,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/911032723_18111653765614476_5760941837805069567_n.jpg?itok=H_GC4FTg",
+    "title": "Έξι νίκες σε έξι αγώνες για τις ακαδημίες βόλεϊ του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25318/exi-nikes-se-exi-agones-gia-tis-akadimies-volei-toy-panathinaikoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/928925409_1140352305623830_4387024931562617789_n.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25317,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91070.jpg?itok=3sajJxc9",
     "title": "Παναθηναϊκός: Το ΟΑΚΑ η δεύτερη έδρα της σεζόν 2027- 28",
     "url": "https://www.trifillakia.gr/gipediko/article/25276/panathinaikos-to-oaka-i-deyteri-edra-tis-sezon-2027-28"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/ticketmaster-tickets-800-x-538px_5.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25275,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/ticketmaster-tickets-800-x-538px_5.jpg?itok=9DmPWhO_",
-    "title": "Διαθέσιμα τα εισιτήρια για Εθνικό, Πανιώνιο και ΠΑΣ Γιάννινα",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25275/diathesima-ta-eisitiria-gia-ethniko-panionio-kai-pas-giannina"
    }
   ],
   "rss_floor": 25103,
@@ -14909,6 +14909,12 @@
     "vb": "6306710011511369805"
    },
    "tries": 1
+  },
+  "news:25319": {
+   "at": 1795694618.6074855,
+   "claim": "45815666839",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
