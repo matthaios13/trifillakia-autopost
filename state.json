@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25329,
+  "last": 25332,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -15000,6 +15000,12 @@
    },
    "tries": 1
   },
+  "news:25331": {
+   "at": 1795716439.0270479,
+   "claim": "45873066773",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17227,6 +17233,7 @@
     "feature": false,
     "guid": "bala24.gr:91563",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91563.jpg",
+    "imported": 1795716321.8830566,
     "link": "https://bala24.gr/neo-endiaferon-gia-moro-apo-aek-olybiako-kai-panathinaiko/",
     "source": "bala24.gr",
     "subtitle": "Νέο ενδιαφέρον για τον Κροάτη από τους τρεις «μεγάλους» της πρωτεύουσας",
@@ -17247,6 +17254,7 @@
     "feature": true,
     "guid": "bala24.gr:91560",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91560.jpg",
+    "imported": 1795716321.8830566,
     "link": "https://bala24.gr/conference-league-to-rekor-pou-echei-brosta-tou-o-ntesers/",
     "source": "bala24.gr",
     "subtitle": "Ο Σίριλ Ντέσερς βρίσκεται ένα γκολ μακριά από την κορυφή των σκόρερ στην ιστορία του Conference League, ενώ η Γάνδη διεκδικεί να καταρρίψει το ρεκόρ νικών της Φιορεντίνα.",
