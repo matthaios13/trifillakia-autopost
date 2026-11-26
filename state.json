@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/anna-ntountounaki.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25324,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/anna-ntountounaki.jpg?itok=faei6UNM",
+    "title": "Στην τελική τριάδα των βραβείων ΠΣΑΤ η Ντουντουνάκη",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25324/stin-teliki-triada-ton-vraveion-psat-i-ntoyntoynaki"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-bf_1200x628-1-34e241.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25323,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/totalbasket-gr-71326.jpg?itok=0p9kbNA3",
     "title": "Η βαθμολογία της EuroLeague μετά τη νίκη του Παναθηναϊκού στη Βαλένθια",
     "url": "https://www.trifillakia.gr/mpasket/article/25282/i-vathmologia-tis-euroleague-meta-ti-niki-toy-panathinaikoy-sti-valenthia"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/obradovic-panigyrismos-heiz-nteivis-valenthia.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25280,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/obradovic-panigyrismos-heiz-nteivis-valenthia.jpg?itok=1WlHy-oC",
-    "title": "Έξαλλος Ομπράντοβιτς στο buzzer beater του Χέιζ-Ντέιβις: Ο πανηγυρισμός που έγινε viral (vid)",
-    "url": "https://www.trifillakia.gr/mpasket/article/25280/exallos-omprantovits-sto-buzzer-beater-toy-heiz-nteivis-o-panigyrismos-poy"
    }
   ],
   "rss_floor": 25103,
@@ -14959,6 +14959,12 @@
     "vb": "6306740492607823453"
    },
    "tries": 1
+  },
+  "news:25325": {
+   "at": 1795701886.3606975,
+   "claim": "45834697420",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
