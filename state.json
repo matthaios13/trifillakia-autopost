@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25328,
+  "last": 25329,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -14990,6 +14990,12 @@
    },
    "tries": 1
   },
+  "news:25329": {
+   "at": 1795709230.3545206,
+   "claim": "45855405057",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17206,6 +17212,7 @@
     "feature": true,
     "guid": "bala24.gr:91522",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91522.jpg",
+    "imported": 1795709123.0879521,
     "link": "https://bala24.gr/iraklis-den-kindynevei-me-timoria-apo-ti-deav-gia-tin-parousia-opadon-tou-panathinaikou-sto-kaftanzogleio/",
     "source": "bala24.gr",
     "subtitle": "Η ΠΑΕ Ηρακλής δεν κινδυνεύει με πρόστιμο από τη ΔΕΑΒ για την παρουσία των οπαδών του Παναθηναϊκού στο Καυτανζόγλειο.",
