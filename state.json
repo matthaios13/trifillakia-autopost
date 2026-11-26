@@ -17792,6 +17792,7 @@
     "feature": true,
     "guid": "bala24.gr:91167",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91167.jpg",
+    "imported": 1795708855.0728412,
     "link": "https://bala24.gr/panathinaikos-choris-nte-frai-kai-kyriakopoulo-sti-dania-i-apostoli-gia-ti-nortzelant/",
     "source": "bala24.gr",
     "subtitle": "Με δύο σημαντικές απουσίες ταξιδεύει ο Παναθηναϊκός στη Δανία για την αναμέτρηση με τη Νόρτζελαντ, καθώς εκτός αποστολής έμειναν οι Στέφαν Ντε Φράι και Γιώργος Κυριακόπουλος.",
@@ -17915,15 +17916,6 @@
   "xml_done": []
  },
  "yt": {
-  "upcoming": [
-   {
-    "id": "PcjD-PqIGrA",
-    "image": "https://i.ytimg.com/vi/PcjD-PqIGrA/maxresdefault.jpg",
-    "show": "PAO INSIDE",
-    "start": 1795713300,
-    "topic": "Ο ΠΑΝΑΘΗΝΑΪΚΟΣ για το 4/4 στη Νόρτζελαντ – Ο Χέιζ-Ντέιβις ΞΕΡΑΝΕ τη Βαλένθια!",
-    "url": "https://www.youtube.com/watch?v=PcjD-PqIGrA"
-   }
-  ]
+  "upcoming": []
  }
 }
