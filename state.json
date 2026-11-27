@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25354,
+  "last": 25357,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -15328,6 +15328,12 @@
    },
    "tries": 1
   },
+  "news:25355": {
+   "at": 1795784827.278602,
+   "claim": "46004061146",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17574,6 +17580,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54751",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/27/Gionis-feeder-II.jpg",
+    "imported": 1795784725.355514,
     "link": "https://www.pao1908.com/nea/triti-thesi-sto-aplo-o-gkionis/",
     "source": "pao1908.com",
     "subtitle": "Ο Παναγιώτης Γκιώνης ηττήθηκε με 3-2 σετ από τον Βιμ Βέρντονσκοτ στα ημιτελικά του απλού, αφού προηγήθηκε με 2-1.",
@@ -17594,6 +17601,7 @@
     "feature": true,
     "guid": "bala24.gr:91777",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91777.jpg",
+    "imported": 1795784725.355514,
     "link": "https://bala24.gr/norntzelant-panathinaikos-oi-antidraseis-tou-danezikou-typou-stin-epistrofi-tou-nistroup-sti-chora-tou/",
     "source": "bala24.gr",
     "subtitle": "Οι αντιδράσεις του Δανέζικου Τύπου μετά τη νίκη της Νόρντζελαντ με 3-2 επί του Παναθηναϊκού (26/11), στην επιστροφή του Τζέικομπ Νίστρουπ στην πατρίδα του.",
