@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/tropaio-kolymvisis.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25369,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/tropaio-kolymvisis.jpg?itok=aekSfIgK",
+    "title": "Τριπλό πανελλήνιο ρεκόρ της Μπιλανάκου στο 10ο Τρόπαιο κολύμβησης του Παναθηναϊκού",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25369/triplo-panellinio-rekor-tis-mpilanakoy-sto-10o-tropaio-kolymvisis-toy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91894.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25368,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/anna-ntountounaki.jpg?itok=faei6UNM",
     "title": "Στην τελική τριάδα των βραβείων ΠΣΑΤ η Ντουντουνάκη",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25324/stin-teliki-triada-ton-vraveion-psat-i-ntoyntoynaki"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-bf_1200x628-1-34e241.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25323,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-bf_1200x628-1-34e241.jpg?itok=0TOO1nZS",
-    "title": "ELABET Black Week: Το party της ELABET μεγάλωσε και η Black Friday έγινε Black Week!",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25323/elabet-black-week-to-party-tis-elabet-megalose-kai-i-black"
    }
   ],
   "rss_floor": 25103,
@@ -15507,6 +15507,12 @@
     "vb": "6307226965227007436"
    },
    "tries": 1
+  },
+  "news:25370": {
+   "at": 1795817870.4095683,
+   "claim": "46075489116",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
