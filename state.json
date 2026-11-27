@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pool-a-site-copy.jpg",
+    "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
+    "nid": 25347,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/pool-a-site-copy.jpg?itok=BrS_rAu3",
+    "title": "Με Λιουμπλιάνα, Μπερλίν και Γαλατάσαραϊ στο CEV Champions League ο Παναθηναϊκός",
+    "url": "https://www.trifillakia.gr/volei-andron/article/25347/me-lioympliana-mperlin-kai-galatasarai-sto-cev-champions-league-o"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/panathinaikanea-gr-san-simera-2026-11-27-retro.jpg",
     "label": "ΣΑΝ ΣΗΜΕΡΑ",
     "nid": 25345,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5464661-1-1.jpg?itok=3UU5clDJ",
     "title": "Εύκολο 3-0 επί της Κορόνα Μπρασόφ για το βόλεϊ του Παναθηναϊκού",
     "url": "https://www.trifillakia.gr/volei-gynaikon/article/25303/eykolo-3-0-epi-tis-korona-mprasof-gia-to-volei-toy-panathinaikoy"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/heiz-nteivis-buzzer-beater-treis-glosses.jpg",
-    "label": "ΜΠΑΣΚΕΤ",
-    "nid": 25302,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/heiz-nteivis-buzzer-beater-treis-glosses.jpg?itok=Mbd4U64C",
-    "title": "Η EuroLeague δεν χορταίνει τον Χέιζ-Ντέιβις: Το buzzer beater του σε τρεις γλώσσες (vid)",
-    "url": "https://www.trifillakia.gr/mpasket/article/25302/i-euroleague-den-hortainei-ton-heiz-nteivis-to-buzzer-beater-toy-se-treis"
    }
   ],
   "rss_floor": 25103,
@@ -15257,6 +15257,12 @@
     "vb": "6307029430869282366"
    },
    "tries": 1
+  },
+  "news:25348": {
+   "at": 1795770775.5248187,
+   "claim": "45971459269",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
