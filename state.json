@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25344,
+  "last": 25345,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -15226,6 +15226,12 @@
    },
    "tries": 1
   },
+  "news:25345": {
+   "at": 1795756030.4165065,
+   "claim": "45943667828",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17473,6 +17479,7 @@
     "feature": false,
     "guid": "panathinaikanea.gr:san-simera-2026-11-27",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/panathinaikanea-gr-san-simera-2026-11-27-retro.jpg",
+    "imported": 1795755922.1186934,
     "link": "https://panathinaikanea.gr/san-simera/san-simera-2026-11-27/",
     "source": "panathinaikanea.gr",
     "subtitle": "Στις 27 Νοεμβρίου 2025 ο Παναθηναϊκός νίκησε τη Στουρμ Γκρατς με 2-1 εντός έδρας, για το Europa League, φάση πρωταθλήματος. Τα γκολ των «πρασίνων»: Σβιντέρσκι 18′, Καλάμπρια 74′. Στις εξέδρες βρέθηκαν 21.013 θεατές.",
