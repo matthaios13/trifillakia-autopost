@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5468204-1.jpg",
+    "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
+    "nid": 25367,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5468204-1.jpg?itok=_LGyDGCP",
+    "title": "Άνετο διπλό με 0-3 επί του Μίλωνα για τον Παναθηναϊκό",
+    "url": "https://www.trifillakia.gr/volei-andron/article/25367/aneto-diplo-me-0-3-epi-toy-milona-gia-ton-panathinaiko"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bartzo.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25366,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91483.jpg?itok=sOHJFeid",
     "title": "Παναθηναϊκός: Οδηγίες προς τους φιλάθλους για τον αγώνα με τη Νόρντζελαντ στη Δανία",
     "url": "https://www.trifillakia.gr/podosfairo/article/25321/panathinaikos-odigies-pros-toys-filathloys-gia-ton-agona-me-ti-norntzelant"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/paogkantemia.png",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25320,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/paogkantemia.png?itok=DRZVtw2H",
-    "title": "Η απίστευτη «κατάρα» των τραυματισμών – Χάνει τους MVP όταν διεκδικεί τον τίτλο",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25320/i-apisteyti-katara-ton-traymatismon-hanei-toys-mvp-otan-diekdikei-ton-titlo"
    }
   ],
   "rss_floor": 25103,
@@ -18456,15 +18456,6 @@
   "xml_done": []
  },
  "yt": {
-  "upcoming": [
-   {
-    "id": "Umqf6RnWZ8c",
-    "image": "https://i.ytimg.com/vi/Umqf6RnWZ8c/maxresdefault.jpg",
-    "show": "ROI MAT SHOW",
-    "start": 1795851900,
-    "topic": "Έχασε δικό του ματς στη Δανία & φώναξε για ΜΕΤΑΓΡΑΦΕΣ – Ανοικτές Γραμμές",
-    "url": "https://www.youtube.com/watch?v=Umqf6RnWZ8c"
-   }
-  ]
+  "upcoming": []
  }
 }
