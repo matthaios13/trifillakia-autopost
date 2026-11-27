@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-psg_fc-ed907a.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25352,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-psg_fc-ed907a.jpg?itok=VD9fSGLS",
+    "title": "ELABET: Μπρεστ – Παρί FC με «Ενισχύσεις» απόδρασης",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25352/elabet-mprest-pari-fc-me-enishyseis-apodrasis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-werderfc-12f469.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25351,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/925200061_2947733822263231_860183277163771268_n.jpg?itok=pk4EvgLg",
     "title": "Διπλή πρόκριση για τον Γκιώνη στο WTT Feeder II του Ντίσελντορφ",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25308/dipli-prokrisi-gia-ton-gkioni-sto-wtt-feeder-ii-toy-ntiselntorf"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91365.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25307,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91365.jpg?itok=t-IBiLJT",
-    "title": "Στη Δανία ολοκληρώθηκε η προετοιμασία του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25307/sti-dania-oloklirothike-i-proetoimasia-toy-panathinaikoy"
    }
   ],
   "rss_floor": 25103,
@@ -15307,6 +15307,12 @@
     "vb": "6307058462572262880"
    },
    "tries": 1
+  },
+  "news:25353": {
+   "at": 1795777695.8071504,
+   "claim": "45987510566",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
