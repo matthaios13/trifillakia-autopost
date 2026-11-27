@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25368,
+  "last": 25371,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -15498,6 +15498,12 @@
    },
    "tries": 1
   },
+  "news:25369": {
+   "at": 1795817839.849227,
+   "claim": "46075489116",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17760,6 +17766,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54773",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/27/tropaio-kolymvisis.jpg",
+    "imported": 1795817725.6702502,
     "link": "https://www.pao1908.com/nea/spoudaies-epidoseis-tin-proti-imera-tou-10ou-tropaiou-kolymvisis/",
     "source": "pao1908.com",
     "subtitle": "Ο Μπίλας πέτυχε το όριο για το Παγκόσμιο του 2027 και ο Διαμαντής πλησίασε το πανελλήνιο ρεκόρ εφήβων την πρώτη μέρα στο ΟΑΚΑ.",
@@ -17779,6 +17786,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54769",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/27/929693244_1299393155705585_5585671848781838260_n.jpg",
+    "imported": 1795817725.6702502,
     "link": "https://www.pao1908.com/nea/oi-prasines-symmetoxes-sto-panellinio-para-ksifaskias/",
     "source": "pao1908.com",
     "subtitle": "Στο Ολυμπιακό Μουσείο της Αθήνας το Σάββατο 28 Νοεμβρίου οι αγώνες, με έναρξη στις 9:30 το πρωί.",
@@ -17797,6 +17805,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54765",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/27/skaki-pao-paides.jpg",
+    "imported": 1795817725.6702502,
     "link": "https://www.pao1908.com/nea/synexizoun-me-to-apolyto-ta-trifyllakia-2/",
     "source": "pao1908.com",
     "subtitle": "Οι νεαροί σκακιστές του Παναθηναϊκού πέτυχαν το απόλυτο και στον 3ο γύρο, με πρωταγωνιστές τους Γκαβαρδινά, Οικονομόπουλο, Νικητάκη και Ανδρουλάκη.",
