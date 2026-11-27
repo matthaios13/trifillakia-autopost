@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25340,
+  "last": 25344,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -15196,6 +15196,12 @@
    },
    "tries": 1
   },
+  "news:25342": {
+   "at": 1795738024.9194117,
+   "claim": "45914652404",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17443,6 +17449,7 @@
     "feature": true,
     "guid": "bala24.gr:91692",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91692.jpg",
+    "imported": 1795737922.5622165,
     "link": "https://bala24.gr/nistroup-eimaste-enomenoi-chanoume-oloi-mazi-kai-koitame-to-epomeno-mats/",
     "source": "bala24.gr",
     "subtitle": "Δηλώσεις έκανε μετά το ματς με την Νόρτζελαντ ο προπονητής του Παναθηναϊκού, στέλνοντας μήνυμα ενότητας",
@@ -17460,6 +17467,7 @@
     "feature": true,
     "guid": "bala24.gr:91687",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91687.jpg",
+    "imported": 1795737922.5622165,
     "link": "https://bala24.gr/rastonter-ekana-ki-ego-ena-lathos-kai-dystychos-irthe-i-anatropi/",
     "source": "bala24.gr",
     "subtitle": "Σε δηλώσεις που παραχώρησε μετά την ήττα των «πρασίνων» ο Ελμίν Ραστόντερ παραδέχτηκε το λάθος το οποίο έκανε και οδήγησε στο αρνητικό αποτέλεσμα παρά το γκολ που πέτυχε.",
@@ -17478,6 +17486,7 @@
     "feature": true,
     "guid": "bala24.gr:91596",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91596.jpg",
+    "imported": 1795737922.5622165,
     "link": "https://bala24.gr/nortzelant-panathinaikos-3-2-apo-ton-paradeiso-stin-kolasi-oliki-anatropi-niki-ton-danon-vids/",
     "source": "bala24.gr",
     "subtitle": "Από τον παράδεισο στην κόλαση μέσα σε λίγα λεπτά βρέθηκε ο Παναθηναϊκός στη Δανία. Παρότι προηγήθηκε με 0-2 απέναντι στη Νόρτζελαντ, είδε τους γηπεδούχους να ανατρέπουν πλήρως την κατάσταση και να επικρατούν με 3-2.",
