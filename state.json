@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/tyr.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25348,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/tyr.jpg?itok=SMk7SzUH",
+    "title": "Mülheim Shamrocks: η ιστορία του γερμανικού συλλόγου αμερικανικού ποδοσφαίρου",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25348/mulheim-shamrocks-i-istoria-toy-germanikoy-syllogoy-amerikanikoy"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pool-a-site-copy.jpg",
     "label": "ΒΟΛΕΪ ΑΝΔΡΩΝ",
     "nid": 25347,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91278.jpg?itok=YlawnkrS",
     "title": "Νίστρουπ: «Πολύ χαρούμενος που γύρισα, όμως για αύριο δεν υπάρχουν συναισθήματα»",
     "url": "https://www.trifillakia.gr/podosfairo/article/25304/nistroyp-poly-haroymenos-poy-gyrisa-omos-gia-ayrio-den-yparhoyn"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/5464661-1-1.jpg",
-    "label": "ΒΟΛΕΪ ΓΥΝΑΙΚΩΝ",
-    "nid": 25303,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5464661-1-1.jpg?itok=3UU5clDJ",
-    "title": "Εύκολο 3-0 επί της Κορόνα Μπρασόφ για το βόλεϊ του Παναθηναϊκού",
-    "url": "https://www.trifillakia.gr/volei-gynaikon/article/25303/eykolo-3-0-epi-tis-korona-mprasof-gia-to-volei-toy-panathinaikoy"
    }
   ],
   "rss_floor": 25103,
@@ -15267,6 +15267,12 @@
     "vb": "6307029563048578682"
    },
    "tries": 1
+  },
+  "news:25349": {
+   "at": 1795770807.0791197,
+   "claim": "45971459269",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
