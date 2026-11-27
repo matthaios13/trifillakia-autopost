@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25346,
+  "last": 25349,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -370,7 +370,7 @@
    "25285": 1795596030.6897757,
    "25292": 1795607719.914257,
    "25293": 1795607719.914257,
-   "25346": 1795770048.1778302
+   "25346": 1795770630.9841566
   }
  },
  "pending": {
@@ -15248,6 +15248,12 @@
    },
    "tries": 1
   },
+  "news:25347": {
+   "at": 1795770733.1581707,
+   "claim": "45971459269",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17494,6 +17500,7 @@
     "category": "Βολεϊ Ανδρών",
     "guid": "pao1908.com:54746",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/27/pool-a-site-copy.jpg",
+    "imported": 1795770630.9841566,
     "link": "https://www.pao1908.com/nea/i-lioumpliana-ston-omilo-tou-panathinaikou-sto-cev-champions-league/",
     "source": "pao1908.com",
     "subtitle": "Η ACH Volley Ljubljana προκρίθηκε με δύο νίκες επί της Μπάκου και συμπλήρωσε τον όμιλο της ομάδας του Δημήτρη Ανδρεόπουλου, που ξεκινά στην Κωνσταντινούπολη στις 8 Δεκεμβρίου.",
@@ -17513,6 +17520,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:54743",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/27/tyr.jpg",
+    "imported": 1795770630.9841566,
     "link": "https://www.pao1908.com/deltia-typoy/panathinaikos-kai-mulheim-shamrocks-germanias/",
     "source": "pao1908.com",
     "subtitle": "Από τη γυναικεία ομάδα των Duisburg Dockers το 1988 μέχρι τον τίτλο στο Ladiesbowl το 2014, η διαδρομή των Γερμανών.",
@@ -17532,6 +17540,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:29323",
     "image": "https://www.pao1908.com/wp-content/uploads/2024/11/26/128066234_4740583852650688_9027725961396300204_n.jpg",
+    "imported": 1795770630.9841566,
     "link": "https://www.pao1908.com/deltia-typoy/san-simera-to-1966-imera-mnimis-gia-ton-panathinaiko/",
     "source": "pao1908.com",
     "subtitle": "Δύο φίλοι του «τριφυλλιού» και ο οδηγός του δεύτερου οχήματος έχασαν τη ζωή τους, ενώ 28 οπαδοί τραυματίστηκαν, στο δυστύχημα με προορισμό τη Βέροια.",
