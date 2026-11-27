@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/gionis-feeder-ii.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25355,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/gionis-feeder-ii.jpg?itok=mP05n29X",
+    "title": "Στην τρίτη θέση του WTT Feeder ΙΙ στο Ντίσελντορφ ο Γκιώνης",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25355/stin-triti-thesi-toy-wtt-feeder-ii-sto-ntiselntorf-o-gkionis"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-ela-94453f_8.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25354,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/totalbasket-c-olympiacos-b-c-v2-1.jpg?itok=4QerW9l3",
     "title": "Η ανακοίνωση του Ολυμπιακού για την αθώωση του Παναθηναϊκού από τον ΑΣΕΑΔ",
     "url": "https://www.trifillakia.gr/mpasket/article/25311/i-anakoinosi-toy-olympiakoy-gia-tin-athoosi-toy-panathinaikoy-apo-ton-asead"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao1908-com-54688.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25310,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/pao1908-com-54688.jpg?itok=0GY8YeNq",
-    "title": "Θυμόμαστε το διπλό του Παναθηναϊκού επί της Ίντερ στο Μεάτσα",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25310/thymomaste-to-diplo-toy-panathinaikoy-epi-tis-inter-sto-meatsa"
    }
   ],
   "rss_floor": 25103,
@@ -15337,6 +15337,12 @@
     "vb": "6307088516139851404"
    },
    "tries": 1
+  },
+  "news:25356": {
+   "at": 1795784862.349656,
+   "claim": "46004061146",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
