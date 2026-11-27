@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/929693244_1299393155705585_5585671848781838260_n.jpg",
+    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
+    "nid": 25370,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/929693244_1299393155705585_5585671848781838260_n.jpg?itok=_FnuoLex",
+    "title": "Οκτώ αθλητές του Παναθηναϊκού ΑμεΑ στο Πανελλήνιο Παρά Ξιφασκίας",
+    "url": "https://www.trifillakia.gr/erasitehnis/article/25370/okto-athlites-toy-panathinaikoy-amea-sto-panellinio-para-xifaskias"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/tropaio-kolymvisis.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25369,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panagiotis-gkionis.jpg?itok=UH1Iijlo",
     "title": "Στους οκτώ του WTT Feeder στο Ντίσελντορφ ο Γκιώνης",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25325/stoys-okto-toy-wtt-feeder-sto-ntiselntorf-o-gkionis"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/anna-ntountounaki.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25324,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/anna-ntountounaki.jpg?itok=faei6UNM",
-    "title": "Στην τελική τριάδα των βραβείων ΠΣΑΤ η Ντουντουνάκη",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25324/stin-teliki-triada-ton-vraveion-psat-i-ntoyntoynaki"
    }
   ],
   "rss_floor": 25103,
@@ -15517,6 +15517,12 @@
     "vb": "6307227081304725789"
    },
    "tries": 1
+  },
+  "news:25371": {
+   "at": 1795817897.8808742,
+   "claim": "46075489116",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
