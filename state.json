@@ -31,6 +31,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91692.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25342,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91692.jpg?itok=dOaJDPub",
+    "title": "Νίστρουπ: «Είμαστε ενωμένοι χάνουμε όλοι μαζί και κοιτάμε το επόμενο ματς»",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25342/nistroyp-eimaste-enomenoi-hanoyme-oloi-mazi-kai-koitame-to-epomeno-mats"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/5455018-scaled.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25340,
@@ -341,14 +349,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/pao1908-com-29262.jpg?itok=PQKSj_oa",
     "title": "Θυμόμαστε τον Σταύρο Ιατρίδη, χρυσό στην Ολυμπιάδα Σκακιού του 1964",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25299/thymomaste-ton-stayro-iatridi-hryso-stin-olympiada-skakioy-toy-1964"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-doxa-x-elabet_1-87b440.jpg",
-    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
-    "nid": 25297,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-doxa-x-elabet_1-87b440.jpg?itok=LkwnTAWP",
-    "title": "ELABET Half Time Show με δύο τυχερούς στο Δόξα Λευκάδας ELABET – Περιστέρι!",
-    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25297/elabet-half-time-show-me-dyo-tyheroys-sto-doxa-leykadas-elabet"
    }
   ],
   "rss_floor": 25103,
@@ -15205,6 +15205,12 @@
     "vb": "6306892208038135480"
    },
    "tries": 1
+  },
+  "news:25343": {
+   "at": 1795738058.4952807,
+   "claim": "45914652404",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
