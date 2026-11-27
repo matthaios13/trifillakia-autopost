@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/silvainfran.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25360,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/silvainfran.jpg?itok=6r6Ofsi4",
+    "title": "Φρανσίσκο: «Μισώ να χάνω – Δεν κοιμήθηκα μετά την ήττα από τη Βίρτους»",
+    "url": "https://www.trifillakia.gr/mpasket/article/25360/fransisko-miso-na-hano-den-koimithika-meta-tin-itta-apo-ti-virtoys"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/dpgkataggelia.jpg",
     "label": "ΜΠΑΣΚΕΤ",
     "nid": 25359,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/229502572_1594577918_v16_9_1200.jpeg?itok=dpxEkvIQ",
     "title": "Η ιστορία του VfB 09/13 Gelsenkirchen, από τη Rhenania του 1909 μέχρι σήμερα",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25316/i-istoria-toy-vfb-0913-gelsenkirchen-apo-ti-rhenania-toy-1909-mehri-simera"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/nba2k-1.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25315,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/nba2k-1.jpg?itok=ROJq17zc",
-    "title": "Στο Final Four του γαλλικού πρωταθλήματος NBA 2K ο Παναθηναϊκός",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25315/sto-final-four-toy-gallikoy-protathlimatos-nba-2k-o-panathinaikos"
    }
   ],
   "rss_floor": 25103,
