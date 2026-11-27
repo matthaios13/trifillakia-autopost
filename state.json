@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bartzo.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25366,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bartzo.jpg?itok=IlrvVWwH",
+    "title": "Διπλή καταγγελία στον ΕΣΑΚΕ – Στο στόχαστρο Ολυμπιακός και Μπαρτζώκας",
+    "url": "https://www.trifillakia.gr/mpasket/article/25366/dipli-kataggelia-ston-esake-sto-stohastro-olympiakos-kai-mpartzokas"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91821.jpg",
     "label": "ΠΟΔΟΣΦΑΙΡΟ",
     "nid": 25365,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/paogkantemia.png?itok=DRZVtw2H",
     "title": "Η απίστευτη «κατάρα» των τραυματισμών – Χάνει τους MVP όταν διεκδικεί τον τίτλο",
     "url": "https://www.trifillakia.gr/podosfairo/article/25320/i-apisteyti-katara-ton-traymatismon-hanei-toys-mvp-otan-diekdikei-ton-titlo"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91467.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25319,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91467.jpg?itok=GDlWc0KU",
-    "title": "Νίστρουπ: Η δίψα του Παναθηναϊκού για πρωτάθλημα και η ζωή στην Αθήνα",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25319/nistroyp-i-dipsa-toy-panathinaikoy-gia-protathlima-kai-i-zoi-stin-athina"
    }
   ],
   "rss_floor": 25103,
