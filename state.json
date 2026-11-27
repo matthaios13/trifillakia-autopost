@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25363,
+  "last": 25365,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -15408,6 +15408,12 @@
    },
    "tries": 1
   },
+  "news:25365": {
+   "at": 1795799532.1481953,
+   "claim": "46039672532",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17655,6 +17661,7 @@
     "feature": true,
     "guid": "bala24.gr:91821",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91821.jpg",
+    "imported": 1795799426.2508566,
     "link": "https://bala24.gr/panathinaikos-apagorefsi-organomenis-metakinisis-gia-to-mats-me-ton-atromito/",
     "source": "bala24.gr",
     "subtitle": "Την απαγόρευση της οργανωμένης μετακίνησης των φιλάθλων του Παναθηναϊκού για την αναμέτρηση με τον Ατρόμητο αποφάσισε ο Γιάννης Βρούτσης, χωρίς ωστόσο να αποκλείεται η μεμονωμένη παρουσία των «πράσινων» στο Περιστέρι.",
