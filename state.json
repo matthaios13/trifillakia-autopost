@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/dpgkataggelia.jpg",
+    "label": "ΜΠΑΣΚΕΤ",
+    "nid": 25359,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/dpgkataggelia.jpg?itok=AS6ypexP",
+    "title": "Καταγγελία στην EuroLeague κατά του Ολυμπιακού για πανό και υβριστικά συνθήματα στα Λιόσια",
+    "url": "https://www.trifillakia.gr/mpasket/article/25359/kataggelia-stin-euroleague-kata-toy-olympiakoy-gia-pano-kai-yvristika"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/pao-chess.jpg",
     "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
     "nid": 25358,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/nba2k-1.jpg?itok=ROJq17zc",
     "title": "Στο Final Four του γαλλικού πρωταθλήματος NBA 2K ο Παναθηναϊκός",
     "url": "https://www.trifillakia.gr/erasitehnis/article/25315/sto-final-four-toy-gallikoy-protathlimatos-nba-2k-o-panathinaikos"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/conference-league-panathinaikos.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25314,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/conference-league-panathinaikos.jpg?itok=4kUFwZws",
-    "title": "Conference League: Στη Δανία ο Παναθηναϊκός – Το σημερινό πρόγραμμα της 4ης αγωνιστικής",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25314/conference-league-sti-dania-o-panathinaikos-to-simerino-programma-tis-4is"
    }
   ],
   "rss_floor": 25103,
