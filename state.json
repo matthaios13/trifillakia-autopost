@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25376,
+  "last": 25379,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -15588,6 +15588,12 @@
    },
    "tries": 1
   },
+  "news:25378": {
+   "at": 1795864342.067589,
+   "claim": "46138597068",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17851,6 +17857,7 @@
     "feature": true,
     "guid": "bala24.gr:91939",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/bala24-gr-91939.jpg",
+    "imported": 1795864227.2112427,
     "link": "https://bala24.gr/panathinaikos-ti-zitisan-oi-filathloi-apo-tous-paiktes-meta-to-mats-sti-dania/",
     "source": "bala24.gr",
     "subtitle": "Οι φίλοι του Παναθηναϊκού έδωσαν δυναμικό «παρών» στη Δανία και μετά την ήττα έστειλαν το δικό τους μήνυμα στους ποδοσφαιριστές.",
@@ -17868,6 +17875,7 @@
     "category": "Ερασιτεχνης",
     "guid": "pao1908.com:29339",
     "image": "https://www.pao1908.com/wp-content/uploads/2026/11/28/kolokythas-me-foynta-meta-apo-aek-600x319-1.jpg",
+    "imported": 1795864227.2112427,
     "link": "https://www.pao1908.com/deltia-typoy/san-simera-to-2010-o-prasinos-tsampoukas-giorgos-fountas-2/",
     "source": "pao1908.com",
     "subtitle": "Ο ηθοποιός από τη Φωκίδα, πρώην πυγμάχος της ΑΕΚ, ήταν φανατικός οπαδός του Παναθηναϊκού και παρακολουθούσε τους αγώνες ακόμα και σε μεγάλη ηλικία.",
