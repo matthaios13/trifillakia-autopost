@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91939.jpg",
+    "label": "ΠΟΔΟΣΦΑΙΡΟ",
+    "nid": 25378,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91939.jpg?itok=CBEztkfp",
+    "title": "Παναθηναϊκός: Τι ζήτησαν οι φίλαθλοι από τους παίκτες μετά το ματς στη Δανία",
+    "url": "https://www.trifillakia.gr/podosfairo/article/25378/panathinaikos-ti-zitisan-oi-filathloi-apo-toys-paiktes-meta-to-mats-sti"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-post-static_1200x1200-2-978d19_0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25376,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/5466552-1.jpg?itok=Wbroa99n",
     "title": "Νίκη με 78-73 επί της GEAS για τον Παναθηναϊκό στο EuroCup",
     "url": "https://www.trifillakia.gr/mpasket-gynaikon/article/25334/niki-me-78-73-epi-tis-geas-gia-ton-panathinaiko-sto-eurocup"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/panagiotis-gionis.jpg",
-    "label": "ΕΡΑΣΙΤΕΧΝΗΣ",
-    "nid": 25333,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/panagiotis-gionis.jpg?itok=SYT7dyyV",
-    "title": "Στην τρίτη θέση του διπλού ο Γκιώνης στο WTT Feeder II",
-    "url": "https://www.trifillakia.gr/erasitehnis/article/25333/stin-triti-thesi-toy-diploy-o-gkionis-sto-wtt-feeder-ii"
    }
   ],
   "rss_floor": 25103,
@@ -15597,6 +15597,12 @@
     "vb": "6307422061219683926"
    },
    "tries": 1
+  },
+  "news:25379": {
+   "at": 1795864384.9491286,
+   "claim": "46138597068",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
