@@ -1,6 +1,6 @@
 {
  "news": {
-  "last": 25371,
+  "last": 25372,
   "noimg": {
    "24485": 1792757835.8166077,
    "24549": 1793052318.889579,
@@ -15528,6 +15528,12 @@
    },
    "tries": 1
   },
+  "news:25372": {
+   "at": 1795843308.4345074,
+   "claim": "46111642194",
+   "nets": {},
+   "tries": 0
+  },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
    "nets": {
@@ -17791,6 +17797,7 @@
     "feature": false,
     "guid": "panathinaikanea.gr:san-simera-2026-11-28",
     "image": "https://matthaios13.github.io/trifillakia-autopost/img/panathinaikanea-gr-san-simera-2026-11-28-retro.jpg",
+    "imported": 1795843226.3768466,
     "link": "https://panathinaikanea.gr/san-simera/san-simera-2026-11-28/",
     "source": "panathinaikanea.gr",
     "subtitle": "Νίκη με 100-68 για τον Παναθηναϊκό απέναντι στην Μπασκόνια εντός έδρας, στις 28 Νοεμβρίου 2019 (EuroLeague, 11η αγωνιστική).",
