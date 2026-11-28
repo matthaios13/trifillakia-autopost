@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-manu-fc-4f336b_0.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25374,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-manu-fc-4f336b_0.jpg?itok=3JhT8U2I",
+    "title": "ELABET: Η Μαν. Γιουνάιτεντ υποδέχεται τη Μπρέντφορντ με «boost» στο γκολ",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25374/elabet-i-man-gioynaitent-ypodehetai-ti-mprentfornt-me-boost"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-inter-fc-0fee74.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25373,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91563.jpg?itok=m1SxcOI-",
     "title": "Νέο ενδιαφέρον για Μόρο από ΑΕΚ, Ολυμπιακό και Παναθηναϊκό",
     "url": "https://www.trifillakia.gr/podosfairo/article/25331/neo-endiaferon-gia-moro-apo-aek-olympiako-kai-panathinaiko"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91522.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25329,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91522.jpg?itok=9z5M0GKA",
-    "title": "Ηρακλής: Δεν κινδυνεύει με τιμωρία από τη ΔΕΑΒ για την παρουσία οπαδών του Παναθηναϊκού στο Καυτανζόγλειο",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25329/iraklis-den-kindyneyei-me-timoria-apo-ti-deav-gia-tin-paroysia-opadon-toy"
    }
   ],
   "rss_floor": 25103,
@@ -15557,6 +15557,12 @@
     "vb": "6307364157577746019"
    },
    "tries": 1
+  },
+  "news:25375": {
+   "at": 1795850579.7255895,
+   "claim": "46120736606",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
