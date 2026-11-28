@@ -16862,6 +16862,17 @@
  "shows": {
   "items": [
    {
+    "body": "<p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/Umqf6RnWZ8c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></p><p>Έχασε δικό του ματς στη Δανία &amp; φώναξε για ΜΕΤΑΓΡΑΦΕΣ – Ανοικτές Γραμμές</p><p>Δείτε ολόκληρη την εκπομπή στο κανάλι μας στο YouTube: <a href=\"https://www.youtube.com/watch?v=Umqf6RnWZ8c\" target=\"_blank\">https://www.youtube.com/@trifillakia_gr</a></p>",
+    "category": "PODCAST",
+    "format": "fa-play-circle-o",
+    "guid": "yt-show:Umqf6RnWZ8c",
+    "image": "https://i.ytimg.com/vi/Umqf6RnWZ8c/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=Umqf6RnWZ8c",
+    "source": "YouTube",
+    "title": "ROI MAT SHOW | Έχασε δικό του ματς στη Δανία & φώναξε για ΜΕΤΑΓΡΑΦΕΣ | Ανοικτές Γραμμές",
+    "ts": 1795805199.0
+   },
+   {
     "body": "<p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/PcjD-PqIGrA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></p><p>Ο ΠΑΝΑΘΗΝΑΪΚΟΣ για το 4/4 στη Νόρτζελαντ – Ο Χέιζ-Ντέιβις ΞΕΡΑΝΕ τη Βαλένθια!</p><p>Δείτε ολόκληρη την εκπομπή στο κανάλι μας στο YouTube: <a href=\"https://www.youtube.com/watch?v=PcjD-PqIGrA\" target=\"_blank\">https://www.youtube.com/@trifillakia_gr</a></p>",
     "category": "PODCAST",
     "format": "fa-play-circle-o",
@@ -17015,17 +17026,6 @@
     "source": "YouTube",
     "title": "PITCH TALK | Το ντέρμπι κορυφής κόντρα στην ΑΕΚ και ο... μπερδεμένος \"επτάστερος\"",
     "ts": 1793534798.0
-   },
-   {
-    "body": "<p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/6B7oNj6E3Vw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></p><p>Πέρασε σαν κόμπρα στα προημιτελικά – Μπερδεμένος 7άστερος – Ανοικτές Γραμμές</p><p>Δείτε ολόκληρη την εκπομπή στο κανάλι μας στο YouTube: <a href=\"https://www.youtube.com/watch?v=6B7oNj6E3Vw\" target=\"_blank\">https://www.youtube.com/@trifillakia_gr</a></p>",
-    "category": "PODCAST",
-    "format": "fa-play-circle-o",
-    "guid": "yt-show:6B7oNj6E3Vw",
-    "image": "https://i.ytimg.com/vi/6B7oNj6E3Vw/maxresdefault.jpg",
-    "link": "https://www.youtube.com/watch?v=6B7oNj6E3Vw",
-    "source": "YouTube",
-    "title": "ROI MAT SHOW | Πέρασε σαν κόμπρα στα προημιτελικά – Μπερδεμένος 7άστερος | Ανοικτές Γραμμές",
-    "ts": 1793277668.0
    }
   ]
  },
