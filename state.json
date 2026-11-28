@@ -32,6 +32,14 @@
   },
   "recent": [
    {
+    "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-post-static_1200x1200-2-978d19.jpg",
+    "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
+    "nid": 25375,
+    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/elabet-post-static_1200x1200-2-978d19.jpg?itok=sRCK9pTd",
+    "title": "ELABET: Βαυαρικό Bet Builder με Anytime σκόρερ στο Αμβούργο",
+    "url": "https://www.trifillakia.gr/prognostika-stoihimatos/article/25375/elabet-vayariko-bet-builder-me-anytime-skorer-sto-amvoyrgo"
+   },
+   {
     "image": "https://www.trifillakia.gr/sites/default/files/field/image/elabet-manu-fc-4f336b_0.jpg",
     "label": "ΠΡΟΓΝΩΣΤΙΚΑ",
     "nid": 25374,
@@ -342,14 +350,6 @@
     "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91560.jpg?itok=lIZ7GOn3",
     "title": "Conference League: Το ρεκόρ που έχει μπροστά του ο Ντέσερς",
     "url": "https://www.trifillakia.gr/podosfairo/article/25332/conference-league-to-rekor-poy-ehei-mprosta-toy-o-ntesers"
-   },
-   {
-    "image": "https://www.trifillakia.gr/sites/default/files/field/image/bala24-gr-91563.jpg",
-    "label": "ΠΟΔΟΣΦΑΙΡΟ",
-    "nid": 25331,
-    "thumb": "https://www.trifillakia.gr/sites/default/files/styles/large/public/field/image/bala24-gr-91563.jpg?itok=m1SxcOI-",
-    "title": "Νέο ενδιαφέρον για Μόρο από ΑΕΚ, Ολυμπιακό και Παναθηναϊκό",
-    "url": "https://www.trifillakia.gr/podosfairo/article/25331/neo-endiaferon-gia-moro-apo-aek-olympiako-kai-panathinaiko"
    }
   ],
   "rss_floor": 25103,
@@ -15567,6 +15567,12 @@
     "vb": "6307364278636469635"
    },
    "tries": 1
+  },
+  "news:25376": {
+   "at": 1795850608.7860615,
+   "claim": "46120736606",
+   "nets": {},
+   "tries": 0
   },
   "tb:0E6ima3c": {
    "at": 1791985793.189812,
